@@ -1,0 +1,17 @@
+site_name: scratch3_adapter docs
+site_description: the docs
+
+pages:
+  - Home: 'index.md'
+  - 用户手册(user guide):
+    - 安装(install): 'user_guide/install.md'
+    - 使用(usage): 'user_guide/usage.md'
+    - 展示视频(gallery): 'user_guide/gallery.md'
+  - 开发手册(dev guide):
+    - Architecture: 'dev_guide/Architecture.md'
+    - hello world: 'dev_guide/helloworld.md'
+  - about:
+    - why: 'about/why.md'
+    - value: 'about/value.md'
+    - license: 'about/license.md'
+  # - Changelog: 'changelog.md'
