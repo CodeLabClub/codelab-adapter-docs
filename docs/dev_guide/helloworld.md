@@ -77,7 +77,12 @@ ps: 和之前运行micro:bit步骤一样,如果你忘了，翻一下[前边内�
 
 <video src="../../img/eim_helloworld.mp4" controls="controls"></video>
 
+
 ### 小结
 从这个例子中，我们可以看到写一个自定义的插件有多简单。而scratch3_adapter对插件要做的事几乎没有任何限制，只要Python能做的事，插件系统都运行你做！就是说你可以自己写一个插件，让Scratch3来控制你的蓝牙设、你的ROS机器人、你那跑着opencv的树莓派或者你童年那辆心爱的玩具四驱车
+
+### 更多的拓展
+如果你熟悉Scratch3.0的extension系统，你可以在Scratch3.0中创建自己的js extension(如同我们在哦scratch3 lab中做的那些插件)，并与scratch3_adapter连接起来，由于Scratch3.0的extension系统官方还在调整中，暂无文档，这部分的教程，我们等到官方文档完善之后再补上
+
 
 enjoy it～

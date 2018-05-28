@@ -10,8 +10,13 @@ pages:
   - 开发手册(dev guide):
     - Architecture: 'dev_guide/Architecture.md'
     - hello world: 'dev_guide/helloworld.md'
+  - extension guide:
+    - 介绍(introduction): 'extension_guide/introduction.md'
+    - Cozmo: 'extension_guide/cozmo.md'
   - about:
+    - contact us: 'about/contact.md'
     - why: 'about/why.md'
     - value: 'about/value.md'
     - license: 'about/license.md'
-  # - Changelog: 'changelog.md'
+    # - Changelog: 'changelog.md'
+    - Roadmap: 'about/roadmap.md'

@@ -30,8 +30,8 @@
 
 世界如果存在什么边界的话，可能只有想象力
 
-有趣的东西现在还不多，在这个领域，除了富有远见的Jean Piaget、Alan Curtis Kay、Seymour Papert和Mitchel Resnick做过一些令人振奋的探索。目前这块的很多项目，说实话，让人有点瞌睡
+有趣的东西现在还不多，在这个领域，除了富有远见的Jean Piaget、Alan Curtis Kay、Seymour Papert和Mitchel Resnick曾做过令人振奋的探索。当前的很多项目，说实话，让人有点瞌睡
 
-我们想与你，想与广阔的社区(我们正在构建它)，一起动起手来做些真正令人振奋的东西
+我们想与你，以及广阔的社区(我们正在构建它)，一起动起手来做些真正令人振奋的东西
 
 Just for fun :)
