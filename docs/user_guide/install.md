@@ -1,16 +1,20 @@
 # 安装(install)
-scratch3_adapter目前发布了Mac、Windows(支持window7及以上版本)、Ubuntu、Raspbian(树莓派)的客户端
+scratch3-adapter目前发布了Mac、Windows(支持window7及以上版本)、Ubuntu、Raspbian(树莓派)的客户端
 
-### 下载
+### 下载(最新版本:v0.2.0)
 你可以免费下载:
 
-*  [Mac OS(64bit)](http://p6ur0vhyj.bkt.clouddn.com/v0_1_1_scratch3_adapter_mac.zip)
+
+
+
+
+*  [Mac OS(64bit)](http://scratch3-files.just4fun.site/v0_2_0_scratch3_adapter_mac.zip)
+    *  如果你点击应用闪退，请参考 :[打开来自身份不明开发者的应用](https://support.apple.com/kb/PH25088?locale=zh_CN&viewlocale=zh_CN)
 *  Windows(Windows7及以上）
-    *  [Windows 32bit](http://p6ur0vhyj.bkt.clouddn.com/v0_1_1_scratch3_adapter_win_32bit.exe.zip)
-    *  [Windows 64bit](http://p6ur0vhyj.bkt.clouddn.com/v0_1_1_scratch3_adapter_win_64bit.exe.zip)
+    *  [Windows](http://scratch3-files.just4fun.site/v0_2_0_scratch3_adapter_win_32bit.exe.zip): windows7、windows10已测试(32和64位都可用)
 *  linux
-    *  [Ubuntu(16.04及以上版本)](http://p6ur0vhyj.bkt.clouddn.com/v0_1_1_scratch3_adapter_ubuntu.zip)
-    *  [Raspbian](http://p6ur0vhyj.bkt.clouddn.com/v0_1_1_scratch3_adapter_raspberrypi.zip)
+    *  [Ubuntu(16.04及以上版本)](http://scratch3-files.just4fun.site/v0_2_0_scratch3_adapter_ubuntu.zip)
+    *  [Raspbian](): 正在构建...
 
 下载完毕，解压之后，即可使用.
 

@@ -1,5 +1,5 @@
 # extension guide
-我们将在此介绍scratch3_adapter各种插件的用法，我们已通过scratch3_adapter extension将一些有趣的硬件和AI接入到了scratch3.0中。
+我们将在此介绍scratch3-adapter各种插件的用法，我们已通过scratch3-adapter extension将一些有趣的硬件和AI接入到了scratch3.0中。
 
 在[Scratch3 Lab](https://blog.just4fun.site/Scratch3-Lab.html)中，硬件方面,我们已经接入了:
 
@@ -26,9 +26,9 @@ AI方面，我们接入了:
 *  Minecraft
 *  bit:bot
 *  android
-    *  我们已经将scratch3_adapter移植到安卓中，你可以使用Scratch3.0中的积木控制手机来拨打电话、收发短信、使用相机，以及在Scratch3.0使用手机/平板十余种传感器的数据！
+    *  我们已经将scratch3-adapter移植到安卓中，你可以使用Scratch3.0中的积木控制手机来拨打电话、收发短信、使用相机，以及在Scratch3.0使用手机/平板十余种传感器的数据！
 
 
-如果已有的插件中，没有你期待的,你可以使用scratch3_adapter extension自行将喜欢的硬件或AI等系统接入Scratch3.0，参考[开发手册](/dev_guide/helloworld/)
+如果已有的插件中，没有你期待的,你可以使用scratch3-adapter extension自行将喜欢的硬件或AI等系统接入Scratch3.0，参考[开发手册](/dev_guide/helloworld/)
 
 也可以参考已有的例子,我们正在陆续把我们写的extensions放入[scratch3_adapter_extensions](https://github.com/Scratch3Lab/scratch3_adapter_extensions), 欢迎fork，欢迎分享 : )
