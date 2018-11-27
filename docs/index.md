@@ -6,7 +6,7 @@ scratch3-adapter是[Scratch3 Lab](https://blog.just4fun.site/Scratch3-Lab.html)�
 
 [Scratch3 Lab](https://blog.just4fun.site/Scratch3-Lab.html)是一个将Scratch3.0接入开源硬件及AI的实验项目(Scratch3 Lab: connect Scratch3.0 to open-source hardware and AI)
 
-我们的目标是使**万物积木化**。
+我们的目标是使**万物积木化**。 这是一些[演示案例](/user_guide/gallery/).
 
 使用scratch3-adapter，你可以轻松将任何有趣的东西接入Scratch3.0(只需几行代码)，接入之后你便能用Scratch3.0的积木来操控它，让它与任何接入Scratch3.0的物体互动。无论是来自现实世界的物体，还是来自虚拟世界的AI或动画角色，都能彼此互动，我们不想针对某个硬件产品发布一个客户端，我们相信创意来自广泛的连接，我们致力于做一个中立的东西，将Scratch3.0连接到更广阔的领域，我们想做到[宽围墙](http://learn.media.mit.edu/lcl/weeks/week5/)
 

@@ -1,6 +1,8 @@
 site_name: scratch3-adapter docs
 site_description: the docs
-
+extra:
+  search:
+    language: 'jp'
 pages:
   - Home: 'index.md'
   - 用户手册(user guide):
@@ -11,6 +13,8 @@ pages:
   - 开发手册(dev guide):
     - Architecture: 'dev_guide/Architecture.md'
     - hello world: 'dev_guide/helloworld.md'
+    - debug: 'dev_guide/debug.md'
+    - FAQ: 'dev_guide/FAQ.md'
   - extension guide:
     - 介绍(introduction): 'extension_guide/introduction.md'
     - Cozmo: 'extension_guide/cozmo.md'
@@ -21,3 +25,4 @@ pages:
     - license: 'about/license.md'
     # - Changelog: 'changelog.md'
     - Roadmap: 'about/roadmap.md'
+

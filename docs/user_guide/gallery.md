@@ -1,15 +1,41 @@
 # 演示视频
+## 闭眼,请熄灯
+
+<video width=600px src="http://scratch3-files.just4fun.site/%E9%97%AD%E7%9C%BC%E8%AF%B7%E7%86%84%E7%81%AF.mp4" controls="controls"></video>
+
+
+## 收工，吃饭
+<video width=600px src="http://scratch3-files.just4fun.site/turnofflight_byfinger.mp4" controls="controls"></video>
+
+## 击灭那盏灯
+<video width=600px src="http://scratch3-files.just4fun.site/%E5%87%BB%E7%81%AD%E9%82%A3%E7%9B%8F%E7%81%AF.mp4" controls="controls"></video>
+
+<video width=350px src="http://scratch3-files.just4fun.site/switch_light.mp4" controls="controls"></video>
+
+
+## 小房间与大房间(labo套件)
+<video width=600px src="http://scratch3-files.just4fun.site/%E5%B0%8F%E6%88%BF%E9%97%B4%E4%B8%8E%E5%A4%A7%E6%88%BF%E9%97%B4.mp4" controls="controls"></video>
+
+## 姿势乐谱
+
+<video width=600px src="http://scratch3-files.just4fun.site/%E5%A7%BF%E5%8A%BF%E4%B9%90%E8%B0%B1.mp4" controls="controls"></video>
+
+
 ## 冲啊 先驱音速
-<video width=350px src="http://oav6fgfj1.bkt.clouddn.com/1539392124109888.mp4" controls="controls"></video>
+<video width=350px src="http://wwj-fig-bed.just4fun.site/1539392124109888.mp4" controls="controls"></video>
 
 ## hungry robot
-<video width=350px src="http://oav6fgfj1.bkt.clouddn.com/hungry_robot.mp4" controls="controls"></video>
+<video width=350px src="http://wwj-fig-bed.just4fun.site/hungry_robot.mp4" controls="controls"></video>
 
 ## 巴甫洛夫的机器人
 <video width="600px" src="http://wwj-fig-bed.just4fun.site/1540219015667808.mp4" controls="controls"></video>
 
+## 击掌奏乐
+<video width="600px" src="http://scratch3-files.just4fun.site/%E5%87%BB%E6%8E%8C%E5%A5%8F%E4%B9%90.mp4" controls="controls"></video>
+
+
 ## leapmotion 超级玛丽
-<video width=350px src="http://oav6fgfj1.bkt.clouddn.com/supermarry.mp4" controls="controls"></video>
+<video width=350px src="http://wwj-fig-bed.just4fun.site/supermarry.mp4" controls="controls"></video>
 
 
 ## 在Scratch3 Lab中，无线控制bit:bot
@@ -21,7 +47,7 @@
 参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
 
 ## 在Scratch3 Lab中，利用运动检测开/关灯
-<video src="http://olk8jbdzi.bkt.clouddn.com/scratch-smart-home.mp4" controls="controls"></video>
+<video src="http://wwj-tmp-video2.just4fun.site/scratch-smart-home.mp4" controls="controls"></video>
 
 ### 在Scratch3 Lab中，利用传感器做体感游戏
 <video src="../../img/mc_404game.mp4" controls="controls"></video>
@@ -52,23 +78,40 @@
 参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
 
 ## cozmo接入在线课程平台 
-<video src="http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4" controls="controls"></video>
+<!-http://scratch3-files.just4fun.site/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->
+<video src="http://scratch3-files.just4fun.site/blockly_cozmo.mp4" controls="controls"></video>
 
 参考[使用scratch3_adapter连接blockly与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)
 
 ## Incendio(火焰咒)
 
-<video src="http://p6ur0vhyj.bkt.clouddn.com/microbitble_magic.mp4" controls="controls"></video>
+<video src="http://scratch3-files.just4fun.site/microbitble_magic.mp4" controls="controls"></video>
 
 #### 控制优必选Alpha系列机器人
 
-<video width=350px src="http://p6ur0vhyj.bkt.clouddn.com/1537510098140.mp4" controls="controls"></video>
+<video width=350px src="http://scratch3-files.just4fun.site/1537510098140.mp4" controls="controls"></video>
 
 参考[scratch3-adapter接入优必选Alpha系列机器人](https://blog.just4fun.site/scratch3-adapter-ubtrobot.html)
 
 ## 接入blender(连接游戏、电影与VR)
 
-<video width=600px src="http://p6ur0vhyj.bkt.clouddn.com/blender-adapter.mp4" controls="controls"></video>
+<video width=600px src="http://scratch3-files.just4fun.site/blender-adapter.mp4" controls="controls"></video>
+
+## 做一个微信聊天界面
+<video width=600px src="http://scratch3-files.just4fun.site/wechat.mp4" controls="controls"></video>
+
+## 要有光(微信 scratch 物联网)
+<video width=350px src="http://scratch3-files.just4fun.site/%E8%A6%81%E6%9C%89%E5%85%89.mp4" controls="controls"></video>
+
+## 人脸地标(Python程序接入scratch)
+<video width=600px src="http://scratch3-files.just4fun.site/dlib_face.mp4" controls="controls"></video>
+
+
+## 鼻梁上的老花镜(增强现实)
+<video width=600px src="http://scratch3-files.just4fun.site/AR.mp4" controls="controls"></video>
+
+
+
 
 参考：
 
