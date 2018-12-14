@@ -15,3 +15,9 @@ Scratch Link和scratch3-adapter可以协同工作，让它们各自支持的硬�
 scratch3-adapter启动之后，可以看到[Scratch3 Lab](https://scratch3.codelab.club/)指示灯显示绿色，代表连接成功
 
 <img alt="" src="../../../img/scratch3-home-connect.png">
+
+### 启动scratch3-adapter后，与scratch3无法通信
+检查下是不是打开了科学上网的软件。
+
+### 如何使用Python拓展Scratch的能力
+[使用Python拓展Scratch的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html#_4)

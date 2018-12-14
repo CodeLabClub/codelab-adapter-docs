@@ -14,5 +14,6 @@
 *  重构插件系统，使用协程
 *  发布不同平台的安装包
 *  接入[openBCI](https://openbci.com/)
+*  接入眼动仪
 *  接入[Parrot](https://developer.parrot.com/)
     *  [pyparrot](https://github.com/amymcgovern/pyparrot)

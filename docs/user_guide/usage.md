@@ -10,9 +10,9 @@
 ![](../img/scratch3-home.png)
 
 ### 步骤2: 打开scratch3_adapter
-双击打开scratch3-adapter，点击启动
+双击打开scratch3-adapter
 
-<img width="400px" src="../../img/scratch3_adapter_open.png"/>
+<!--<img width="400px" src="../../img/scratch3_adapter_open.png"/>-->
 
 scratch3-adapter启动之后，可以看到[Scratch3 Lab](https://scratch3.just4fun.site/)指示灯显示绿色,代表连接成功
 

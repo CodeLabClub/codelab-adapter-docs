@@ -17,7 +17,10 @@ scratch3-adapter是[Scratch3 Lab](https://blog.just4fun.site/Scratch3-Lab.html)�
 *  [BB8](https://store.sphero.com/products/bb-8-by-sphero)
 *  [树莓派](https://www.raspberrypi.org/)
 *  [智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
+*  switch labo
+*  四轴飞行器(Parrot)
 *  优必选Alpha系列机器人
+*  掌控板
 
 AI方面，我们接入了:
 

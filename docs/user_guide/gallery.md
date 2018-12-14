@@ -110,6 +110,26 @@
 ## 鼻梁上的老花镜(增强现实)
 <video width=600px src="http://scratch3-files.just4fun.site/AR.mp4" controls="controls"></video>
 
+## hi-渡边君(chatbot)
+<video width=600px src="http://scratch3-files.just4fun.site/hi%E6%B8%A1%E8%BE%B9%E5%90%9B.mp4" controls="controls"></video>
+
+
+## 智能音箱
+<video width=600px src="http://scratch3-files.just4fun.site/%E6%99%BA%E8%83%BD%E9%9F%B3%E7%AE%B1.mp4" controls="controls"></video>
+
+
+## 掌控板(reverse shell)
+<video width=600px src="http://scratch3-files.just4fun.site/%E6%8E%8C%E6%8E%A7%E6%9D%BF.mp4" controls="controls"></video>
+
+## unity、lego、scratch3-adapter（by 联想研究院）
+<video width=600px src="http://scratch3-files.just4fun.site/unity.mp4" controls="controls"></video>
+
+## 四轴飞行器
+<video width=300px src="http://scratch3-files.just4fun.site/fly.mp4" controls="controls"></video>
+
+## oh my vector
+<video width=300px src="http://scratch3-files.just4fun.site/vector_leapmotion.mp4" controls="controls"></video>
+
 
 
 
