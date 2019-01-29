@@ -3,7 +3,7 @@
 我们以使用预加载的插件为例，在此我们演示如何在scratch3.0中使用micro:bit
 
 ### 步骤1: 打开Scratch3 Lab
-推荐使用[Chrome浏览器](https://www.google.cn/chrome/index.html)点击打开[Scratch3 Lab](https://scratch3.just4fun.site/)，目前Scratch官方团队在目录支持更多浏览器版本，现阶段使用Chrome浏览器效果最佳
+推荐使用[Chrome浏览器](https://www.google.cn/chrome/index.html)点击打开[Scratch3 Lab](https://scratch3.codelab.club/)，目前Scratch官方团队在目录支持更多浏览器版本，现阶段使用Chrome浏览器效果最佳
 
 <!--目前Scratch3 Lab的服务器在香港，第一次加载，你需要耐心等待一段时间(之后打开就快了)-->
 
@@ -14,7 +14,7 @@
 
 <!--<img width="400px" src="../../img/scratch3_adapter_open.png"/>-->
 
-scratch3-adapter启动之后，可以看到[Scratch3 Lab](https://scratch3.just4fun.site/)指示灯显示绿色,代表连接成功
+scratch3-adapter启动之后，可以看到[Scratch3 Lab](https://scratch3.codelab.club/)指示灯显示绿色,代表连接成功
 
 ![](../../img/scratch3-home-connect.png)
 
@@ -33,7 +33,7 @@ scratch3-adapter启动之后，可以看到[Scratch3 Lab](https://scratch3.just4
 -->
 
 ### 步骤3: 连接micro:bit，加载插件
-使用数据线将micro:bit接入电脑，下载<a href="../../img/microbit_cx.hex" target="_blank">microbit_cx.hex</a>并拖入micro:bit中
+使用数据线将micro:bit接入电脑，下载<a href="http://wwj-tmp-video.just4fun.site/usbMicrobit_0_2.hex" target="_blank">usbMicrobit_0_2.hex</a>并拖入micro:bit中
 
 ps: Windows7用户注意(Mac和Windows10用户可以跳过),为了能发现并连接micro:bit，需要[安装驱动](../../img/mbedWinSerial_16466.exe)(和使用mu-editor操作相同)
 
@@ -50,11 +50,11 @@ ps: linux用户注意，scratch3_adapter使用usb串口与micro:bit连接,linux�
 
 选择对应的scratch3插件:Microbit_cx(我们同时制作了若干中micro:bit，包括使用web蓝牙的)
 
-<img width="500px" src="../../img/scratch3_extensions_microbit.png"/>
+<img width="600px" src="../../img/scratch3_extensions_microbit.png"/>
 
 接着拓展积木，点击运行
 
-<img width="500px" src="../../img/scratch3_adapter_helloworld.png"/>
+<img width="600px" src="../../img/scratch3_adapter_helloworld.png"/>
 
 
 

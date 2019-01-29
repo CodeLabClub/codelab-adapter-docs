@@ -1,5 +1,5 @@
 # debug
-scratch3-adapter会将输出写入日志。为了调试方便，开发者可以打开一个命令行窗口，运行:
+codelab-adapter会将输出写入日志。为了调试方便，开发者可以打开一个命令行窗口，运行:
 
 `tail -f ~/scratch3_adapter/info.log`
 

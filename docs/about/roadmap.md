@@ -1,6 +1,6 @@
 # Roadmap
 *  移动端支持
-    *  已完成:[scratch3-adapter的移动端解决方案](https://blog.just4fun.site/scratch3-adapter-mobile.html)
+    *  已完成:[codelab-adapter的移动端解决方案](https://blog.just4fun.site/codelab-adapter-mobile.html)
 *  允许在GUI面板上启停插件
     *  已完成
 *  本地SSL安全证书
@@ -15,5 +15,11 @@
 *  发布不同平台的安装包
 *  接入[openBCI](https://openbci.com/)
 *  接入眼动仪
+    *  已完成
 *  接入[Parrot](https://developer.parrot.com/)
     *  [pyparrot](https://github.com/amymcgovern/pyparrot)
+    *  已完成
+*  在前端启停软件
+    *  json-rpc
+    *  异步实现
+*  提供更好用的通信机制(包装zeromq到utils)，作为最佳实践

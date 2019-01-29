@@ -1,18 +1,17 @@
 # 安装(install)
 scratch3-adapter目前发布了Mac、Windows(支持window7及以上版本)、Ubuntu、Raspbian(树莓派)的客户端
 
-### 下载(最新版本:v0.3.0)
+### 下载(最新版本:v0.4.0)
 你可以免费下载:
 
-*  [Mac OS(64bit)](http://scratch3-files.just4fun.site/v0_3_1_scratch3_adapter_mac.zip)
+*  [Mac OS(64bit)](http://scratch3-files.just4fun.site/v0_4_0_scratch3_adapter_mac.zip)
     *  如果你点击应用闪退，请参考 :[打开来自身份不明开发者的应用](https://support.apple.com/kb/PH25088?locale=zh_CN&viewlocale=zh_CN)
 *  Windows(Windows7及以上）
-    *  [Windows](http://scratch3-files.just4fun.site/v0_3_1_scratch3_adapter_win_32bit.exe.zip): windows7、windows10已测试(32和64位都可用)
+    *  [Windows](http://scratch3-files.just4fun.site/v0_4_0_scratch3_adapter_win_32bit.exe.zip): windows7、windows10已测试(32位和64位都可用)
 *  linux
-    *  [Ubuntu(16.04及以上版本)](http://scratch3-files.just4fun.site/v0_3_1_scratch3_adapter_ubuntu.zip)
-    *  [Raspbian](http://scratch3-files.just4fun.site/v0_3_1_scratch3_adapter_raspbian.zip)
-
-下载完毕，解压之后，即可使用.
+    *  [Ubuntu(16.04及以上版本)(64bit)](http://scratch3-files.just4fun.site/v0_4_0_scratch3_adapter_ubuntu.zip)
+    *  [Raspbian](http://scratch3-files.just4fun.site/v0_4_0_scratch3_adapter_raspbian.zip)
+        *  下载，解压，赋予运行权限: `chmod +x v0_4_0_scratch3_adapter_raspbian`
 
 ### 更新
 如果你之前使用过旧版本的scratch3-adapter，更新到新版本后，建议也更新一下插件目录(`~/scratch3_adapter/extensions/`)
@@ -30,4 +29,4 @@ Raspbian我们只测试了Stretch版本,如果有系统兼容性问题，欢迎[
 
 ps: MacOS10.14下，按钮无法显示文字, 但不影响正常使用 (按钮文字 可以参考下图)
 
-<img src="http://wwj-fig-bed.just4fun.site/mac10.14_5e0ac8b1.png" width=400 />
+<img src="../../img/adapter-exit-button.png" width=400 />

@@ -9,9 +9,11 @@
 ## 引入第三方Python库
 Python社区有海量的第三方库，开发者可以将其引入插件中。
 
-方法是使用`sys.path.append`,如果希望在插件中使用本机Python3已安装的库，则将其添加到插件头部:`import sys;sys.path.append("/usr/local/lib/python3.6/site-packages")`,完整的示例参考[extension_third_party_library](https://github.com/Scratch3Lab/scratch3_adapter_extensions/blob/master/extension_third_party_library.py)
+方法是使用`sys.path.append`,如果希望在插件中使用本机Python3已安装的库(推荐`pip3 install xxx --user`)，则将其添加到插件头部:`import sys;sys.path.append("/Users/wuwenjie/Library/Python/3.6/lib/python/site-packages")`,完整的示例参考[extension_third_party_library](https://github.com/Scratch3Lab/scratch3_adapter_extensions/blob/master/extension_third_party_library.py)
 
-`/usr/local/lib/python3.6/site-packages`可通过`pip3 show pip`看到。你也可以使用virtualenv创建的虚拟目录。
+`/Users/wuwenjie/Library/Python/3.6/lib/python/site-packages`可通过`python3 -m site --user-site`看到。你也可以使用virtualenv创建的虚拟目录。
+
+有些库引入的时候可能会有问题，一些复杂库，建议使用subprocess跑为子进程。
 
 ## Python与Scratch的双向通信
 参考[Python与Scratch的双向通信](https://blog.just4fun.site/python-scratch-with-adapter.html)
@@ -19,3 +21,12 @@ Python社区有海量的第三方库，开发者可以将其引入插件中。
 大多数情况下，你只需要发送和接受字符串就够了，这种风格与Scratch内置的广播极为相近。是典型的事件驱动风格。
 
 这篇教程主要针对那些希望去拓展Scratch的人。当你需要将一些复杂的程序接入Scratch（例如接入AI或者接入微信，如我们制作的例子），它会对你有帮助。
+
+## 如何接入arduino
+陆续有开发者问到，如何使用codelab-adapter将arduino接入到Scratch3.0中。
+
+有许多种方法，但我比较偏好在arduino中烧入Firmata固件。之后以固件交互，我在[两种硬件编程风格的比较](https://blog.just4fun.site/Hardware-Programming-style.html)论述了这样做的好处。
+
+之后使用Firmata python client与arduino交互。
+
+细节可以参考[Arduino与Scratch3.0](https://blog.just4fun.site/Scratch3-adapter-Arduino-scratch.html)

@@ -1,4 +1,7 @@
-# 演示视频
+# 演示视频(Gallery)
+
+Notice: If you can't read Chinese, Please use Google Translate. 
+
 ## 闭眼,请熄灯
 
 <video width=600px src="http://scratch3-files.just4fun.site/%E9%97%AD%E7%9C%BC%E8%AF%B7%E7%86%84%E7%81%AF.mp4" controls="controls"></video>
@@ -91,7 +94,7 @@
 
 <video width=350px src="http://scratch3-files.just4fun.site/1537510098140.mp4" controls="controls"></video>
 
-参考[scratch3-adapter接入优必选Alpha系列机器人](https://blog.just4fun.site/scratch3-adapter-ubtrobot.html)
+参考[codelab-adapter接入优必选Alpha系列机器人](https://blog.just4fun.site/scratch3-adapter-ubtrobot.html)
 
 ## 接入blender(连接游戏、电影与VR)
 
@@ -131,7 +134,24 @@
 <video width=300px src="http://scratch3-files.just4fun.site/vector_leapmotion.mp4" controls="controls"></video>
 
 
+## 模拟器（by 联想研究院）
+<video width=600px src="http://scratch3-files.just4fun.site/%E6%A8%A1%E6%8B%9F%E5%99%A8.mp4" controls="controls"></video>
 
+## 眼动仪
+<video width=600px src="http://scratch3-files.just4fun.site/%E7%9C%BC%E5%8A%A8%E4%BB%AA.mp4" controls="controls"></video>
+
+## Switch Labo ❤️ Vector
+<video width=300px src="http://scratch3-files.just4fun.site/vector_labo.mp4" controls="controls"></video>
+
+
+## Candy Language for Vector
+<video width=600px src="http://scratch3-files.just4fun.site/candy_vector.mp4" controls="controls"></video>
+
+## 接入arduino
+<video width=600px src="http://scratch3-files.just4fun.site/arduino.mp4" controls="controls"></video>
+
+## Physics extension and LeapMotion
+<video width=300px src="http://scratch3-files.just4fun.site/physics_leapmotion.mp4" controls="controls"></video>
 
 参考：
 
