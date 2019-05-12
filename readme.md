@@ -7,6 +7,8 @@
 # Usage
 
 ```
+git clone https://github.com/Scratch3Lab/codelab-adapter-docs
+cd codelab-adapter-docs
 pip3 install mkdocs
 # debug
 mkdocs serve
@@ -22,3 +24,10 @@ make push
 
 # 图片资源
 参考[Linking to images and media](https://www.mkdocs.org/user-guide/writing-your-docs/#linking-to-images-and-media)
+
+# 参与翻译
+[codelab-adapter](https://codelab-adapter-docs.codelab.club/)的海外用户目前使用`谷歌翻译`阅读该文档。
+
+如果你愿意将其翻译为英文，十分欢迎。
+
+可以参考已翻译的部分:  [Our Values](https://codelab-adapter-docs.codelab.club/about/value/#our-values)。
