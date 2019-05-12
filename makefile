@@ -7,3 +7,6 @@ push-cn:
 cp-github:
 	rm -rf /Users/wuwenjie/githubblog/others/scratch3-adapter-docs;
 	cp -r /Users/wuwenjie/mylab/changxue/scratch3-adapter-docs/site /Users/wuwenjie/githubblog/others/scratch3-adapter-docs;
+
+build:
+	mkdocs build

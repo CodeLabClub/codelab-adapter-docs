@@ -1,4 +1,4 @@
-site_name: scratch3-adapter docs
+site_name: codelab-adapter docs
 site_description: the docs
 extra:
   search:
@@ -10,6 +10,7 @@ pages:
     - 使用(usage): 'user_guide/usage.md'
     - 展示视频(gallery): 'user_guide/gallery.md'
     - FAQ: 'user_guide/FAQ.md'
+    - changelog: 'changelog.md'
   - 开发手册(dev guide):
     - Architecture: 'dev_guide/Architecture.md'
     - hello world: 'dev_guide/helloworld.md'
@@ -21,9 +22,13 @@ pages:
     - Usage: 'extension_guide/usage.md'
     - Vector: 'extension_guide/vector.md'
     - Cozmo: 'extension_guide/cozmo.md'
+    - wechat: 'extension_guide/wechat.md'
     - OpenCV: 'extension_guide/opencv.md'
     - Tensorflow: 'extension_guide/tensorflow.md'
     - Python kernel extention: 'extension_guide/extension_python_kernel.md'
+    - mpfshell: 'extension_guide/mpfshell.md'
+    - blender: 'extension_guide/blender.md'
+    - Pando: 'extension_guide/Pando.md'
     - extension market: 'extension_guide/extension_market.md'
   - about:
     - contact us: 'about/contact.md'

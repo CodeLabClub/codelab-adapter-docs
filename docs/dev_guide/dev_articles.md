@@ -1,7 +1,7 @@
 # 开发文章列表
 
 
-*  [使用scratch3_adapter连接blockly与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)
+*  [使用codelab_adapter连接blockly与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)
 *  [scratch3-adapter接入优必选Alpha系列机器人](https://blog.just4fun.site/scratch3-adapter-ubtrobot.html)
 *  [scratch3-adapter接入blender](https://blog.just4fun.site/scratch3-adapter-blender.html)
 *  [Python与Scratch的双向通信](https://blog.just4fun.site/python-scratch-with-adapter.html)

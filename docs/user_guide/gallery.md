@@ -11,7 +11,9 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=600px src="http://scratch3-files.just4fun.site/turnofflight_byfinger.mp4" controls="controls"></video>
 
 ## 击灭那盏灯
+
 <video width=600px src="http://scratch3-files.just4fun.site/%E5%87%BB%E7%81%AD%E9%82%A3%E7%9B%8F%E7%81%AF.mp4" controls="controls"></video>
+
 
 <video width=350px src="http://scratch3-files.just4fun.site/switch_light.mp4" controls="controls"></video>
 
@@ -84,7 +86,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <!-http://scratch3-files.just4fun.site/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->
 <video src="http://scratch3-files.just4fun.site/blockly_cozmo.mp4" controls="controls"></video>
 
-参考[使用scratch3_adapter连接blockly与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)
+参考[使用codelab_adapter连接blockly与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)
 
 ## Incendio(火焰咒)
 
@@ -152,6 +154,22 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 ## Physics extension and LeapMotion
 <video width=300px src="http://scratch3-files.just4fun.site/physics_leapmotion.mp4" controls="controls"></video>
+
+## wechat extension
+<video width=600px src="http://scratch3-files.just4fun.site/wechat_extension.mp4" controls="controls"></video>
+
+
+## Cozmo and Vector: Where did the human go?
+<video width=600px src="http://scratch3-files.just4fun.site/where-did-the-human-go.mp4" controls="controls"></video>
+
+## 渡边君(cozmo+vector)
+<video width=600px src="http://scratch3-files.just4fun.site/cosplayhi%E6%B8%A1%E8%BE%B9%E5%90%9B.mp4" controls="controls"></video>
+
+## 灵光一现(脑电波+智能家居)
+<video width=600px src="http://scratch3-files.just4fun.site/%E7%81%B5%E5%85%89%E4%B8%80%E7%8E%B0.mp4" controls="controls"></video>
+
+
+
 
 参考：
 

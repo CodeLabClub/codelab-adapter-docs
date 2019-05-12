@@ -1,0 +1,764 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to codelab-adapter\n\n\n\n\nTurn the world into your playground!\n\n\n\n\n\n\n提醒: codelab-adapter曾用名: scratch3-adapter\n\n\ncodelab-adapter是\nScratch3 Lab\n的一个子项目， 它也是\ncodelab.club\n希望贡献给社区的一个基础设施。\n\n\nScratch3 Lab\n是一个将Scratch3.0接入开源硬件及AI的实验项目(Scratch3 Lab: connect Scratch3.0 to open-source hardware and AI)。\n\n\n我们的目标是使\n万物积木化\n。 这是一些\n演示案例\n。\n\n\n使用codelab-adapter，你可以轻松将任何有趣的东西接入Scratch3.0(只需几行代码)，接入之后你便能用Scratch3.0的积木来操控它，让它与任何接入Scratch3.0的物体互动。无论是来自现实世界的物体，还是来自虚拟世界的AI或动画角色，都能彼此互动，我们不想针对某个硬件产品发布一个客户端，我们相信创意来自广泛的连接，我们致力于做一个中立的东西，将Scratch3.0连接到更广阔的领域，我们想做到\n宽围墙\n。\n\n\n硬件方面,我们已经接入了:\n\n\n\n\nmicro:bit\n\n\nArduino\n\n\nCozmo\n\n\nVector\n\n\nBB8\n\n\n树莓派\n\n\n智能家居\n\n\nSwitch Labo\n\n\n四轴飞行器(\nParrot\n的3个型号)\n\n\n优必选Alpha系列机器人\n\n\n掌控板\n\n\n眼动仪\n\n\n\n\nAI方面，我们接入了:\n\n\n\n\n微软认知服务\n\n\n本地化的机器视觉\n\n\nopencv\n\n\ntensorflow\n\n\n一些简单的本地自然语言处理(移植了mit media lab的实验项目)\n\n\n\n\n此外，近期我们还将\ncodelab-adapter接入blender\n。如此一来就建立了现实世界与虚拟世界的连接，你甚至可以和电影中的角色打交道。很多著名的电影都使用了\nblender\n来创作。\n\n一旦codelab-adapter与Blender连接完成，你可以徒手创作minecraft中的世界(借助leapmotion，而minecraft的资源包社区里已经有了:\nBLENDER MINECRAFT ADDON\n。你也可以使用micro:bit制作的魔法棒与虚拟世界的哈利波特一决高下。\n\n\ncodelab-adapter采用插件式的设计，允许你自己动手写插件来拓展它，\n开发手册\n将教会大家如何通过短短几行代码来自定义插件。\n\n\n如果你有什么心仪的玩具，我们没有考虑到的，你可以使用codelab-adapter将它接入\nScratch3 Lab\n，我们也鼓励你与大家分享其中的乐趣 :)，如果你有什么令人振奋的点子或者遇到什么困难，欢迎\n联系我们\n。\n\n\n我最近正在把童年玩的的四驱车接入其中 :)\n\n\n我们正为Scratch3 Lab构建社区\n，大家有什么有趣的动手经历或想法，欢迎分享到社区，在这儿寻找志同道合的小伙伴。一起折腾些好玩的东西，毕竟人生苦短。\n\n\n\n\n如果你想走得快，一个人走; 如果你想走得远，一群人走。\n\n\n\n\n目前已支持的插件\n\n\n这是\nScratch3 Lab\n目前支持的部分插件截图\n\n。",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome-to-codelab-adapter",
+            "text": "Turn the world into your playground!    提醒: codelab-adapter曾用名: scratch3-adapter  codelab-adapter是 Scratch3 Lab 的一个子项目， 它也是 codelab.club 希望贡献给社区的一个基础设施。  Scratch3 Lab 是一个将Scratch3.0接入开源硬件及AI的实验项目(Scratch3 Lab: connect Scratch3.0 to open-source hardware and AI)。  我们的目标是使 万物积木化 。 这是一些 演示案例 。  使用codelab-adapter，你可以轻松将任何有趣的东西接入Scratch3.0(只需几行代码)，接入之后你便能用Scratch3.0的积木来操控它，让它与任何接入Scratch3.0的物体互动。无论是来自现实世界的物体，还是来自虚拟世界的AI或动画角色，都能彼此互动，我们不想针对某个硬件产品发布一个客户端，我们相信创意来自广泛的连接，我们致力于做一个中立的东西，将Scratch3.0连接到更广阔的领域，我们想做到 宽围墙 。  硬件方面,我们已经接入了:   micro:bit  Arduino  Cozmo  Vector  BB8  树莓派  智能家居  Switch Labo  四轴飞行器( Parrot 的3个型号)  优必选Alpha系列机器人  掌控板  眼动仪   AI方面，我们接入了:   微软认知服务  本地化的机器视觉  opencv  tensorflow  一些简单的本地自然语言处理(移植了mit media lab的实验项目)   此外，近期我们还将 codelab-adapter接入blender 。如此一来就建立了现实世界与虚拟世界的连接，你甚至可以和电影中的角色打交道。很多著名的电影都使用了 blender 来创作。 \n一旦codelab-adapter与Blender连接完成，你可以徒手创作minecraft中的世界(借助leapmotion，而minecraft的资源包社区里已经有了: BLENDER MINECRAFT ADDON 。你也可以使用micro:bit制作的魔法棒与虚拟世界的哈利波特一决高下。  codelab-adapter采用插件式的设计，允许你自己动手写插件来拓展它， 开发手册 将教会大家如何通过短短几行代码来自定义插件。  如果你有什么心仪的玩具，我们没有考虑到的，你可以使用codelab-adapter将它接入 Scratch3 Lab ，我们也鼓励你与大家分享其中的乐趣 :)，如果你有什么令人振奋的点子或者遇到什么困难，欢迎 联系我们 。  我最近正在把童年玩的的四驱车接入其中 :)  我们正为Scratch3 Lab构建社区 ，大家有什么有趣的动手经历或想法，欢迎分享到社区，在这儿寻找志同道合的小伙伴。一起折腾些好玩的东西，毕竟人生苦短。   如果你想走得快，一个人走; 如果你想走得远，一群人走。",
+            "title": "Welcome to codelab-adapter"
+        },
+        {
+            "location": "/#_1",
+            "text": "这是 Scratch3 Lab 目前支持的部分插件截图 。",
+            "title": "目前已支持的插件"
+        },
+        {
+            "location": "/user_guide/install/",
+            "text": "安装(install)\n\n\ncodelab-adapter目前发布了Mac、Windows(支持window7及以上版本)、Ubuntu、Raspbian(树莓派)的客户端\n\n\n下载(最新版本:v0_8_2)\n\n\n你可以免费下载 (点击对应的操作系统链接):\n\n\n\n\nMac OS(64bit)\n\n\nmacOS 10.13.5+\n\n\n如果你点击应用闪退，请参考 :\n打开来自身份不明开发者的应用\n\n\n\n\n\n\nWindows(Windows7及以上）\n\n\nWindows\n: windows7、windows10已测试(32位和64位都可用)\n\n\n\n\n\n\nlinux\n\n\nUbuntu(16.04及以上版本)(64bit)\n\n\nRaspbian\n\n\n下载，解压，赋予运行权限: \nchmod +x v0_8_1_codelab_adapter_raspbian\n\n\n\n\n\n\n\n\n\n\n\n\n更新\n\n\n如果你之前使用过旧版本的软件，更新到新版本后，建议也更新一下插件目录(\n~/codelab_adapter/extensions/\n)\n\n\n\n\n旧的插件会被备份到同级目录(如\nextensions_1540437691\n)\n\n\n兼容性\n\n\n目前,Windows和Mac的版本测试过的机器比较多。\n\n\nUbuntu测试了16.04及18.04, Ubuntu(16.04及以上版本)也可用于Arch linux，如果你在使用其他linux发行版，也可以试试。\n\n\nRaspbian我们只测试了Stretch版本,如果有系统兼容性问题，欢迎\n联系我们\n\n\nps: MacOS10.14下，按钮无法显示文字, 但不影响正常使用 (按钮文字 可以参考下图)",
+            "title": "安装(install)"
+        },
+        {
+            "location": "/user_guide/install/#install",
+            "text": "codelab-adapter目前发布了Mac、Windows(支持window7及以上版本)、Ubuntu、Raspbian(树莓派)的客户端",
+            "title": "安装(install)"
+        },
+        {
+            "location": "/user_guide/install/#v0_8_2",
+            "text": "你可以免费下载 (点击对应的操作系统链接):   Mac OS(64bit)  macOS 10.13.5+  如果你点击应用闪退，请参考 : 打开来自身份不明开发者的应用    Windows(Windows7及以上）  Windows : windows7、windows10已测试(32位和64位都可用)    linux  Ubuntu(16.04及以上版本)(64bit)  Raspbian  下载，解压，赋予运行权限:  chmod +x v0_8_1_codelab_adapter_raspbian",
+            "title": "下载(最新版本:v0_8_2)"
+        },
+        {
+            "location": "/user_guide/install/#_1",
+            "text": "如果你之前使用过旧版本的软件，更新到新版本后，建议也更新一下插件目录( ~/codelab_adapter/extensions/ )   旧的插件会被备份到同级目录(如 extensions_1540437691 )",
+            "title": "更新"
+        },
+        {
+            "location": "/user_guide/install/#_2",
+            "text": "目前,Windows和Mac的版本测试过的机器比较多。  Ubuntu测试了16.04及18.04, Ubuntu(16.04及以上版本)也可用于Arch linux，如果你在使用其他linux发行版，也可以试试。  Raspbian我们只测试了Stretch版本,如果有系统兼容性问题，欢迎 联系我们  ps: MacOS10.14下，按钮无法显示文字, 但不影响正常使用 (按钮文字 可以参考下图)",
+            "title": "兼容性"
+        },
+        {
+            "location": "/user_guide/usage/",
+            "text": "使用说明(usage)\n\n\n我们以使用预加载的插件为例，在此我们演示如何在scratch3.0中使用micro:bit\n\n\n步骤1: 打开Scratch3 Lab\n\n\n推荐使用\nChrome浏览器\n点击打开\nScratch3 Lab\n，目前Scratch官方团队在目录支持更多浏览器版本，现阶段使用Chrome浏览器效果最佳\n\n\n\n\n\n\n\n步骤2: 打开codelab-adapter\n\n\n双击打开codelab-adapter\n\n\n\n\n\ncodelab-adapter启动之后，可以看到\nScratch3 Lab\n指示灯显示绿色,代表连接成功\n\n\n\n\n\n\n\n步骤3: 连接micro:bit，加载插件\n\n\n使用数据线将micro:bit接入电脑，下载\nusbMicrobit_for_adapter.hex\n 右键保存到本地，并将保存的文件拖入micro:bit中。\n\n\nps: Windows7用户注意(Mac和Windows10用户可以跳过),为了能发现并连接micro:bit，需要\n安装驱动\n(和使用mu-editor操作相同)\n\n\n完成后在scratch3_adapter中点击加载micro:bit插件\n\n\n\n\n你应该看到micro:bit背后的信号灯高频闪烁，如果它没有高频闪烁，则按一下micro:bit背部的复位按钮\n\n\nps: linux用户注意，scratch3_adapter使用usb串口与micro:bit连接,linux下，使用usb串口需要做权限设置:\nsudo chmod 666 /dev/ttyACM0\n\n\n步骤4: hello world\n\n\n现在让我们利用Scratch3 Lab控制micro:bit，让它在点阵屏上打印\nhello world\n\n\n选择对应的scratch3插件:Microbit_cx(我们同时制作了若干中micro:bit，包括使用web蓝牙的)\n\n\n\n\n接着拓展积木，点击运行\n\n\n\n\n结语\n\n\n这个例子完整展示了scratch3_adapter的使用流程\n\n\n\n\n接入你的硬件(可以是任何开源硬件)\n\n\n启动scratch3_adapter,加载对应硬件插件\n\n\n打开scratch3.0网页\n\n\n开始在scratch3.0中与硬件交互\n\n\n\n\n其中步骤2是关键，如果你接入的硬件目前没有默认插件支持它，你可以自己来写, codelab-adapter允许你将任何硬件接入scratch3.0中，别害怕，需要的代码很少也很简单，详情参见\n开发手册\n\n\n我们也将在\nextension guide\n中介绍各种社区插件的使用方法",
+            "title": "使用(usage)"
+        },
+        {
+            "location": "/user_guide/usage/#usage",
+            "text": "我们以使用预加载的插件为例，在此我们演示如何在scratch3.0中使用micro:bit",
+            "title": "使用说明(usage)"
+        },
+        {
+            "location": "/user_guide/usage/#1-scratch3-lab",
+            "text": "推荐使用 Chrome浏览器 点击打开 Scratch3 Lab ，目前Scratch官方团队在目录支持更多浏览器版本，现阶段使用Chrome浏览器效果最佳",
+            "title": "步骤1: 打开Scratch3 Lab"
+        },
+        {
+            "location": "/user_guide/usage/#2-codelab-adapter",
+            "text": "双击打开codelab-adapter   codelab-adapter启动之后，可以看到 Scratch3 Lab 指示灯显示绿色,代表连接成功",
+            "title": "步骤2: 打开codelab-adapter"
+        },
+        {
+            "location": "/user_guide/usage/#3-microbit",
+            "text": "使用数据线将micro:bit接入电脑，下载 usbMicrobit_for_adapter.hex  右键保存到本地，并将保存的文件拖入micro:bit中。  ps: Windows7用户注意(Mac和Windows10用户可以跳过),为了能发现并连接micro:bit，需要 安装驱动 (和使用mu-editor操作相同)  完成后在scratch3_adapter中点击加载micro:bit插件   你应该看到micro:bit背后的信号灯高频闪烁，如果它没有高频闪烁，则按一下micro:bit背部的复位按钮  ps: linux用户注意，scratch3_adapter使用usb串口与micro:bit连接,linux下，使用usb串口需要做权限设置: sudo chmod 666 /dev/ttyACM0",
+            "title": "步骤3: 连接micro:bit，加载插件"
+        },
+        {
+            "location": "/user_guide/usage/#4-hello-world",
+            "text": "现在让我们利用Scratch3 Lab控制micro:bit，让它在点阵屏上打印 hello world  选择对应的scratch3插件:Microbit_cx(我们同时制作了若干中micro:bit，包括使用web蓝牙的)   接着拓展积木，点击运行",
+            "title": "步骤4: hello world"
+        },
+        {
+            "location": "/user_guide/usage/#_1",
+            "text": "这个例子完整展示了scratch3_adapter的使用流程   接入你的硬件(可以是任何开源硬件)  启动scratch3_adapter,加载对应硬件插件  打开scratch3.0网页  开始在scratch3.0中与硬件交互   其中步骤2是关键，如果你接入的硬件目前没有默认插件支持它，你可以自己来写, codelab-adapter允许你将任何硬件接入scratch3.0中，别害怕，需要的代码很少也很简单，详情参见 开发手册  我们也将在 extension guide 中介绍各种社区插件的使用方法",
+            "title": "结语"
+        },
+        {
+            "location": "/user_guide/gallery/",
+            "text": "演示视频(Gallery)\n\n\nNotice: If you can't read Chinese, Please use Google Translate. \n\n\n闭眼,请熄灯\n\n\n\n\n\n收工，吃饭\n\n\n\n\n击灭那盏灯\n\n\n\n\n\n\n\n\n小房间与大房间(labo套件)\n\n\n\n\n姿势乐谱\n\n\n\n\n\n冲啊 先驱音速\n\n\n\n\nhungry robot\n\n\n\n\n巴甫洛夫的机器人\n\n\n\n\n击掌奏乐\n\n\n\n\nleapmotion 超级玛丽\n\n\n\n\n在Scratch3 Lab中，无线控制bit:bot\n\n\n\n\n在Scratch3 Lab中，使用micro:bit开/关灯\n\n\n\n\n参考\n积木化编程与智能家居\n\n\n在Scratch3 Lab中，利用运动检测开/关灯\n\n\n\n\n在Scratch3 Lab中，利用传感器做体感游戏\n\n\n\n\n参考\n积木化编程与智能家居\n\n\n在Scratch3 Lab中，使用本地的机器视觉\n\n\n\n\n使用手势控制客厅的灯\n\n\n\n\n我们布置好了一个可编程的空间，使用scratch3中的积木进行空间编程，控制室内的灯光、插座、空调、电视，如果你愿意，也可以去淘宝买一根哈利波特的木制魔杖（估计只要九块九），用我们提供的机器视觉积木训练一下，就可以用你自制的咒语(比如用魔杖划一个o)控制你的房\n\n\n参考\n积木化编程与智能家居\n\n\n门与电视的联动\n\n\n\n\n我们使用树莓派可将任何屏幕变为变为一个可编程的广告牌（哈哈只要200块哦，这块似乎也值得商业化[奸笑]）。加上简单的神经网络你可以做到，当穿着裙子的姑娘走近屏幕，屏幕立马给她安利新款纪梵希，而穿着格子衬衫的大叔靠近时，屏幕则以机械键盘蛊惑他\n\n\n参考\n积木化编程与智能家居\n\n\n纸做的开关\n\n\n\n\n参考\n积木化编程与智能家居\n\n\ncozmo接入在线课程平台\n\n\n<!-http://scratch3-files.just4fun.site/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->\n\n\n\n参考\n使用codelab_adapter连接blockly与硬件\n\n\nIncendio(火焰咒)\n\n\n\n\n\n控制优必选Alpha系列机器人\n\n\n\n\n\n参考\ncodelab-adapter接入优必选Alpha系列机器人\n\n\n接入blender(连接游戏、电影与VR)\n\n\n\n\n\n做一个微信聊天界面\n\n\n\n\n要有光(微信 scratch 物联网)\n\n\n\n\n人脸地标(Python程序接入scratch)\n\n\n\n\n鼻梁上的老花镜(增强现实)\n\n\n\n\nhi-渡边君(chatbot)\n\n\n\n\n智能音箱\n\n\n\n\n掌控板(reverse shell)\n\n\n\n\nunity、lego、scratch3-adapter（by 联想研究院）\n\n\n\n\n四轴飞行器\n\n\n\n\noh my vector\n\n\n\n\n模拟器（by 联想研究院）\n\n\n\n\n眼动仪\n\n\n\n\nSwitch Labo ❤️ Vector\n\n\n\n\nCandy Language for Vector\n\n\n\n\n接入arduino\n\n\n\n\nPhysics extension and LeapMotion\n\n\n\n\nwechat extension\n\n\n\n\nCozmo and Vector: Where did the human go?\n\n\n\n\n渡边君(cozmo+vector)\n\n\n\n\n灵光一现(脑电波+智能家居)\n\n\n\n\n参考：\n\n\n\n\nscratch3-adapter接入blender\n\n\n积木化编程与3D场景",
+            "title": "展示视频(gallery)"
+        },
+        {
+            "location": "/user_guide/gallery/#gallery",
+            "text": "Notice: If you can't read Chinese, Please use Google Translate.",
+            "title": "演示视频(Gallery)"
+        },
+        {
+            "location": "/user_guide/gallery/#_1",
+            "text": "",
+            "title": "闭眼,请熄灯"
+        },
+        {
+            "location": "/user_guide/gallery/#_2",
+            "text": "",
+            "title": "收工，吃饭"
+        },
+        {
+            "location": "/user_guide/gallery/#_3",
+            "text": "",
+            "title": "击灭那盏灯"
+        },
+        {
+            "location": "/user_guide/gallery/#labo",
+            "text": "",
+            "title": "小房间与大房间(labo套件)"
+        },
+        {
+            "location": "/user_guide/gallery/#_4",
+            "text": "",
+            "title": "姿势乐谱"
+        },
+        {
+            "location": "/user_guide/gallery/#_5",
+            "text": "",
+            "title": "冲啊 先驱音速"
+        },
+        {
+            "location": "/user_guide/gallery/#hungry-robot",
+            "text": "",
+            "title": "hungry robot"
+        },
+        {
+            "location": "/user_guide/gallery/#_6",
+            "text": "",
+            "title": "巴甫洛夫的机器人"
+        },
+        {
+            "location": "/user_guide/gallery/#_7",
+            "text": "",
+            "title": "击掌奏乐"
+        },
+        {
+            "location": "/user_guide/gallery/#leapmotion",
+            "text": "",
+            "title": "leapmotion 超级玛丽"
+        },
+        {
+            "location": "/user_guide/gallery/#scratch3-labbitbot",
+            "text": "",
+            "title": "在Scratch3 Lab中，无线控制bit:bot"
+        },
+        {
+            "location": "/user_guide/gallery/#scratch3-labmicrobit",
+            "text": "参考 积木化编程与智能家居",
+            "title": "在Scratch3 Lab中，使用micro:bit开/关灯"
+        },
+        {
+            "location": "/user_guide/gallery/#scratch3-lab",
+            "text": "",
+            "title": "在Scratch3 Lab中，利用运动检测开/关灯"
+        },
+        {
+            "location": "/user_guide/gallery/#scratch3-lab_1",
+            "text": "参考 积木化编程与智能家居",
+            "title": "在Scratch3 Lab中，利用传感器做体感游戏"
+        },
+        {
+            "location": "/user_guide/gallery/#scratch3-lab_2",
+            "text": "",
+            "title": "在Scratch3 Lab中，使用本地的机器视觉"
+        },
+        {
+            "location": "/user_guide/gallery/#_8",
+            "text": "我们布置好了一个可编程的空间，使用scratch3中的积木进行空间编程，控制室内的灯光、插座、空调、电视，如果你愿意，也可以去淘宝买一根哈利波特的木制魔杖（估计只要九块九），用我们提供的机器视觉积木训练一下，就可以用你自制的咒语(比如用魔杖划一个o)控制你的房  参考 积木化编程与智能家居",
+            "title": "使用手势控制客厅的灯"
+        },
+        {
+            "location": "/user_guide/gallery/#_9",
+            "text": "我们使用树莓派可将任何屏幕变为变为一个可编程的广告牌（哈哈只要200块哦，这块似乎也值得商业化[奸笑]）。加上简单的神经网络你可以做到，当穿着裙子的姑娘走近屏幕，屏幕立马给她安利新款纪梵希，而穿着格子衬衫的大叔靠近时，屏幕则以机械键盘蛊惑他  参考 积木化编程与智能家居",
+            "title": "门与电视的联动"
+        },
+        {
+            "location": "/user_guide/gallery/#_10",
+            "text": "参考 积木化编程与智能家居",
+            "title": "纸做的开关"
+        },
+        {
+            "location": "/user_guide/gallery/#cozmo",
+            "text": "<!-http://scratch3-files.just4fun.site/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->  参考 使用codelab_adapter连接blockly与硬件",
+            "title": "cozmo接入在线课程平台"
+        },
+        {
+            "location": "/user_guide/gallery/#incendio",
+            "text": "",
+            "title": "Incendio(火焰咒)"
+        },
+        {
+            "location": "/user_guide/gallery/#alpha",
+            "text": "参考 codelab-adapter接入优必选Alpha系列机器人",
+            "title": "控制优必选Alpha系列机器人"
+        },
+        {
+            "location": "/user_guide/gallery/#blendervr",
+            "text": "",
+            "title": "接入blender(连接游戏、电影与VR)"
+        },
+        {
+            "location": "/user_guide/gallery/#_11",
+            "text": "",
+            "title": "做一个微信聊天界面"
+        },
+        {
+            "location": "/user_guide/gallery/#scratch",
+            "text": "",
+            "title": "要有光(微信 scratch 物联网)"
+        },
+        {
+            "location": "/user_guide/gallery/#pythonscratch",
+            "text": "",
+            "title": "人脸地标(Python程序接入scratch)"
+        },
+        {
+            "location": "/user_guide/gallery/#_12",
+            "text": "",
+            "title": "鼻梁上的老花镜(增强现实)"
+        },
+        {
+            "location": "/user_guide/gallery/#hi-chatbot",
+            "text": "",
+            "title": "hi-渡边君(chatbot)"
+        },
+        {
+            "location": "/user_guide/gallery/#_13",
+            "text": "",
+            "title": "智能音箱"
+        },
+        {
+            "location": "/user_guide/gallery/#reverse-shell",
+            "text": "",
+            "title": "掌控板(reverse shell)"
+        },
+        {
+            "location": "/user_guide/gallery/#unitylegoscratch3-adapterby",
+            "text": "",
+            "title": "unity、lego、scratch3-adapter（by 联想研究院）"
+        },
+        {
+            "location": "/user_guide/gallery/#_14",
+            "text": "",
+            "title": "四轴飞行器"
+        },
+        {
+            "location": "/user_guide/gallery/#oh-my-vector",
+            "text": "",
+            "title": "oh my vector"
+        },
+        {
+            "location": "/user_guide/gallery/#by",
+            "text": "",
+            "title": "模拟器（by 联想研究院）"
+        },
+        {
+            "location": "/user_guide/gallery/#_15",
+            "text": "",
+            "title": "眼动仪"
+        },
+        {
+            "location": "/user_guide/gallery/#switch-labo-vector",
+            "text": "",
+            "title": "Switch Labo ❤️ Vector"
+        },
+        {
+            "location": "/user_guide/gallery/#candy-language-for-vector",
+            "text": "",
+            "title": "Candy Language for Vector"
+        },
+        {
+            "location": "/user_guide/gallery/#arduino",
+            "text": "",
+            "title": "接入arduino"
+        },
+        {
+            "location": "/user_guide/gallery/#physics-extension-and-leapmotion",
+            "text": "",
+            "title": "Physics extension and LeapMotion"
+        },
+        {
+            "location": "/user_guide/gallery/#wechat-extension",
+            "text": "",
+            "title": "wechat extension"
+        },
+        {
+            "location": "/user_guide/gallery/#cozmo-and-vector-where-did-the-human-go",
+            "text": "",
+            "title": "Cozmo and Vector: Where did the human go?"
+        },
+        {
+            "location": "/user_guide/gallery/#cozmovector",
+            "text": "",
+            "title": "渡边君(cozmo+vector)"
+        },
+        {
+            "location": "/user_guide/gallery/#_16",
+            "text": "参考：   scratch3-adapter接入blender  积木化编程与3D场景",
+            "title": "灵光一现(脑电波+智能家居)"
+        },
+        {
+            "location": "/user_guide/FAQ/",
+            "text": "FAQ\n\n\n与官方的\nScratch Link\n有什么差异？\n\n\n兼容性方面：\n\n\nScratch Link\n目前有以下依赖:\n\n\n\n\nWindows 10 version 1709+\n\n\nmacOS 10.13+\n\n\nBluetooth 4.0\n\n\n\n\ncodelab-adapter对平台和操作系统没有这么高的要求，我们支持:\n\n\n\n\nwindow7、window8、window10（32位/64位都支持）\n\n\nmacOS大多数版本\n\n\nUbuntu\n\n\n树莓派\n\n\n其他linux发行版\n\n\n\n\nScratch Link\n\n\n在连接能力上，\nScratch Link\n目前只支持BLE，codelab-adapter支持任何的连接:\n\n\n\n\nUSB\n\n\nWIFI\n\n\nBluetooth2.0/Bluetooth4.0\n\n\n大多数的协议(mqtt/ZeroMQ/socket...)\n\n\n...\n\n\n\n\ncodelab-adapter killer特性之一是允许普通用户(scratcher)\n使用Python拓展Scratch的能力\n\n\ncodelab-adapter killer特性之二是允许开发者和公司使用Python构建自定义的插件，轻松将任何硬件/AI/IOT设备接入到Scratch3.0中。\n\n\nScratch官方计划开源\nScratch Link\n，一旦它们开源，我们将在codelab-adapter通过插件实现Scratch Link的所有功能。\n\n\n如果你目前要使用以下三种硬件，我们推荐你先使用Scratch Link。未来我们会和官方的功能完全一样。\n\n\n\n\nwedo2.0\n\n\nmicrobit\n\n\nev3\n\n\n\n\nScratch Link和codelab-adapter可以协同工作.\n\n\ncodelab-adapter致力于提供更好的跨平台支持和开放的\n插件系统\n，codelab-adapter的目标是连接万物，不只是连接教育硬件。\n\n\ncodelab-adapter与\nScratch3 Lab\n是否连接成功？\n\n\ncodelab-adapter启动之后，可以看到\nScratch3 Lab\n指示灯显示绿色，代表连接成功\n\n\n\n\n启动codelab-adapter后，与scratch3无法通信怎么办？\n\n\n检查下是不是打开了科学上网的软件。\n\n\ncodelab-adapter可以支持其他平台吗？\n\n\ncodelab-adapter可以支持其他编程平台吗？而不只是在codelab的的平台上使用。\n\n\n可以的！\n\n\ncodelab-adapter几乎支持任何平台，无论是scratch3.0构建的还是blockly构建的(如Tynker和code.org)的，或者你用其他什么黑魔法构建的，都没问题！\n\n\n这是目前的接入文档:\ncodelab-adapter支持第三方平台\n\n\n相关的合作条款我们正在构建中。\n\n\n期待接入codelab-adapter的公司或组织，欢迎联系我们: \nwuwenjie718@gmail.com\n\n\n来信请注明公司/组织的一些基本信息，以及你们正在做的事情 ：）\n\n\nPython版本\n\n\n我们在不同操作系统选择的Python版本不同。\n\n\n\n\nUbuntu/Raspbian: 3.5.3\n\n\nWindows/MacOS: 3.6.5\n\n\n\n\n如何使用Python拓展Scratch的能力？\n\n\n参考\n使用Python拓展Scratch的能力",
+            "title": "FAQ"
+        },
+        {
+            "location": "/user_guide/FAQ/#faq",
+            "text": "",
+            "title": "FAQ"
+        },
+        {
+            "location": "/user_guide/FAQ/#scratch-link",
+            "text": "兼容性方面：  Scratch Link 目前有以下依赖:   Windows 10 version 1709+  macOS 10.13+  Bluetooth 4.0   codelab-adapter对平台和操作系统没有这么高的要求，我们支持:   window7、window8、window10（32位/64位都支持）  macOS大多数版本  Ubuntu  树莓派  其他linux发行版   Scratch Link  在连接能力上， Scratch Link 目前只支持BLE，codelab-adapter支持任何的连接:   USB  WIFI  Bluetooth2.0/Bluetooth4.0  大多数的协议(mqtt/ZeroMQ/socket...)  ...   codelab-adapter killer特性之一是允许普通用户(scratcher) 使用Python拓展Scratch的能力  codelab-adapter killer特性之二是允许开发者和公司使用Python构建自定义的插件，轻松将任何硬件/AI/IOT设备接入到Scratch3.0中。  Scratch官方计划开源 Scratch Link ，一旦它们开源，我们将在codelab-adapter通过插件实现Scratch Link的所有功能。  如果你目前要使用以下三种硬件，我们推荐你先使用Scratch Link。未来我们会和官方的功能完全一样。   wedo2.0  microbit  ev3   Scratch Link和codelab-adapter可以协同工作.  codelab-adapter致力于提供更好的跨平台支持和开放的 插件系统 ，codelab-adapter的目标是连接万物，不只是连接教育硬件。",
+            "title": "与官方的Scratch Link有什么差异？"
+        },
+        {
+            "location": "/user_guide/FAQ/#codelab-adapterscratch3-lab",
+            "text": "codelab-adapter启动之后，可以看到 Scratch3 Lab 指示灯显示绿色，代表连接成功",
+            "title": "codelab-adapter与Scratch3 Lab是否连接成功？"
+        },
+        {
+            "location": "/user_guide/FAQ/#codelab-adapterscratch3",
+            "text": "检查下是不是打开了科学上网的软件。",
+            "title": "启动codelab-adapter后，与scratch3无法通信怎么办？"
+        },
+        {
+            "location": "/user_guide/FAQ/#codelab-adapter",
+            "text": "codelab-adapter可以支持其他编程平台吗？而不只是在codelab的的平台上使用。  可以的！  codelab-adapter几乎支持任何平台，无论是scratch3.0构建的还是blockly构建的(如Tynker和code.org)的，或者你用其他什么黑魔法构建的，都没问题！  这是目前的接入文档: codelab-adapter支持第三方平台  相关的合作条款我们正在构建中。  期待接入codelab-adapter的公司或组织，欢迎联系我们:  wuwenjie718@gmail.com  来信请注明公司/组织的一些基本信息，以及你们正在做的事情 ：）",
+            "title": "codelab-adapter可以支持其他平台吗？"
+        },
+        {
+            "location": "/user_guide/FAQ/#python",
+            "text": "我们在不同操作系统选择的Python版本不同。   Ubuntu/Raspbian: 3.5.3  Windows/MacOS: 3.6.5",
+            "title": "Python版本"
+        },
+        {
+            "location": "/user_guide/FAQ/#pythonscratch",
+            "text": "参考 使用Python拓展Scratch的能力",
+            "title": "如何使用Python拓展Scratch的能力？"
+        },
+        {
+            "location": "/changelog/",
+            "text": "changelog\n\n\n\n\n2018.5.26  v0.1.0\n\n\n2018.5.28  v0.1.1\n\n\nfix extension_cozmo bug\n\n\n\n\n\n\n2018.10.24 v0.2.0, \n重构笔记\n\n\n2018.11.30 v0.2.3\n\n\n2018.12.03 0.3.0 支持eim_script\n\n\n2018.12.14 0.3.1 fix bug: 多个ws通道重复pub; 直接展示插件\n\n\n2019.01.16 0.4.0\n\n\n支持第三方网站接入\n\n\n增加插件\n\n\n完善插件的管理，退出后自动清理子进程\n\n\n第三方库支持\n\n\nrequests\n\n\npyserial\n\n\nPillow\n\n\n\n\n\n\n\n\n\n\n2019.01.29 0.5.0\n\n\n修复read阻塞问题(导致需要额外的一条消息才能推出插件)\n\n\n支持前端启停插件\n\n\n将消息用作内部管理机制\n\n\nrename scratch3-adapter to codelab-adapter\n\n\n添加树莓派插件(gpiozero)\n\n\n支撑多个client并行作为UI(同步)\n\n\n\n\n\n\n2019.01.30 0.5.1\n\n\n添加调试(Debug)页面\n\n\n\n\n\n\n2019.02.14 0.6.0 \n\n\n添加rest api\n\n\n统一消息体命名规范: message.data/message.message -> message.payload\n\n\n添加\n打开本地文件目录\n功能\n\n\n内置微信插件(extension_wechat)\n\n\n添加typing库\n\n\n完善cli mode\n\n\n\n\n\n\n2019.02.14 0.6.1\n\n\n提高微信插件(extension_wechat)的易用性（内置）\n\n\n\n\n\n\n2019.02.15 0.6.2\n\n\nfix bug\n\n\n\n\n\n\n2019.02.16 0.7.0\n\n\n允许跨域访问websocket/REST API, 方便开发者调试\n\n\n为webdebug添加REST API调试工具\n\n\n\n\n\n\n2019.02.23 0.7.1\n\n\n让Cozmo/Vector插件支持同步模式(通过添加messageID),至于采用同步模式还是异步模式，由client决定\n\n\n添加\nextension_mpfshell\n扩展(by \njunhuanchen\n)\n\n\n\n\n\n\n2019.02.26 0.8.0\n\n\n允许用户添加自定义配置:\n~/codelab_adapter/user_settings.py\n\n\n典型的配置包括: \ncli_load_extension_threads = [\"extension_iot\"]\n 命令行模式(./codelab-adapter --mode cli)默认启动插件\n\n\n\n\n\n\nadd \ngpiozero\n for raspberrypi platform\n\n\n内置mqtt client/broker: \nhbmqtt\n\n\n内置\nextension_iot\n\n\n更新extension_mpfshell\n\n\n\n\n\n\n2019.03.16 0.8.1\n\n\n微信插件支持收发群消息\n\n\n添加web日志页面\n\n\n添加重构之后的blender插件",
+            "title": "changelog"
+        },
+        {
+            "location": "/changelog/#changelog",
+            "text": "2018.5.26  v0.1.0  2018.5.28  v0.1.1  fix extension_cozmo bug    2018.10.24 v0.2.0,  重构笔记  2018.11.30 v0.2.3  2018.12.03 0.3.0 支持eim_script  2018.12.14 0.3.1 fix bug: 多个ws通道重复pub; 直接展示插件  2019.01.16 0.4.0  支持第三方网站接入  增加插件  完善插件的管理，退出后自动清理子进程  第三方库支持  requests  pyserial  Pillow      2019.01.29 0.5.0  修复read阻塞问题(导致需要额外的一条消息才能推出插件)  支持前端启停插件  将消息用作内部管理机制  rename scratch3-adapter to codelab-adapter  添加树莓派插件(gpiozero)  支撑多个client并行作为UI(同步)    2019.01.30 0.5.1  添加调试(Debug)页面    2019.02.14 0.6.0   添加rest api  统一消息体命名规范: message.data/message.message -> message.payload  添加 打开本地文件目录 功能  内置微信插件(extension_wechat)  添加typing库  完善cli mode    2019.02.14 0.6.1  提高微信插件(extension_wechat)的易用性（内置）    2019.02.15 0.6.2  fix bug    2019.02.16 0.7.0  允许跨域访问websocket/REST API, 方便开发者调试  为webdebug添加REST API调试工具    2019.02.23 0.7.1  让Cozmo/Vector插件支持同步模式(通过添加messageID),至于采用同步模式还是异步模式，由client决定  添加 extension_mpfshell 扩展(by  junhuanchen )    2019.02.26 0.8.0  允许用户添加自定义配置: ~/codelab_adapter/user_settings.py  典型的配置包括:  cli_load_extension_threads = [\"extension_iot\"]  命令行模式(./codelab-adapter --mode cli)默认启动插件    add  gpiozero  for raspberrypi platform  内置mqtt client/broker:  hbmqtt  内置 extension_iot  更新extension_mpfshell    2019.03.16 0.8.1  微信插件支持收发群消息  添加web日志页面  添加重构之后的blender插件",
+            "title": "changelog"
+        },
+        {
+            "location": "/dev_guide/Architecture/",
+            "text": "Architecture\n\n\n\n\n更多架构细节参考: \n为Scratch3.0设计的插件系统(下篇)",
+            "title": "Architecture"
+        },
+        {
+            "location": "/dev_guide/Architecture/#architecture",
+            "text": "更多架构细节参考:  为Scratch3.0设计的插件系统(下篇)",
+            "title": "Architecture"
+        },
+        {
+            "location": "/dev_guide/helloworld/",
+            "text": "hello world\n\n\n我们来写一个自定义插件，实现\nhello world\n\n\n在上一节的架构图中，你可以看到，一个完整的插件，包含两个部分:\n\n\n\n\nscratch3.0网页中的插件(内应)\n\n\n在codelab-adapter中写一个插件，代理外部硬件设备AI或其他程序\n\n\n\n\n关于第一部分，尽管Scratch3官方的extensions机制已经可用了，我们也在Scratch3.0中写了很多插件，但由于目前文档缺失，不大建议大家来踩坑，等文档全了之后，再折腾不迟(目前官方正在优化Scratch3.0内部的插件系统，一些新的特性包括多语言支持等)。我们在Scratch3 Lab制作了一些通用的消息积木(EIM,本质上是一个Scratch3.0插件)，我们尽量将它做的通用，让开发者只需在codelab-adapter自定义插件，即可在Scratch3中使用\n\n\n题外话:  这块的原理我们之后有机会细聊，其实核心概念很简单,如EIM所代表的含义: \nEverything Is Message\n,消息是一种极其强大的概念，如果你用过zeromq或者erlang大概深有体会\n\n\n目标\n\n\n在Scratch3 Lab中发送自定义的消息，之后让电脑用语音读出它（我在mac下做实验，如果你用的是其他操作系统，让电脑发音的那一行需要改一下）\n\n\n开始\n\n\n步骤1: 在Scratch3 Lab中打开EIM插件\n\n\n打开\nScratch3 Lab\n选择EIM插件\n\n\n\n\n步骤2: 在codelab-adapter中写插件\n\n\nps:如果你没有安装codelab-adapter，请先\n安装(install)\n\n\n我们的第一个插件起名为\nextension_helloworld.py\n:\n\n\nimport time, threading, subprocess\nfrom codelab_adapter import settings\nfrom codelab_adapter.core_extension import Extension\n\nclass HelloworldExtension(Extension):\n    def __init__(self):\n        name = type(self).__name__\n        super().__init__(name)\n        self.TOPIC = \"eim\"\n    def run(self):\n        while True:\n            message = self.read()\n            if message[\"topic\"] == self.TOPIC:\n                payload = message[\"payload\"]\n                self.logger.info(\"received message: {} from Scratch3.0\".format(payload))\n\nexport = HelloworldExtension\n\n\n\n\n一共14行代码，其中真正与我们做的事情相关的只有4行\n\n\nmessage = self.read()\nif message[\"topic\"] == \"eim\":\n    payload = message[\"payload\"]\n    logger.info(\"received message: {} from Scratch3.0\".format(payload))\n\n\n\n\n就是说其余部分你可以当作模版抄过来\n\n\n步骤3: 将插件放到插件目录下，并运行它\n\n\n打开codelab-adapter，让我们找到插件目录\n\n\n\n\n在mac和linux下插件目录都是\n~/codelab_adapter/extensions/\n，windows下的，可以如上图自行查阅。codelab-adapter默认内置了一些插件，如果你熟悉Python，稍微翻一下代码，应该很快上手。更多的插件源码参考:\nScratch3Lab/codelab_adapter_extensions\n\n\n需要注意的是插件的命名必须形如\nextension_*.py\n,我们的插件调度系统只这种命名风格的文件视为插件(至于为何这样设计，而不更宽松一些，之后再说)\n\n\n将我们刚才写的\nextension_helloworld.py\n插件放入目录之后，重启codelab-adapter，你就看到插件了，点击将运行它\n\n\n\n\n大功告成! 你将在\n~/codelab_adapter/info.log\n中看到这条消息\n\n\n小结\n\n\n从这个例子中，我们可以看到写一个自定义的插件有多简单。而codelab-adapter对插件要做的事几乎没有任何限制，只要Python能做的事，插件系统都运行你做！就是说你可以自己写一个插件，让Scratch3来控制你的蓝牙设、你的ROS机器人、你那跑着opencv的树莓派或者你童年那辆心爱的玩具四驱车\n\n\n更多的拓展\n\n\n如果你熟悉Scratch3.0的extension系统，你可以在Scratch3.0中创建自己的js extension(如同我们在scratch3 lab中做的那些插件)，并与codelab-adapter连接起来，由于Scratch3.0的extension系统官方还在调整中，暂无文档，这部分的教程，我们等到官方文档完善之后再补上\n\n\nenjoy it～",
+            "title": "hello world"
+        },
+        {
+            "location": "/dev_guide/helloworld/#hello-world",
+            "text": "我们来写一个自定义插件，实现 hello world  在上一节的架构图中，你可以看到，一个完整的插件，包含两个部分:   scratch3.0网页中的插件(内应)  在codelab-adapter中写一个插件，代理外部硬件设备AI或其他程序   关于第一部分，尽管Scratch3官方的extensions机制已经可用了，我们也在Scratch3.0中写了很多插件，但由于目前文档缺失，不大建议大家来踩坑，等文档全了之后，再折腾不迟(目前官方正在优化Scratch3.0内部的插件系统，一些新的特性包括多语言支持等)。我们在Scratch3 Lab制作了一些通用的消息积木(EIM,本质上是一个Scratch3.0插件)，我们尽量将它做的通用，让开发者只需在codelab-adapter自定义插件，即可在Scratch3中使用  题外话:  这块的原理我们之后有机会细聊，其实核心概念很简单,如EIM所代表的含义:  Everything Is Message ,消息是一种极其强大的概念，如果你用过zeromq或者erlang大概深有体会",
+            "title": "hello world"
+        },
+        {
+            "location": "/dev_guide/helloworld/#_1",
+            "text": "在Scratch3 Lab中发送自定义的消息，之后让电脑用语音读出它（我在mac下做实验，如果你用的是其他操作系统，让电脑发音的那一行需要改一下）",
+            "title": "目标"
+        },
+        {
+            "location": "/dev_guide/helloworld/#_2",
+            "text": "",
+            "title": "开始"
+        },
+        {
+            "location": "/dev_guide/helloworld/#1-scratch3-labeim",
+            "text": "打开 Scratch3 Lab 选择EIM插件",
+            "title": "步骤1: 在Scratch3 Lab中打开EIM插件"
+        },
+        {
+            "location": "/dev_guide/helloworld/#2-codelab-adapter",
+            "text": "ps:如果你没有安装codelab-adapter，请先 安装(install)  我们的第一个插件起名为 extension_helloworld.py :  import time, threading, subprocess\nfrom codelab_adapter import settings\nfrom codelab_adapter.core_extension import Extension\n\nclass HelloworldExtension(Extension):\n    def __init__(self):\n        name = type(self).__name__\n        super().__init__(name)\n        self.TOPIC = \"eim\"\n    def run(self):\n        while True:\n            message = self.read()\n            if message[\"topic\"] == self.TOPIC:\n                payload = message[\"payload\"]\n                self.logger.info(\"received message: {} from Scratch3.0\".format(payload))\n\nexport = HelloworldExtension  一共14行代码，其中真正与我们做的事情相关的只有4行  message = self.read()\nif message[\"topic\"] == \"eim\":\n    payload = message[\"payload\"]\n    logger.info(\"received message: {} from Scratch3.0\".format(payload))  就是说其余部分你可以当作模版抄过来",
+            "title": "步骤2: 在codelab-adapter中写插件"
+        },
+        {
+            "location": "/dev_guide/helloworld/#3",
+            "text": "打开codelab-adapter，让我们找到插件目录   在mac和linux下插件目录都是 ~/codelab_adapter/extensions/ ，windows下的，可以如上图自行查阅。codelab-adapter默认内置了一些插件，如果你熟悉Python，稍微翻一下代码，应该很快上手。更多的插件源码参考: Scratch3Lab/codelab_adapter_extensions  需要注意的是插件的命名必须形如 extension_*.py ,我们的插件调度系统只这种命名风格的文件视为插件(至于为何这样设计，而不更宽松一些，之后再说)  将我们刚才写的 extension_helloworld.py 插件放入目录之后，重启codelab-adapter，你就看到插件了，点击将运行它   大功告成! 你将在 ~/codelab_adapter/info.log 中看到这条消息",
+            "title": "步骤3: 将插件放到插件目录下，并运行它"
+        },
+        {
+            "location": "/dev_guide/helloworld/#_3",
+            "text": "从这个例子中，我们可以看到写一个自定义的插件有多简单。而codelab-adapter对插件要做的事几乎没有任何限制，只要Python能做的事，插件系统都运行你做！就是说你可以自己写一个插件，让Scratch3来控制你的蓝牙设、你的ROS机器人、你那跑着opencv的树莓派或者你童年那辆心爱的玩具四驱车",
+            "title": "小结"
+        },
+        {
+            "location": "/dev_guide/helloworld/#_4",
+            "text": "如果你熟悉Scratch3.0的extension系统，你可以在Scratch3.0中创建自己的js extension(如同我们在scratch3 lab中做的那些插件)，并与codelab-adapter连接起来，由于Scratch3.0的extension系统官方还在调整中，暂无文档，这部分的教程，我们等到官方文档完善之后再补上  enjoy it～",
+            "title": "更多的拓展"
+        },
+        {
+            "location": "/dev_guide/debug/",
+            "text": "debug\n\n\n基于web的调试\n\n\nv0.5.1之后支持基于web的调试。点击\n帮助>调试(Debug)\n即可。\n\n\n\n\n推荐采用这种调试方式:\ncodelab-adapter增加调试功能\n\n\n给于本地日志的调试\n\n\ncodelab-adapter会将输出写入日志。为了调试方便，开发者可以打开一个命令行窗口，运行:\n\n\ntail -f ~/codelab_adapter/info.log\n\n\n\n\n上图调试的插件源码为:\n\n\nimport time\n\nfrom codelab_adapter import settings\nfrom codelab_adapter.core_extension import Extension\n\nclass DemoExtension(Extension):\n    def __init__(self):\n        name = type(self).__name__\n        super().__init__(name)\n\n    def run(self):\n        # run 会被作为线程调用\n        while self._running:\n            message = self.read()\n            self.logger.info(\"message:%s\",str(message))\n\nexport = DemoExtension\n\n\n\n\nself.logger.info(\"message:%s\",str(message))\n记录的日志信息将实时输出在\ntail -f ~/codelab_adapter/info.log\n\n\ntips\n\n\nwindows用户\n\n\nwindows缺少调试unix/linux工具集，调试起来可能有诸多不便，推荐使用\ncmder\n，如此一来你就能得到一大包好用的命令行工具。\n\n\nlog过滤\n\n\n如果你觉得log输出的信息太多，可以使用grep观察你关注的信息，诸如我只关心\nextension_demo2.py\n插件输出的信息:\n\n\ntail -f ~/codelab_adapter/info.log | grep extension_demo2.py",
+            "title": "debug"
+        },
+        {
+            "location": "/dev_guide/debug/#debug",
+            "text": "",
+            "title": "debug"
+        },
+        {
+            "location": "/dev_guide/debug/#web",
+            "text": "v0.5.1之后支持基于web的调试。点击 帮助>调试(Debug) 即可。   推荐采用这种调试方式: codelab-adapter增加调试功能",
+            "title": "基于web的调试"
+        },
+        {
+            "location": "/dev_guide/debug/#_1",
+            "text": "codelab-adapter会将输出写入日志。为了调试方便，开发者可以打开一个命令行窗口，运行:  tail -f ~/codelab_adapter/info.log   上图调试的插件源码为:  import time\n\nfrom codelab_adapter import settings\nfrom codelab_adapter.core_extension import Extension\n\nclass DemoExtension(Extension):\n    def __init__(self):\n        name = type(self).__name__\n        super().__init__(name)\n\n    def run(self):\n        # run 会被作为线程调用\n        while self._running:\n            message = self.read()\n            self.logger.info(\"message:%s\",str(message))\n\nexport = DemoExtension  self.logger.info(\"message:%s\",str(message)) 记录的日志信息将实时输出在 tail -f ~/codelab_adapter/info.log",
+            "title": "给于本地日志的调试"
+        },
+        {
+            "location": "/dev_guide/debug/#tips",
+            "text": "",
+            "title": "tips"
+        },
+        {
+            "location": "/dev_guide/debug/#windows",
+            "text": "windows缺少调试unix/linux工具集，调试起来可能有诸多不便，推荐使用 cmder ，如此一来你就能得到一大包好用的命令行工具。",
+            "title": "windows用户"
+        },
+        {
+            "location": "/dev_guide/debug/#log",
+            "text": "如果你觉得log输出的信息太多，可以使用grep观察你关注的信息，诸如我只关心 extension_demo2.py 插件输出的信息:  tail -f ~/codelab_adapter/info.log | grep extension_demo2.py",
+            "title": "log过滤"
+        },
+        {
+            "location": "/dev_guide/FAQ/",
+            "text": "FAQ for Developer\n\n\n讨论组\n\n\n陆续有开发者建议我构建论坛(discourse)和微信群方便大家讨论技术问题。\n\n\n微信群无法沉淀有价值的内容，搜索功能太烂了，对富文本/markdown的支持几近于无，微信不是好的办公工具。\n\n\n与codelab-adapter相关技术问题，大家可以在\nissue\n里讨论。\n\n\n也可以在\ncodelab-adapter讨论组\n里讨论。\n\n\n插件启停\n\n\n目前，插件启动为线程。Python线程需要\n手动管理\n，这部分的代码目前还比较粗糙。为了允许用户在UI中通过勾选来启停插件。建议插件作者使用\nwhile self._running:\n,参考\nextension_demo\n\n\n在1.0版本发布之前，插件部分我们将迁往协程，如此一来我们就能轻易管理插件的启停。目前Python社区很多库还不支持协程，所以我们不打算立刻迁移。\n\n\n引入第三方Python库\n\n\n建议统一采用ZeroMQ通信风格。参考:\n\n\n\n\nextension_vector.py\n\n\nextension_cozmo.py\n\n\nextension_raspberrypi.py\n\n\nextension_opencv.py\n\n\n\n\n内置的第三方库参考:\nwiki\n\n\n\n\n\nPython与Scratch的双向通信\n\n\n参考\nPython与Scratch的双向通信\n\n\n大多数情况下，你只需要发送和接受字符串就够了，这种风格与Scratch内置的广播极为相近。是典型的事件驱动风格。\n\n\n这篇教程主要针对那些希望去拓展Scratch的人。当你需要将一些复杂的程序接入Scratch（例如接入AI或者接入微信，如我们制作的例子），它会对你有帮助。\n\n\n如何接入arduino\n\n\n陆续有开发者问到，如何使用codelab-adapter将arduino接入到Scratch3.0中。\n\n\n有许多种方法，但我比较偏好在arduino中烧入Firmata固件。之后以固件交互，我在\n两种硬件编程风格的比较\n论述了这样做的好处。\n\n\n之后使用Firmata python client与arduino交互。\n\n\n细节可以参考\nArduino与Scratch3.0",
+            "title": "FAQ"
+        },
+        {
+            "location": "/dev_guide/FAQ/#faq-for-developer",
+            "text": "",
+            "title": "FAQ for Developer"
+        },
+        {
+            "location": "/dev_guide/FAQ/#_1",
+            "text": "陆续有开发者建议我构建论坛(discourse)和微信群方便大家讨论技术问题。  微信群无法沉淀有价值的内容，搜索功能太烂了，对富文本/markdown的支持几近于无，微信不是好的办公工具。  与codelab-adapter相关技术问题，大家可以在 issue 里讨论。  也可以在 codelab-adapter讨论组 里讨论。",
+            "title": "讨论组"
+        },
+        {
+            "location": "/dev_guide/FAQ/#_2",
+            "text": "目前，插件启动为线程。Python线程需要 手动管理 ，这部分的代码目前还比较粗糙。为了允许用户在UI中通过勾选来启停插件。建议插件作者使用 while self._running: ,参考 extension_demo  在1.0版本发布之前，插件部分我们将迁往协程，如此一来我们就能轻易管理插件的启停。目前Python社区很多库还不支持协程，所以我们不打算立刻迁移。",
+            "title": "插件启停"
+        },
+        {
+            "location": "/dev_guide/FAQ/#python",
+            "text": "建议统一采用ZeroMQ通信风格。参考:   extension_vector.py  extension_cozmo.py  extension_raspberrypi.py  extension_opencv.py   内置的第三方库参考: wiki",
+            "title": "引入第三方Python库"
+        },
+        {
+            "location": "/dev_guide/FAQ/#pythonscratch",
+            "text": "参考 Python与Scratch的双向通信  大多数情况下，你只需要发送和接受字符串就够了，这种风格与Scratch内置的广播极为相近。是典型的事件驱动风格。  这篇教程主要针对那些希望去拓展Scratch的人。当你需要将一些复杂的程序接入Scratch（例如接入AI或者接入微信，如我们制作的例子），它会对你有帮助。",
+            "title": "Python与Scratch的双向通信"
+        },
+        {
+            "location": "/dev_guide/FAQ/#arduino",
+            "text": "陆续有开发者问到，如何使用codelab-adapter将arduino接入到Scratch3.0中。  有许多种方法，但我比较偏好在arduino中烧入Firmata固件。之后以固件交互，我在 两种硬件编程风格的比较 论述了这样做的好处。  之后使用Firmata python client与arduino交互。  细节可以参考 Arduino与Scratch3.0",
+            "title": "如何接入arduino"
+        },
+        {
+            "location": "/dev_guide/dev_articles/",
+            "text": "开发文章列表\n\n\n\n\n使用codelab_adapter连接blockly与硬件\n\n\nscratch3-adapter接入优必选Alpha系列机器人\n\n\nscratch3-adapter接入blender\n\n\nPython与Scratch的双向通信\n\n\n使用Python拓展Scratch的能力\n\n\ncodelab.club ❤️ Vector\n\n\n运行在树莓派中的scratch3-adapter tensorflow插件\n\n\n运行在树莓派中的 scratch3-adapter opencv 插件\n\n\n将scratch3-adapter用作Python解释器\n\n\n使用Scratch3.0制作幻灯片\n\n\n创建你的第一个Scratch3.0 Extension\n\n\n为Scratch3.0设计的插件系统(上篇)\n\n\n为Scratch3.0设计的插件系统(下篇)\n\n\nscratch3-adapter的移动端解决方案\n\n\n积木化编程与智能家居\n\n\nArduino与Scratch3.0\n\n\n蓝牙设备与Scratch3.0\n\n\nscratch3-adapter支持第三方平台",
+            "title": "dev articles"
+        },
+        {
+            "location": "/dev_guide/dev_articles/#_1",
+            "text": "使用codelab_adapter连接blockly与硬件  scratch3-adapter接入优必选Alpha系列机器人  scratch3-adapter接入blender  Python与Scratch的双向通信  使用Python拓展Scratch的能力  codelab.club ❤️ Vector  运行在树莓派中的scratch3-adapter tensorflow插件  运行在树莓派中的 scratch3-adapter opencv 插件  将scratch3-adapter用作Python解释器  使用Scratch3.0制作幻灯片  创建你的第一个Scratch3.0 Extension  为Scratch3.0设计的插件系统(上篇)  为Scratch3.0设计的插件系统(下篇)  scratch3-adapter的移动端解决方案  积木化编程与智能家居  Arduino与Scratch3.0  蓝牙设备与Scratch3.0  scratch3-adapter支持第三方平台",
+            "title": "开发文章列表"
+        },
+        {
+            "location": "/extension_guide/introduction/",
+            "text": "extension guide\n\n\n我们将在此介绍codelab-adapter各种插件的用法，我们已通过codelab-adapter extension将一些有趣的硬件和AI接入到了scratch3.0中。\n\n\n在\nScratch3 Lab\n中，硬件方面,我们已经接入了:\n\n\n\n\nmicro:bit\n\n\nCozmo\n\n\nVector\n\n\nBB8\n\n\n树莓派\n\n\n智能家居\n\n\nswitch labo\n\n\n四轴飞行器(\nParrot\n的3个型号)\n\n\n优必选Alpha系列机器人\n\n\n掌控板\n\n\n眼动仪\n\n\n\n\nAI方面，我们接入了:\n\n\n\n\n微软认知服务\n\n\n本地化的机器视觉\n\n\nopencv\n\n\ntensorflow\n\n\n一些简单的本地自然语言处理(移植了mit media lab的实验项目)\n\n\n\n\n在接下来的时间里，我将开始介绍以下插件的使用方法:\n\n\n\n\nmicro:bit\n(已完成)\n\n\nRaspberry Pi\n\n\ncozmo\n\n\nBB8\n\n\nMinecraft\n\n\nbit:bot\n\n\nandroid\n\n\n我们已经将codelab-adapter移植到安卓中，你可以使用Scratch3.0中的积木控制手机来拨打电话、收发短信、使用相机，以及在Scratch3.0使用手机/平板十余种传感器的数据！\n\n\n\n\n\n\n\n\n如果已有的插件中，没有你期待的,你可以使用codelab-adapter extension自行将喜欢的硬件或AI等系统接入Scratch3.0，参考\n开发手册\n\n\n也可以参考已有的例子,我们正在陆续把我们写的extensions放入\ncodelab_adapter_extensions\n, 欢迎fork，欢迎分享 : )",
+            "title": "introduction"
+        },
+        {
+            "location": "/extension_guide/introduction/#extension-guide",
+            "text": "我们将在此介绍codelab-adapter各种插件的用法，我们已通过codelab-adapter extension将一些有趣的硬件和AI接入到了scratch3.0中。  在 Scratch3 Lab 中，硬件方面,我们已经接入了:   micro:bit  Cozmo  Vector  BB8  树莓派  智能家居  switch labo  四轴飞行器( Parrot 的3个型号)  优必选Alpha系列机器人  掌控板  眼动仪   AI方面，我们接入了:   微软认知服务  本地化的机器视觉  opencv  tensorflow  一些简单的本地自然语言处理(移植了mit media lab的实验项目)   在接下来的时间里，我将开始介绍以下插件的使用方法:   micro:bit (已完成)  Raspberry Pi  cozmo  BB8  Minecraft  bit:bot  android  我们已经将codelab-adapter移植到安卓中，你可以使用Scratch3.0中的积木控制手机来拨打电话、收发短信、使用相机，以及在Scratch3.0使用手机/平板十余种传感器的数据！     如果已有的插件中，没有你期待的,你可以使用codelab-adapter extension自行将喜欢的硬件或AI等系统接入Scratch3.0，参考 开发手册  也可以参考已有的例子,我们正在陆续把我们写的extensions放入 codelab_adapter_extensions , 欢迎fork，欢迎分享 : )",
+            "title": "extension guide"
+        },
+        {
+            "location": "/extension_guide/usage/",
+            "text": "Usage\n\n\n你可以将\nextension market\n中的插件下载到本地使用。\n\n\n在codelab-adapter中下载插件很简单,点击\n菜单>插件>下载\n，弹出输入框，将插件的url链接复制粘贴其中即可。\n\n\n如\nextension_vector.py\n插件的链接是: \nhttps://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_vector.py\n\n\n下载完成之后重启软件，即可看到插件。\n\n\n所有插件列表在\ncodelab_adapter_extensions",
+            "title": "Usage"
+        },
+        {
+            "location": "/extension_guide/usage/#usage",
+            "text": "你可以将 extension market 中的插件下载到本地使用。  在codelab-adapter中下载插件很简单,点击 菜单>插件>下载 ，弹出输入框，将插件的url链接复制粘贴其中即可。  如 extension_vector.py 插件的链接是:  https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_vector.py  下载完成之后重启软件，即可看到插件。  所有插件列表在 codelab_adapter_extensions",
+            "title": "Usage"
+        },
+        {
+            "location": "/extension_guide/vector/",
+            "text": "Vector\n\n\n\n\n\n\n\nAnki is a company whose products always seem to delight. \n\n\n\n\nWe love \nCozmo\n, we love \nVector\n.\n\n\ncodelab-adapter\n is a software that connect Scratch3.0 to the open-source hardware, IoT and AI.\n\n\nWe make a \ncodelab-adapter\n extension to connect Vector to Scratch3.0. It just like Cozmo codelab. \n\n\n\n\nNow the Vector extension is built into the \ncodelab-adapter\n!\n\n\nVideo tutorial\n\n\nfor Windows\n\n\n\n\nfor MacOS/Linux\n\n\n\n\n\nTutorial\n\n\ninstall pyzmq\n\n\nLinux/MacOS user:  \npip3 install pyzmq --user\n\n\nwindows user: \npip install pyzmq --user\n\n\nInstall the SDK on your system\n\n\nFollow Vector official tutorial:  \nInitial Setup\n\n\nIf the following code runs smoothly: python3 \n01_hello_world.py\n ， go to the next step.\n\n\nDownload  codelab-adapter\n\n\nDownload  codelab-adapter\n\n\nrun it\n\n\n\n\nfind your local python3 path(Windows users can skip this step)\n\n\nedit \n~/codelab_adapter/extensions/extension_vector.py\n, replace python3_path with your local python3 path: \nwhich python3\n.\n\n\n\n\nrestart codelab-adapter.\n\n\nOpen Scratch3.0\n\n\nopen \nscratch3.codelab.club\n\n\nOpen extension_vector\n\n\n\n\nOk!\n\n\nEnjoy it :)\n\n\n\n\nHere are some demo cases（just like Cozmo CodeLab）:\n\n\nVector and Leap Motion\n\n\n\n\nSwitch Labo and Vector\n\n\n\n\nCandy Language for Vector",
+            "title": "Vector"
+        },
+        {
+            "location": "/extension_guide/vector/#vector",
+            "text": "Anki is a company whose products always seem to delight.    We love  Cozmo , we love  Vector .  codelab-adapter  is a software that connect Scratch3.0 to the open-source hardware, IoT and AI.  We make a  codelab-adapter  extension to connect Vector to Scratch3.0. It just like Cozmo codelab.    Now the Vector extension is built into the  codelab-adapter !",
+            "title": "Vector"
+        },
+        {
+            "location": "/extension_guide/vector/#video-tutorial",
+            "text": "",
+            "title": "Video tutorial"
+        },
+        {
+            "location": "/extension_guide/vector/#for-windows",
+            "text": "",
+            "title": "for Windows"
+        },
+        {
+            "location": "/extension_guide/vector/#for-macoslinux",
+            "text": "",
+            "title": "for MacOS/Linux"
+        },
+        {
+            "location": "/extension_guide/vector/#tutorial",
+            "text": "",
+            "title": "Tutorial"
+        },
+        {
+            "location": "/extension_guide/vector/#install-pyzmq",
+            "text": "Linux/MacOS user:   pip3 install pyzmq --user  windows user:  pip install pyzmq --user",
+            "title": "install pyzmq"
+        },
+        {
+            "location": "/extension_guide/vector/#install-the-sdk-on-your-system",
+            "text": "Follow Vector official tutorial:   Initial Setup  If the following code runs smoothly: python3  01_hello_world.py  ， go to the next step.",
+            "title": "Install the SDK on your system"
+        },
+        {
+            "location": "/extension_guide/vector/#download-codelab-adapter",
+            "text": "Download  codelab-adapter  run it",
+            "title": "Download  codelab-adapter"
+        },
+        {
+            "location": "/extension_guide/vector/#find-your-local-python3-pathwindows-users-can-skip-this-step",
+            "text": "edit  ~/codelab_adapter/extensions/extension_vector.py , replace python3_path with your local python3 path:  which python3 .   restart codelab-adapter.",
+            "title": "find your local python3 path(Windows users can skip this step)"
+        },
+        {
+            "location": "/extension_guide/vector/#open-scratch30",
+            "text": "open  scratch3.codelab.club",
+            "title": "Open Scratch3.0"
+        },
+        {
+            "location": "/extension_guide/vector/#open-extension_vector",
+            "text": "Ok!  Enjoy it :)   Here are some demo cases（just like Cozmo CodeLab）:",
+            "title": "Open extension_vector"
+        },
+        {
+            "location": "/extension_guide/vector/#vector-and-leap-motion",
+            "text": "",
+            "title": "Vector and Leap Motion"
+        },
+        {
+            "location": "/extension_guide/vector/#switch-labo-and-vector",
+            "text": "",
+            "title": "Switch Labo and Vector"
+        },
+        {
+            "location": "/extension_guide/vector/#candy-language-for-vector",
+            "text": "",
+            "title": "Candy Language for Vector"
+        },
+        {
+            "location": "/extension_guide/cozmo/",
+            "text": "Cozmo\n\n\n参考\nvector\n, 操作基本相同。\n\n\n唯一区别只在cozmo与本身与电脑的连接，参考\nInitial Setup",
+            "title": "Cozmo"
+        },
+        {
+            "location": "/extension_guide/cozmo/#cozmo",
+            "text": "参考 vector , 操作基本相同。  唯一区别只在cozmo与本身与电脑的连接，参考 Initial Setup",
+            "title": "Cozmo"
+        },
+        {
+            "location": "/extension_guide/wechat/",
+            "text": "微信(wechat)\n\n\n运行codelab-adapter 微信插件\n\n\n\n\n用微信扫码即可登陆\n\n\n在Scratch3.0中使用微信插件\n\n\n\n\n\n\n演示",
+            "title": "wechat"
+        },
+        {
+            "location": "/extension_guide/wechat/#wechat",
+            "text": "",
+            "title": "微信(wechat)"
+        },
+        {
+            "location": "/extension_guide/wechat/#codelab-adapter",
+            "text": "用微信扫码即可登陆",
+            "title": "运行codelab-adapter 微信插件"
+        },
+        {
+            "location": "/extension_guide/wechat/#scratch30",
+            "text": "",
+            "title": "在Scratch3.0中使用微信插件"
+        },
+        {
+            "location": "/extension_guide/wechat/#_1",
+            "text": "",
+            "title": "演示"
+        },
+        {
+            "location": "/extension_guide/opencv/",
+            "text": "OpenCV\n\n\n参考: \n运行在树莓派中的 codelab-adapter opencv 插件",
+            "title": "OpenCV"
+        },
+        {
+            "location": "/extension_guide/opencv/#opencv",
+            "text": "参考:  运行在树莓派中的 codelab-adapter opencv 插件",
+            "title": "OpenCV"
+        },
+        {
+            "location": "/extension_guide/tensorflow/",
+            "text": "Tensorflow\n\n\n参考\n运行在树莓派中的codelab-adapter tensorflow插件",
+            "title": "Tensorflow"
+        },
+        {
+            "location": "/extension_guide/tensorflow/#tensorflow",
+            "text": "参考 运行在树莓派中的codelab-adapter tensorflow插件",
+            "title": "Tensorflow"
+        },
+        {
+            "location": "/extension_guide/extension_python_kernel/",
+            "text": "Python kernel extension\n\n\n参考:\n\n\n\n\n将codelab-adapter用作Python解释器\n\n\n使用Scratch3.0制作幻灯片",
+            "title": "Python kernel extention"
+        },
+        {
+            "location": "/extension_guide/extension_python_kernel/#python-kernel-extension",
+            "text": "参考:   将codelab-adapter用作Python解释器  使用Scratch3.0制作幻灯片",
+            "title": "Python kernel extension"
+        },
+        {
+            "location": "/extension_guide/mpfshell/",
+            "text": "mpfshell\n\n\n文档参考:\n\n\n\n\nscratch3-eim-mpfshell\n\n\nmpfshell",
+            "title": "mpfshell"
+        },
+        {
+            "location": "/extension_guide/mpfshell/#mpfshell",
+            "text": "文档参考:   scratch3-eim-mpfshell  mpfshell",
+            "title": "mpfshell"
+        },
+        {
+            "location": "/extension_guide/blender/",
+            "text": "Tutorial\n\n\n安装依赖\n\n\n我的环境是: \nMacOS blender2.8\n\n\ncd /Applications/blender.app/Contents/Resources/2.80/python/bin\nwget https://bootstrap.pypa.io/get-pip.py\n./python3.7m ./get-pip.py --prefix /Applications/blender.app/Contents/Resources/2.80/python\n./python3.7m pip3 install pyzmq\n\n\n\n\n在blender中运行\nblender_server\n\n\n在blender中运行\nblender_server.py\n\n\n在blender2.79b中， 打开\nText Editor\n，运行\nblender_server.py\n\n\n\n\n在blender2.8中,我喜欢打开\nScripting\n标签页(使用Text Editor也可以), 运行\nblender_server.py\n:\n\n\n\n在codelab-adapter运行\nextension_blender.py\n插件\n\n\n\n\n下载\nhttps://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_blender.py\n插件。\n\n\n下载完成后，重启codelab-adapter.\n\n\n开始使用\n\n\n打开\nscratch3.codelab.club\n， 开始使用。\n\n\n\n\n\n如果你在网页里没看到blender插件，请刷新浏览器缓存。\n\n\ntodo\n\n\n将\nblender_server\n写成blender插件。",
+            "title": "blender"
+        },
+        {
+            "location": "/extension_guide/blender/#tutorial",
+            "text": "",
+            "title": "Tutorial"
+        },
+        {
+            "location": "/extension_guide/blender/#_1",
+            "text": "我的环境是:  MacOS blender2.8  cd /Applications/blender.app/Contents/Resources/2.80/python/bin\nwget https://bootstrap.pypa.io/get-pip.py\n./python3.7m ./get-pip.py --prefix /Applications/blender.app/Contents/Resources/2.80/python\n./python3.7m pip3 install pyzmq",
+            "title": "安装依赖"
+        },
+        {
+            "location": "/extension_guide/blender/#blenderblender_server",
+            "text": "在blender中运行 blender_server.py  在blender2.79b中， 打开 Text Editor ，运行 blender_server.py   在blender2.8中,我喜欢打开 Scripting 标签页(使用Text Editor也可以), 运行 blender_server.py :",
+            "title": "在blender中运行blender_server"
+        },
+        {
+            "location": "/extension_guide/blender/#codelab-adapterextension_blenderpy",
+            "text": "下载 https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_blender.py 插件。  下载完成后，重启codelab-adapter.",
+            "title": "在codelab-adapter运行extension_blender.py插件"
+        },
+        {
+            "location": "/extension_guide/blender/#_2",
+            "text": "打开 scratch3.codelab.club ， 开始使用。   如果你在网页里没看到blender插件，请刷新浏览器缓存。",
+            "title": "开始使用"
+        },
+        {
+            "location": "/extension_guide/blender/#todo",
+            "text": "将 blender_server 写成blender插件。",
+            "title": "todo"
+        },
+        {
+            "location": "/extension_guide/Pando/",
+            "text": "Pando\n\n\n文档参考:\n\n\n\n\n当遇到 Scratch3-Codelab，Pando 觉醒了！",
+            "title": "Pando"
+        },
+        {
+            "location": "/extension_guide/Pando/#pando",
+            "text": "文档参考:   当遇到 Scratch3-Codelab，Pando 觉醒了！",
+            "title": "Pando"
+        },
+        {
+            "location": "/extension_guide/extension_market/",
+            "text": "extension market\n\n\n这是目前所有可用的插件，源代码在:\ncodelab_adapter_extensions\n。源码以GPL协议开放。研究与学习可以随意使用它。\n\n\ncodelab.club内部在使用的一些插件近期也在整理源码，将陆续开放出来。欢迎大家一起改进它们。\n\n\n你可以用这些插件将Scratch3.0/blockly:\n\n\n\n\n接入Python kernel\n\n\n接入四轴飞行器\n\n\n接入Cozmo/Vector\n\n\n接入任何用Python写的AI程序\n\n\n接入眼动仪\n\n\n接入minecraft\n\n\n接入blender\n\n\n...\n\n\n\n\n以下是插件列表\n\n\n\n\nextension_android.py\n\n\nextension_blender.py\n\n\nextension_chatterbot.py\n\n\nextension_cozmo.py\n\n\nextension_demo.py\n\n\nextension_eim.py\n\n\nextension_eim_http.py\n\n\nextension_eim_monitor.py\n\n\nextension_eim_script.py\n\n\nextension_facial_landmarks.py\n\n\nextension_fly.py\n\n\nextension_helloworld.py\n\n\nextension_home_assistant.py\n\n\nextension_hungry_robot.py\n\n\nextension_microbit.py\n\n\nextension_minecraft.py\n\n\nextension_mpython.py\n\n\nextension_mxcar.py\n\n\nextension_opencv.py\n\n\nextension_presentation.py\n\n\nextension_python_kernel.py\n\n\nextension_switch_joycon.py\n\n\nextension_tensorflow.py\n\n\nextension_third_party_library.py\n\n\nextension_tulingbot.py\n\n\nextension_ubtrobot.py\n\n\nextension_vector.py\n\n\nextension_wechat.py",
+            "title": "extension market"
+        },
+        {
+            "location": "/extension_guide/extension_market/#extension-market",
+            "text": "这是目前所有可用的插件，源代码在: codelab_adapter_extensions 。源码以GPL协议开放。研究与学习可以随意使用它。  codelab.club内部在使用的一些插件近期也在整理源码，将陆续开放出来。欢迎大家一起改进它们。  你可以用这些插件将Scratch3.0/blockly:   接入Python kernel  接入四轴飞行器  接入Cozmo/Vector  接入任何用Python写的AI程序  接入眼动仪  接入minecraft  接入blender  ...   以下是插件列表   extension_android.py  extension_blender.py  extension_chatterbot.py  extension_cozmo.py  extension_demo.py  extension_eim.py  extension_eim_http.py  extension_eim_monitor.py  extension_eim_script.py  extension_facial_landmarks.py  extension_fly.py  extension_helloworld.py  extension_home_assistant.py  extension_hungry_robot.py  extension_microbit.py  extension_minecraft.py  extension_mpython.py  extension_mxcar.py  extension_opencv.py  extension_presentation.py  extension_python_kernel.py  extension_switch_joycon.py  extension_tensorflow.py  extension_third_party_library.py  extension_tulingbot.py  extension_ubtrobot.py  extension_vector.py  extension_wechat.py",
+            "title": "extension market"
+        },
+        {
+            "location": "/about/contact/",
+            "text": "联系我们(contact us)\n\n\n如果你:\n\n\n\n\n希望建立合作\n\n\n想吐槽codelab-adapter，打击一下开发团队\n\n\n在写codelab-adapter插件时遇到一些困难,影响到胃口\n\n\n觉得人生苦短，想与我们一起折腾些有趣的事\n\n\n我们热爱开源文化和社区，写代码之余也写写打油诗\n\n\n简历最好附上Github和Blog\n\n\n\n\n\n\n想提点建议，教开发团队做人，当面提的话，最好能蹭个饭\n\n\n有好玩的主意，想撩一撩开发团队\n\n\n喜欢创作故事、剧本，有插画的技能，想把故事搬到Scratch3.0上\n\n\n我们将让你的虚拟人物与现实交融在一起，供你差遣各种好玩的物联网设备和AI\n\n\n\n\n\n\n喜欢柏拉图和罗素，想找个雨夜聊聊人生\n\n\n\n\n欢迎来信啦:  wuwenjie718@gmail.com\n\n\n\n\n闲敲棋子落灯花",
+            "title": "contact us"
+        },
+        {
+            "location": "/about/contact/#contact-us",
+            "text": "如果你:   希望建立合作  想吐槽codelab-adapter，打击一下开发团队  在写codelab-adapter插件时遇到一些困难,影响到胃口  觉得人生苦短，想与我们一起折腾些有趣的事  我们热爱开源文化和社区，写代码之余也写写打油诗  简历最好附上Github和Blog    想提点建议，教开发团队做人，当面提的话，最好能蹭个饭  有好玩的主意，想撩一撩开发团队  喜欢创作故事、剧本，有插画的技能，想把故事搬到Scratch3.0上  我们将让你的虚拟人物与现实交融在一起，供你差遣各种好玩的物联网设备和AI    喜欢柏拉图和罗素，想找个雨夜聊聊人生   欢迎来信啦:  wuwenjie718@gmail.com   闲敲棋子落灯花",
+            "title": "联系我们(contact us)"
+        },
+        {
+            "location": "/about/why/",
+            "text": "Why\n\n\nJust for fun :)",
+            "title": "why"
+        },
+        {
+            "location": "/about/why/#why",
+            "text": "Just for fun :)",
+            "title": "Why"
+        },
+        {
+            "location": "/about/value/",
+            "text": "我们的价值观 (\nEnglish\n)\n\n\n\n\n如果你想走得快，一个人走; 如果你想走得远，一群人走\n\n\n\n\n我们不想做一个封闭的系统，为某一款或几款硬件，做一个定制化的解决方案，然后去兜售它，并宣称我们是最好的解决方案。\n\n\n我们相信创意来自广泛的连接和分享。如果某一天在这个领域出现了一些振奋人心的东西，我相信它会首先出现在社区。\n\n\n我们喜欢Scratch积木化的界面，喜欢它的口号\n\n\n\n\nImagine, Program, Share\n\n\n\n\n我们喜欢media lab提出的4P方法:\n\n\n\n\n项目（Projects）、同伴（Peers）、热情（Passion）、玩耍（Play）\n\n\n\n\n我们想让Scratch3.0能连接到更广阔的世界,以便让参与项目的你也能与这个现实世界建立广泛的连接，而不只是生活在虚拟的空间中。我们希望你将编程创造的东西，用到日常中，给大家带来欢乐和惊喜。我们想把任何有趣的东西接入进来，以便打造\n更宽的围墙和更高的天花板\n，当然，也包括接入你童年的那辆玩具四驱车\n\n\n我们想为你打造一个\"绿洲\"，我们想\n\n\n\n\n创造出一个不可思议的、美丽的、夺人心魄的场所,在那里人们可以漫步,可以梦想,历经很多世纪生生不息\n\n\n\n\n但遗憾的是我们没有这个能力，我们最终只是打造一个通用的插件系统，而把更多的可能性留给了你自己，我们希望你能参与进来一起来改进它。这意味着如果你想连接你喜欢的东西，你不能坐着等我们来帮你。不过我们将尽最大努力给你提供一个好用的工具\n\n\n\n\n学习是必须亲力亲为的，教育则是外界加诸你身上的\n\n\n\n\n你需要自己动起手来,去创造你所向往的东西。\n\n\n这和生活不是很像么？\n\n\n世界如果存在什么边界的话，可能只有想象力\n\n\n有趣的东西现在还不多，在这个领域，除了富有远见的Jean Piaget、Alan Curtis Kay、Seymour Papert和Mitchel Resnick曾做过令人振奋的探索。当前的很多项目，说实话，让人有点瞌睡\n\n\n我们想与你，以及广阔的社区(我们正在构建它)，一起动起手来做些真正令人振奋的东西\n\n\nJust for fun :)\n\n\n\n\nOur Values\n\n\n\n\nIf you want to go quickly, go alone. If you want to go far, go together.\n\n\n\n\nWe don't want to do something like this: build a closed system, make it customized for a couple of hardware, then peddle it and declare it as our best solution.\n\n\nWe believe creativity comes from broad connections and sharing. If something truly exciting comes out, we believe it must appear in our community at first place.\n\n\nWe are fond of Scratch's block-like interface and its idea:\n\n\n\n\nImagine, Program, Share\n\n\n\n\nWe also like the vision of Media Lab for learning:\n\n\n\n\nProjects, Passion, Peers, and Play.\n\n\n\n\nWe are trying to make Scratch 3.0 connect to a bigger world, which would make it easier for the creators(that's you!) to connect with our real world, not just within the virtual space. We hope the things you create will bring a ton of surprise and joy to your family and friends. To build a broader wall and a higher ceiling, we want to bring in every interesting things we found,  which includes your Mini-4WD from childhood for sure.\n\n\nWe want to create a oasis for you,\n\n\n\n\nThat one day, somewhere, somehow, we shall build one building which is wonderful, beautiful, breathtaking, a place where people can walk and dream for centuries.\n\n\n\n\nUnfortunately, we don't have that power yet. We will eventually build a general plug-in system, and leave more space and possibility for you. We hope you to join us and improve it. This means, if you want the system connect to something you like, you cannot just sit around wait for us to help build it. Instead, we will try out best to provide you some great tools and utilities.\n\n\n\n\nEducation is what people do to you. Learning is what you do to yourself.\n\n\n\n\nTo create something promising, you have to get your hands dirty.\n\n\nIsn't it just like our life?\n\n\nThe only boundary that our world might have, is our imagination.\n\n\nExcept those exceptional work from visionary Jean Piaget, Alan Curtis Kay, Seymour Papert and Mitchel Resnick, there're not many interesting things in this area yet. To be honest, a lot of current projects are kind of boring.\n\n\nThat's why we want you, along with the promising community that we are building, to do  some great things together.\n\n\nJust for fun!",
+            "title": "value"
+        },
+        {
+            "location": "/about/value/#english",
+            "text": "如果你想走得快，一个人走; 如果你想走得远，一群人走   我们不想做一个封闭的系统，为某一款或几款硬件，做一个定制化的解决方案，然后去兜售它，并宣称我们是最好的解决方案。  我们相信创意来自广泛的连接和分享。如果某一天在这个领域出现了一些振奋人心的东西，我相信它会首先出现在社区。  我们喜欢Scratch积木化的界面，喜欢它的口号   Imagine, Program, Share   我们喜欢media lab提出的4P方法:   项目（Projects）、同伴（Peers）、热情（Passion）、玩耍（Play）   我们想让Scratch3.0能连接到更广阔的世界,以便让参与项目的你也能与这个现实世界建立广泛的连接，而不只是生活在虚拟的空间中。我们希望你将编程创造的东西，用到日常中，给大家带来欢乐和惊喜。我们想把任何有趣的东西接入进来，以便打造 更宽的围墙和更高的天花板 ，当然，也包括接入你童年的那辆玩具四驱车  我们想为你打造一个\"绿洲\"，我们想   创造出一个不可思议的、美丽的、夺人心魄的场所,在那里人们可以漫步,可以梦想,历经很多世纪生生不息   但遗憾的是我们没有这个能力，我们最终只是打造一个通用的插件系统，而把更多的可能性留给了你自己，我们希望你能参与进来一起来改进它。这意味着如果你想连接你喜欢的东西，你不能坐着等我们来帮你。不过我们将尽最大努力给你提供一个好用的工具   学习是必须亲力亲为的，教育则是外界加诸你身上的   你需要自己动起手来,去创造你所向往的东西。  这和生活不是很像么？  世界如果存在什么边界的话，可能只有想象力  有趣的东西现在还不多，在这个领域，除了富有远见的Jean Piaget、Alan Curtis Kay、Seymour Papert和Mitchel Resnick曾做过令人振奋的探索。当前的很多项目，说实话，让人有点瞌睡  我们想与你，以及广阔的社区(我们正在构建它)，一起动起手来做些真正令人振奋的东西  Just for fun :)",
+            "title": "我们的价值观 (English)"
+        },
+        {
+            "location": "/about/value/#our-values",
+            "text": "If you want to go quickly, go alone. If you want to go far, go together.   We don't want to do something like this: build a closed system, make it customized for a couple of hardware, then peddle it and declare it as our best solution.  We believe creativity comes from broad connections and sharing. If something truly exciting comes out, we believe it must appear in our community at first place.  We are fond of Scratch's block-like interface and its idea:   Imagine, Program, Share   We also like the vision of Media Lab for learning:   Projects, Passion, Peers, and Play.   We are trying to make Scratch 3.0 connect to a bigger world, which would make it easier for the creators(that's you!) to connect with our real world, not just within the virtual space. We hope the things you create will bring a ton of surprise and joy to your family and friends. To build a broader wall and a higher ceiling, we want to bring in every interesting things we found,  which includes your Mini-4WD from childhood for sure.  We want to create a oasis for you,   That one day, somewhere, somehow, we shall build one building which is wonderful, beautiful, breathtaking, a place where people can walk and dream for centuries.   Unfortunately, we don't have that power yet. We will eventually build a general plug-in system, and leave more space and possibility for you. We hope you to join us and improve it. This means, if you want the system connect to something you like, you cannot just sit around wait for us to help build it. Instead, we will try out best to provide you some great tools and utilities.   Education is what people do to you. Learning is what you do to yourself.   To create something promising, you have to get your hands dirty.  Isn't it just like our life?  The only boundary that our world might have, is our imagination.  Except those exceptional work from visionary Jean Piaget, Alan Curtis Kay, Seymour Papert and Mitchel Resnick, there're not many interesting things in this area yet. To be honest, a lot of current projects are kind of boring.  That's why we want you, along with the promising community that we are building, to do  some great things together.  Just for fun!",
+            "title": "Our Values"
+        },
+        {
+            "location": "/about/license/",
+            "text": "License\n\n\n您可以免费将codelab-adapter用于研究与学习;如果您需要将其用于商业项目，请联系:wuwenjie718@gmail.com;\n\n\nYou are free to use codelab-adapter for research and learning. If you are ready to use it for commercial purposes, please contact me: wuwenjie718@gmail.com",
+            "title": "license"
+        },
+        {
+            "location": "/about/license/#license",
+            "text": "您可以免费将codelab-adapter用于研究与学习;如果您需要将其用于商业项目，请联系:wuwenjie718@gmail.com;  You are free to use codelab-adapter for research and learning. If you are ready to use it for commercial purposes, please contact me: wuwenjie718@gmail.com",
+            "title": "License"
+        },
+        {
+            "location": "/about/roadmap/",
+            "text": "Roadmap\n\n\n\n\n移动端支持\n\n\n已完成:\ncodelab-adapter的移动端解决方案\n\n\n\n\n\n\n允许在GUI面板上启停插件\n\n\n已完成\n\n\n\n\n\n\n本地SSL安全证书\n\n\n已完成\n\n\n\n\n\n\n引入json-rpc\n\n\n已完成\n\n\n\n\n\n\n替代Scratch Link，实现Scratch Link的蓝牙代理服务\n\n\n分析scratch3.0与micro:bit的通信\n\n\n\n\n\n\n故事与课程\n\n\n使用物联网和AI增强表现力\n\n\n\n\n\n\n重构插件系统，使用协程\n\n\n发布不同平台的安装包\n\n\n接入\nopenBCI\n\n\n接入眼动仪\n\n\n已完成\n\n\n\n\n\n\n接入\nParrot\n\n\npyparrot\n\n\n已完成\n\n\n\n\n\n\n在前端启停软件\n\n\njson-rpc\n\n\n异步实现\n\n\n\n\n\n\n提供更好用的通信机制(包装zeromq到utils)，作为最佳实践",
+            "title": "Roadmap"
+        },
+        {
+            "location": "/about/roadmap/#roadmap",
+            "text": "移动端支持  已完成: codelab-adapter的移动端解决方案    允许在GUI面板上启停插件  已完成    本地SSL安全证书  已完成    引入json-rpc  已完成    替代Scratch Link，实现Scratch Link的蓝牙代理服务  分析scratch3.0与micro:bit的通信    故事与课程  使用物联网和AI增强表现力    重构插件系统，使用协程  发布不同平台的安装包  接入 openBCI  接入眼动仪  已完成    接入 Parrot  pyparrot  已完成    在前端启停软件  json-rpc  异步实现    提供更好用的通信机制(包装zeromq到utils)，作为最佳实践",
+            "title": "Roadmap"
+        }
+    ]
+}

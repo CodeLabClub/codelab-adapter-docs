@@ -42,7 +42,7 @@ Scratch官方计划开源[Scratch Link](https://scratch.mit.edu/microbit)，一�
 
 Scratch Link和codelab-adapter可以协同工作.
 
-codelab-adapter致力于提供更好的跨平台支持和开放的[插件系统](https://github.com/Scratch3Lab/scratch3_adapter_extensions)，codelab-adapter的目标是连接万物，不只是连接教育硬件。
+codelab-adapter致力于提供更好的跨平台支持和开放的[插件系统](https://github.com/Scratch3Lab/codelab_adapter_extensions)，codelab-adapter的目标是连接万物，不只是连接教育硬件。
 
 ### codelab-adapter与[Scratch3 Lab](https://scratch3.codelab.club/)是否连接成功？
 codelab-adapter启动之后，可以看到[Scratch3 Lab](https://scratch3.codelab.club/)指示灯显示绿色，代表连接成功

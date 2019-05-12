@@ -2,7 +2,12 @@
 
 >  Turn the world into your playground!
 
+![](img/toys_party.jpeg)
+
+提醒: codelab-adapter曾用名: scratch3-adapter
+
 codelab-adapter是[Scratch3 Lab](https://blog.just4fun.site/Scratch3-Lab.html)的一个子项目， 它也是[codelab.club](https://blog.just4fun.site/about-codelab-club.html)希望贡献给社区的一个基础设施。
+
 
 [Scratch3 Lab](https://blog.just4fun.site/Scratch3-Lab.html)是一个将Scratch3.0接入开源硬件及AI的实验项目(Scratch3 Lab: connect Scratch3.0 to open-source hardware and AI)。
 
@@ -51,6 +56,8 @@ codelab-adapter采用插件式的设计，允许你自己动手写插件来拓�
 这是[Scratch3 Lab](https://blog.just4fun.site/Scratch3-Lab.html)目前支持的部分插件截图
 ![](img/scratch3-extensions.png)。
 
+<!--
 目前驱动的硬件(部分截图)
 
 ![](img/toys_party.jpeg)
+-->

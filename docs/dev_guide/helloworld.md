@@ -28,29 +28,31 @@ ps:如果你没有安装codelab-adapter，请先[安装(install)](/user_guide/in
 
 ```
 import time, threading, subprocess
-from scratch3_adapter import settings
-from scratch3_adapter.core_extension import Extension
+from codelab_adapter import settings
+from codelab_adapter.core_extension import Extension
 
 class HelloworldExtension(Extension):
     def __init__(self):
         name = type(self).__name__
         super().__init__(name)
-
+        self.TOPIC = "eim"
     def run(self):
         while True:
             message = self.read()
-            if message["topic"] == "eim":
-                # 根据你使用的操作系统对say这个命令做一下调整
-                subprocess.call("say {}".format(message["data"]),shell=True)
+            if message["topic"] == self.TOPIC:
+                payload = message["payload"]
+                self.logger.info("received message: {} from Scratch3.0".format(payload))
 
 export = HelloworldExtension
 ```
 
-一共13行代码，其中真正与我们做的事情相关的只有2行
+一共14行代码，其中真正与我们做的事情相关的只有4行
 
 ```
 message = self.read()
-    if message["topic"] == "eim":
+if message["topic"] == "eim":
+    payload = message["payload"]
+    logger.info("received message: {} from Scratch3.0".format(payload))
 ```
 
 就是说其余部分你可以当作模版抄过来
@@ -61,7 +63,7 @@ message = self.read()
 
 <img width="250px" src="../../img/scratch3_adapter_log_dir.png"/>
 
-在mac和linux下插件目录都是`~/scratch3_adapter/extensions/`，windows下的，可以如上图自行查阅。codelab-adapter默认内置了一些插件，如果你熟悉Python，稍微翻一下代码，应该很快上手。更多的插件源码参考:[Scratch3Lab/scratch3_adapter_extensions](https://github.com/Scratch3Lab/scratch3_adapter_extensions)
+在mac和linux下插件目录都是`~/codelab_adapter/extensions/`，windows下的，可以如上图自行查阅。codelab-adapter默认内置了一些插件，如果你熟悉Python，稍微翻一下代码，应该很快上手。更多的插件源码参考:[Scratch3Lab/codelab_adapter_extensions](https://github.com/Scratch3Lab/codelab_adapter_extensions)
 
 需要注意的是插件的命名必须形如`extension_*.py`,我们的插件调度系统只这种命名风格的文件视为插件(至于为何这样设计，而不更宽松一些，之后再说)
 
@@ -70,14 +72,7 @@ message = self.read()
 <img width="250px" src="../../img/run_helloworld.png"/>
 
 
-ps: 和之前运行micro:bit步骤一样,如果你忘了，翻一下[前边内容](/user_guide/usage/#2-scratch3_adapter)
-
-大功告成!
-
-### 使用演示
-
-<video src="../../img/eim_helloworld.mp4" controls="controls"></video>
-
+大功告成! 你将在`~/codelab_adapter/info.log`中看到这条消息
 
 ### 小结
 从这个例子中，我们可以看到写一个自定义的插件有多简单。而codelab-adapter对插件要做的事几乎没有任何限制，只要Python能做的事，插件系统都运行你做！就是说你可以自己写一个插件，让Scratch3来控制你的蓝牙设、你的ROS机器人、你那跑着opencv的树莓派或者你童年那辆心爱的玩具四驱车

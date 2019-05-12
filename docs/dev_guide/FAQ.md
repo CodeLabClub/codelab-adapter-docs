@@ -1,19 +1,40 @@
 # FAQ for Developer
 
+## 讨论组
+陆续有开发者建议我构建论坛(discourse)和微信群方便大家讨论技术问题。
+
+微信群无法沉淀有价值的内容，搜索功能太烂了，对富文本/markdown的支持几近于无，微信不是好的办公工具。
+
+与codelab-adapter相关技术问题，大家可以在[issue](https://github.com/Scratch3Lab/codelab_adapter_extensions/issues)里讨论。
+
+也可以在[codelab-adapter讨论组](https://forums.codelab.club/c/codelab-adapter)里讨论。
+
 ## 插件启停
-目前，插件启动为线程。Python线程需要[手动管理](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p01_start_stop_thread.html)，这部分的代码目前还比较粗糙。为了允许用户在UI中通过勾选来启停插件。建议插件作者使用`while self._running:`,参考[extension_demo](https://github.com/Scratch3Lab/scratch3_adapter_extensions/blob/master/extension_demo.py)
+目前，插件启动为线程。Python线程需要[手动管理](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p01_start_stop_thread.html)，这部分的代码目前还比较粗糙。为了允许用户在UI中通过勾选来启停插件。建议插件作者使用`while self._running:`,参考[extension_demo](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_demo.py)
 
 
 在1.0版本发布之前，插件部分我们将迁往协程，如此一来我们就能轻易管理插件的启停。目前Python社区很多库还不支持协程，所以我们不打算立刻迁移。
 
 ## 引入第三方Python库
+建议统一采用ZeroMQ通信风格。参考:
+
+*  [extension_vector.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_vector.py)
+*  [extension_cozmo.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_cozmo.py)
+*  [extension_raspberrypi.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_raspberrypi.py)
+*  [extension_opencv.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_opencv.py)
+
+内置的第三方库参考:[wiki](https://github.com/Scratch3Lab/codelab_adapter_extensions/wiki)
+
+<!--
 Python社区有海量的第三方库，开发者可以将其引入插件中。
 
-方法是使用`sys.path.append`,如果希望在插件中使用本机Python3已安装的库(推荐`pip3 install xxx --user`)，则将其添加到插件头部:`import sys;sys.path.append("/Users/wuwenjie/Library/Python/3.6/lib/python/site-packages")`,完整的示例参考[extension_third_party_library](https://github.com/Scratch3Lab/scratch3_adapter_extensions/blob/master/extension_third_party_library.py)
+方法是使用`sys.path.append`,如果希望在插件中使用本机Python3已安装的库(推荐`pip3 install xxx --user`)，则将其添加到插件头部:`import sys;sys.path.append("/Users/wuwenjie/Library/Python/3.6/lib/python/site-packages")`,完整的示例参考[extension_third_party_library](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_third_party_library.py)
 
 `/Users/wuwenjie/Library/Python/3.6/lib/python/site-packages`可通过`python3 -m site --user-site`看到。你也可以使用virtualenv创建的虚拟目录。
 
 有些库引入的时候可能会有问题，一些复杂库，建议使用subprocess跑为子进程。
+-->
+
 
 ## Python与Scratch的双向通信
 参考[Python与Scratch的双向通信](https://blog.just4fun.site/python-scratch-with-adapter.html)

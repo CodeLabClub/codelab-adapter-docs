@@ -1,20 +1,21 @@
 # 安装(install)
-scratch3-adapter目前发布了Mac、Windows(支持window7及以上版本)、Ubuntu、Raspbian(树莓派)的客户端
+codelab-adapter目前发布了Mac、Windows(支持window7及以上版本)、Ubuntu、Raspbian(树莓派)的客户端
 
-### 下载(最新版本:v0.4.0)
-你可以免费下载:
+### 下载(最新版本:v0_8_2)
+你可以免费下载 (点击对应的操作系统链接):
 
-*  [Mac OS(64bit)](http://scratch3-files.just4fun.site/v0_4_0_scratch3_adapter_mac.zip)
+*  [Mac OS(64bit)](http://scratch3-files.just4fun.site/v0_8_2_codelab_adapter_mac.zip)
+    *  macOS 10.13.5+
     *  如果你点击应用闪退，请参考 :[打开来自身份不明开发者的应用](https://support.apple.com/kb/PH25088?locale=zh_CN&viewlocale=zh_CN)
 *  Windows(Windows7及以上）
-    *  [Windows](http://scratch3-files.just4fun.site/v0_4_0_scratch3_adapter_win_32bit.exe.zip): windows7、windows10已测试(32位和64位都可用)
+    *  [Windows](http://scratch3-files.just4fun.site/v0_8_2_codelab_adapter_win.exe.zip): windows7、windows10已测试(32位和64位都可用)
 *  linux
-    *  [Ubuntu(16.04及以上版本)(64bit)](http://scratch3-files.just4fun.site/v0_4_0_scratch3_adapter_ubuntu.zip)
-    *  [Raspbian](http://scratch3-files.just4fun.site/v0_4_0_scratch3_adapter_raspbian.zip)
-        *  下载，解压，赋予运行权限: `chmod +x v0_4_0_scratch3_adapter_raspbian`
+    *  [Ubuntu(16.04及以上版本)(64bit)](http://scratch3-files.just4fun.site/v0_8_2_codelab_adapter_ubuntu.zip)
+    *  [Raspbian](http://scratch3-files.just4fun.site/v0_8_1_codelab_adapter_raspbian.zip)
+        *  下载，解压，赋予运行权限: `chmod +x v0_8_1_codelab_adapter_raspbian`
 
 ### 更新
-如果你之前使用过旧版本的scratch3-adapter，更新到新版本后，建议也更新一下插件目录(`~/scratch3_adapter/extensions/`)
+如果你之前使用过旧版本的软件，更新到新版本后，建议也更新一下插件目录(`~/codelab_adapter/extensions/`)
 
 <img width="400px" src="../../img/scratch3_adapter_update.png">
 
@@ -23,7 +24,7 @@ scratch3-adapter目前发布了Mac、Windows(支持window7及以上版本)、Ubu
 ### 兼容性
 目前,Windows和Mac的版本测试过的机器比较多。
 
-Ubuntu测试了16.04及18.04, [Ubuntu(16.04及以上版本)](http://scratch3-files.just4fun.site/v0_2_3_scratch3_adapter_ubuntu.zip)也可用于Arch linux，如果你在使用其他linux发行版，也可以试试。
+Ubuntu测试了16.04及18.04, Ubuntu(16.04及以上版本)也可用于Arch linux，如果你在使用其他linux发行版，也可以试试。
 
 Raspbian我们只测试了Stretch版本,如果有系统兼容性问题，欢迎[联系我们](/about/contact/)
 

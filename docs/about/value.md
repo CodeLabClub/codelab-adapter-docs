@@ -1,4 +1,4 @@
-# 我们的价值观
+# 我们的价值观 ([English](#our-values))
 
 >  如果你想走得快，一个人走; 如果你想走得远，一群人走
 
@@ -35,3 +35,43 @@
 我们想与你，以及广阔的社区(我们正在构建它)，一起动起手来做些真正令人振奋的东西
 
 Just for fun :)
+
+---
+
+# Our Values 
+
+>  If you want to go quickly, go alone. If you want to go far, go together.
+
+We don't want to do something like this: build a closed system, make it customized for a couple of hardware, then peddle it and declare it as our best solution.
+
+We believe creativity comes from broad connections and sharing. If something truly exciting comes out, we believe it must appear in our community at first place.
+
+We are fond of Scratch's block-like interface and its idea:
+
+>  Imagine, Program, Share
+
+We also like the vision of Media Lab for learning:
+
+> Projects, Passion, Peers, and Play.
+
+We are trying to make Scratch 3.0 connect to a bigger world, which would make it easier for the creators(that's you!) to connect with our real world, not just within the virtual space. We hope the things you create will bring a ton of surprise and joy to your family and friends. To build a broader wall and a higher ceiling, we want to bring in every interesting things we found,  which includes your Mini-4WD from childhood for sure.
+
+We want to create a oasis for you,
+
+> That one day, somewhere, somehow, we shall build one building which is wonderful, beautiful, breathtaking, a place where people can walk and dream for centuries.
+
+Unfortunately, we don't have that power yet. We will eventually build a general plug-in system, and leave more space and possibility for you. We hope you to join us and improve it. This means, if you want the system connect to something you like, you cannot just sit around wait for us to help build it. Instead, we will try out best to provide you some great tools and utilities.
+
+> Education is what people do to you. Learning is what you do to yourself.
+
+To create something promising, you have to get your hands dirty.
+
+Isn't it just like our life?
+
+The only boundary that our world might have, is our imagination.
+
+Except those exceptional work from visionary Jean Piaget, Alan Curtis Kay, Seymour Papert and Mitchel Resnick, there're not many interesting things in this area yet. To be honest, a lot of current projects are kind of boring.
+
+That's why we want you, along with the promising community that we are building, to do  some great things together.
+
+Just for fun!
