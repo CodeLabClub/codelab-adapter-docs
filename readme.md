@@ -1,7 +1,11 @@
 # readme.md
-使用[mkdocs](https://www.mkdocs.org/)
+[codelab-adapter](https://codelab-adapter-docs.codelab.club/)的项目文档，基于[mkdocs](https://www.mkdocs.org/)。
+
+欢迎大家一起来维护文档。
+
 
 # Usage
+
 ```
 pip3 install mkdocs
 # debug
@@ -13,7 +17,7 @@ mkdocs build
 make push
 ```
 
-# docs
+# 如何编辑文档
 参考[mkdocs docs](https://www.mkdocs.org/#getting-started)
 
 # 图片资源
