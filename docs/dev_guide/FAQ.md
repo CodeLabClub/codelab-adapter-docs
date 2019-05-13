@@ -1,5 +1,8 @@
 # FAQ for Developer
 
+## 编辑文档
+欢迎大家来协同编辑文档:  [codelab-adapter-docs](https://github.com/Scratch3Lab/codelab-adapter-docs)
+
 ## 讨论组
 陆续有开发者建议我构建论坛(discourse)和微信群方便大家讨论技术问题。
 
