@@ -169,9 +169,16 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=600px src="http://scratch3-files.just4fun.site/%E7%81%B5%E5%85%89%E4%B8%80%E7%8E%B0.mp4" controls="controls"></video>
 
 
+## DJI Tello x Leap Motion
+<video width=300px src="http://scratch3-files.just4fun.site/tello_leapmotion.mp4" controls="controls"></video>
 
+## DJI Tello x Switch Labo
+<video width=300px src="http://scratch3-files.just4fun.site/tello_labo.mp4" controls="controls"></video>
 
-参考：
+## DJI Tello x Switch Joy-Con
+<video width=300px src="http://scratch3-files.just4fun.site/tello_joy_con.mp4" controls="controls"></video>
 
-*  [scratch3-adapter接入blender](https://blog.just4fun.site/scratch3-adapter-blender.html)
-*  [积木化编程与3D场景](https://blog.just4fun.site/blockly-3D.html)
+## 霍格沃滋模式
+<video width=600px src="http://scratch3-files.just4fun.site/magic_joy_con.mp4" controls="controls"></video>
+
+<video width=600px src="http://scratch3-files.just4fun.site/magic-eye-tracker.mp4" controls="controls"></video>

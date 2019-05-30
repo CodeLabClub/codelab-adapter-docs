@@ -33,7 +33,7 @@ codelab-adapter启动之后，可以看到[Scratch3 Lab](https://scratch3.codela
 -->
 
 ### 步骤3: 连接micro:bit，加载插件
-使用数据线将micro:bit接入电脑，下载<a href="http://scratch3-files.just4fun.site/usbMicrobit_for_0_6_0.hex" target="_blank">usbMicrobit_for_adapter.hex</a> 右键保存到本地，并将保存的文件拖入micro:bit中。
+使用数据线将micro:bit接入电脑，下载<a href="../../img/usb_Microbit_frimeware.hex" target="_blank">usb_Microbit_frimeware.hex</a> 右键保存到本地，并将保存的文件拖入micro:bit中。
 
 ps: Windows7用户注意(Mac和Windows10用户可以跳过),为了能发现并连接micro:bit，需要[安装驱动](../../img/mbedWinSerial_16466.exe)(和使用mu-editor操作相同)
 
