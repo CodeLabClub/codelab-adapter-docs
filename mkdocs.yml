@@ -1,23 +1,26 @@
-site_name: codelab-adapter docs
+site_name: codelab-adapter
+repo_url: https://github.com/Scratch3Lab/codelab-adapter-docs
 site_description: the docs
 extra:
   search:
     language: 'jp'
 pages:
   - Home: 'index.md'
-  - 用户手册(user guide):
+  # - 用户手册(user guide):
+  - 用户手册:
     - 安装(install): 'user_guide/install.md'
     - 使用(usage): 'user_guide/usage.md'
     - 展示视频(gallery): 'user_guide/gallery.md'
     - FAQ: 'user_guide/FAQ.md'
     - changelog: 'changelog.md'
-  - 开发手册(dev guide):
+  # - 开发手册(dev guide):
+  - 开发手册:
     - Architecture: 'dev_guide/Architecture.md'
     - hello world: 'dev_guide/helloworld.md'
     - debug: 'dev_guide/debug.md'
     - FAQ: 'dev_guide/FAQ.md'
     - dev articles: 'dev_guide/dev_articles.md'
-  - extension guide:
+  - extensions:
     - introduction: 'extension_guide/introduction.md'
     - Usage: 'extension_guide/usage.md'
     - Vector: 'extension_guide/vector.md'
@@ -28,7 +31,9 @@ pages:
     - Python kernel extention: 'extension_guide/extension_python_kernel.md'
     - mpfshell: 'extension_guide/mpfshell.md'
     - blender: 'extension_guide/blender.md'
-    - Pando: 'extension_guide/Pando.md'
+    - Pando Robot: 'extension_guide/Pando.md'
+    - Tello: 'extension_guide/tello.md'
+    - Aelos Robot: 'extension_guide/Aelos.md'
     - extension market: 'extension_guide/extension_market.md'
   - about:
     - contact us: 'about/contact.md'

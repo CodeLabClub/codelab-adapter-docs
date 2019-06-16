@@ -182,3 +182,23 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=600px src="http://scratch3-files.just4fun.site/magic_joy_con.mp4" controls="controls"></video>
 
 <video width=600px src="http://scratch3-files.just4fun.site/magic-eye-tracker.mp4" controls="controls"></video>
+
+
+<video width=300px src="http://scratch3-files.just4fun.site/wand.mp4" controls="controls"></video>
+
+## CodeLab ❤️ toio
+ 
+### 给我一个toio，我可以转动地球
+<video width=300px src="http://scratch3-files.just4fun.site/Rotating-the-earth%20.mp4" controls="controls"></video>
+
+
+### 在你转身之后，岁月无光
+<video width=300px src="http://scratch3-files.just4fun.site/toio_neverland_logo_light.mp4" controls="controls"></video>
+
+
+### 天空没有留下鸟的痕迹，但toio已飞过
+<video width=300px src="http://scratch3-files.just4fun.site/toio_fly.mp4" controls="controls"></video>
+
+## 接入3D游戏
+<video width=300px src="http://scratch3-files.just4fun.site/game_adapter.mp4" controls="controls"></video>
+
