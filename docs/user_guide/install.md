@@ -4,6 +4,8 @@ codelab-adapter目前发布了Mac、Windows(支持window7及以上版本)、Ubun
 ### 下载(最新版本:v0_8_4)
 你可以免费下载 (点击对应的操作系统链接):
 
+ps: 愿意尝鲜的用户可以下载:[测试版](/user_guide/develop/)
+
 *  [Mac OS(64bit)](http://scratch3-files.just4fun.site/v0_8_4_codelab_adapter_mac.zip)
     *  macOS 10.13.5+
     *  如果你点击应用闪退，请参考 :[打开来自身份不明开发者的应用](https://support.apple.com/kb/PH25088?locale=zh_CN&viewlocale=zh_CN)

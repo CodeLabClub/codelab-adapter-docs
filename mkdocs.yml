@@ -9,6 +9,7 @@ pages:
   # - 用户手册(user guide):
   - 用户手册:
     - 安装(install): 'user_guide/install.md'
+    - 下载(download): 'user_guide/develop.md'
     - 使用(usage): 'user_guide/usage.md'
     - 展示视频(gallery): 'user_guide/gallery.md'
     - FAQ: 'user_guide/FAQ.md'
