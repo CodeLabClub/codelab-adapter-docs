@@ -36,7 +36,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width="600px" src="http://wwj-fig-bed.just4fun.site/1540219015667808.mp4" controls="controls"></video>
 
 ## 击掌奏乐
-<video width="600px" src="http://scratch3-files.just4fun.site/%E5%87%BB%E6%8E%8C%E5%A5%8F%E4%B9%90.mp4" controls="controls"></video>
+<video width="600px" src="http://scratch3-files.just4fun.site/%E4%B8%A4%E5%8F%AA%E8%80%81%E8%99%8E.mp4" controls="controls"></video>
 
 
 ## leapmotion 超级玛丽
@@ -83,7 +83,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
 
 ## cozmo接入在线课程平台 
-<!-http://scratch3-files.just4fun.site/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->
+<!--http://scratch3-files.just4fun.site/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->
 <video src="http://scratch3-files.just4fun.site/blockly_cozmo.mp4" controls="controls"></video>
 
 参考[使用codelab_adapter连接blockly与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)
