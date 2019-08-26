@@ -202,3 +202,47 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ## 接入3D游戏
 <video width=300px src="http://scratch3-files.just4fun.site/game_adapter.mp4" controls="controls"></video>
 
+## 山寨版龟派气功
+<video width=600px src="http://wwj-tmp-video.just4fun.site/%E5%B1%B1%E5%AF%A8%E7%89%88%E9%BE%9F%E6%B4%BE%E6%B0%94%E5%8A%9F.mp4" controls="controls"></video>
+
+## CodeLab X leju robot
+<video width=600px src="http://wwj-tmp-video.just4fun.site/leju_codelab.mp4" controls="controls"></video>
+
+## 手势窗帘
+<video width=600px src="http://wwj-tmp-video.just4fun.site/%E6%89%8B%E5%8A%BF%E7%AA%97%E5%B8%98.mp4" controls="controls"></video>
+
+
+## 体验者初次学会适应变量
+<video width=600px src="http://wwj-tmp-video.just4fun.site/%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%E5%8F%98%E9%87%8F.mp4" controls="controls"></video>
+
+## toio etoys
+<video width=300px src="http://wwj-tmp-video.just4fun.site/toio-etoys.mp4" controls="controls"></video>
+
+
+## 魔法教室
+<video width=300px src="http://wwj-tmp-video.just4fun.site/Magic%20classroom.mp4" controls="controls"></video>
+
+## 灰袍巫师
+<video width=300px src="http://scratch3-files.just4fun.site/wand_tello.mp4" controls="controls"></video>
+
+## Scratch x 微信 X IoT
+<video width=300px src="http://scratch3-files.just4fun.site/wechat_iot.mp4" controls="controls"></video>
+
+## Jupyter + Scratch
+<video width=600px src="http://scratch3-files.just4fun.site/jupyter_scratch.mp4" controls="controls"></video>
+
+## 谁动了我的糖果
+<video width=600px src="http://scratch3-files.just4fun.site/toio_candy.mp4" controls="controls"></video>
+
+## toio music interface
+<video width=600px src="http://scratch3-files.just4fun.site/toio_music" controls="controls"></video>
+
+## toio music interface2
+<video width=600px src="http://scratch3-files.just4fun.site/toio_music2" controls="controls"></video>
+
+## I am reading(Python)
+<video width=600px src="http://scratch3-files.just4fun.site/python_neverland.mp4" controls="controls"></video>
+
+
+## cube symphony
+<video width=600px src="http://scratch3-files.just4fun.site/cube%20symphony.mp4" controls="controls"></video>
