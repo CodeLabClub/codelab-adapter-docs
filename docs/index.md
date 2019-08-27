@@ -4,7 +4,7 @@
 
 ![](img/toys_party.jpeg)
 
-提醒: codelab-adapter曾用名: scratch3-adapter
+提醒: Codelab Adapter v2的[已经发布](https://adapterv2.codelab.club/user_guide/install/)，文档目前还在更新中，愿意尝鲜的小伙伴可以试试。
 
 codelab-adapter是[Scratch3 Lab](https://blog.just4fun.site/Scratch3-Lab.html)的一个子项目， 它也是[codelab.club](https://blog.just4fun.site/about-codelab-club.html)希望贡献给社区的一个基础设施。
 
