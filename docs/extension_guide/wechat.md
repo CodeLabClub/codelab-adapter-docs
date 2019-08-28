@@ -1,6 +1,6 @@
 # 微信(wechat)
 
-## 运行codelab-adapter 微信插件
+## 运行CodeLab Adapter 微信插件
 <img src="http://wwj-fig-bed.just4fun.site/wechat_extension_qr_957e2a99.png" width=400 >
 
 用微信扫码即可登陆

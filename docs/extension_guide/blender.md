@@ -21,13 +21,13 @@ wget https://bootstrap.pypa.io/get-pip.py
 在blender2.8中,我喜欢打开`Scripting`标签页(使用Text Editor也可以), 运行[blender_server.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/servers/blender_server.py):
 ![](http://wwj-fig-bed.just4fun.site/codelab-blender_d397ea81.png)
 
-### 在codelab-adapter运行[extension_blender.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_blender.py)插件
+### 在CodeLab Adapter运行[extension_blender.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_blender.py)插件
 
 <img src="http://wwj-fig-bed.just4fun.site/codelab-blender_984f1dc6.png" width=400 />
 
 下载`https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_blender.py`插件。
 
-下载完成后，重启codelab-adapter.
+下载完成后，重启CodeLab Adapter.
 
 ### 开始使用
 打开[scratch3.codelab.club](https://scratch3.codelab.club/)， 开始使用。

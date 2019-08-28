@@ -8,9 +8,9 @@
 
 微信群无法沉淀有价值的内容，搜索功能太烂了，对富文本/markdown的支持几近于无，微信不是好的办公工具。
 
-与codelab-adapter相关技术问题，大家可以在[issue](https://github.com/Scratch3Lab/codelab_adapter_extensions/issues)里讨论。
+与CodeLab Adapter相关技术问题，大家可以在[issue](https://github.com/Scratch3Lab/codelab_adapter_extensions/issues)里讨论。
 
-也可以在[codelab-adapter讨论组](https://forums.codelab.club/c/codelab-adapter)里讨论。
+也可以在[CodeLab Adapter讨论组](https://forums.codelab.club/c/codelab-adapter)里讨论。
 
 ## 插件启停
 目前，插件启动为线程。Python线程需要[手动管理](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p01_start_stop_thread.html)，这部分的代码目前还比较粗糙。为了允许用户在UI中通过勾选来启停插件。建议插件作者使用`while self._running:`,参考[extension_demo](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_demo.py)
@@ -47,7 +47,7 @@ Python社区有海量的第三方库，开发者可以将其引入插件中。
 这篇教程主要针对那些希望去拓展Scratch的人。当你需要将一些复杂的程序接入Scratch（例如接入AI或者接入微信，如我们制作的例子），它会对你有帮助。
 
 ## 如何接入arduino
-陆续有开发者问到，如何使用codelab-adapter将arduino接入到Scratch3.0中。
+陆续有开发者问到，如何使用CodeLab Adapter将arduino接入到Scratch3.0中。
 
 有许多种方法，但我比较偏好在arduino中烧入Firmata固件。之后以固件交互，我在[两种硬件编程风格的比较](https://blog.just4fun.site/Hardware-Programming-style.html)论述了这样做的好处。
 

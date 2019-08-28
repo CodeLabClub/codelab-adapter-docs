@@ -1,4 +1,4 @@
-site_name: codelab-adapter
+site_name: CodeLab Adapter
 repo_url: https://github.com/Scratch3Lab/codelab-adapter-docs
 site_description: the docs
 extra:
@@ -9,7 +9,7 @@ pages:
   # - 用户手册(user guide):
   - 用户手册:
     - 安装(install): 'user_guide/install.md'
-    - 下载(download): 'user_guide/develop.md'
+    # - 下载(download): 'user_guide/develop.md'
     - 使用(usage): 'user_guide/usage.md'
     - 展示视频(gallery): 'user_guide/gallery.md'
     - FAQ: 'user_guide/FAQ.md'
@@ -24,6 +24,7 @@ pages:
   - extensions:
     - introduction: 'extension_guide/introduction.md'
     - Usage: 'extension_guide/usage.md'
+    - EIM: 'extension_guide/eim.md'
     - Vector: 'extension_guide/vector.md'
     - Cozmo: 'extension_guide/cozmo.md'
     - wechat: 'extension_guide/wechat.md'

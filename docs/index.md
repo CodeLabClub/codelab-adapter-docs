@@ -36,12 +36,12 @@ CodeLab Adapter 是一个跨平台跨语言的通用工具，你可以在多个�
 - [Switch Labo](https://labo.nintendo.com/)
 - [Switch Joy-Con](https://www.nintendo.com/switch/)
 - 四轴飞行器
-  - [Parrot](http://www.parrot.com.cn)的 3 个型号
-  - DJI Tello
+    - [Parrot](http://www.parrot.com.cn)的 3 个型号
+    - DJI Tello
 - [优必选 Alpha 系列机器人](https://www.ubtrobot.com/cn/products/e-bot/)
 - Leju Robot
-  - Pando
-  - Aelos
+    - Pando
+    - Aelos
 - 脑电波传感器
 - 掌控板
 - 眼动仪
@@ -61,7 +61,7 @@ AI 相关:
 - wechat
 - HCI
 
-codelab-adapter 采用[插件式的设计](/dev_guide/Architecture/)，允许你自己动手写插件来拓展它，[开发手册](/dev_guide/helloworld/)将教会大家如何通过短短几行代码来自定义插件。
+CodeLab Adapter 采用[插件式的设计](/dev_guide/Architecture/)，允许你自己动手写插件来拓展它，[开发手册](/dev_guide/helloworld/)将教会大家如何通过短短几行代码来自定义插件。
 
 如果你有什么心仪的玩具，我们没有考虑到的，你可以将其自行接入。诸如我把童年玩的四驱车接入了进来:
 

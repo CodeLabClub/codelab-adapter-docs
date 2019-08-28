@@ -2,8 +2,8 @@
 如果你:
 
 *  希望建立合作
-*  想吐槽codelab-adapter，打击一下开发团队
-*  在写codelab-adapter插件时遇到一些困难,影响到胃口
+*  想吐槽CodeLab Adapter，打击一下开发团队
+*  在写CodeLab Adapter插件时遇到一些困难,影响到胃口
 *  觉得人生苦短，想与我们一起折腾些有趣的事
     *  我们热爱开源文化和社区，写代码之余也写写打油诗
     *  简历最好附上Github和Blog
