@@ -13,11 +13,13 @@ pages:
     - 使用(usage): 'user_guide/usage.md'
     - 展示视频(gallery): 'user_guide/gallery.md'
     - FAQ: 'user_guide/FAQ.md'
+    - 配置文件(settings): 'user_guide/settings.md'
     - changelog: 'changelog.md'
   # - 开发手册(dev guide):
   - 开发手册:
     - Architecture: 'dev_guide/Architecture.md'
     - hello world: 'dev_guide/helloworld.md'
+    - Adapter Node: 'dev_guide/Adapter-Node.md'
     - debug: 'dev_guide/debug.md'
     - FAQ: 'dev_guide/FAQ.md'
     - dev articles: 'dev_guide/dev_articles.md'
@@ -41,7 +43,7 @@ pages:
     - contact us: 'about/contact.md'
     - why: 'about/why.md'
     - value: 'about/value.md'
-    - license: 'about/license.md'
+    - license: 'about/License.md'
     # - Changelog: 'changelog.md'
     - Roadmap: 'about/roadmap.md'
 

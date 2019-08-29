@@ -13,20 +13,18 @@
 也可以在[CodeLab Adapter讨论组](https://forums.codelab.club/c/codelab-adapter)里讨论。
 
 ## 插件启停
-目前，插件启动为线程。Python线程需要[手动管理](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p01_start_stop_thread.html)，这部分的代码目前还比较粗糙。为了允许用户在UI中通过勾选来启停插件。建议插件作者使用`while self._running:`,参考[extension_demo](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_demo.py)
+目前，插件启动为线程。Python线程需要[手动管理](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p01_start_stop_thread.html)，这部分的代码目前还比较粗糙。为了允许用户在UI中通过勾选来启停插件。建议插件作者使用`while self._running:`,参考[extension_eim](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extensions_v2/extension_eim.py)
 
 
 在1.0版本发布之前，插件部分我们将迁往协程，如此一来我们就能轻易管理插件的启停。目前Python社区很多库还不支持协程，所以我们不打算立刻迁移。
 
 ## 引入第三方Python库
-建议统一采用ZeroMQ通信风格。参考:
-
-*  [extension_vector.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_vector.py)
-*  [extension_cozmo.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_cozmo.py)
-*  [extension_raspberrypi.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_raspberrypi.py)
-*  [extension_opencv.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_opencv.py)
 
 内置的第三方库参考:[wiki](https://github.com/Scratch3Lab/codelab_adapter_extensions/wiki)
+
+如果你需要引入新的第三方库(如OpenCV)，需要在本地安装有Python3，可以参考: [servers_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/servers_v2)
+
+关于这个话题，我们日后会给出教程。
 
 <!--
 Python社区有海量的第三方库，开发者可以将其引入插件中。

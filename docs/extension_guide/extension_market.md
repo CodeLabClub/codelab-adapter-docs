@@ -14,6 +14,7 @@ codelab.club内部在使用的一些插件近期也在整理源码，将陆续�
 *  接入blender
 *  ...
 
+<!--
 以下是插件列表
 
 *  [extension_android.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_android.py)
@@ -44,3 +45,4 @@ codelab.club内部在使用的一些插件近期也在整理源码，将陆续�
 *  [extension_ubtrobot.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_ubtrobot.py)
 *  [extension_vector.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_vector.py)
 *  [extension_wechat.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_wechat.py)
+-->

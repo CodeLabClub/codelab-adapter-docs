@@ -4,13 +4,13 @@
 
 We love [Cozmo](https://www.anki.com/en-us/cozmo), we love [Vector](https://www.anki.com/en-us/vector).
 
-[codelab-adapter](https://codelab-adapter-docs.codelab.club/) is a software that connect Scratch3.0 to the open-source hardware, IoT and AI.
+[Codelab Adapter](https://adapterv2.codelab.club) is a software that connect Scratch3.0 to the open-source hardware, IoT and AI.
 
-We make a [codelab-adapter](https://codelab-adapter-docs.codelab.club/) extension to connect Vector to Scratch3.0. It just like Cozmo codelab. 
+We make a [Codelab Adapter](https://adapterv2.codelab.club) extension to connect Vector to Scratch3.0. It just like Cozmo codelab. 
 
 ![](http://wwj-fig-bed.just4fun.site/scratch3-vector_2b21057e.png)
 
-Now the Vector extension is built into the [codelab-adapter](https://codelab-adapter-docs.codelab.club/)!
+Now the Vector extension is built into the [Codelab Adapter](https://adapterv2.codelab.club)!
 
 
 # Video tutorial
@@ -23,32 +23,34 @@ Now the Vector extension is built into the [codelab-adapter](https://codelab-ada
 
 # Tutorial
 
-### install pyzmq
-Linux/MacOS user:  `pip3 install pyzmq --user`
+### install codelab_adapter_client
+Linux/MacOS user:  `pip3 install codelab_adapter_client --user`
 
-windows user: `pip install pyzmq --user`
+windows user: `pip install codelab_adapter_client --user`
 
 ### Install the SDK on your system
 Follow Vector official tutorial:  [Initial Setup](https://developer.anki.com/vector/docs/initial.html)
 
 If the following code runs smoothly: python3 [01_hello_world.py](https://github.com/anki/vector-python-sdk/blob/master/examples/tutorials/01_hello_world.py) ， go to the next step.
 
-###  Download  codelab-adapter
-<a href="https://codelab-adapter-docs.codelab.club/user_guide/install/">Download  codelab-adapter</a>
+###  Download  Codelab Adapter
+<a href="https://adapterv2.codelab.clubuser_guide/install/">Download  Codelab Adapter</a>
 
 run it
 
 <img width=300 src="http://wwj-fig-bed.just4fun.site/scratch-adapter_5f5e6f20.png"/>
 
+<!--
 ### find your local python3 path(Windows users can skip this step)
 edit `~/codelab_adapter/extensions/extension_vector.py`, replace python3_path with your local python3 path: `which python3`.
 
 ![](http://wwj-fig-bed.just4fun.site/scratch-python3-path_37d6feee.png)
 
-restart codelab-adapter.
+restart Codelab Adapter.
+-->
 
 ### Open Scratch3.0
-open [scratch3.codelab.club](https://scratch3.codelab.club/)
+open [CodeLab Scratch3](https://scratch3v2.codelab.club/)
 
 ### Open extension_vector
 ![](http://wwj-fig-bed.just4fun.site/scratch3-vector_3dd2cf42.png)
