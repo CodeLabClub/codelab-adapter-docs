@@ -1,5 +1,6 @@
 site_name: CodeLab Adapter
 repo_url: https://github.com/Scratch3Lab/codelab-adapter-docs
+edit_uri: edit/v2/docs/
 site_description: the docs
 extra:
   search:
