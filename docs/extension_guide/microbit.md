@@ -23,7 +23,7 @@ Codelab Adapter 启动之后，将打开默认浏览器(建议将 Chrome 设为�
 <!--<img width="400px" src="../../img/scratch3_adapter_open.png"/>-->
 
 
-<!--可以看到[Scratch3 Lab](https://scratch3.codelab.club/)指示灯显示绿色,代表连接成功-->
+<!--可以看到[Scratch3 Lab](https://scratch3v2.codelab.club/)指示灯显示绿色,代表连接成功-->
 
 ### 步骤 2: 打开 Codelab Scratch3
 

@@ -2,7 +2,7 @@
 在[codelab-adapter](https://adapter.codelab.club/user_guide/install/)最新版本中, 已经内置了Tello插件。
 
 ### 步骤1: 打开CodeLab Scratch
-推荐使用[Chrome浏览器](https://www.google.cn/chrome/index.html)点击打开:[https://scratch3.codelab.club/?adapter_host=127.0.0.1](https://scratch3.codelab.club/?adapter_host=127.0.0.1)
+推荐使用[Chrome浏览器](https://www.google.cn/chrome/index.html)点击打开:[https://scratch3v2.codelab.club/?adapter_host=127.0.0.1](https://scratch3v2.codelab.club/?adapter_host=127.0.0.1)
 
 ![](../img/scratch3-home.png)
 
@@ -30,7 +30,7 @@
 
 <img width="600px" src="../../img/scratch3_adapter_agree.png"/>
 
-片刻，可以看到[CodeLab Scratch](https://scratch3.codelab.club/)指示灯显示绿色,代表连接成功。
+片刻，可以看到[CodeLab Scratch](https://scratch3v2.codelab.club/)指示灯显示绿色,代表连接成功。
 
 ![](../../img/scratch3-home-connect.png)
 

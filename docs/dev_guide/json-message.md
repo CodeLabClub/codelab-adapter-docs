@@ -98,7 +98,7 @@ class RobotXYExtension(Extension):
 export = RobotXYExtension
 ```
 
-重新勾选`extension_robot_xy`插件，现在你可以在Scratch中按到CodeLab Adapte传过来的json数据了！
+重新勾选`extension_robot_xy`插件，现在你可以在Scratch中收到CodeLab Adapte传过来的json数据了！
 
 
 <img width="800px" src="../../img/v2/randomxy_scratch.png"/>
