@@ -84,5 +84,6 @@ if __name__ == "__main__":
 我们也正在构建其他语言的client，你不会被限制在Python中，而是可以在任何编程语言任何平台上构建Adapter Node。
 
 ### 更多例子
+*  [blender](/extension_guide/blender/)
 *  [examples](https://github.com/Scratch3Lab/codelab_adapter_client_python/tree/master/examples)
 *  [servers_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/servers_v2)

@@ -19,6 +19,7 @@ pages:
   - 开发手册:
     - Architecture: 'dev_guide/Architecture.md'
     - hello world: 'dev_guide/helloworld.md'
+    - json message: 'dev_guide/json-message.md'
     - Adapter Node: 'dev_guide/Adapter-Node.md'
     - debug: 'dev_guide/debug.md'
     - FAQ: 'dev_guide/FAQ.md'
