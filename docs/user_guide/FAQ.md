@@ -24,7 +24,7 @@ CodeLab Adapter对平台和操作系统没有这么高的要求，我们支持:
 *  USB
 *  WIFI
 *  Bluetooth2.0/Bluetooth4.0
-*  大多数的协议(mqtt/ZeroMQ/socket...)
+*  大多数的协议(http/websocket/mqtt/ZeroMQ/socket...)
 *  ...
 
 CodeLab Adapter killer特性之一是允许普通用户(scratcher)[使用Python拓展Scratch的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html)
@@ -68,11 +68,26 @@ CodeLab Adapter几乎支持任何平台，无论是scratch3.0构建的还是bloc
 来信请注明公司/组织的一些基本信息，以及你们正在做的事情 ：）
 
 ### Python版本
-我们在不同操作系统选择的Python版本不同。
+我们在不同操作系统打包时，使用的Python版本不同。
 
-*  Ubuntu/Raspbian: 3.5.3
-*  Windows/MacOS: 3.6.5
+*  Windows: 3.7.4
+*  MacOS: 3.6.5
+*  Raspbian: 3.7.3
+*  Ubuntu: 3.6.5
 
 ### 如何使用Python拓展Scratch的能力？
-参考[使用Python拓展Scratch的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html#_4)
+*  [json message](/dev_guide/json-message/)
+*  参考[使用Python拓展Scratch的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html#_4)
+
+### 如何找到插件目录
+Mac/Linux用户的插件目录在:`~/codelab_adapter/extensions`, 如果找不到插件目录(如windows用户)，可以通过CodeLab Adapter菜单栏上的`插件->查看目录`打开它。
+
+### 用户配置文件放在哪儿
+`~/codelab_adapter/user_settings.py`
+
+### CodeLab Adapter网址是什么
+[scratch3v2.codelab.club](https://scratch3v2.codelab.club/), 你不需要记住， 可以在Web UI中打开它。
+
+### 目前都支持哪些插件
+[extensions_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/extensions_v2)
 
