@@ -38,7 +38,11 @@ Python社区有海量的第三方库，开发者可以将其引入插件中。
 
 
 ## Python与Scratch的双向通信
-参考[Python与Scratch的双向通信](https://blog.just4fun.site/python-scratch-with-adapter.html)
+参考
+
+*  [json message](/dev_guide/json-message/)
+*  [Python与Scratch的双向通信](https://blog.just4fun.site/python-scratch-with-adapter.html)
+
 
 大多数情况下，你只需要发送和接受字符串就够了，这种风格与Scratch内置的广播极为相近。是典型的事件驱动风格。
 
@@ -52,3 +56,17 @@ Python社区有海量的第三方库，开发者可以将其引入插件中。
 之后使用Firmata python client与arduino交互。
 
 细节可以参考[Arduino与Scratch3.0](https://blog.just4fun.site/Scratch3-adapter-Arduino-scratch.html)
+
+## 支持哪些平台
+首先区分CodeLab Adapter和CodeLab Adapter Node。
+
+CodeLab Adapter既是消息中心，又是UI程序，CodeLab Adapter可以运行在:
+
+*  Windows(win7/win8/win10)
+*  Mac
+*  linux
+    *  Ubuntu
+    *  Raspbian
+    *  Android
+
+CodeLab Adapter Node可以运行在任何平台上，包括单片机。

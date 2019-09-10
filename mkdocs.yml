@@ -2,50 +2,86 @@ site_name: CodeLab Adapter
 repo_url: https://github.com/Scratch3Lab/codelab-adapter-docs
 edit_uri: edit/v2/docs/
 site_description: the docs
-extra:
-  search:
-    language: 'jp'
+theme:
+  name: material
+  language: "zh"
+  palette:
+    primary: "Light Blue"
+    accent: "Light Blue"
+  feature:
+    tabs: false
+markdown_extensions:
+  - markdown_include.include:
+      base_path: docs
+  - markdown.extensions.attr_list
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
 pages:
-  - Home: 'index.md'
+  - Home: "index.md"
   # - 用户手册(user guide):
   - 用户手册:
-    - 安装(install): 'user_guide/install.md'
-    # - 下载(download): 'user_guide/develop.md'
-    - 使用(usage): 'user_guide/usage.md'
-    - 展示视频(gallery): 'user_guide/gallery.md'
-    - FAQ: 'user_guide/FAQ.md'
-    - 配置文件(settings): 'user_guide/settings.md'
-    - changelog: 'changelog.md'
+      - 安装(install): "user_guide/install.md"
+      # - 下载(download): 'user_guide/develop.md'
+      - 使用(usage): "user_guide/usage.md"
+      - 展示视频(gallery): "user_guide/gallery.md"
+      - FAQ: "user_guide/FAQ.md"
+      - 配置文件(settings): "user_guide/settings.md"
+      - changelog: "changelog.md"
   # - 开发手册(dev guide):
   - 开发手册:
-    - Architecture: 'dev_guide/Architecture.md'
-    - hello world: 'dev_guide/helloworld.md'
-    - json message: 'dev_guide/json-message.md'
-    - Adapter Node: 'dev_guide/Adapter-Node.md'
-    - debug: 'dev_guide/debug.md'
-    - FAQ: 'dev_guide/FAQ.md'
-    - dev articles: 'dev_guide/dev_articles.md'
+      - introduction: "dev_guide/introduction.md"
+      - Architecture: "dev_guide/Architecture.md"
+      - hello world: "dev_guide/helloworld.md"
+      - json message: "dev_guide/json-message.md"
+      - Adapter Node: "dev_guide/Adapter-Node.md"
+      - MQTT Adapter Node: "dev_guide/mqtt-Adapter-Node.md"
+      - 同步风格的消息: "dev_guide/sync-message.md"
+      - 编程语言支持: "dev_guide/multi-language-support.md"
+      - REST API: "dev_guide/REST-API.md"
+      - debug: "dev_guide/debug.md"
+      - FAQ: "dev_guide/FAQ.md"
+      - dev articles: "dev_guide/dev_articles.md"
   - extensions:
-    - introduction: 'extension_guide/introduction.md'
-    - Usage: 'extension_guide/usage.md'
-    - EIM: 'extension_guide/eim.md'
-    - Vector: 'extension_guide/vector.md'
-    - Cozmo: 'extension_guide/cozmo.md'
-    - wechat: 'extension_guide/wechat.md'
-    - OpenCV: 'extension_guide/opencv.md'
-    - Tensorflow: 'extension_guide/tensorflow.md'
-    - Python kernel extention: 'extension_guide/extension_python_kernel.md'
-    - mpfshell: 'extension_guide/mpfshell.md'
-    - blender: 'extension_guide/blender.md'
-    - Pando Robot: 'extension_guide/Pando.md'
-    - Tello: 'extension_guide/tello.md'
-    - Aelos Robot: 'extension_guide/Aelos.md'
-    - extension market: 'extension_guide/extension_market.md'
+      - introduction: "extension_guide/introduction.md"
+      - Usage: "extension_guide/usage.md"
+      - micro:bit: "extension_guide/microbit.md"
+      - EIM: "extension_guide/eim.md"
+      - Vector: "extension_guide/vector.md"
+      - Cozmo: "extension_guide/cozmo.md"
+      - wechat: "extension_guide/wechat.md"
+      - OpenCV: "extension_guide/opencv.md"
+      - Tensorflow: "extension_guide/tensorflow.md"
+      - Python kernel extention: "extension_guide/extension_python_kernel.md"
+      - mpfshell: "extension_guide/mpfshell.md"
+      - blender: "extension_guide/blender.md"
+      - Pando Robot: "extension_guide/Pando.md"
+      - Tello: "extension_guide/tello.md"
+      - Aelos Robot: "extension_guide/Aelos.md"
+      - extension market: "extension_guide/extension_market.md"
   - about:
-    - contact us: 'about/contact.md'
-    - why: 'about/why.md'
-    - value: 'about/value.md'
-    - license: 'about/License.md'
-    # - Changelog: 'changelog.md'
-    - Roadmap: 'about/roadmap.md'
-
+      - contact us: "about/contact.md"
+      - why: "about/why.md"
+      - value: "about/value.md"
+      - license: "about/License.md"
+      # - Changelog: 'changelog.md'
+      - Roadmap: "about/roadmap.md"

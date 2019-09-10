@@ -81,9 +81,9 @@ if __name__ == "__main__":
 
 你可以将Adapter Node跑在任何地方，来增强CodeLab Adapter的能力，无论是本地、云端还是分布式节点。
 
-我们也正在构建其他语言的client，你不会被限制在Python中，而是可以在任何编程语言任何平台上构建Adapter Node。
+我们也正在构建其他语言的client，你不会被限制在Python中，而是可以在任何编程语言任何平台上构建Adapter Node。 参考:[编程语言支持](/dev_guide/multi-language-support/)
 
 ### 更多例子
-*  [blender](/extension_guide/blender/)
+*  [blender](/extension_guide/blender/): 这是个实际的案例，演示如何使用AdapterNode基础类粘合不同软件，将其变为Adapter Node。
 *  [examples](https://github.com/Scratch3Lab/codelab_adapter_client_python/tree/master/examples)
 *  [servers_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/servers_v2)

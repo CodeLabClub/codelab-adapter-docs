@@ -20,7 +20,7 @@ codelab_adapter_client会为你装上2个命令行调试工具:
 *  codelab-message-monitor
 *  codelab-message-trigger
 
-运行`codelab-message-monitor`，你将看到在CodeLab Adapter中所有往来的消息。
+运行`codelab-message-monitor`，你将看到在CodeLab Adapter中所有往来的消息。这是我目前最依赖的工具。
 
 ### 基于日志的调试
 我们在[hello world #调试技巧](/dev_guide/helloworld/#_4)中提到了基于日志的调试。

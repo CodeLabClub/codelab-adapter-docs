@@ -1,6 +1,6 @@
 # CodeLab Adapter v2
 
-> Turn the world into your playground!
+>  Turn the world into your playground!
 
 ![](img/toys_party.jpeg)
 
