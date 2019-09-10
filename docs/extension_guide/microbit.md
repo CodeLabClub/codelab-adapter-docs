@@ -1,32 +1,16 @@
 # Tutorial
 
+## 依赖
+
 {!utils/dependence.md!}
 
-<!--目前Scratch3 Lab的服务器在香港，第一次加载，你需要耐心等待一段时间(之后打开就快了)-->
+## 步骤 1: 打开 Codelab Adapter
 
-<!--![](../img/scratch3-home.png)-->
+{!utils/open_adapter.md!}
 
-### 步骤 1: 打开 Codelab Adapter
+## 步骤 2: 打开 Codelab Scratch3
 
-双击打开 Codelab Adapter。
-
-
-Codelab Adapter 启动之后，将打开默认浏览器(建议将 Chrome 设为默认浏览器)。
-
-<img width="300px" src="../../img/v2/codelab_adapter_webui.png"/>
-
-<!--<img width="400px" src="../../img/scratch3_adapter_open.png"/>-->
-
-
-<!--可以看到[Scratch3 Lab](https://scratch3v2.codelab.club/)指示灯显示绿色,代表连接成功-->
-
-### 步骤 2: 打开 Codelab Scratch3
-
-点击 Web UI 上的`scratch3`链接, 将打开如下页面:
-
-![](../../img/v2/codelab-scratch3.png)
-
-图中箭头所指的小圆点呈现绿色说明 Codelab Adapter 与 Scratch3.0 的连接正常。
+{!utils/open_scratch.md!}
 
 <!--
 ### 步骤3: https检验(只需要验证一次)
@@ -41,7 +25,7 @@ Codelab Adapter 启动之后，将打开默认浏览器(建议将 Chrome 设为�
 完成之后，scratch3_adapter就可以与Scratch3 Lab建立连接了
 -->
 
-### 步骤 3: 连接 micro:bit，加载插件
+## 步骤 3: 连接 micro:bit，加载插件
 
 使用数据线将 micro:bit 接入电脑，下载<a href="../../img/usb_Microbit_frimeware.hex" target="_blank">usb_Microbit_frimeware.hex</a> 右键保存到本地，并将保存的文件拖入 micro:bit 中。
 
@@ -55,7 +39,7 @@ ps: Windows7 用户注意(Mac 和 Windows10 用户可以跳过),为了能发现�
 
 ps: linux 用户注意，scratch3_adapter 使用 usb 串口与 micro:bit 连接,linux 下，使用 usb 串口需要做权限设置:`sudo chmod 666 /dev/ttyACM0`
 
-### 步骤 4: hello world
+## 步骤 4: hello world
 
 现在让我们利用 Scratch3 控制 micro:bit，让它在点阵屏上打印`hello world`
 
@@ -67,7 +51,7 @@ ps: linux 用户注意，scratch3_adapter 使用 usb 串口与 micro:bit 连接,
 
 <img width="600px" src="../../img/v2/scratch3_usbmicrobit_hello.png"/>
 
-# 结语
+## 结语
 
 这个例子完整展示了 CodeLab Adapter 的使用流程
 

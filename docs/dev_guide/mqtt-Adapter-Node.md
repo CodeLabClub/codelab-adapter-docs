@@ -5,10 +5,10 @@
 
 如果你对Adapter Node概念不熟悉，可以参考[这里](/dev_guide/Adapter-Node/)
 
-### 依赖
+## 依赖
 `pip install codelab_adapter_mqtt_client`
 
-### demo
+## demo
 依然以反转字符串为例.
 
 参考[helloworld_mqtt_node.py](https://github.com/Scratch3Lab/codelab_adapter_mqtt_client/blob/master/examples/helloworld_mqtt_node.py)
@@ -47,7 +47,7 @@ if __name__ == "__main__":
         node.clean_up()
 ```
 
-### 运行
+## 运行
 打开CodeLab Adapter，运行`extension_mqtt_gateway`插件， 该插件在zeromq与mqtt直接进行转换。
 
 运行helloworld_mqtt_node: `python helloworld_mqtt_node.py`
@@ -60,12 +60,12 @@ if __name__ == "__main__":
 
 [AdapterMQTTNode](https://github.com/Scratch3Lab/codelab_adapter_mqtt_client/blob/master/codelab_adapter_mqtt_client/codelab_adapter_mqtt_client.py#L12)已经开源在Github上，如果你对任何细节感到好奇，就把盒子拆开来看吧。
 
-### debug
+## debug
 新开一个窗口，运行`codelab-mqtt-monitor`(随codelab_adapter_mqtt_client一起安装)，你将能够看到往来的MQTT message的内部细节。
 
-### 想象空间
+## 想象空间
 
 当你通过`codelab-mqtt-monitor`了解了MQTT message的内部细节，你就可以使用任何语言的MQTT client来构建Adapter Node！你甚至可以在一个单片机中构建Adapter Node！
 
-### 更多 MQTT tools
+## 更多 MQTT tools
 参考[codelab_adapter_mqtt_client#tools for debugging](https://github.com/Scratch3Lab/codelab_adapter_mqtt_client#toolsfor-debugging)

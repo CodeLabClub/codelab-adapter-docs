@@ -1,5 +1,7 @@
 # debug
 
+## 3 种 debug 方式
+
 目前有 3 种 debug 方式:
 
 1.  基于命令行的调试
@@ -11,25 +13,27 @@
 下边逐一陈述。
 
 ### 基于命令行的调试
-需要本地有Python环境(`Python >= 3.6`)
+
+需要本地有 Python 环境(`Python >= 3.6`)
 
 安装`pip install codelab_adapter_client`
 
-codelab_adapter_client会为你装上2个命令行调试工具:
+codelab_adapter_client 会为你装上 2 个命令行调试工具:
 
-*  codelab-message-monitor
-*  codelab-message-trigger
+- codelab-message-monitor
+- codelab-message-trigger
 
-运行`codelab-message-monitor`，你将看到在CodeLab Adapter中所有往来的消息。这是我目前最依赖的工具。
+运行`codelab-message-monitor`，你将看到在 CodeLab Adapter 中所有往来的消息。这是我目前最依赖的工具。
 
 ### 基于日志的调试
+
 我们在[hello world #调试技巧](/dev_guide/helloworld/#_4)中提到了基于日志的调试。
 
 在插件中打上日志: `self.logger.info`, 之后使用
 
-*  `tail -f ~/codelab_adapter/debug.log`
-*  `tail -f ~/codelab_adapter/info.log`
-*  `tail -f ~/codelab_adapter/error.log`
+- `tail -f ~/codelab_adapter/debug.log`
+- `tail -f ~/codelab_adapter/info.log`
+- `tail -f ~/codelab_adapter/error.log`
 
 便可实时查看日志。
 
@@ -39,8 +43,7 @@ codelab_adapter_client会为你装上2个命令行调试工具:
 
 <img src="../../img/v2/adapter_webdebug_inter.png" width="300">
 
-
-### tips
+## tips
 
 ### windows 用户
 

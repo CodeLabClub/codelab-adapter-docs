@@ -1,93 +1,103 @@
 # FAQ
 
-### 与官方的[Scratch Link](https://scratch.mit.edu/microbit)有什么差异？
+## 与官方的[Scratch Link](https://scratch.mit.edu/microbit)有什么差异？
+
 兼容性方面：
 
 [Scratch Link](https://scratch.mit.edu/microbit)目前有以下依赖:
 
-*  Windows 10 version 1709+
-*  macOS 10.13+
-*  Bluetooth 4.0
+- Windows 10 version 1709+
+- macOS 10.13+
+- Bluetooth 4.0
 
-CodeLab Adapter对平台和操作系统没有这么高的要求，我们支持:
+CodeLab Adapter 对平台和操作系统没有这么高的要求，我们支持:
 
-*  window7、window8、window10（32位/64位都支持）
-*  macOS大多数版本
-*  Ubuntu
-*  树莓派
-*  其他linux发行版
+- window7、window8、window10（32 位/64 位都支持）
+- macOS 大多数版本
+- Ubuntu
+- 树莓派
+- 其他 linux 发行版
 
 [Scratch Link](https://scratch.mit.edu/microbit)
 
-在连接能力上，[Scratch Link](https://scratch.mit.edu/microbit)目前只支持BLE，CodeLab Adapter支持任何的连接:
+在连接能力上，[Scratch Link](https://scratch.mit.edu/microbit)目前只支持 BLE，CodeLab Adapter 支持任何的连接:
 
-*  USB
-*  WIFI
-*  Bluetooth2.0/Bluetooth4.0
-*  大多数的协议(http/websocket/mqtt/ZeroMQ/socket...)
-*  ...
+- USB
+- WIFI
+- Bluetooth2.0/Bluetooth4.0
+- 大多数的协议(http/websocket/mqtt/ZeroMQ/socket...)
+- ...
 
-CodeLab Adapter killer特性之一是允许普通用户(scratcher)[使用Python拓展Scratch的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html)
+CodeLab Adapter killer 特性之一是允许普通用户(scratcher)[使用 Python 拓展 Scratch 的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html)
 
-CodeLab Adapter killer特性之二是允许开发者和公司使用Python构建自定义的插件，轻松将任何硬件/AI/IOT设备接入到Scratch3.0中。
+CodeLab Adapter killer 特性之二是允许开发者和公司使用 Python 构建自定义的插件，轻松将任何硬件/AI/IOT 设备接入到 Scratch3.0 中。
 
+Scratch 官方计划开源[Scratch Link](https://scratch.mit.edu/microbit)，一旦它们开源，我们将在 CodeLab Adapter 通过插件实现 Scratch Link 的所有功能。
 
-Scratch官方计划开源[Scratch Link](https://scratch.mit.edu/microbit)，一旦它们开源，我们将在CodeLab Adapter通过插件实现Scratch Link的所有功能。
+如果你目前要使用以下三种硬件，我们推荐你先使用 Scratch Link。未来我们会和官方的功能完全一样。
 
-如果你目前要使用以下三种硬件，我们推荐你先使用Scratch Link。未来我们会和官方的功能完全一样。
+- [wedo2.0](https://scratch.mit.edu/wedo)
+- [microbit](https://scratch.mit.edu/microbit)
+- [ev3](https://scratch.mit.edu/ev3)
 
-*  [wedo2.0](https://scratch.mit.edu/wedo)
-*  [microbit](https://scratch.mit.edu/microbit)
-*  [ev3](https://scratch.mit.edu/ev3)
+Scratch Link 和 CodeLab Adapter 可以协同工作.
 
-Scratch Link和CodeLab Adapter可以协同工作.
+CodeLab Adapter 致力于提供更好的跨平台支持和开放的[插件系统](https://github.com/Scratch3Lab/codelab_adapter_extensions)，CodeLab Adapter 的目标是连接万物，不只是连接教育硬件。
 
-CodeLab Adapter致力于提供更好的跨平台支持和开放的[插件系统](https://github.com/Scratch3Lab/codelab_adapter_extensions)，CodeLab Adapter的目标是连接万物，不只是连接教育硬件。
+## CodeLab Adapter 与[Scratch3 Lab](https://scratch3v2.codelab.club/)是否连接成功？
 
-### CodeLab Adapter与[Scratch3 Lab](https://scratch3v2.codelab.club/)是否连接成功？
-CodeLab Adapter启动之后，可以看到[Scratch3 Lab](https://scratch3v2.codelab.club/)指示灯显示绿色，代表连接成功
+CodeLab Adapter 启动之后，可以看到[Scratch3 Lab](https://scratch3v2.codelab.club/)指示灯显示绿色，代表连接成功
 
 <img alt="" src="../../../img/scratch3-home-connect.png">
 
-### 启动CodeLab Adapter后，与scratch3无法通信怎么办？
+## 启动 CodeLab Adapter 后，与 scratch3 无法通信怎么办？
+
 检查下是不是打开了科学上网的软件。
 
-### CodeLab Adapter可以支持其他平台吗？
-CodeLab Adapter可以支持其他编程平台吗？而不只是在codelab的的平台上使用。
+## CodeLab Adapter 可以支持其他平台吗？
+
+CodeLab Adapter 可以支持其他编程平台吗？而不只是在 codelab 的的平台上使用。
 
 可以的！
 
-CodeLab Adapter几乎支持任何平台，无论是scratch3.0构建的还是blockly构建的(如Tynker和code.org)的，或者你用其他什么黑魔法构建的，都没问题！
+CodeLab Adapter 几乎支持任何平台，无论是 scratch3.0 构建的还是 blockly 构建的(如 Tynker 和 code.org)的，或者你用其他什么黑魔法构建的，都没问题！
 
-这是目前的接入文档:[codelab-adapter支持第三方平台](https://blog.just4fun.site/scratch3-adapter-open-plan.html)
+这是目前的接入文档:[codelab-adapter 支持第三方平台](https://blog.just4fun.site/scratch3-adapter-open-plan.html)
 
 相关的合作条款我们正在构建中。
 
-期待接入CodeLab Adapter的公司或组织，欢迎联系我们: `wuwenjie718@gmail.com`
+期待接入 CodeLab Adapter 的公司或组织，欢迎联系我们: `wuwenjie718@gmail.com`
 
 来信请注明公司/组织的一些基本信息，以及你们正在做的事情 ：）
 
-### Python版本
-我们在不同操作系统打包时，使用的Python版本不同。
+## Python 版本
 
-*  Windows: 3.7.4
-*  MacOS: 3.6.5
-*  Raspbian: 3.7.3
-*  Ubuntu: 3.6.5
+我们在不同操作系统打包时，使用的 Python 版本不同。
 
-### 如何使用Python拓展Scratch的能力？
-*  [json message](/dev_guide/json-message/)
-*  参考[使用Python拓展Scratch的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html#_4)
+- Windows: 3.7.4
+- MacOS: 3.6.5
+- Raspbian: 3.7.3
+- Ubuntu: 3.6.5
 
-### 如何找到插件目录
-Mac/Linux用户的插件目录在:`~/codelab_adapter/extensions`, 如果找不到插件目录(如windows用户)，可以通过CodeLab Adapter菜单栏上的`插件->查看目录`打开它。
+## 如何使用 Python 拓展 Scratch 的能力？
 
-### 用户配置文件放在哪儿
-`~/codelab_adapter/user_settings.py`
+- [json message](/dev_guide/json-message/)
+- 参考[使用 Python 拓展 Scratch 的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html#_4)
 
-### CodeLab Adapter网址是什么
-[scratch3v2.codelab.club](https://scratch3v2.codelab.club/), 你不需要记住， 可以在Web UI中打开它。
+## 如何找到插件目录
 
-### 目前都支持哪些插件
+Mac/Linux 用户的插件目录在:`~/codelab_adapter/extensions`, 如果找不到插件目录(如 windows 用户)，可以通过 CodeLab Adapter 菜单栏上的`插件->查看目录`打开它。
+
+## 用户配置文件放在哪儿
+
+`~/codelab_adapter/user_settings.py`.
+
+windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Adapter 菜单栏上的`插件->查看目录`先打开插件目录，用户配置文件在它的外层。
+
+## CodeLab Adapter 网址是什么
+
+[scratch3v2.codelab.club](https://scratch3v2.codelab.club/), 你不需要记住， 可以在 Web UI 中打开它。
+
+## 目前都支持哪些插件
+
 [extensions_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/extensions_v2)
-

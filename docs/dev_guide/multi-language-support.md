@@ -3,7 +3,7 @@ CodeLab Adapter的核心是一个消息系统，它是平台和编程语言无�
 
 我们正在陆续构建多种语言的CodeLab Adapter client。
 
-### nodejs
+## nodejs
 以下展示如何在nodejs中构建[Adapter Node](/dev_guide/Adapter-Node/)。依然是以反转字符串为例。
 
 首先安装依赖:`npm i codelab_adapter_client_nodejs`, 接着随便找个地方, 创建脚本文件: `hello_world.js`:
@@ -67,7 +67,7 @@ try {
 成功！
 
 
-### LISP
+## LISP
 依赖: `pip install hy`
 
 [hy](http://docs.hylang.org/en/stable/)是一门LISP方言，构建在Python之上，可以使用Python生态里的所有库。于是我们可以很方便地构建Adapter Node: `hello_world.hy`
@@ -107,7 +107,7 @@ try {
 
 很多Python内置函数没有写成LISP风格，所以看起来没什么LISP风味，更多Python风味。
 
-### SmallTalk
+## SmallTalk
 
-### Ruby
+## Ruby
 
