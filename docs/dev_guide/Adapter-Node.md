@@ -10,10 +10,10 @@ extension有如下的限制:
 
 我们希望CodeLab Adapter专注于连接万物，所以构建了Adapter Node，允许你在任何地方创建CodeLab Adapter的扩展，允许你使用任何Python库，无论你准备构建游戏、构建网站、构建深度学习应用还是构建一个机器人！
 
-### Adapter Node是什么
+## Adapter Node是什么
 Adapter Node只是普通的Python程序，继承自[AdapterNode](https://github.com/Scratch3Lab/codelab_adapter_client_python/blob/master/codelab_adapter_client/base.py#L174)。别害怕，它很简单的。
 
-### 第一个Adapter Node
+## 第一个Adapter Node
 我们开始写第一个Adapter Node。
 
 你需要完成这些前置工作:
@@ -62,7 +62,7 @@ if __name__ == "__main__":
         node.terminate()  # Clean up before exiting.
 ```
 
-### 运行
+## 运行
 打开CodeLab Adapter（不需要选择插件），将CodeLab Adapter作为消息中心。
 
 运行my_first_adapter_node.py: `python3 my_first_adapter_node.py`
@@ -76,14 +76,14 @@ if __name__ == "__main__":
 它只是普通的Python程序，使用你本地的Python环境，所以你现在可以使用[pygame](https://github.com/pygame/pygame)、[numpy](https://github.com/numpy/numpy)、[opencv](https://github.com/opencv/opencv)、[tensorflow](https://github.com/tensorflow/tensorflow)来增强Scratch3啦！
 
 
-### 想象空间
+## 想象空间
 如果你希望构建分布式的应用，诸如构建密室逃脱中的各种机关。只需要[做一下配置就行](https://adapterv2.codelab.club/user_guide/settings/#open_message_hub), 让CodeLab Adapter接受分布式的请求。
 
 你可以将Adapter Node跑在任何地方，来增强CodeLab Adapter的能力，无论是本地、云端还是分布式节点。
 
 我们也正在构建其他语言的client，你不会被限制在Python中，而是可以在任何编程语言任何平台上构建Adapter Node。 参考:[编程语言支持](/dev_guide/multi-language-support/)
 
-### 更多例子
+## 更多例子
 *  [blender](/extension_guide/blender/): 这是个实际的案例，演示如何使用AdapterNode基础类粘合不同软件，将其变为Adapter Node。
 *  [examples](https://github.com/Scratch3Lab/codelab_adapter_client_python/tree/master/examples)
 *  [servers_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/servers_v2)

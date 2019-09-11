@@ -246,3 +246,4 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 ## cube symphony
 <video width=80% src="http://scratch3-files.just4fun.site/cube%20symphony.mp4" controls="controls"></video>
+

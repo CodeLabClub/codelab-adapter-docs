@@ -43,14 +43,14 @@ codelab_adapter_client 会为你装上 2 个命令行调试工具:
 
 <img src="../../img/v2/adapter_webdebug_inter.png" width="300">
 
-## tips
+!!! tip
 
-### windows 用户
+    ### windows 用户
 
-windows 缺少调试 unix/linux 工具集，调试起来可能有诸多不便，推荐使用[cmder](https://github.com/cmderdev/cmder)，如此一来你就能得到一大包好用的命令行工具。
+    windows 缺少调试 unix/linux 工具集，调试起来可能有诸多不便，推荐使用[cmder](https://github.com/cmderdev/cmder)，如此一来你就能得到一大包好用的命令行工具。
 
-### log 过滤
+    ### log 过滤
 
-如果你觉得 log 输出的信息太多，可以使用 grep 观察你关注的信息，诸如我只关心`extension_hello_world.py`插件输出的信息:
+    如果你觉得 log 输出的信息太多，可以使用 grep 观察你关注的信息，诸如我只关心`extension_hello_world.py`插件输出的信息:
 
-`tail -f ~/codelab_adapter/info.log | grep extension_hello_world`
+    `tail -f ~/codelab_adapter/info.log | grep extension_hello_world`

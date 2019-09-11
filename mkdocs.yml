@@ -36,7 +36,13 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.tilde
-pages:
+  - pyembed.markdown
+
+# extra:
+#   disqus: 'https-adapter-codelab-club'
+
+# Navigation
+nav:
   - Home: "index.md"
   # - 用户手册(user guide):
   - 用户手册:
@@ -85,3 +91,4 @@ pages:
       - license: "about/License.md"
       # - Changelog: 'changelog.md'
       - Roadmap: "about/roadmap.md"
+
