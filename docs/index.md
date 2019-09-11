@@ -8,15 +8,13 @@
     需要使用旧版本的用户请访问这里: [CodeLab Adapter v1](https://adapterv1.codelab.club/)。
 
 
-CodeLab Adapter 是由[CodeLab](https://www.codelab.club/){target=_blank}构建的基础项目(v2 是最新版本)，致力于连接万物，无论是软件还是硬件，无论是 AI、开源硬件、现实世界的物体、还是虚拟世界的动画角色，在 CodeLab Adapter 的驱动下，皆可彼此互动。
+CodeLab Adapter 是由[CodeLab](https://www.codelab.club/)构建的基础项目(v2 是最新版本)，致力于连接万物，无论是软件还是硬件，无论是 AI、开源硬件、现实世界的物体、还是虚拟世界的动画角色，在 CodeLab Adapter 的驱动下，皆可彼此互动。
 
 目前，我们在 CodeLab Neverland 中使用 CodeLab Adapter。CodeLab Neverland 是一个由 CodeLab Adapter 驱动的可编程空间，空间里的所有事物皆可编程。
 
 <!--看两个视频-->
 
 <video width=40% src="http://scratch3-files.just4fun.site/wand.mp4" controls="controls"></video>
-
-
 
 <br/>
 
@@ -44,12 +42,12 @@ CodeLab Adapter 是一个跨平台跨语言的通用工具，你可以在多个�
 - [Switch Labo](https://labo.nintendo.com/)
 - [Switch Joy-Con](https://www.nintendo.com/switch/)
 - 四轴飞行器
-  - [Parrot](http://www.parrot.com.cn)的 3 个型号
-  - DJI Tello
+    - [Parrot](http://www.parrot.com.cn)的 3 个型号
+    - DJI Tello
 - [优必选 Alpha 系列机器人](https://www.ubtrobot.com/cn/products/e-bot/)
 - Leju Robot
-  - Pando
-  - Aelos
+    - Pando
+    - Aelos
 - 脑电波传感器
 - 掌控板
 - 眼动仪
