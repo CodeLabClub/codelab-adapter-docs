@@ -20,7 +20,7 @@
 
 在 Web UI 中点击加载 `extension_wechat` 插件:
 
-<img width="300px" src="../../img/v2/adapter_wechat_open.png"/>
+<img width="300px" src="../../img/v2/adapter_wechat_open_scratch_style.png"/>
 
 
 

@@ -16,7 +16,7 @@
 
 在 Web UI 中点击加载 eim 插件:
 
-<img width="300px" src="../../img/v2/open_adapter_eim.png"/>
+<img width="300px" src="../../img/v2/open_adapter_eim_scratch_style.png"/>
 
 eim 每秒钟更新一次数值，将数值报告给 Scratch3.
 

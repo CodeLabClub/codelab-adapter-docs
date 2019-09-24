@@ -178,7 +178,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ## DJI Tello x Switch Joy-Con
 <video width=40% src="http://scratch3-files.just4fun.site/tello_joy_con.mp4" controls="controls"></video>
 
-## 霍格沃滋模式
+## 霍格沃兹模式
 <video width=80% src="http://scratch3-files.just4fun.site/magic_joy_con.mp4" controls="controls"></video>
 
 <video width=80% src="http://scratch3-files.just4fun.site/magic-eye-tracker.mp4" controls="controls"></video>
@@ -247,3 +247,12 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ## cube symphony
 <video width=80% src="http://scratch3-files.just4fun.site/cube%20symphony.mp4" controls="controls"></video>
 
+## 自制门禁系统
+<video width=80% src="http://scratch3-files.just4fun.site/%E8%87%AA%E5%88%B6%E9%97%A8%E7%A6%81.mp4" controls="controls"></video>
+
+## CodeLab有嘻哈
+<video width=80% src="http://scratch3-files.just4fun.site/codelab%E6%9C%89%E5%98%BB%E5%93%88.mp4" controls="controls"></video>
+
+
+## 目之所及
+<video width=50% src="http://scratch3-files.just4fun.site/eye_light.mp4" controls="controls"></video>

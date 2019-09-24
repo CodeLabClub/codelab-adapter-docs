@@ -33,7 +33,7 @@ ps: Windows7 用户注意(Mac 和 Windows10 用户可以跳过),为了能发现�
 
 完成后在 CodeLab Adapter 中点击加载 usb micro:bit 插件:
 
-<img width="300px" src="../../img/v2/open_usbmicrobit.png"/>
+<img width="300px" src="../../img/v2/open_usbmicrobit_scratch_style.png"/>
 
 你应该看到 micro:bit 背后的信号灯高频闪烁，如果它没有高频闪烁，则按一下 micro:bit 背部的复位按钮
 

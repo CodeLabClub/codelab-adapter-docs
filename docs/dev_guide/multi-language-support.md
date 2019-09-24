@@ -3,6 +3,10 @@ CodeLab Adapter的核心是一个消息系统，它是平台和编程语言无�
 
 我们正在陆续构建多种语言的CodeLab Adapter client。
 
+如果你只需要简单集成，参考[与其他编程语言集成](/dev_guide/system_command/),目前已经给出30+种编程语言的例子。
+
+当前文档展示的是深度集成(ZeroMQ client)。
+
 ## nodejs
 以下展示如何在nodejs中构建[Adapter Node](/dev_guide/Adapter-Node/)。依然是以反转字符串为例。
 

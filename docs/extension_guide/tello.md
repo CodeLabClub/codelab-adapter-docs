@@ -14,7 +14,7 @@
 
 点击加载Tello插件
 
-<img width="300px" src="../../img/adapter_tello_extension.png"/>
+<img width="300px" src="../../img/v2/adapter_tello_extension.png"/>
 
 
 ### 步骤4: 开始使用

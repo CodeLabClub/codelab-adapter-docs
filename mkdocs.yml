@@ -43,33 +43,37 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Home: "index.md"
+  - 主页(Home): "index.md"
   # - 用户手册(user guide):
-  - 用户手册:
+  - 用户手册(user guide):
       - 安装(install): "user_guide/install.md"
       # - 下载(download): 'user_guide/develop.md'
       - 使用(usage): "user_guide/usage.md"
       - 展示视频(gallery): "user_guide/gallery.md"
-      - FAQ: "user_guide/FAQ.md"
+      - 常见问题(FAQ): "user_guide/FAQ.md"
       - 配置文件(settings): "user_guide/settings.md"
-      - changelog: "changelog.md"
-  # - 开发手册(dev guide):
-  - 开发手册:
-      - introduction: "dev_guide/introduction.md"
-      - Architecture: "dev_guide/Architecture.md"
+      - 历史(changelog): "changelog.md"
+  - 项目(projects):
+      - 介绍(introduction): "projects/introduction.md"
+      - Scratch PPT: "projects/scratch_ppt.md"
+  - 开发手册(dev guide):
+      - 介绍(introduction): "dev_guide/introduction.md"
+      - 架构(Architecture): "dev_guide/Architecture.md"
       - hello world: "dev_guide/helloworld.md"
       - json message: "dev_guide/json-message.md"
       - Adapter Node: "dev_guide/Adapter-Node.md"
       - MQTT Adapter Node: "dev_guide/mqtt-Adapter-Node.md"
-      - 同步风格的消息: "dev_guide/sync-message.md"
-      - 编程语言支持: "dev_guide/multi-language-support.md"
+      - 同步风格的消息(sync message): "dev_guide/sync-message.md"
+      - 编程语言支持(multi language support): "dev_guide/multi-language-support.md"
+      - 与其他编程语言集成(system command): "dev_guide/system_command.md"
       - REST API: "dev_guide/REST-API.md"
       - debug: "dev_guide/debug.md"
       - FAQ: "dev_guide/FAQ.md"
+      - 安全性(security): "dev_guide/security.md"
       - dev articles: "dev_guide/dev_articles.md"
-  - extensions:
-      - introduction: "extension_guide/introduction.md"
-      - Usage: "extension_guide/usage.md"
+  - 插件(extensions):
+      - 介绍(introduction): "extension_guide/introduction.md"
+      - 使用(Usage): "extension_guide/usage.md"
       - micro:bit: "extension_guide/microbit.md"
       - EIM: "extension_guide/eim.md"
       - Vector: "extension_guide/vector.md"
@@ -84,11 +88,11 @@ nav:
       - Tello: "extension_guide/tello.md"
       - Aelos Robot: "extension_guide/Aelos.md"
       - extension market: "extension_guide/extension_market.md"
-  - about:
-      - contact us: "about/contact.md"
+  - 关于(about):
+      - 联系我们(contact us): "about/contact.md"
       - why: "about/why.md"
-      - value: "about/value.md"
-      - license: "about/License.md"
+      - 价值观(value): "about/value.md"
+      - 证书(license): "about/License.md"
       # - Changelog: 'changelog.md'
-      - Roadmap: "about/roadmap.md"
+      - 路线图(Roadmap): "about/roadmap.md"
 

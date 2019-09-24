@@ -26,7 +26,7 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 ### 在 CodeLab Adapter 运行[extension_blender.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_blender.py)插件
 
-<img width="300px" src="../../img/v2/codelab_adapter_webui.png"/>
+<img width="300px" src="../../img/v2/adapter_scratch_style_ui.png"/>
 
 下载`https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extensions_v2/extension_blender.py`插件。
 
