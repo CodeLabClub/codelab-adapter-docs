@@ -1,2 +1,2 @@
 
-![](../../img/v2/manual_comment.png)
+![](/img/v2/manual_comment.png)

@@ -53,9 +53,25 @@ nav:
       - 常见问题(FAQ): "user_guide/FAQ.md"
       - 配置文件(settings): "user_guide/settings.md"
       - 历史(changelog): "changelog.md"
-  - 项目(projects):
-      - 介绍(introduction): "projects/introduction.md"
-      - Scratch PPT: "projects/scratch_ppt.md"
+  - Scratch Projects:
+      - 介绍(introduction): "Scratch_Projects/introduction.md"
+      - Scratch PPT: "Scratch_Projects/scratch_ppt.md"
+      - 霍格沃兹: "Scratch_Projects/霍格沃兹.md"
+      - cube symphony: "Scratch_Projects/cube_symphony.md"
+      - 彩虹的旋律: "Scratch_Projects/彩虹的旋律.md"
+      - 击掌奏乐: "Scratch_Projects/击掌奏乐.md"
+      - 目之所及: "Scratch_Projects/目之所及.md"
+      - 芝麻开门: "Scratch_Projects/芝麻开门.md"
+      - 纸做的开关: "Scratch_Projects/纸做的开关.md"
+      - 自制门禁系统: "Scratch_Projects/自制门禁系统.md"
+      - 灰袍巫师: "Scratch_Projects/灰袍巫师.md"
+      - 鼻梁上的老花镜: "Scratch_Projects/鼻梁上的老花镜.md"
+      - 闭眼请熄灯: "Scratch_Projects/闭眼请熄灯.md"
+      - 击灭那盏灯: "Scratch_Projects/击灭那盏灯.md"
+      - 手势窗帘: "Scratch_Projects/手势窗帘.md"
+  - Python Projects:
+      - 介绍(introduction): "Python_Projects/introduction.md"
+      - I am reading!: "Python_Projects/I_am_reading.md"
   - 开发手册(dev guide):
       - 介绍(introduction): "dev_guide/introduction.md"
       - 架构(Architecture): "dev_guide/Architecture.md"

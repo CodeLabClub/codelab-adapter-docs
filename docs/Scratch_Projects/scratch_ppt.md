@@ -1,6 +1,17 @@
 # Scratch PPT
 
-使用 Scratch 来制作 PPT，用于分享和演讲。
+![](/img/v2/scratch_ppt_capture.png)
+
+## 项目介绍
+
+使用 Scratch 来制作 PPT，用于分享和演讲:
+
+*  介绍自己
+*  介绍自己最喜欢的玩具
+*  介绍最喜欢的小动物
+*  介绍团队成员
+*  分享自己制作项目的经历
+*  ...
 
 ## 思路
 
@@ -55,3 +66,11 @@
 根据项目注释里的 **使用说明** 操作。
 
 {!utils/manual_comment.md!}
+
+
+### 你的创作
+...
+
+# 参考
+*  [scratch入门项目|故事](https://scratch.mit.edu/starter-projects)
+*  [raspberrypi Scratch Project](https://projects.raspberrypi.org/en/codeclub/scratch-module-1)

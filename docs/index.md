@@ -75,3 +75,5 @@ CodeLab Adapter 采用[插件式的设计](/dev_guide/Architecture/)，允许你
 如果你有什么心仪的玩具，我们没有考虑到的，你可以将其自行接入。诸如我把童年玩的四驱车接入了进来:
 
 <video width=40% src="http://wwj-fig-bed.just4fun.site/1539392124109888.mp4" controls="controls"></video>
+
+<!--todo 网站结构介绍-->
