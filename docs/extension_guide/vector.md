@@ -8,7 +8,7 @@ We love [Cozmo](https://www.anki.com/en-us/cozmo), we love [Vector](https://www.
 
 We make a [Codelab Adapter](https://adapterv2.codelab.club) extension to connect Vector to Scratch3.0. It just like Cozmo codelab. 
 
-![](http://wwj-fig-bed.just4fun.site/scratch3-vector_2b21057e.png)
+![](/img/scratch3-vector_2b21057e.png)
 
 Now the Vector extension is built into the [Codelab Adapter](https://adapterv2.codelab.club)!
 
@@ -38,7 +38,7 @@ If the following code runs smoothly: python3 [01_hello_world.py](https://github.
 
 run it
 
-<img width=300 src="http://wwj-fig-bed.just4fun.site/scratch-adapter_5f5e6f20.png"/>
+<img width=300 src="/img/scratch-adapter_5f5e6f20.png"/>
 
 <!--
 ### find your local python3 path(Windows users can skip this step)
@@ -53,11 +53,15 @@ restart Codelab Adapter.
 open [CodeLab Scratch3](https://scratch3v2.codelab.club/)
 
 ### Open extension_vector
-![](http://wwj-fig-bed.just4fun.site/scratch3-vector_3dd2cf42.png)
+![](/img/scratch3-vector_3dd2cf42.png)
 
 Ok!
 
 Enjoy it :)
+
+
+!!! Tip
+    Tool for watching the camera feed and test animations of Anki's robot Vector: [Vector-Explorer-Tool](https://github.com/GrinningHermit/Vector-Explorer-Tool)
 
 ---
 
@@ -72,5 +76,6 @@ Here are some demo cases（just like Cozmo CodeLab）:
 
 ## Candy Language for Vector
 <video width=600px src="http://scratch3-files.just4fun.site/candy_vector.mp4" controls="controls"></video>
+
 
 

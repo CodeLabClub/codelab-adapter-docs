@@ -58,3 +58,5 @@
     *  使用scratch配色风格的Web UI
     *  版本号更新提醒(只提醒旧版本，不提醒测试版升级)
     *  报告adapter core信息(version)
+*  2019.09.23 2.5.3
+    *  将GUI menu迁移到web ui

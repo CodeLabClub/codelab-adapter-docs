@@ -12,6 +12,8 @@
 
 ## 微信插件
 
+首先确保你的微信能登陆[网页微信](https://wx.qq.com/)(ps：有些微信账号不能登陆网页微信)
+
 使用说明: [微信插件](/extension_guide/wechat/)
 
 ## eim

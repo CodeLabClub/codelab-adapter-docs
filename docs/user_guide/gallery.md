@@ -256,3 +256,9 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 ## 目之所及
 <video width=50% src="http://scratch3-files.just4fun.site/eye_light.mp4" controls="controls"></video>
+
+## 兼容IPad
+<video width=80% src="http://wwj-tmp-video.just4fun.site/codelab_ipad.mp4" controls="controls"></video>
+
+## 可穿戴设备 & 魔杖
+<video width=50% src="http://scratch3-files.just4fun.site/1572097577962892.mp4" controls="controls"></video>

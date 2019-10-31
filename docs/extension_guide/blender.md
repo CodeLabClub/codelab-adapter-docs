@@ -18,11 +18,11 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 在 blender2.79b 中， 打开`Text Editor`，运行[blender_server.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/servers_v2/blender_server.py)
 
-![](http://wwj-fig-bed.just4fun.site/codelab-blender_7d110f45.png)
+![](/img/codelab-blender_7d110f45.png)
 
 在 blender2.80 中,我喜欢打开`Scripting`标签页(使用 Text Editor 也可以), 运行[blender_server.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/servers_v2/blender_server.py):
 
-![](http://wwj-fig-bed.just4fun.site/codelab-blender_d397ea81.png)
+![](/img/codelab-blender_d397ea81.png)
 
 ### 在 CodeLab Adapter 运行[extension_blender.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_blender.py)插件
 

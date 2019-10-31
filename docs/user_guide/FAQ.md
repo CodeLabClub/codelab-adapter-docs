@@ -101,3 +101,8 @@ windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Ada
 ## 目前都支持哪些插件
 
 [extensions_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/extensions_v2)
+
+## 支持移动端吗(IPad/手机)
+支持。
+
+这是一个[例子](http://wwj-tmp-video.just4fun.site/codelab_ipad.mp4)。

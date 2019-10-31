@@ -7,7 +7,7 @@
 
 同步通信的过程可以由下图表示:
 
-<img src="http://wwj-fig-bed.just4fun.site/req-rep_e2fd951a.png" width=200/>
+<img src="/img/req-rep_e2fd951a.png" width=200/>
 
 如果你熟悉http，就会看出它们是相似的。
 

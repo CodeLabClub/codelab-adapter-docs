@@ -28,7 +28,7 @@
 
 ## 在 Scratch3.0 中使用微信插件
 
-![](http://wwj-fig-bed.just4fun.site/eextension-wechat_f232e4a1.png)
+![](/img/eextension-wechat_f232e4a1.png)
 
 ![](../../img/v2/scratch_wechat_simple_talk.png)
 
