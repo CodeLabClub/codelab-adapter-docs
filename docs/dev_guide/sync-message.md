@@ -1,7 +1,7 @@
 # 同步风格的消息
 
 ## 问题
-有开发者在[issue](https://github.com/Scratch3Lab/codelab_adapter_extensions/issues/38)提了这个问题:
+有开发者在[issue](https://github.com/CodeLabClub/codelab_adapter_extensions/issues/38)提了这个问题:
 
 >  怎么处理异步发送的消息，如何等待它成功执行返回?
 
@@ -18,7 +18,7 @@
 
 我们如何在异步中实现，同步模式呢？策略是使用message_id。 
 
-目前[Scratch eim](https://github.com/Scratch3Lab/scratch3_eim/blob/v2/index.js#L290)已经支持同步风格的积木(阻塞风格)。
+目前[Scratch eim](https://github.com/CodeLabClub/scratch3_eim/blob/v2/index.js#L290)已经支持同步风格的积木(阻塞风格)。
 
 ## 实现
 这些同步风格的积木需要与同步风格的CodeLab Adapter插件一起使用。让我们来实现它。
@@ -61,7 +61,7 @@ export = SyncHelloWorldExtension
 
 通过与[hello world教程](/dev_guide/helloworld/)的对比，可以看出同步消息与异步消息在CodeLab Adapter插件一侧的区别: 通过返回来自Scratch的消息中携带的message_id(message_id在payload中，通过观察日志，可以看到payload内部细节)。让请求者得知当前消息被响应了。
 
-同步消息与异步消息，在scratch插件一侧的区别表现为不同的积木（是否`wait/等待`），js代码层面的差异表现在:[发送消息的函数不同](https://github.com/Scratch3Lab/scratch3_eim/blob/v2/index.js#L290), 这部分你可以直接使用eim插件，可以不做深究。
+同步消息与异步消息，在scratch插件一侧的区别表现为不同的积木（是否`wait/等待`），js代码层面的差异表现在:[发送消息的函数不同](https://github.com/CodeLabClub/scratch3_eim/blob/v2/index.js#L290), 这部分你可以直接使用eim插件，可以不做深究。
 
 刷新Web UI，点击运行`extension_hello_world.py`. 接着你就可以在Scratch中与你的插件交互了。
 

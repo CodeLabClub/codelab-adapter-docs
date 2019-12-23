@@ -68,7 +68,7 @@ add_header Access-Control-Allow-Origin *;
 add_header Access-Control-Allow-Methods 'GET, OPTIONS';
 ```
 
-如果你没有自己的服务器, 可以将你的 sb3 文件提交到 CodeLab 的仓库里:[codelab-adapter-docs](https://github.com/Scratch3Lab/codelab-adapter-docs/), 我们将为你代为托管。
+如果你没有自己的服务器, 可以将你的 sb3 文件提交到 CodeLab 的仓库里:[codelab-adapter-docs](https://github.com/CodeLabClub/codelab-adapter-docs/), 我们将为你代为托管。
 
 当然你也可以将其放在云存储上(诸如七牛云)。
 

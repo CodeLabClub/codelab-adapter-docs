@@ -6,7 +6,7 @@
 
 当 **extension_eim_monitor** 启用时， 来自 Scratch EIM 插件的消息将被 [~/codelab_adapter/extensions/eim_monitor.py](/user_guide/FAQ/#_1) 脚本处理， 处理结果返回给 Scratch。 我们将这种对 Scratch 消息的响应机制称为 **monitor** 。
 
-默认的脚本，会在Scratch的消息结尾加上`from monitor`并返回。[脚本源码](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extensions_v2/eim_monitor.py)(简单的 Python 代码)为:
+默认的脚本，会在Scratch的消息结尾加上`from monitor`并返回。[脚本源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/eim_monitor.py)(简单的 Python 代码)为:
 
 ```python
 def monitor(content,logger):

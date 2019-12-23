@@ -39,13 +39,13 @@
     *  为webdebug添加REST API调试工具
 *  2019.02.23 0.7.1
     *  让Cozmo/Vector插件支持同步模式(通过添加messageID),至于采用同步模式还是异步模式，由client决定
-    *  添加[extension_mpfshell](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_mpfshell.py)扩展(by [junhuanchen](https://github.com/junhuanchen))
+    *  添加[extension_mpfshell](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extension_mpfshell.py)扩展(by [junhuanchen](https://github.com/junhuanchen))
 *  2019.02.26 0.8.0
     *  允许用户添加自定义配置:`~/codelab_adapter/user_settings.py`
         *  典型的配置包括: `cli_load_extension_threads = ["extension_iot"]` 命令行模式(./codelab-adapter --mode cli)默认启动插件
     *  add [gpiozero](https://github.com/RPi-Distro/python-gpiozero) for raspberrypi platform
     *  内置mqtt client/broker: [hbmqtt](https://hbmqtt.readthedocs.io/en/latest/)
-    *  内置[extension_iot](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_iot.py)
+    *  内置[extension_iot](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extension_iot.py)
     *  更新extension_mpfshell
 *  2019.03.16 0.8.1
     *  微信插件支持收发群消息
@@ -60,3 +60,14 @@
     *  报告adapter core信息(version)
 *  2019.09.23 2.5.3
     *  将GUI menu迁移到web ui
+*  2019.11.13 2.6.0
+    *  2.6.x专注于提高健壮性
+    *  添加rate limit机制: TokenBucket
+    *  为usb_microbit添加TokenBucket
+    *  提升token安全性(每次启动随机生成;也允许用户在配置文件里固化token);
+    *  添加token复制按钮(用于粘贴到外部网站); 
+    *  将token添加到scratch启动url里(提高安全性)
+*  2019.11.13 2.6.1
+    *  Scratch3Lab -> CodeLabClub
+*  2019.11.13 2.6.2
+    *  支持headless模式(linux), 用于开机自启、无人值守的环境

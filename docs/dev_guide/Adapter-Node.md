@@ -4,14 +4,14 @@
 extension有如下的限制:
 
 1.  必须放置在插件目录中（`~/codelab_adapter/extensions`）。
-2.  只能使用CodeLab Adapter[已打包的第三方库](https://github.com/Scratch3Lab/codelab_adapter_extensions/wiki)
+2.  只能使用CodeLab Adapter[已打包的第三方库](https://github.com/CodeLabClub/codelab_adapter_extensions/wiki)
 
 如果你想使用Python社区海量的第三方库: 诸如[pygame](https://github.com/pygame/pygame)、[numpy](https://github.com/numpy/numpy)、[opencv](https://github.com/opencv/opencv)、[tensorflow](https://github.com/tensorflow/tensorflow), extension就办不到了，但Adapter Node可以！
 
 我们希望CodeLab Adapter专注于连接万物，所以构建了Adapter Node，允许你在任何地方创建CodeLab Adapter的扩展，允许你使用任何Python库，无论你准备构建游戏、构建网站、构建深度学习应用还是构建一个机器人！
 
 ## Adapter Node是什么
-Adapter Node只是普通的Python程序，继承自[AdapterNode](https://github.com/Scratch3Lab/codelab_adapter_client_python/blob/master/codelab_adapter_client/base.py#L174)。别害怕，它很简单的。
+Adapter Node只是普通的Python程序，继承自[AdapterNode](https://github.com/CodeLabClub/codelab_adapter_client_python/blob/master/codelab_adapter_client/base.py#L174)。别害怕，它很简单的。
 
 ## 第一个Adapter Node
 我们开始写第一个Adapter Node。
@@ -85,5 +85,5 @@ if __name__ == "__main__":
 
 ## 更多例子
 *  [blender](/extension_guide/blender/): 这是个实际的案例，演示如何使用AdapterNode基础类粘合不同软件，将其变为Adapter Node。
-*  [examples](https://github.com/Scratch3Lab/codelab_adapter_client_python/tree/master/examples)
-*  [servers_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/servers_v2)
+*  [examples](https://github.com/CodeLabClub/codelab_adapter_client_python/tree/master/examples)
+*  [servers_v2](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/servers_v2)

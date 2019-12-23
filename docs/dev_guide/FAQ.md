@@ -1,35 +1,35 @@
 # FAQ for Developer
 
 ## 编辑文档
-欢迎大家来协同编辑文档:  [codelab-adapter-docs](https://github.com/Scratch3Lab/codelab-adapter-docs)
+欢迎大家来协同编辑文档:  [codelab-adapter-docs](https://github.com/CodeLabClub/codelab-adapter-docs)
 
 ## 讨论组
 陆续有开发者建议我构建论坛(discourse)和微信群方便大家讨论技术问题。
 
 微信群无法沉淀有价值的内容，搜索功能太烂了，对富文本/markdown的支持几近于无，微信不是好的办公工具。
 
-与CodeLab Adapter相关技术问题，大家可以在[issue](https://github.com/Scratch3Lab/codelab_adapter_extensions/issues)里讨论。
+与CodeLab Adapter相关技术问题，大家可以在[issue](https://github.com/CodeLabClub/codelab_adapter_extensions/issues)里讨论。
 
 也可以在[CodeLab Adapter讨论组](https://forums.codelab.club/c/codelab-adapter)里讨论。
 
 ## 插件启停
-目前，插件启动为线程。Python线程需要[手动管理](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p01_start_stop_thread.html)，这部分的代码目前还比较粗糙。为了允许用户在UI中通过勾选来启停插件。建议插件作者使用`while self._running:`,参考[extension_eim](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extensions_v2/extension_eim.py)
+目前，插件启动为线程。Python线程需要[手动管理](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p01_start_stop_thread.html)，这部分的代码目前还比较粗糙。为了允许用户在UI中通过勾选来启停插件。建议插件作者使用`while self._running:`,参考[extension_eim](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_eim.py)
 
 
 在1.0版本发布之前，插件部分我们将迁往协程，如此一来我们就能轻易管理插件的启停。目前Python社区很多库还不支持协程，所以我们不打算立刻迁移。
 
 ## 引入第三方Python库
 
-内置的第三方库参考:[wiki](https://github.com/Scratch3Lab/codelab_adapter_extensions/wiki)
+内置的第三方库参考:[wiki](https://github.com/CodeLabClub/codelab_adapter_extensions/wiki)
 
-如果你需要引入新的第三方库(如OpenCV)，需要在本地安装有Python3，可以参考: [servers_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/servers_v2)
+如果你需要引入新的第三方库(如OpenCV)，需要在本地安装有Python3，可以参考: [servers_v2](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/servers_v2)
 
 关于这个话题，我们日后会给出教程。
 
 <!--
 Python社区有海量的第三方库，开发者可以将其引入插件中。
 
-方法是使用`sys.path.append`,如果希望在插件中使用本机Python3已安装的库(推荐`pip3 install xxx --user`)，则将其添加到插件头部:`import sys;sys.path.append("/Users/wuwenjie/Library/Python/3.6/lib/python/site-packages")`,完整的示例参考[extension_third_party_library](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extension_third_party_library.py)
+方法是使用`sys.path.append`,如果希望在插件中使用本机Python3已安装的库(推荐`pip3 install xxx --user`)，则将其添加到插件头部:`import sys;sys.path.append("/Users/wuwenjie/Library/Python/3.6/lib/python/site-packages")`,完整的示例参考[extension_third_party_library](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extension_third_party_library.py)
 
 `/Users/wuwenjie/Library/Python/3.6/lib/python/site-packages`可通过`python3 -m site --user-site`看到。你也可以使用virtualenv创建的虚拟目录。
 
@@ -70,3 +70,12 @@ CodeLab Adapter既是消息中心，又是UI程序，CodeLab Adapter可以运行
     *  Android
 
 CodeLab Adapter Node可以运行在任何平台上，包括单片机。
+
+## 覆盖配置文件
+为了方便开发者将CodeLab Adapter整合到其他软件中，作为服务使用，诸如整合到[Scratch Desktop](https://github.com/LLK/scratch-desktop), 或者整合到docker容器内，作为局域网消息服务...
+
+CodeLab Adapter允许以[命令行方式启动(没有GUI)](/user_guide/FAQ/#_4)。
+
+为了方便软件的二次分发和自定义，CodeLab Adapter允许开发者覆盖用户配置文件([user_settings.py](/user_guide/settings/))，进而对CodeLab Adapter做初始化配置。
+
+只需要将自定义的[user_settings.py](/user_guide/settings/)放在CodeLab Adapter同级目录中即可。

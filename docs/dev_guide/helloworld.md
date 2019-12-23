@@ -34,7 +34,7 @@ eim插件的功能很简单:
 
 
 ## Talk is cheap, show me the code
-EIM插件的源码在这儿: [extension_eim.py](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extensions_v2/extension_eim.py)
+EIM插件的源码在这儿: [extension_eim.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_eim.py)
 
 ```python
 '''
@@ -141,9 +141,9 @@ export = HelloWorldExtension
 ## 更多
 你可以在插件中引用哪些Python库呢？
 
-所有的Python内置库(json/re/math/...)以及这些第三方库: [第三方模块](https://github.com/Scratch3Lab/codelab_adapter_extensions/wiki)。
+所有的Python内置库(json/re/math/...)以及这些第三方库: [第三方模块](https://github.com/CodeLabClub/codelab_adapter_extensions/wiki)。
 
-如果你对EIM在Scratch3一侧的源码感兴趣，我们也开源出来了，可以自行阅读: [scratch3_eim](https://github.com/Scratch3Lab/scratch3_eim)。
+如果你对EIM在Scratch3一侧的源码感兴趣，我们也开源出来了，可以自行阅读: [scratch3_eim](https://github.com/CodeLabClub/scratch3_eim)。
 
 ## 小结
 从这个例子中，可以看出写一个自定义的插件是很简单的。而CodeLab Adapter对插件要做的事几乎没有任何限制，只要Python能做的事，插件系统都运行你做！就是说你可以自己写一个插件，让Scratch3来控制你的蓝牙设备、你的ROS机器人、你那跑着OpenCV的树莓派或者你童年那辆心爱的玩具四驱车。

@@ -2,9 +2,11 @@
 在[codelab-adapter](https://adapter.codelab.club/user_guide/install/)最新版本中, 已经内置了Tello插件。
 
 ### 步骤1: 打开CodeLab Scratch
-推荐使用[Chrome浏览器](https://www.google.cn/chrome/index.html)点击打开:[https://scratch3v2.codelab.club/?adapter_host=127.0.0.1](https://scratch3v2.codelab.club/?adapter_host=127.0.0.1)
+下载[CodeLab Scratch Desktop(离线版)](https://www.codelab.club/blog/codelab-download/)， 并运行它。
 
 ![](../img/scratch3-home.png)
+
+ps: 要求 CodeLab Scratch Desktop >= 1.2.0
 
 ### 步骤2: 连接Tello
 将电脑连上Tello的wifi热点。操作细节可以参考Tello说明书。
@@ -21,14 +23,6 @@
 选择对应的scratch3插件: Tello
 
 <img width="600px" src="../../img/scratch3_tello.png"/>
-
-点击验证:
-
-<img width="400px" src="../../img/tello_verify.png"/>
-
-确认连接的安全性:
-
-<img width="600px" src="../../img/scratch3_adapter_agree.png"/>
 
 片刻，可以看到[CodeLab Scratch](https://scratch3v2.codelab.club/)指示灯显示绿色,代表连接成功。
 

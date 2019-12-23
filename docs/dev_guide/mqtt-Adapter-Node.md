@@ -1,7 +1,7 @@
 # MQTT Adapter Node
 提醒: 需要使用[CodeLab Adapter最新版本](/user_guide/install/)
 
-通过继承[AdapterMQTTNode](https://github.com/Scratch3Lab/codelab_adapter_mqtt_client/blob/master/codelab_adapter_mqtt_client/codelab_adapter_mqtt_client.py#L12), 我们可以利用MQTT通道构建Adapter Node，一旦你理解MQTT message的消息细节，就可以在任何平台任何设备上构建Adapter Node，从超级计算机到单片机。
+通过继承[AdapterMQTTNode](https://github.com/CodeLabClub/codelab_adapter_mqtt_client/blob/master/codelab_adapter_mqtt_client/codelab_adapter_mqtt_client.py#L12), 我们可以利用MQTT通道构建Adapter Node，一旦你理解MQTT message的消息细节，就可以在任何平台任何设备上构建Adapter Node，从超级计算机到单片机。
 
 如果你对Adapter Node概念不熟悉，可以参考[这里](/dev_guide/Adapter-Node/)
 
@@ -11,7 +11,7 @@
 ## demo
 依然以反转字符串为例.
 
-参考[helloworld_mqtt_node.py](https://github.com/Scratch3Lab/codelab_adapter_mqtt_client/blob/master/examples/helloworld_mqtt_node.py)
+参考[helloworld_mqtt_node.py](https://github.com/CodeLabClub/codelab_adapter_mqtt_client/blob/master/examples/helloworld_mqtt_node.py)
 
 ```python
 import json
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 成功！
 
-[AdapterMQTTNode](https://github.com/Scratch3Lab/codelab_adapter_mqtt_client/blob/master/codelab_adapter_mqtt_client/codelab_adapter_mqtt_client.py#L12)已经开源在Github上，如果你对任何细节感到好奇，就把盒子拆开来看吧。
+[AdapterMQTTNode](https://github.com/CodeLabClub/codelab_adapter_mqtt_client/blob/master/codelab_adapter_mqtt_client/codelab_adapter_mqtt_client.py#L12)已经开源在Github上，如果你对任何细节感到好奇，就把盒子拆开来看吧。
 
 ## debug
 新开一个窗口，运行`codelab-mqtt-monitor`(随codelab_adapter_mqtt_client一起安装)，你将能够看到往来的MQTT message的内部细节。
@@ -68,4 +68,4 @@ if __name__ == "__main__":
 当你通过`codelab-mqtt-monitor`了解了MQTT message的内部细节，你就可以使用任何语言的MQTT client来构建Adapter Node！你甚至可以在一个单片机中构建Adapter Node！
 
 ## 更多 MQTT tools
-参考[codelab_adapter_mqtt_client#tools for debugging](https://github.com/Scratch3Lab/codelab_adapter_mqtt_client#toolsfor-debugging)
+参考[codelab_adapter_mqtt_client#tools for debugging](https://github.com/CodeLabClub/codelab_adapter_mqtt_client#toolsfor-debugging)

@@ -30,7 +30,7 @@
 
 ### 项目源码
 
-- [neverland_i_am_reading.py](https://github.com/Scratch3Lab/codelab_adapter_client_python/blob/master/examples/neverland_i_am_reading.py)
+- [neverland_i_am_reading.py](https://github.com/CodeLabClub/codelab_adapter_client_python/blob/master/examples/neverland_i_am_reading.py)
 
 ### 使用说明
 
@@ -44,7 +44,7 @@
 
 #### 步骤 3: 下载源码
 
-将[项目源码](https://github.com/Scratch3Lab/codelab_adapter_client_python/blob/master/examples/neverland_i_am_reading.py)复制或下载到本地。
+将[项目源码](https://github.com/CodeLabClub/codelab_adapter_client_python/blob/master/examples/neverland_i_am_reading.py)复制或下载到本地。
 
 #### 步骤 4: 运行
 
@@ -55,5 +55,5 @@
 一些建议:
 
 - 关上门之后你想触发什么行为？
-- 看看其他的例子: [examples](https://github.com/Scratch3Lab/codelab_adapter_client_python/tree/master/examples)
+- 看看其他的例子: [examples](https://github.com/CodeLabClub/codelab_adapter_client_python/tree/master/examples)
 - 试试 Neverland 里的其他智能设备

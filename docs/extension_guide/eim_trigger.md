@@ -6,7 +6,7 @@
 
 **extension_eim_trigger** 通过调用 [~/codelab_adapter/extensions/eim_trigger.py](/user_guide/FAQ/#_1) 脚本， 往 Scratch 发送消息。 我们将其称为消息的触发机制( **trigger** )。
 
-默认的脚本，每隔 1s，往 Scratch 中发送一次时间戳，[脚本源码](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extensions_v2/eim_trigger.py)(简单的 Python 代码)为:
+默认的脚本，每隔 1s，往 Scratch 中发送一次时间戳，[脚本源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/eim_trigger.py)(简单的 Python 代码)为:
 
 ```python
 import time

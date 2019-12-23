@@ -1,6 +1,17 @@
 # 配置文件
 
-CodeLab Adapter 允许用户的自定义配置。只需要在`~/codelab_adapter`目录下创建`user_settings.py`文件即可。 以下是一些常见配置项:
+CodeLab Adapter 允许用户的自定义配置。只需要在`~/codelab_adapter`目录下创建`user_settings.py`文件即可。 
+
+2.6.4之后，支持使用环境变量覆盖这些配置项，诸如`AUTO_OPEN_WEBUI=false codelab-adapter`
+
+以下是一些常见配置项:
+
+## ADAPTER_MODE
+有三种模式:
+
+1. 普通用户模式，CodeLab Adapter作为客户端程序，增强Scratch，支持自定义插件...关注易用性与安全性。
+2. dev(开发)模式，关注灵活性，同时也带来安全风险。
+3. Hub模式，关注健壮性，典型用例如Longan系统。
 
 ## OPEN_MESSAGE_HUB
 
@@ -26,7 +37,7 @@ CodeLab Adapter 允许用户的自定义配置。只需要在`~/codelab_adapter`
 
 ## PYTHON3_PATH
 
-系统的 Python3 路径，当使用[CodeLab Adapter server](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/servers_v2)时，实际上是调用了使用了系统的 Python3.
+系统的 Python3 路径，当使用[CodeLab Adapter server](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/servers_v2)时，实际上是调用了使用了系统的 Python3.
 
 PYTHON3_PATH 默认为：
 
@@ -61,6 +72,8 @@ OPEN_REST_API用于打开/关闭[REST API](/dev_guide/REST-API/)
 
 ## TOKEN
 
-默认`TOKEN = "<random string>"`
+默认为`None`，软件每次启动都将随机生成TOKEN。
 
-TOKEN 在软件初次运行的时候在本地随机生成，
+取消注释`# TOKEN = "<random string>"`, 则永久固定TOKEN。
+
+`<random string>` 在软件初次运行的时候在本地随机生成。

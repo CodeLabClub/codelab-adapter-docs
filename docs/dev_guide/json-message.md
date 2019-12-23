@@ -6,7 +6,7 @@
 
 有两种办法:
 
-1. 自定义Scratch3 extension，拓展payload结构:[payload](https://github.com/Scratch3Lab/scratch3_eim/blob/9716545108fca06f08fcfbf26456a97f3092dd20/index.js#L292)
+1. 自定义Scratch3 extension，拓展payload结构:[payload](https://github.com/CodeLabClub/scratch3_eim/blob/9716545108fca06f08fcfbf26456a97f3092dd20/index.js#L292)
 2. 使用Scratch3 EIM extension，传递json消息。
 
 第二种方式非常简单，不必去碰Scratch的东西，只要使用Python写extension就行，我们在此讨论这种方式。

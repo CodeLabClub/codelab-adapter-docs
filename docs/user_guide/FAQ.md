@@ -42,7 +42,7 @@ Scratch 官方计划开源[Scratch Link](https://scratch.mit.edu/microbit)，一
 
 Scratch Link 和 CodeLab Adapter 可以协同工作.
 
-CodeLab Adapter 致力于提供更好的跨平台支持和开放的[插件系统](https://github.com/Scratch3Lab/codelab_adapter_extensions)，CodeLab Adapter 的目标是连接万物，不只是连接教育硬件。
+CodeLab Adapter 致力于提供更好的跨平台支持和开放的[插件系统](https://github.com/CodeLabClub/codelab_adapter_extensions)，CodeLab Adapter 的目标是连接万物，不只是连接教育硬件。
 
 ## CodeLab Adapter 与[Scratch3 Lab](https://scratch3v2.codelab.club/)是否连接成功？
 
@@ -86,13 +86,15 @@ CodeLab Adapter 几乎支持任何平台，无论是 scratch3.0 构建的还是 
 
 ## 如何找到插件目录
 
-Mac/Linux 用户的插件目录在:`~/codelab_adapter/extensions`, 如果找不到插件目录(如 windows 用户)，可以通过 CodeLab Adapter 菜单栏上的`插件->查看目录`打开它。
+Mac/Linux 用户的插件目录在:`~/codelab_adapter/extensions`, 如果找不到插件目录(如 windows 用户)，可以通过 CodeLab Adapter Web UI 工具栏里的`插件->打开插件目录`打开它。
+
+![](/img/webui_helper.png)
 
 ## 用户配置文件放在哪儿
 
 `~/codelab_adapter/user_settings.py`.
 
-windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Adapter 菜单栏上的`插件->查看目录`先打开插件目录，用户配置文件在它的外层。
+windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Adapter Web UI 工具栏里的`插件->打开插件目录` 先打开插件目录，用户配置文件在它的外层。
 
 ## CodeLab Adapter 网址是什么
 
@@ -100,9 +102,40 @@ windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Ada
 
 ## 目前都支持哪些插件
 
-[extensions_v2](https://github.com/Scratch3Lab/codelab_adapter_extensions/tree/master/extensions_v2)
+[extensions_v2](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v2)
 
 ## 支持移动端吗(IPad/手机)
 支持。
 
 这是一个[例子](http://wwj-tmp-video.just4fun.site/codelab_ipad.mp4)。
+
+## 如何开机自启
+从2.6.2开始， 支持headless模式([点击下载Raspbian版本](http://scratch3-files.just4fun.site/codelab-adapter-rpi-2_6_2.zip)), 用于开机自启、无人值守的环境。
+
+```
+chmod +x codelab-adapter
+./codelab-adapter --cli
+```
+
+推荐配置为:
+
+```python
+# doc: https://adapter.codelab.club/user_guide/settings/
+OPEN_MESSAGE_HUB = True
+USE_SSL = False
+AUTO_OPEN_WEBUI = False
+PYTHON3_PATH = None
+DEFAULT_ADAPTER_HOST = "codelab-adapter.codelab.club"
+OPEN_WEBSOCKET_API = True
+OPEN_REST_API = False
+TOKEN = "ls3fb138c4124027"
+```
+
+之后打开 `http://raspberrypi.local:12358/?token=ls3fb138c4124027`
+
+# 自定义存储目录
+2.6.3开始支持这项功能。
+
+使用环境变量`ADAPTER_HOME_PATH`来软件home目录，
+
+例子: `ADAPTER_HOME_PATH=/tmp/my_adapter_home ./codelab-adapter --cli`

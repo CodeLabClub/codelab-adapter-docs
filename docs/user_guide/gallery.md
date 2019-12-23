@@ -262,3 +262,56 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 ## 可穿戴设备 & 魔杖
 <video width=50% src="http://scratch3-files.just4fun.site/1572097577962892.mp4" controls="controls"></video>
+
+## fire!
+<video width=80% src="https://www.codelab.club/img/wand_catapult_demo.mp4" controls="controls"></video>
+
+<video width=80% src="https://www.codelab.club/img/wand_catapult.mp4" controls="controls"></video>
+
+##  inspired by dynamicland
+<video width=80% src="http://scratch3-files.just4fun.site/dynamicland_02.mp4" controls="controls"></video>
+
+
+<video width=80% src="http://scratch3-files.just4fun.site/dynamicland_01.mp4" controls="controls"></video>
+
+### 命运之手
+<video width=80% src="http://scratch3-files.just4fun.site/%E5%91%BD%E8%BF%90%E4%B9%8B%E6%89%8B.mp4" controls="controls"></video>
+
+### 重力效应
+<video width=80% src="http://scratch3-files.just4fun.site/%E9%87%8D%E5%8A%9B%E6%95%88%E5%BA%94.mp4" controls="controls"></video>
+
+### 拍案惊球
+<video width=40% src="http://scratch3-files.just4fun.site/%E6%8B%8D%E6%A1%88%E6%83%8A%E7%90%83.mp4" controls="controls"></video>
+
+### Body Programming
+<video width=80% src="http://scratch3-files.just4fun.site/body_programming.mp4" controls="controls"></video>
+
+### 二进制
+<video width=80% src="http://scratch3-files.just4fun.site/二进制.mp4" controls="controls"></video>
+
+### 蜡笔调色盘
+<video width=80% src="http://scratch3-files.just4fun.site/蜡笔调色盘.mp4" controls="controls"></video>
+
+### 一场烟火
+<video width=80% src="http://scratch3-files.just4fun.site/一场烟火.mp4" controls="controls"></video>
+
+### toio泡泡龙
+<video width=40% src="http://scratch3-files.just4fun.site/toio泡泡龙.mp4" controls="controls"></video>
+
+### Seeing Spaces
+<video width=80% src="http://scratch3-files.just4fun.site/1576905372587643.mp4" controls="controls"></video>
+
+
+## CodeLab Adapter ❤️ Teachable Machine
+<video width=80% src="http://wwj-tmp-video.just4fun.site/adapter_google_teachable_machine.mp4" controls="controls"></video>
+
+
+<video width=80% src="http://scratch3-files.just4fun.site/tm_scratch_dy.mp4" controls="controls"></video>
+
+## Kano Wand
+<video width=80% src="http://scratch3-files.just4fun.site/1576905337206766.mp4" controls="controls"></video>
+
+## 闪现
+<video width=80% src="http://scratch3-files.just4fun.site/1576905320614182.mp4" controls="controls"></video>
+
+

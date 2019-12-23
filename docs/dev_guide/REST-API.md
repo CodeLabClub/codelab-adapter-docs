@@ -52,7 +52,7 @@ curl -X POST -H "Content-Type: application/json" \
 
 ## 发送消息到 CodeLab Adapter Extension
 
-运行命令之前，先运行`extension_eim`插件。`extension_eim`插件的[这行代码](https://github.com/Scratch3Lab/codelab_adapter_extensions/blob/master/extensions_v2/extension_eim.py#L18)将打印出它收到的消息。
+运行命令之前，先运行`extension_eim`插件。`extension_eim`插件的[这行代码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_eim.py#L18)将打印出它收到的消息。
 
 使用[httpie](https://httpie.org/)给 CodeLab Adapter Extension 发送`hello`消息，对应的命令为:
 

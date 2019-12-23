@@ -2,7 +2,7 @@
 
 > Turn the world into your playground!
 
-![](img/toys_party.jpeg)
+![](img/adapter_party.jpeg)
 
 !!! 提醒
     需要使用旧版本的用户请访问这里: [CodeLab Adapter v1](https://adapterv1.codelab.club/)。

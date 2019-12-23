@@ -22,8 +22,26 @@ codelab_adapter_client 会为你装上 2 个命令行调试工具:
 
 - codelab-message-monitor
 - codelab-message-trigger
+- codelab-message-pub
+
 
 运行`codelab-message-monitor`，你将看到在 CodeLab Adapter 中所有往来的消息。这是我目前最依赖的工具。
+
+你也可以自行构建更适合自己的调试脚手架, 推荐使用[sh](http://amoffat.github.io/sh/index.html), 这样你可以方便把linux工具箱里的工具都用上，同时又可以在Python语言中工作。
+
+```python
+# pip install sh codelab_adapter_client
+# http://amoffat.github.io/sh/sections/asynchronous_execution.html#incremental-iteration
+import sh
+for line in sh.codelab_message_monitor(_iter=True):
+    try:
+        print(sh.ack("10",_in=line))
+    except:
+        pass
+```
+
+![](/img/adapter_debug_sh.png)
+
 
 ### 基于日志的调试
 
