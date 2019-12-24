@@ -1,5 +1,5 @@
 site_name: CodeLab Adapter
-repo_url: https://github.com/Scratch3Lab/codelab-adapter-docs
+repo_url: https://github.com/CodeLabClub/codelab-adapter-docs
 edit_uri: edit/v2/docs/
 site_description: the docs
 theme:
@@ -96,6 +96,10 @@ nav:
       - 使用(Usage): "extension_guide/usage.md"
       - micro:bit: "extension_guide/microbit.md"
       - EIM: "extension_guide/eim.md"
+      - EIM Monitor: "extension_guide/eim_monitor.md"
+      - EIM Trigger: "extension_guide/eim_trigger.md"
+      - HCI: "extension_guide/HCI.md"
+      - Kano Wand: "extension_guide/Kano_Wand.md"
       - Vector: "extension_guide/vector.md"
       - Cozmo: "extension_guide/cozmo.md"
       - wechat: "extension_guide/wechat.md"
@@ -108,6 +112,7 @@ nav:
       - Pando Robot: "extension_guide/Pando.md"
       - Tello: "extension_guide/tello.md"
       - Aelos Robot: "extension_guide/Aelos.md"
+      - ROS: "extension_guide/ROS.md"
       - extension market: "extension_guide/extension_market.md"
   - 关于(about):
       - 联系我们(contact us): "about/contact.md"

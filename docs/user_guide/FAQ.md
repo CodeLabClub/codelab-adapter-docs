@@ -133,9 +133,19 @@ TOKEN = "ls3fb138c4124027"
 
 之后打开 `http://raspberrypi.local:12358/?token=ls3fb138c4124027`
 
-# 自定义存储目录
+## 自定义存储目录
 2.6.3开始支持这项功能。
 
 使用环境变量`ADAPTER_HOME_PATH`来软件home目录，
 
 例子: `ADAPTER_HOME_PATH=/tmp/my_adapter_home ./codelab-adapter --cli`
+
+## 离线使用
+CodeLab Adapter支持离线使用，目前有两种方式使用它。
+
+1. 配合[CodeLab Scratch Desktop(离线版)](https://www.codelab.club/blog/codelab-download/)使用
+2. 将webui里的`codelab-adapter.codelab.club`替换为`127.0.0.1`，形如 `https://codelab-adapter.codelab.club:12358/?token=YOUR_TOKEN`, 重新刷新页面。
+
+推荐使用`方法1`.
+
+典型的应用场景是在电脑无法联网时，诸如使用[Tello](/extension_guide/tello/)时。
