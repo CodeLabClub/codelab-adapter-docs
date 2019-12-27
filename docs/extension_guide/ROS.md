@@ -4,7 +4,7 @@
 
 ![](../img/scratch3-home.png)
 
-ps: 要求 CodeLab Scratch Desktop >= 1.3.0
+ps: 要求 CodeLab Scratch Desktop >= 1.2.1
 
 ### 步骤2: 运行ROS
 运行ROS

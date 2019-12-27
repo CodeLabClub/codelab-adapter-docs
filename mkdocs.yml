@@ -95,6 +95,7 @@ nav:
       - 介绍(introduction): "extension_guide/introduction.md"
       - 使用(Usage): "extension_guide/usage.md"
       - micro:bit: "extension_guide/microbit.md"
+      - micro:bit radio: "extension_guide/microbit_radio.md"
       - EIM: "extension_guide/eim.md"
       - EIM Monitor: "extension_guide/eim_monitor.md"
       - EIM Trigger: "extension_guide/eim_trigger.md"
@@ -113,6 +114,7 @@ nav:
       - Tello: "extension_guide/tello.md"
       - Aelos Robot: "extension_guide/Aelos.md"
       - ROS: "extension_guide/ROS.md"
+      - Teachable Machine: "extension_guide/teachable_machine.md"
       - extension market: "extension_guide/extension_market.md"
   - 关于(about):
       - 联系我们(contact us): "about/contact.md"

@@ -14,6 +14,7 @@ Codelab Adapter v2 目前发布了 Mac、Windows(支持 window7 及以上版本)
 * linux
     * [Ubuntu(16.04 及以上版本)(64bit)](http://scratch3-files.just4fun.site/codelab-adapter-ubuntu_2_6_3.zip)
 * [Raspbian](http://scratch3-files.just4fun.site/codelab-adapter-rpi-2_6_3.zip)
+    * 建议使用最新的[Raspbian](https://www.raspberrypi.org/downloads/raspbian/)。
     * 下载，解压，赋予运行权限: `chmod +x xxx`
 
 ## 更新

@@ -21,9 +21,6 @@ ps: 使用者处于CodeLab Neverland环境中即可
 
 在 Web UI 中点击加载 Kano Code 插件
 
-## 步骤 5: Scratch3 HCI 插件
-
-选择对应的 Scratch3 插件: Kano Code
 
 ## Demo
 https://adapter.codelab.club/user_guide/gallery/#kano-wand
