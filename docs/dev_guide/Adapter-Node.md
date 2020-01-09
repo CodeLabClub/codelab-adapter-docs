@@ -75,6 +75,77 @@ if __name__ == "__main__":
 
 它只是普通的Python程序，使用你本地的Python环境，所以你现在可以使用[pygame](https://github.com/pygame/pygame)、[numpy](https://github.com/numpy/numpy)、[opencv](https://github.com/opencv/opencv)、[tensorflow](https://github.com/tensorflow/tensorflow)来增强Scratch3啦！
 
+## GUI
+有开发者在邮件中提到:
+
+>  tkinter, PyQt, 都有一个主循环，Adapter Node也有一个主循环，怎么才能共存呢?
+
+Adapter Node可以与任何GUI框架共存
+
+```
+if __name__ == "__main__":
+    try:
+        node = EIMNode()
+        node.receive_loop_as_thread()
+        node.run()
+    except KeyboardInterrupt:
+        node.terminate()  # Clean up before exiting.
+```
+
+其中`node.run()`不是必要的, 只是为了阻塞程序，使其不立刻结束，如果GUI框架本身已经有主循环，则可以移除`node.run()`, `node.receive_loop_as_thread()`是非阻塞的。
+
+以下是示范例子：
+
+```python
+from tkinter import *
+
+# AdapterNode
+from loguru import logger
+from codelab_adapter_client import AdapterNode
+
+
+class EIMNode(AdapterNode):
+    def __init__(self):
+        super().__init__()
+        self.EXTENSION_ID = "eim"
+
+    def send_message_to_scratch(self, content):
+        message = self.message_template()
+        message["payload"]["content"] = content
+        self.publish(message)
+
+    def extension_message_handle(self, topic, payload):
+        self.logger.info(f'the message payload from scratch: {payload}')
+        content = payload["content"]
+        if type(content) == str:
+            content_send_to_scratch = content[::-1]  # 反转字符串
+            self.send_message_to_scratch(content_send_to_scratch)
+
+node = EIMNode()
+node.receive_loop_as_thread()
+
+# tkinter
+window = Tk()
+window.title("Adapter Node & tkinter")
+window.geometry('300x100')
+lbl = Label(window, text="click to send message")
+lbl.grid(column=0, row=0)
+
+i = 1
+def clicked():
+    global i
+    message = node.message_template()
+    message["payload"]["content"] = "click_{}".format(i)
+    node.publish(message)
+    i += 1
+
+btn = Button(window, text="emit", command=clicked)
+btn.grid(column=1, row=0)
+window.mainloop()
+```
+
+该node接收来自Scratch EIM的消息，并逆转字符串；当用户点击按钮时，给scratch发送消息: `click_<NUMBER>`
+
 
 ## 想象空间
 如果你希望构建分布式的应用，诸如构建密室逃脱中的各种机关。只需要[做一下配置就行](https://adapterv2.codelab.club/user_guide/settings/#open_message_hub), 让CodeLab Adapter接受分布式的请求。
