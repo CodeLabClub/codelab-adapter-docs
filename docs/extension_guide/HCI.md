@@ -9,6 +9,8 @@
 ## 步骤 1:  安装依赖([PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/index.html))
 参考[PyAutoGUI Install](https://pyautogui.readthedocs.io/en/latest/install.html)
 
+`pip3 install codelab_adapter_client`
+
 ps: 使用Python3
 
 ## 步骤 2: 打开 Codelab Adapter

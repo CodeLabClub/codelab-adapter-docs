@@ -107,10 +107,10 @@ windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Ada
 ## 支持移动端吗(IPad/手机)
 支持。
 
-这是一个[例子](http://wwj-tmp-video.just4fun.site/codelab_ipad.mp4)。
+这是一个[例子](/video/codelab_ipad.mp4)。
 
 ## 如何开机自启
-从2.6.2开始， 支持headless模式([点击下载Raspbian版本](http://scratch3-files.just4fun.site/codelab-adapter-rpi-2_6_2.zip)), 用于开机自启、无人值守的环境。
+从2.6.2开始， 支持headless模式([点击下载Raspbian版本](/video/codelab-adapter-rpi-2_6_2.zip)), 用于开机自启、无人值守的环境。
 
 ```
 chmod +x codelab-adapter

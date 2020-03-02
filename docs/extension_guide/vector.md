@@ -44,7 +44,7 @@ run it
 ### find your local python3 path(Windows users can skip this step)
 edit `~/codelab_adapter/extensions/extension_vector.py`, replace python3_path with your local python3 path: `which python3`.
 
-![](http://wwj-fig-bed.just4fun.site/scratch-python3-path_37d6feee.png)
+![](/video/scratch-python3-path_37d6feee.png)
 
 restart Codelab Adapter.
 -->
@@ -68,14 +68,14 @@ Enjoy it :)
 Here are some demo cases（just like Cozmo CodeLab）:
 
 ##  Vector and Leap Motion
-<video width=300px src="http://scratch3-files.just4fun.site/vector_leapmotion.mp4" controls="controls"></video>
+<video width=300px src="/video/vector_leapmotion.mp4" controls="controls"></video>
 
 
 ## Switch Labo and Vector
-<video width=300px src="http://scratch3-files.just4fun.site/vector_labo.mp4" controls="controls"></video>
+<video width=300px src="/video/vector_labo.mp4" controls="controls"></video>
 
 ## Candy Language for Vector
-<video width=600px src="http://scratch3-files.just4fun.site/candy_vector.mp4" controls="controls"></video>
+<video width=600px src="/video/candy_vector.mp4" controls="controls"></video>
 
 
 

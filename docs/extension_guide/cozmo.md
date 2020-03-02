@@ -23,7 +23,7 @@ run it
 ### find your local python3 path(Windows users can skip this step)
 edit `~/codelab_adapter/extensions/extension_vector.py`, replace python3_path with your local python3 path: `which python3`.
 
-![](http://wwj-fig-bed.just4fun.site/scratch-python3-path_37d6feee.png)
+![](/video/scratch-python3-path_37d6feee.png)
 
 restart Codelab Adapter.
 -->

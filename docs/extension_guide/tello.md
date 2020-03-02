@@ -36,11 +36,11 @@ ps: 要求 CodeLab Scratch Desktop >= 1.2.0
 # 一些案例:
 
 ## DJI Tello x Leap Motion
-<video width=300px src="http://scratch3-files.just4fun.site/tello_leapmotion.mp4" controls="controls"></video>
+<video width=300px src="/video/tello_leapmotion.mp4" controls="controls"></video>
 
 ## DJI Tello x Switch Labo
-<video width=300px src="http://scratch3-files.just4fun.site/tello_labo.mp4" controls="controls"></video>
+<video width=300px src="/video/tello_labo.mp4" controls="controls"></video>
 
 ## DJI Tello x Switch Joy-Con
-<video width=300px src="http://scratch3-files.just4fun.site/tello_joy_con.mp4" controls="controls"></video>
+<video width=300px src="/video/tello_joy_con.mp4" controls="controls"></video>
 

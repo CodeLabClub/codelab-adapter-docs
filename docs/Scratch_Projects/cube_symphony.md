@@ -1,6 +1,6 @@
 # 魔方交响乐
 
-<video width=80% src="http://scratch3-files.just4fun.site/cube%20symphony.mp4" controls="controls"></video>
+<video width=80% src="/video/cube%20symphony.mp4" controls="controls"></video>
 
 ## 依赖
 

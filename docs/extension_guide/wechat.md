@@ -15,7 +15,7 @@
 ## 步骤 3: 加载 CodeLab Adapter 微信插件
 
 <!--
-<img src="http://wwj-fig-bed.just4fun.site/wechat_extension_qr_957e2a99.png" width=400 >
+<img src="/video/wechat_extension_qr_957e2a99.png" width=400 >
 -->
 
 在 Web UI 中点击加载 `extension_wechat` 插件:
@@ -34,4 +34,4 @@
 
 # 演示
 
-<video width=80% src="http://scratch3-files.just4fun.site/wechat_extension.mp4" controls="controls"></video>
+<video width=80% src="/video/wechat_extension.mp4" controls="controls"></video>

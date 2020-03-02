@@ -14,11 +14,11 @@ CodeLab Adapter 是由[CodeLab](https://www.codelab.club/)构建的基础项目(
 
 <!--看两个视频-->
 
-<video width=40% src="http://scratch3-files.just4fun.site/wand.mp4" controls="controls"></video>
+<video width=40% src="/video/wand.mp4" controls="controls"></video>
 
 <br/>
 
-<video width=80% src="http://scratch3-files.just4fun.site/cube%20symphony.mp4" controls="controls"></video>
+<video width=80% src="/video/cube%20symphony.mp4" controls="controls"></video>
 
 在 CodeLab Adapter 驱动的空间里，你可以与万物沟通，你可以让神经网络识别出你的身体部位，进而制作一个体感游戏, 或是通过算法让整个空间变得智能。你可以在朋友生日那天，在 Ta 进门的一刻，将手中的魔杖一挥，在空中划一个字母 L 的轨迹，瞬间，点亮房间里五彩的灯光。在这儿，你将轻松做出这样的魔杖。
 
@@ -74,6 +74,6 @@ CodeLab Adapter 采用[插件式的设计](/dev_guide/Architecture/)，允许你
 
 如果你有什么心仪的玩具，我们没有考虑到的，你可以将其自行接入。诸如我把童年玩的四驱车接入了进来:
 
-<video width=40% src="http://wwj-fig-bed.just4fun.site/1539392124109888.mp4" controls="controls"></video>
+<video width=40% src="/video/1539392124109888.mp4" controls="controls"></video>
 
 <!--todo 网站结构介绍-->

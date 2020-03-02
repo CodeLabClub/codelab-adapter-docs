@@ -36,7 +36,7 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 打开[CodeLab Scratch3](https://scratch3v2.codelab.club/)， 开始使用。
 
-<video width=600px src="http://wwj-tmp-video.just4fun.site/blender.mp4" controls="controls"></video>
+<video width=600px src="/video/blender.mp4" controls="controls"></video>
 
 如果遇到问题，请尝试刷新浏览器缓存。
 

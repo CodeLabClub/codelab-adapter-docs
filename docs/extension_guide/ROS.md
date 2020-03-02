@@ -19,4 +19,4 @@ ps: 要求 CodeLab Scratch Desktop >= 1.2.1
 
 ![](/img/rrf_ros.png)
 
-<video width=80% src="http://scratch3-files.just4fun.site/rrf_ros.MP4" controls="controls"></video>
+<video width=80% src="/video/rrf_ros.MP4" controls="controls"></video>

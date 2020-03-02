@@ -4,43 +4,43 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 ## 闭眼,请熄灯
 
-<video width=80% src="http://scratch3-files.just4fun.site/%E9%97%AD%E7%9C%BC%E8%AF%B7%E7%86%84%E7%81%AF.mp4" controls="controls"></video>
+<video width=80% src="/video/%E9%97%AD%E7%9C%BC%E8%AF%B7%E7%86%84%E7%81%AF.mp4" controls="controls"></video>
 
 
 ## 收工，吃饭
-<video width=80% src="http://scratch3-files.just4fun.site/turnofflight_byfinger.mp4" controls="controls"></video>
+<video width=80% src="/video/turnofflight_byfinger.mp4" controls="controls"></video>
 
 ## 击灭那盏灯
 
-<video width=80% src="http://scratch3-files.just4fun.site/%E5%87%BB%E7%81%AD%E9%82%A3%E7%9B%8F%E7%81%AF.mp4" controls="controls"></video>
+<video width=80% src="/video/%E5%87%BB%E7%81%AD%E9%82%A3%E7%9B%8F%E7%81%AF.mp4" controls="controls"></video>
 
 
-<video width=40% src="http://scratch3-files.just4fun.site/switch_light.mp4" controls="controls"></video>
+<video width=40% src="/video/switch_light.mp4" controls="controls"></video>
 
 
 ## 小房间与大房间(labo套件)
-<video width=80% src="http://scratch3-files.just4fun.site/%E5%B0%8F%E6%88%BF%E9%97%B4%E4%B8%8E%E5%A4%A7%E6%88%BF%E9%97%B4.mp4" controls="controls"></video>
+<video width=80% src="/video/%E5%B0%8F%E6%88%BF%E9%97%B4%E4%B8%8E%E5%A4%A7%E6%88%BF%E9%97%B4.mp4" controls="controls"></video>
 
 ## 姿势乐谱
 
-<video width=80% src="http://scratch3-files.just4fun.site/%E5%A7%BF%E5%8A%BF%E4%B9%90%E8%B0%B1.mp4" controls="controls"></video>
+<video width=80% src="/video/%E5%A7%BF%E5%8A%BF%E4%B9%90%E8%B0%B1.mp4" controls="controls"></video>
 
 
 ## 冲啊 先驱音速
-<video width=40% src="http://wwj-fig-bed.just4fun.site/1539392124109888.mp4" controls="controls"></video>
+<video width=40% src="/video/1539392124109888.mp4" controls="controls"></video>
 
 ## hungry robot
-<video width=40% src="http://wwj-fig-bed.just4fun.site/hungry_robot.mp4" controls="controls"></video>
+<video width=40% src="/video/hungry_robot.mp4" controls="controls"></video>
 
 ## 巴甫洛夫的机器人
-<video width=80% src="http://wwj-fig-bed.just4fun.site/1540219015667808.mp4" controls="controls"></video>
+<video width=80% src="/video/1540219015667808.mp4" controls="controls"></video>
 
 ## 击掌奏乐
-<video width=80% src="http://scratch3-files.just4fun.site/%E4%B8%A4%E5%8F%AA%E8%80%81%E8%99%8E.mp4" controls="controls"></video>
+<video width=80% src="/video/%E4%B8%A4%E5%8F%AA%E8%80%81%E8%99%8E.mp4" controls="controls"></video>
 
 
 ## leapmotion 超级玛丽
-<video width=40% src="http://wwj-fig-bed.just4fun.site/supermarry.mp4" controls="controls"></video>
+<video width=40% src="/video/supermarry.mp4" controls="controls"></video>
 
 
 ## 在Scratch3 Lab中，无线控制bit:bot
@@ -52,7 +52,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
 
 ## 在Scratch3 Lab中，利用运动检测开/关灯
-<video src="http://wwj-tmp-video2.just4fun.site/scratch-smart-home.mp4" controls="controls"></video>
+<video src="/video/scratch-smart-home.mp4" controls="controls"></video>
 
 ### 在Scratch3 Lab中，利用传感器做体感游戏
 <video src="../../img/mc_404game.mp4" controls="controls"></video>
@@ -83,185 +83,185 @@ Notice: If you can't read Chinese, Please use Google Translate.
 参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
 
 ## cozmo接入在线课程平台 
-<!--http://scratch3-files.just4fun.site/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->
-<video src="http://scratch3-files.just4fun.site/blockly_cozmo.mp4" controls="controls"></video>
+<!--/video/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->
+<video src="/video/blockly_cozmo.mp4" controls="controls"></video>
 
 参考[使用codelab_adapter连接blockly与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)
 
 ## Incendio(火焰咒)
 
-<video src="http://scratch3-files.just4fun.site/microbitble_magic.mp4" controls="controls"></video>
+<video src="/video/microbitble_magic.mp4" controls="controls"></video>
 
 #### 控制优必选Alpha系列机器人
 
-<video width=40% src="http://scratch3-files.just4fun.site/1537510098140.mp4" controls="controls"></video>
+<video width=40% src="/video/1537510098140.mp4" controls="controls"></video>
 
 参考[codelab-adapter接入优必选Alpha系列机器人](https://blog.just4fun.site/scratch3-adapter-ubtrobot.html)
 
 ## 接入blender(连接游戏、电影与VR)
 
-<video width=80% src="http://scratch3-files.just4fun.site/blender-adapter.mp4" controls="controls"></video>
+<video width=80% src="/video/blender-adapter.mp4" controls="controls"></video>
 
 ## 做一个微信聊天界面
-<video width=80% src="http://scratch3-files.just4fun.site/wechat.mp4" controls="controls"></video>
+<video width=80% src="/video/wechat.mp4" controls="controls"></video>
 
 ## 要有光(微信 scratch 物联网)
-<video width=40% src="http://scratch3-files.just4fun.site/%E8%A6%81%E6%9C%89%E5%85%89.mp4" controls="controls"></video>
+<video width=40% src="/video/%E8%A6%81%E6%9C%89%E5%85%89.mp4" controls="controls"></video>
 
 ## 人脸地标(Python程序接入scratch)
-<video width=80% src="http://scratch3-files.just4fun.site/dlib_face.mp4" controls="controls"></video>
+<video width=80% src="/video/dlib_face.mp4" controls="controls"></video>
 
 
 ## 鼻梁上的老花镜(增强现实)
-<video width=80% src="http://scratch3-files.just4fun.site/AR.mp4" controls="controls"></video>
+<video width=80% src="/video/AR.mp4" controls="controls"></video>
 
 ## hi-渡边君(chatbot)
-<video width=80% src="http://scratch3-files.just4fun.site/hi%E6%B8%A1%E8%BE%B9%E5%90%9B.mp4" controls="controls"></video>
+<video width=80% src="/video/hi%E6%B8%A1%E8%BE%B9%E5%90%9B.mp4" controls="controls"></video>
 
 
 ## 智能音箱
-<video width=80% src="http://scratch3-files.just4fun.site/%E6%99%BA%E8%83%BD%E9%9F%B3%E7%AE%B1.mp4" controls="controls"></video>
+<video width=80% src="/video/%E6%99%BA%E8%83%BD%E9%9F%B3%E7%AE%B1.mp4" controls="controls"></video>
 
 
 ## 掌控板(reverse shell)
-<video width=80% src="http://scratch3-files.just4fun.site/%E6%8E%8C%E6%8E%A7%E6%9D%BF.mp4" controls="controls"></video>
+<video width=80% src="/video/%E6%8E%8C%E6%8E%A7%E6%9D%BF.mp4" controls="controls"></video>
 
 ## unity、lego、scratch3-adapter（by 联想研究院）
-<video width=80% src="http://scratch3-files.just4fun.site/unity.mp4" controls="controls"></video>
+<video width=80% src="/video/unity.mp4" controls="controls"></video>
 
 ## 四轴飞行器
-<video c src="http://scratch3-files.just4fun.site/fly.mp4" controls="controls"></video>
+<video c src="/video/fly.mp4" controls="controls"></video>
 
 ## oh my vector
-<video width=40% src="http://scratch3-files.just4fun.site/vector_leapmotion.mp4" controls="controls"></video>
+<video width=40% src="/video/vector_leapmotion.mp4" controls="controls"></video>
 
 
 ## 模拟器（by 联想研究院）
-<video width=80% src="http://scratch3-files.just4fun.site/%E6%A8%A1%E6%8B%9F%E5%99%A8.mp4" controls="controls"></video>
+<video width=80% src="/video/%E6%A8%A1%E6%8B%9F%E5%99%A8.mp4" controls="controls"></video>
 
 ## 眼动仪
-<video width=80% src="http://scratch3-files.just4fun.site/%E7%9C%BC%E5%8A%A8%E4%BB%AA.mp4" controls="controls"></video>
+<video width=80% src="/video/%E7%9C%BC%E5%8A%A8%E4%BB%AA.mp4" controls="controls"></video>
 
 ## Switch Labo ❤️ Vector
-<video width=40% src="http://scratch3-files.just4fun.site/vector_labo.mp4" controls="controls"></video>
+<video width=40% src="/video/vector_labo.mp4" controls="controls"></video>
 
 
 ## Candy Language for Vector
-<video width=80% src="http://scratch3-files.just4fun.site/candy_vector.mp4" controls="controls"></video>
+<video width=80% src="/video/candy_vector.mp4" controls="controls"></video>
 
 ## 接入arduino
-<video width=80% src="http://scratch3-files.just4fun.site/arduino.mp4" controls="controls"></video>
+<video width=80% src="/video/arduino.mp4" controls="controls"></video>
 
 ## Physics extension and LeapMotion
-<video width=40% src="http://scratch3-files.just4fun.site/physics_leapmotion.mp4" controls="controls"></video>
+<video width=40% src="/video/physics_leapmotion.mp4" controls="controls"></video>
 
 ## wechat extension
-<video width=80% src="http://scratch3-files.just4fun.site/wechat_extension.mp4" controls="controls"></video>
+<video width=80% src="/video/wechat_extension.mp4" controls="controls"></video>
 
 
 ## Cozmo and Vector: Where did the human go?
-<video width=80% src="http://scratch3-files.just4fun.site/where-did-the-human-go.mp4" controls="controls"></video>
+<video width=80% src="/video/where-did-the-human-go.mp4" controls="controls"></video>
 
 ## 渡边君(cozmo+vector)
-<video width=80% src="http://scratch3-files.just4fun.site/cosplayhi%E6%B8%A1%E8%BE%B9%E5%90%9B.mp4" controls="controls"></video>
+<video width=80% src="/video/cosplayhi%E6%B8%A1%E8%BE%B9%E5%90%9B.mp4" controls="controls"></video>
 
 ## 灵光一现(脑电波+智能家居)
-<video width=80% src="http://scratch3-files.just4fun.site/%E7%81%B5%E5%85%89%E4%B8%80%E7%8E%B0.mp4" controls="controls"></video>
+<video width=80% src="/video/%E7%81%B5%E5%85%89%E4%B8%80%E7%8E%B0.mp4" controls="controls"></video>
 
 
 ## DJI Tello x Leap Motion
-<video width=40% src="http://scratch3-files.just4fun.site/tello_leapmotion.mp4" controls="controls"></video>
+<video width=40% src="/video/tello_leapmotion.mp4" controls="controls"></video>
 
 ## DJI Tello x Switch Labo
-<video width=40% src="http://scratch3-files.just4fun.site/tello_labo.mp4" controls="controls"></video>
+<video width=40% src="/video/tello_labo.mp4" controls="controls"></video>
 
 ## DJI Tello x Switch Joy-Con
-<video width=40% src="http://scratch3-files.just4fun.site/tello_joy_con.mp4" controls="controls"></video>
+<video width=40% src="/video/tello_joy_con.mp4" controls="controls"></video>
 
 ## 霍格沃兹模式
-<video width=80% src="http://scratch3-files.just4fun.site/magic_joy_con.mp4" controls="controls"></video>
+<video width=80% src="/video/magic_joy_con.mp4" controls="controls"></video>
 
-<video width=80% src="http://scratch3-files.just4fun.site/magic-eye-tracker.mp4" controls="controls"></video>
+<video width=80% src="/video/magic-eye-tracker.mp4" controls="controls"></video>
 
 
-<video width=40% src="http://scratch3-files.just4fun.site/wand.mp4" controls="controls"></video>
+<video width=40% src="/video/wand.mp4" controls="controls"></video>
 
 ## CodeLab ❤️ toio
  
 ### 给我一个toio，我可以转动地球
-<video width=40% src="http://scratch3-files.just4fun.site/Rotating-the-earth%20.mp4" controls="controls"></video>
+<video width=40% src="/video/Rotating-the-earth%20.mp4" controls="controls"></video>
 
 
 ### 在你转身之后，岁月无光
-<video width=40% src="http://scratch3-files.just4fun.site/toio_neverland_logo_light.mp4" controls="controls"></video>
+<video width=40% src="/video/toio_neverland_logo_light.mp4" controls="controls"></video>
 
 
 ### 天空没有留下鸟的痕迹，但toio已飞过
-<video width=40% src="http://scratch3-files.just4fun.site/toio_fly.mp4" controls="controls"></video>
+<video width=40% src="/video/toio_fly.mp4" controls="controls"></video>
 
 ## 接入3D游戏
-<video width=40% src="http://scratch3-files.just4fun.site/game_adapter.mp4" controls="controls"></video>
+<video width=40% src="/video/game_adapter.mp4" controls="controls"></video>
 
 ## 山寨版龟派气功
-<video width=80% src="http://wwj-tmp-video.just4fun.site/%E5%B1%B1%E5%AF%A8%E7%89%88%E9%BE%9F%E6%B4%BE%E6%B0%94%E5%8A%9F.mp4" controls="controls"></video>
+<video width=80% src="/video/%E5%B1%B1%E5%AF%A8%E7%89%88%E9%BE%9F%E6%B4%BE%E6%B0%94%E5%8A%9F.mp4" controls="controls"></video>
 
 ## CodeLab X leju robot
-<video width=80% src="http://wwj-tmp-video.just4fun.site/leju_codelab.mp4" controls="controls"></video>
+<video width=80% src="/video/leju_codelab.mp4" controls="controls"></video>
 
 ## 手势窗帘
-<video width=80% src="http://wwj-tmp-video.just4fun.site/%E6%89%8B%E5%8A%BF%E7%AA%97%E5%B8%98.mp4" controls="controls"></video>
+<video width=80% src="/video/%E6%89%8B%E5%8A%BF%E7%AA%97%E5%B8%98.mp4" controls="controls"></video>
 
 
 ## 体验者初次学会适应变量
-<video width=80% src="http://wwj-tmp-video.just4fun.site/%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%E5%8F%98%E9%87%8F.mp4" controls="controls"></video>
+<video width=80% src="/video/%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%E5%8F%98%E9%87%8F.mp4" controls="controls"></video>
 
 ## toio etoys
-<video width=40% src="http://wwj-tmp-video.just4fun.site/toio-etoys.mp4" controls="controls"></video>
+<video width=40% src="/video/toio-etoys.mp4" controls="controls"></video>
 
 
 ## 魔法教室
-<video width=40% src="http://wwj-tmp-video.just4fun.site/Magic%20classroom.mp4" controls="controls"></video>
+<video width=40% src="/video/Magic%20classroom.mp4" controls="controls"></video>
 
 ## 灰袍巫师
-<video width=40% src="http://scratch3-files.just4fun.site/wand_tello.mp4" controls="controls"></video>
+<video width=40% src="/video/wand_tello.mp4" controls="controls"></video>
 
 ## Scratch x 微信 X IoT
-<video width=40% src="http://scratch3-files.just4fun.site/wechat_iot.mp4" controls="controls"></video>
+<video width=40% src="/video/wechat_iot.mp4" controls="controls"></video>
 
 ## Jupyter + Scratch
-<video width=80% src="http://scratch3-files.just4fun.site/jupyter_scratch.mp4" controls="controls"></video>
+<video width=80% src="/video/jupyter_scratch.mp4" controls="controls"></video>
 
 ## 谁动了我的糖果
-<video width=80% src="http://scratch3-files.just4fun.site/toio_candy.mp4" controls="controls"></video>
+<video width=80% src="/video/toio_candy.mp4" controls="controls"></video>
 
 ## toio music interface
-<video width=80% src="http://scratch3-files.just4fun.site/toio_music" controls="controls"></video>
+<video width=80% src="/video/toio_music.mp4" controls="controls"></video>
 
 ## toio music interface2
-<video width=80% src="http://scratch3-files.just4fun.site/toio_music2" controls="controls"></video>
+<video width=80% src="/video/toio_music2.mp4" controls="controls"></video>
 
 ## I am reading(Python)
-<video width=80% src="http://scratch3-files.just4fun.site/python_neverland.mp4" controls="controls"></video>
+<video width=80% src="/video/python_neverland.mp4" controls="controls"></video>
 
 
 ## cube symphony
-<video width=80% src="http://scratch3-files.just4fun.site/cube%20symphony.mp4" controls="controls"></video>
+<video width=80% src="/video/cube%20symphony.mp4" controls="controls"></video>
 
 ## 自制门禁系统
-<video width=80% src="http://scratch3-files.just4fun.site/%E8%87%AA%E5%88%B6%E9%97%A8%E7%A6%81.mp4" controls="controls"></video>
+<video width=80% src="/video/%E8%87%AA%E5%88%B6%E9%97%A8%E7%A6%81.mp4" controls="controls"></video>
 
 ## CodeLab有嘻哈
-<video width=80% src="http://scratch3-files.just4fun.site/codelab%E6%9C%89%E5%98%BB%E5%93%88.mp4" controls="controls"></video>
+<video width=80% src="/video/codelab%E6%9C%89%E5%98%BB%E5%93%88.mp4" controls="controls"></video>
 
 
 ## 目之所及
-<video width=50% src="http://scratch3-files.just4fun.site/eye_light.mp4" controls="controls"></video>
+<video width=50% src="/video/eye_light.mp4" controls="controls"></video>
 
 ## 兼容IPad
-<video width=80% src="http://wwj-tmp-video.just4fun.site/codelab_ipad.mp4" controls="controls"></video>
+<video width=80% src="/video/codelab_ipad.mp4" controls="controls"></video>
 
 ## 可穿戴设备 & 魔杖
-<video width=50% src="http://scratch3-files.just4fun.site/1572097577962892.mp4" controls="controls"></video>
+<video width=50% src="/video/1572097577962892.mp4" controls="controls"></video>
 
 ## fire!
 <video width=80% src="https://www.codelab.club/img/wand_catapult_demo.mp4" controls="controls"></video>
@@ -269,49 +269,49 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=80% src="https://www.codelab.club/img/wand_catapult.mp4" controls="controls"></video>
 
 ##  inspired by dynamicland
-<video width=80% src="http://scratch3-files.just4fun.site/dynamicland_02.mp4" controls="controls"></video>
+<video width=80% src="/video/dynamicland_02.mp4" controls="controls"></video>
 
 
-<video width=80% src="http://scratch3-files.just4fun.site/dynamicland_01.mp4" controls="controls"></video>
+<video width=80% src="/video/dynamicland_01.mp4" controls="controls"></video>
 
 ### 命运之手
-<video width=80% src="http://scratch3-files.just4fun.site/%E5%91%BD%E8%BF%90%E4%B9%8B%E6%89%8B.mp4" controls="controls"></video>
+<video width=80% src="/video/%E5%91%BD%E8%BF%90%E4%B9%8B%E6%89%8B.mp4" controls="controls"></video>
 
 ### 重力效应
-<video width=80% src="http://scratch3-files.just4fun.site/%E9%87%8D%E5%8A%9B%E6%95%88%E5%BA%94.mp4" controls="controls"></video>
+<video width=80% src="/video/%E9%87%8D%E5%8A%9B%E6%95%88%E5%BA%94.mp4" controls="controls"></video>
 
 ### 拍案惊球
-<video width=40% src="http://scratch3-files.just4fun.site/%E6%8B%8D%E6%A1%88%E6%83%8A%E7%90%83.mp4" controls="controls"></video>
+<video width=40% src="/video/%E6%8B%8D%E6%A1%88%E6%83%8A%E7%90%83.mp4" controls="controls"></video>
 
 ### Body Programming
-<video width=80% src="http://scratch3-files.just4fun.site/body_programming.mp4" controls="controls"></video>
+<video width=80% src="/video/body_programming.mp4" controls="controls"></video>
 
 ### 二进制
-<video width=80% src="http://scratch3-files.just4fun.site/二进制.mp4" controls="controls"></video>
+<video width=80% src="/video/二进制.mp4" controls="controls"></video>
 
 ### 蜡笔调色盘
-<video width=80% src="http://scratch3-files.just4fun.site/蜡笔调色盘.mp4" controls="controls"></video>
+<video width=80% src="/video/蜡笔调色盘.mp4" controls="controls"></video>
 
 ### 一场烟火
-<video width=80% src="http://scratch3-files.just4fun.site/一场烟火.mp4" controls="controls"></video>
+<video width=80% src="/video/一场烟火.mp4" controls="controls"></video>
 
 ### toio泡泡龙
-<video width=40% src="http://scratch3-files.just4fun.site/toio泡泡龙.mp4" controls="controls"></video>
+<video width=40% src="/video/toio泡泡龙.mp4" controls="controls"></video>
 
 ### Seeing Spaces
-<video width=80% src="http://scratch3-files.just4fun.site/1576905372587643.mp4" controls="controls"></video>
+<video width=80% src="/video/1576905372587643.mp4" controls="controls"></video>
 
 
 ## CodeLab Adapter ❤️ Teachable Machine
-<video width=80% src="http://wwj-tmp-video.just4fun.site/adapter_google_teachable_machine.mp4" controls="controls"></video>
+<video width=80% src="/video/adapter_google_teachable_machine.mp4" controls="controls"></video>
 
 
-<video width=80% src="http://scratch3-files.just4fun.site/tm_scratch_dy.mp4" controls="controls"></video>
+<video width=80% src="/video/tm_scratch_dy.mp4" controls="controls"></video>
 
 ## Kano Wand
-<video width=80% src="http://scratch3-files.just4fun.site/1576905337206766.mp4" controls="controls"></video>
+<video width=80% src="/video/1576905337206766.mp4" controls="controls"></video>
 
 ## 闪现
-<video width=80% src="http://scratch3-files.just4fun.site/1576905320614182.mp4" controls="controls"></video>
+<video width=80% src="/video/1576905320614182.mp4" controls="controls"></video>
 
 
