@@ -26,7 +26,7 @@ make push
 参考 [Linking to images and media](https://www.mkdocs.org/user-guide/writing-your-docs/#linking-to-images-and-media)
 
 # 参与翻译
-[CodeLab Adapter] (https://adapterv2.codelab.club)的海外用户目前使用`谷歌翻译`阅读该文档。
+[CodeLab Adapter](https://adapterv2.codelab.club)的海外用户目前使用`谷歌翻译`阅读该文档。
 
 如果你愿意将其翻译为英文，十分欢迎。
 
