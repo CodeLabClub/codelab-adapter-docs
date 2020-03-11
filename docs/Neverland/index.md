@@ -22,4 +22,4 @@
 本文档致力于帮助大家复现我们[在 Neverland 里做的好玩项目](https://adapter.codelab.club/user_guide/gallery/)，以下是它们的构建和使用文档:
 
 *  [收工，吃饭](/Neverland/finger-snapping)
-*  [闭眼，请熄灯](/Neverland/reading-thinking)
+<!--*  [闭眼，请熄灯](/Neverland/reading-thinking)-->
