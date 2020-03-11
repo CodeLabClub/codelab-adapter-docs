@@ -7,7 +7,7 @@
 # Usage
 
 ```
-git clone https://github.com/Scratch3Lab/codelab-adapter-docs
+git clone https://github.com/CodeLabClub/codelab-adapter-docs
 cd codelab-adapter-docs
 pip3 install mkdocs
 # debug
