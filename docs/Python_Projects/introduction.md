@@ -6,4 +6,4 @@
 
 欢迎来到 Python 项目文档。
 
-围绕《Mindstorms》的 **microworld** 概念 与 《终生幼儿园》的 **4P** (Projects, Passion, Peers, Play)理念 构建 projects。
+围绕《Mindstorms》的 **microworld** 概念 与《终生幼儿园》的 **4P**（Projects, Passion, Peers, Play） 理念构建 projects。
