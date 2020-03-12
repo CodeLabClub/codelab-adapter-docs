@@ -1,6 +1,6 @@
 # 读书与思考
 
-**AI**、**CodeLab Adapter**、**Scratch**、**Home Assistant**、**智能家居（smart home）**、**Teachable Machine**
+**AI**、**Scratch**、**Home Assistant**、**智能家居（smart home）**、**Teachable Machine**
 
 ## 步骤 1：构建
 

@@ -23,3 +23,4 @@
 
 *  [收工，吃饭](/Neverland/finger-snapping)
 *  [读书与思考](/Neverland/reading-thinking)
+*  [乐器演奏 (Teachable Machine)](/Neverland/musical-instrument-tm)

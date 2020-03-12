@@ -122,6 +122,7 @@ nav:
       - 介绍(introduction): "Neverland/index.md"
       - 收工吃饭: "Neverland/finger-snapping.md"
       - 读书与思考: "Neverland/reading-thinking.md"
+      - 乐器演奏 (Teachable Machine): "Neverland/musical-instrument-tm.md"
       - 安装Home Assistant: "Neverland/HA.md"
   - 关于(about):
       - 联系我们(contact us): "about/contact.md"
