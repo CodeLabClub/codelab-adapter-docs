@@ -9,8 +9,8 @@
 打一个响指，关掉整个办公室的灯，下班回家吃饭！
 
 ### 它是如何工作的?
-*  [运行Home Assistant](/Neverland/HA){target=_blank}，接管空间的所有智能设备
-*  使用CodeLab Scratch([在线版](http://scratch3v2.codelab.club/){target=_blank}、[离线版](https://www.codelab.club/blog/codelab-download/){target=_blank}皆可)的Home Assistant扩展，控制智能设备
+*  [运行Home Assistant](/Neverland/HA){target=_blank}，接管空间的所有智能设备。
+*  使用CodeLab Scratch([在线版](http://scratch3v2.codelab.club/){target=_blank}、[离线版](https://www.codelab.club/blog/codelab-download/){target=_blank}皆可)的Home Assistant扩展，控制智能设备。
 *  使用Scratch中的 **声音响度积木** 监测环境中的声音，当声音响度超过某个值，关灯！
 
 ### 你需要准备些什么
