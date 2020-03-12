@@ -1,4 +1,4 @@
-# 乐器演奏 ( Teachable Machine)
+# 乐器演奏（Teachable Machine）
 
 **AI**、**Teachable Machine**、**CodeLab Adapter**、**Scratch**
 
@@ -9,17 +9,17 @@
 <video width="80%" src="/video/tm_scratch_dy.mp4" controls="controls"></video>
 
 !!! tips
-    国内用户可能需要科学上网，才能访问[Teachable Machine](https://teachablemachine.withgoogle.com/) :)  
-    记得避免全局翻墙，否则浏览器可能无法连接到CodeLab Adapter  
-    (我们所面临的困难许多时候是人为的)
+    国内用户可能需要科学上网，才能访问 [Teachable Machine](https://teachablemachine.withgoogle.com/) :)  
+    记得避免全局翻墙，否则浏览器可能无法连接到 CodeLab Adapter  
+    （我们所面临的困难许多时候是人为的）
 
-使用 [Teachable Machine](https://teachablemachine.withgoogle.com/) 训练一个 AI 助手，教会它认识不同的乐器卡片(可任选)，当看到吉他 (guitar) 卡片时，在桌子上播放吉他动画，并使用吉他演奏一段音乐；当看到萨克斯 (sax)卡片时，在桌子上播放萨克斯动画，并使用萨克斯演奏一段音乐，
+使用 [Teachable Machine](https://teachablemachine.withgoogle.com/) 训练一个 AI 助手，教会它认识不同的乐器卡片（可任选），当看到吉他 （guitar）卡片时，在桌子上播放吉他动画，并使用吉他演奏一段音乐；当看到萨克斯（sax）卡片时，在桌子上播放萨克斯动画，并使用萨克斯演奏一段音乐，
 
 利用投影让虚拟形象和实物在一张桌子上互动！
 
 ### 它是如何工作的?
 
--   使用 [Teachable Machine](https://teachablemachine.withgoogle.com/) 中的 [Image Project](https://teachablemachine.withgoogle.com/train/image) ，训练 AI 来识别看书与合上书的不同状态。
+-   使用 [Teachable Machine](https://teachablemachine.withgoogle.com/) 中的 [Image Project](https://teachablemachine.withgoogle.com/train/image)，训练 AI 来识别看书与合上书的不同状态。
 -   使用 [CodeLab Adapter](/) 将 Teachable Machine 的识别结果接入到 CodeLab Scratch 中
 -   使用 CodeLab Scratch（[在线版](http://scratch3v2.codelab.club/){target=\_blank}、[离线版](https://www.codelab.club/blog/codelab-download/){target=\_blank}皆可）进行编程，让卡通形象、音乐与实物互动。
 
@@ -27,24 +27,24 @@
 
 -   CodeLab Scratch
 -   [CodeLab Adapter](/)
--   安装 Chrome 浏览器插件: [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-    -  点击安装 Tampermonkey 脚本 [Teachablemachine_Result.user.js](https://gist.github.com/wwj718/78402d0de9efb8d33742c8770056489c/raw/1269fef28877f4c7625a4dd21990271fdf04cfe8/Teachablemachine_Result_fixed.user.js), 使用它来获取 [Teachable Machine](https://teachablemachine.withgoogle.com/) 的识别结果
--   投影仪(我使用的是 [LG PH450UG-GL 超短焦投影仪](https://item.jd.com/4245251.html))
+-   安装 Chrome 浏览器插件：[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+    -  点击安装 Tampermonkey 脚本 [Teachablemachine_Result.user.js](https://gist.github.com/wwj718/78402d0de9efb8d33742c8770056489c/raw/1269fef28877f4c7625a4dd21990271fdf04cfe8/Teachablemachine_Result_fixed.user.js)，使用它来获取 [Teachable Machine](https://teachablemachine.withgoogle.com/) 的识别结果
+-   投影仪（我使用的是 [LG PH450UG-GL 超短焦投影仪](https://item.jd.com/4245251.html)）
     -  投影仪是可选的，你也可以让动画显示在电脑屏幕上，而不是投影到桌面。记得在屏幕上将舞台最大化，效果比较好。
 
 ## 步骤 2：编程
 
 ### 准备工作
-安装完 [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) Chrome浏览器插件和 [Teachablemachine_Result.user.js](https://gist.github.com/wwj718/78402d0de9efb8d33742c8770056489c/raw/1269fef28877f4c7625a4dd21990271fdf04cfe8/Teachablemachine_Result_fixed.user.js) 脚本后，运行下载到本地的 [CodeLab Adapter](/)。
+安装完 [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) Chrome 浏览器插件和 [Teachablemachine_Result.user.js](https://gist.github.com/wwj718/78402d0de9efb8d33742c8770056489c/raw/1269fef28877f4c7625a4dd21990271fdf04cfe8/Teachablemachine_Result_fixed.user.js) 脚本后，运行下载到本地的 [CodeLab Adapter](/)。
 
-打开[Image Project](https://teachablemachine.withgoogle.com/train/image)，页面应该会弹出提示: **connected!** , 表示已经将 Teachable Machine 接入 CodeLab Adapter。
+打开 [Image Project](https://teachablemachine.withgoogle.com/train/image)，页面应该会弹出提示：**connected!** ，表示已经将 Teachable Machine 接入 CodeLab Adapter。
 
-接下来，可以开始你的 Teachable Machine 之旅途。 我们来展示一个例子。
+接下来，可以开始你的 Teachable Machine 之旅途。我们来展示一个例子。
 
 ### 训练模型
-在 Teachable Machine 训练你的AI助手，你需要教会它识别不同卡片，如果你对 Teachable Machine 不了解，参考我们的介绍文章[CodeLab Adapter 接入 Teachable Machine](https://www.codelab.club/blog/adapter-teachable-machine/)。
+在 Teachable Machine 训练你的 AI 助手，你需要教会它识别不同卡片，如果你对 Teachable Machine 不了解，参考我们的介绍文章 [CodeLab Adapter 接入 Teachable Machine](https://www.codelab.club/blog/adapter-teachable-machine/)。
 
-建立3个分类，分别是 **guitar**、**sax**、**none** (空桌面)
+建立 3 个分类，分别是 **guitar**、**sax**、**none**（空桌面）
 
 开始添加你的训练样本，完成训练后在页面右边测试它。
 
@@ -52,13 +52,13 @@
 
 ![](/img/tm_demo.png)
 
-### 开始在CodeLab Scratch中编程
+### 开始在 CodeLab Scratch 中编程
 
 ![](/img/669e65e3fa62e4f184a5af8568476bad.png)
 
 !!! 在线版与离线版打开方式
     如果你是要在线版，直接[点击项目链接](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/tm乐器演奏.sb3)即可。未来我们会直接发布到社区里。  
-    如果你使用离线版，则下载[源码文件](/sb3/tm乐器演奏.sb3)，使用 CodeLab Scratch 加载它即可.  
+    如果你使用离线版，则下载[源码文件](/sb3/tm乐器演奏.sb3)，使用 CodeLab Scratch 加载它即可。  
 
 点击绿旗开始运行程序，将 Scratch 舞台区最大化。
 
@@ -81,4 +81,4 @@
 ## 参考
 
 -   [CodeLab Adapter 接入 Teachable Machine](https://www.codelab.club/blog/adapter-teachable-machine/)
--   [插件(extensions)文档 - Teachable Machine](http://localhost:8000/extension_guide/teachable_machine/)
+-   [插件（extensions）文档 - Teachable Machine](http://localhost:8000/extension_guide/teachable_machine/)
