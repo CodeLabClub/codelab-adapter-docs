@@ -62,7 +62,7 @@ CodeLab Adapter 可以支持其他编程平台吗？而不只是在 codelab 的�
 
 CodeLab Adapter 几乎支持任何平台，无论是 scratch3.0 构建的还是 blockly 构建的(如 Tynker 和 code.org)的，或者你用其他什么黑魔法构建的，都没问题！
 
-这是目前的接入文档:[codelab-adapter 支持第三方平台](https://blog.just4fun.site/scratch3-adapter-open-plan.html)
+这是目前的接入文档:[codelab-adapter 支持第三方平台](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/codelab-adapter-open-plan/)
 
 相关的合作条款我们正在构建中。
 
