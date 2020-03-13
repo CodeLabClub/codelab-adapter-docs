@@ -24,14 +24,40 @@ Now the Vector extension is built into the [Codelab Adapter](https://adapterv2.c
 # Tutorial
 
 ### install codelab_adapter_client
-Linux/MacOS user:  `pip3 install codelab_adapter_client --user`
+Linux/MacOS user:  `python3 -m pip install codelab_adapter_client --user`
 
-windows user: `pip install codelab_adapter_client --user`
+windows user: `python -m pip install codelab_adapter_client --user`
 
 ### Install the SDK on your system
 Follow Vector official tutorial:  [Initial Setup](https://developer.anki.com/vector/docs/initial.html)
 
-If the following code runs smoothly: python3 [01_hello_world.py](https://github.com/anki/vector-python-sdk/blob/master/examples/tutorials/01_hello_world.py) ， go to the next step.
+If the following code (`hello_world.py`) runs smoothly, go to the next step.
+
+```python
+'''
+MacOS:
+    /usr/local/bin/python3 hello_world.py
+linux:
+    /usr/bin/python3 hello_world.py
+Windows:
+    python hello_world.py
+'''
+import anki_vector
+from codelab_adapter_client import AdapterNode
+
+def main():
+    args = anki_vector.util.parse_command_args()
+    with anki_vector.Robot(args.serial) as robot:
+        print("Say 'Hello World'...")
+        robot.behavior.say_text("Hello World")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+
+
 
 ###  Download  Codelab Adapter
 <a href="https://adapterv2.codelab.clubuser_guide/install/">Download  Codelab Adapter</a>
