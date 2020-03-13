@@ -24,6 +24,8 @@ Now the Vector extension is built into the [Codelab Adapter](https://adapterv2.c
 # Tutorial
 
 ### install codelab_adapter_client
+Python >= `3.5`
+
 Linux/MacOS user:  `python3 -m pip install codelab_adapter_client --user`
 
 windows user: `python -m pip install codelab_adapter_client --user`

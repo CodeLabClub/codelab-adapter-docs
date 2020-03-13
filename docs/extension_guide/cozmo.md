@@ -3,14 +3,35 @@
 # Tutorial
 
 ### install codelab_adapter_client
-Linux/MacOS user:  `pip3 install codelab_adapter_client --user`
+Python >= `3.5`
 
-windows user: `pip install codelab_adapter_client --user`
+Linux/MacOS user:  `python3 -m pip install codelab_adapter_client --user`
+
+windows user: `python -m pip install codelab_adapter_client --user`
 
 ### Install the SDK on your system
 Follow Cozmo official tutorial:  [Initial Setup](http://cozmosdk.anki.com/docs/initial.html)
 
-If the following code runs smoothly: python3 [01_hello_world.py](https://github.com/anki/cozmo-python-sdk/blob/master/examples/tutorials/01_basics/01_hello_world.py) ， go to the next step.
+If the following code (`hello_world.py`) runs smoothly, go to the next step.
+
+```python
+'''
+MacOS:
+    /usr/local/bin/python3 hello_world.py
+linux:
+    /usr/bin/python3 hello_world.py
+Windows:
+    python hello_world.py
+'''
+
+import cozmo
+from codelab_adapter_client import AdapterNode
+
+def cozmo_program(robot: cozmo.robot.Robot):
+    robot.say_text("Hello World").wait_for_completed()
+
+cozmo.run_program(cozmo_program)
+```
 
 ###  Download  Codelab Adapter
 <a href="https://adapterv2.codelab.clubuser_guide/install/">Download  Codelab Adapter</a>
