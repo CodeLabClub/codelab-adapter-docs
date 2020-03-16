@@ -1,12 +1,12 @@
-# eim trigger
+# EIM Trigger
 
 ## 插件介绍
 
 通过 **extension_eim_trigger** 插件，[Scratcher](https://en.scratch-wiki.info/wiki/Scratcher) 可以轻松使用 Python 拓展 Scratch 的能力。
 
-**extension_eim_trigger** 通过调用 [~/codelab_adapter/extensions/eim_trigger.py](/user_guide/FAQ/#_1) 脚本， 往 Scratch 发送消息。 我们将其称为消息的触发机制( **trigger** )。
+**extension_eim_trigger** 通过调用 [~/codelab_adapter/extensions/eim_trigger.py](/user_guide/FAQ/#_1) 脚本，往 Scratch 发送消息。 我们将其称为消息的触发机制( **trigger** )。
 
-默认的脚本，每隔 1s，往 Scratch 中发送一次时间戳，[脚本源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/eim_trigger.py)(简单的 Python 代码)为:
+默认的脚本，每隔 1s，往 Scratch 中发送一次时间戳，[脚本源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/eim_trigger.py)（简单的 Python 代码）为：
 
 ```python
 import time
@@ -23,35 +23,35 @@ def trigger():
 
 {!utils/dependence.md!}
 
-## 步骤 1: 打开 Codelab Adapter
+## 步骤 1：打开 Codelab Adapter
 
 {!utils/open_adapter.md!}
 
-## 步骤 2: 打开 Codelab Scratch3
+## 步骤 2：打开 Codelab Scratch3
 
 {!utils/open_scratch.md!}
 
-## 步骤 3: 加载 extension_eim_trigger 插件
+## 步骤 3：加载 extension_eim_trigger 插件
 
-在 Web UI 中点击加载 **extension_eim_trigger** 插件:
+在 Web UI 中点击加载 **extension_eim_trigger** 插件：
 
 <img width="300px" src="/img/v2/open_adapter_trigger_extension.png"/>
 
-开启 **extension_eim_trigger** 插件后,
+开启 **extension_eim_trigger** 插件后，
 
-## 步骤 4: hello world
+## 步骤 4：hello world
 
-选择对应的 Scratch3 插件: EIM
+选择对应的 Scratch3 插件：EIM
 
 <img width="600px" src="/img/v2/scratch3_extensions_eim.png"/>
 
-让 Scratch3 的角色读出每秒更新一次的时间戳:
+让 Scratch3 的角色读出每秒更新一次的时间戳：
 
 <img width="600px" src="/img/v2/scratch_trigger_run.png"/>
 
-## 步骤 5: 自定义 eim_trigger 逻辑
+## 步骤 5：自定义 eim_trigger 逻辑
 
-默认的逻辑是 **每秒更新一次时间戳**, 相应代码为:
+默认的逻辑是 **每秒更新一次时间戳**，相应代码为：
 
 ```python
 import time
