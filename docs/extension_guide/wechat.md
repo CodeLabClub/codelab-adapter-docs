@@ -4,15 +4,15 @@
 
 {!utils/dependence.md!}
 
-## 步骤 1: 打开 Codelab Adapter
+## 步骤 1：打开 Codelab Adapter
 
 {!utils/open_adapter.md!}
 
-## 步骤 2: 打开 Codelab Scratch3
+## 步骤 2：打开 Codelab Scratch3
 
 {!utils/open_scratch.md!}
 
-## 步骤 3: 加载 CodeLab Adapter 微信插件
+## 步骤 3：加载 CodeLab Adapter 微信插件
 
 <!--
 <img src="/video/wechat_extension_qr_957e2a99.png" width=400 >
@@ -26,7 +26,7 @@
 
 插件运行后，会弹出二维码，用微信扫码即可登陆。
 
-## 在 Scratch3.0 中使用微信插件
+## 在 Scratch 3.0 中使用微信插件
 
 ![](/img/eextension-wechat_f232e4a1.png)
 
