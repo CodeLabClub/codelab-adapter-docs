@@ -4,9 +4,9 @@
 
 We love [Cozmo](https://www.anki.com/en-us/cozmo), we love [Vector](https://www.anki.com/en-us/vector).
 
-[Codelab Adapter](https://adapterv2.codelab.club) is a software that connect Scratch3.0 to the open-source hardware, IoT and AI.
+[Codelab Adapter](https://adapterv2.codelab.club) is a software that connect Scratch 3.0 to the open-source hardware, IoT and AI.
 
-We make a [Codelab Adapter](https://adapterv2.codelab.club) extension to connect Vector to Scratch3.0. It just like Cozmo codelab. 
+We make a [Codelab Adapter](https://adapterv2.codelab.club) extension to connect Vector to Scratch 3.0. It just like Cozmo codelab. 
 
 ![](/img/scratch3-vector_2b21057e.png)
 
@@ -77,7 +77,7 @@ edit `~/codelab_adapter/extensions/extension_vector.py`, replace python3_path wi
 restart Codelab Adapter.
 -->
 
-### Open Scratch3.0
+### Open Scratch 3.0
 open [CodeLab Scratch3](https://scratch3v2.codelab.club/)
 
 ### Open extension_vector
