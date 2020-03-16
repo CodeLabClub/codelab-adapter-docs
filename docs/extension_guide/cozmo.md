@@ -33,7 +33,7 @@ def cozmo_program(robot: cozmo.robot.Robot):
 cozmo.run_program(cozmo_program)
 ```
 
-###  Download  Codelab Adapter
+###  Download Codelab Adapter
 <a href="https://adapterv2.codelab.clubuser_guide/install/">Download  Codelab Adapter</a>
 
 run it
@@ -49,7 +49,7 @@ edit `~/codelab_adapter/extensions/extension_vector.py`, replace python3_path wi
 restart Codelab Adapter.
 -->
 
-### Open Scratch3.0
+### Open Scratch 3.0
 open [CodeLab Scratch3](https://scratch3v2.codelab.club/)
 
 ### Open extension_cozmo
@@ -60,10 +60,10 @@ Enjoy it :)
 
 
 ### 注意
-Mac下， 使用安卓手机驱动cozmo需要从命令行启动CodeLab Adapter.
+Mac 下，使用安卓手机驱动 Cozmo 需要从命令行启动 CodeLab Adapter。
 
-参考[Android Debug Bridge](http://cozmosdk.anki.com/docs/adb.html#android-debug-bridge)
+参考 [Android Debug Bridge](http://cozmosdk.anki.com/docs/adb.html#android-debug-bridge)
 
 
 !!! tip
-    Cozmo有数百种动作/行为（它们只是字符串），可以使用`运行`和`执行`积木触发。浏览这些丰富的行为可以使用这个工具: [Cozmo-Explorer-Tool](https://github.com/GrinningHermit/Cozmo-Explorer-Tool)。
+    Cozmo 有数百种动作/行为（它们只是字符串），可以使用`运行`和`执行`积木触发。浏览这些丰富的行为可以使用这个工具：[Cozmo-Explorer-Tool](https://github.com/GrinningHermit/Cozmo-Explorer-Tool)。
