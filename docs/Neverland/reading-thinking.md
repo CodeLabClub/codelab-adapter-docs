@@ -30,7 +30,7 @@
 ![](/img/bfad7206e13a0eaca82005bb7125f4f5.png)
 
 !!! 在线版与离线版打开方式
-    如果你是要在线版，直接[点击项目链接](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/reading-thinking.sb3)即可。未来我们会直接发布到社区里。  
+    如果你是要在线版，直接[点击项目链接](https://scratch.codelab.club/projects/24/editor/)即可。未来我们会直接发布到社区里。<!--https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/reading-thinking.sb3-->  
     如果你使用离线版，则下载[源码文件](/sb3/reading-thinking.sb3)，使用 Scratch 加载它即可.  
     加载后填入你之前记下的 token。
 

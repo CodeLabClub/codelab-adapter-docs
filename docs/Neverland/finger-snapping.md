@@ -26,7 +26,7 @@
 ![](/img/13b988916cd857177044a077d4fde798.png)
 
 !!! 在线版与离线版打开方式
-    如果你是要在线版，直接[点击项目链接](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/neverland_helloworld.sb3)即可。未来我们会直接发布到社区里。  
+    如果你是要在线版，直接[点击项目链接](https://scratch.codelab.club/projects/23/editor/)即可。<!--https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/neverland_helloworld.sb3-->  
     如果你使用离线版，则下载[源码文件](/sb3/neverland_helloworld.sb3)，使用 Scratch 加载它即可.   
     加载后填入你之前记下的 token。
 

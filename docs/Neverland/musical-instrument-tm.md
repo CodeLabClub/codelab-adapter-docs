@@ -57,7 +57,7 @@
 ![](/img/669e65e3fa62e4f184a5af8568476bad.png)
 
 !!! 在线版与离线版打开方式
-    如果你是要在线版，直接[点击项目链接](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/tm乐器演奏.sb3)即可。未来我们会直接发布到社区里。  
+    如果你是要在线版，直接[点击项目链接](https://scratch.codelab.club/projects/25/editor/)即可。未来我们会直接发布到社区里。<!--https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/tm乐器演奏.sb3-->  
     如果你使用离线版，则下载[源码文件](/sb3/tm乐器演奏.sb3)，使用 CodeLab Scratch 加载它即可。  
 
 点击绿旗开始运行程序，将 Scratch 舞台区最大化。
