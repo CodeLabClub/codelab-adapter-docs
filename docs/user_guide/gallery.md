@@ -1,8 +1,8 @@
-# 演示视频(Gallery)
+# 演示视频（Gallery）
 
 Notice: If you can't read Chinese, Please use Google Translate. 
 
-## 闭眼,请熄灯
+## 闭眼，请熄灯
 
 <video width=80% src="/video/%E9%97%AD%E7%9C%BC%E8%AF%B7%E7%86%84%E7%81%AF.mp4" controls="controls"></video>
 
@@ -18,7 +18,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=40% src="/video/switch_light.mp4" controls="controls"></video>
 
 
-## 小房间与大房间(labo套件)
+## 小房间与大房间（labo 套件）
 <video width=80% src="/video/%E5%B0%8F%E6%88%BF%E9%97%B4%E4%B8%8E%E5%A4%A7%E6%88%BF%E9%97%B4.mp4" controls="controls"></video>
 
 ## 姿势乐谱
@@ -26,7 +26,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=80% src="/video/%E5%A7%BF%E5%8A%BF%E4%B9%90%E8%B0%B1.mp4" controls="controls"></video>
 
 
-## 冲啊 先驱音速
+## 冲啊，先驱音速
 <video width=40% src="/video/1539392124109888.mp4" controls="controls"></video>
 
 ## hungry robot
@@ -39,83 +39,83 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=80% src="/video/%E4%B8%A4%E5%8F%AA%E8%80%81%E8%99%8E.mp4" controls="controls"></video>
 
 
-## leapmotion 超级玛丽
+## Leap Motion 超级玛丽
 <video width=40% src="/video/supermarry.mp4" controls="controls"></video>
 
 
-## 在Scratch3 Lab中，无线控制bit:bot
+## 在 Scratch3 Lab 中，无线控制 bit:bot
 <video src="../../img/bitbot.mp4" controls="controls"></video>
 
-## 在Scratch3 Lab中，使用micro:bit开/关灯
+## 在 Scratch3 Lab 中，使用 micro:bit 开/关灯
 <video src="../../img/microbit_mi.mp4" controls="controls"></video>
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
+参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
 
-## 在Scratch3 Lab中，利用运动检测开/关灯
+## 在 Scratch3 Lab 中，利用运动检测开/关灯
 <video src="/video/scratch-smart-home.mp4" controls="controls"></video>
 
-### 在Scratch3 Lab中，利用传感器做体感游戏
+### 在 Scratch3 Lab 中，利用传感器做体感游戏
 <video src="../../img/mc_404game.mp4" controls="controls"></video>
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
+参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
 
-## 在Scratch3 Lab中，使用本地的机器视觉
+## 在 Scratch3 Lab 中，使用本地的机器视觉
 <video src="../../img/dp_vision.mp4" controls="controls"></video>
 
 
 ## 使用手势控制客厅的灯
 <video src="../../img/gesture_light.mp4" controls="controls"></video>
 
-我们布置好了一个可编程的空间，使用scratch3中的积木进行空间编程，控制室内的灯光、插座、空调、电视，如果你愿意，也可以去淘宝买一根哈利波特的木制魔杖（估计只要九块九），用我们提供的机器视觉积木训练一下，就可以用你自制的咒语(比如用魔杖划一个o)控制你的房
+我们布置好了一个可编程的空间，使用 Scratch3 中的积木进行空间编程，控制室内的灯光、插座、空调、电视，如果你愿意，也可以去淘宝买一根哈利波特的木制魔杖（估计只要九块九），用我们提供的机器视觉积木训练一下，就可以用你自制的咒语（比如用魔杖划一个o）控制你的房间
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
+参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
 
 ## 门与电视的联动
 <video src="../../img/door_tv.mp4" controls="controls"></video>
 
-我们使用树莓派可将任何屏幕变为变为一个可编程的广告牌（哈哈只要200块哦，这块似乎也值得商业化[奸笑]）。加上简单的神经网络你可以做到，当穿着裙子的姑娘走近屏幕，屏幕立马给她安利新款纪梵希，而穿着格子衬衫的大叔靠近时，屏幕则以机械键盘蛊惑他
+我们使用树莓派可将任何屏幕变为变为一个可编程的广告牌（哈哈只要 200 块哦，这块似乎也值得商业化[奸笑]）。加上简单的神经网络你可以做到，当穿着裙子的姑娘走近屏幕，屏幕立马给她安利新款纪梵希，而穿着格子衬衫的大叔靠近时，屏幕则以机械键盘蛊惑他。
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
+参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
 
 ## 纸做的开关
 <video src="../../img/paper_switch_magic.mp4" controls="controls"></video>
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
+参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
 
-## cozmo接入在线课程平台 
+## Cozmo 接入在线课程平台 
 <!--/video/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->
 <video src="/video/blockly_cozmo.mp4" controls="controls"></video>
 
-参考[使用codelab_adapter连接blockly与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)
+参考[使用 Codelab_Adapter 连接 blockly 与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)。
 
-## Incendio(火焰咒)
+## Incendio（火焰咒）
 
 <video src="/video/microbitble_magic.mp4" controls="controls"></video>
 
-#### 控制优必选Alpha系列机器人
+#### 控制优必选 Alpha 系列机器人
 
 <video width=40% src="/video/1537510098140.mp4" controls="controls"></video>
 
-参考[codelab-adapter接入优必选Alpha系列机器人](https://blog.just4fun.site/scratch3-adapter-ubtrobot.html)
+参考[codelab-adapter 接入优必选 Alpha 系列机器人](https://blog.just4fun.site/scratch3-adapter-ubtrobot.html)
 
-## 接入blender(连接游戏、电影与VR)
+## 接入 blender（连接游戏、电影与 VR）
 
 <video width=80% src="/video/blender-adapter.mp4" controls="controls"></video>
 
 ## 做一个微信聊天界面
 <video width=80% src="/video/wechat.mp4" controls="controls"></video>
 
-## 要有光(微信 scratch 物联网)
+## 要有光（微信 Scratch 物联网）
 <video width=40% src="/video/%E8%A6%81%E6%9C%89%E5%85%89.mp4" controls="controls"></video>
 
-## 人脸地标(Python程序接入scratch)
+## 人脸地标（Python 程序接入 Scratch）
 <video width=80% src="/video/dlib_face.mp4" controls="controls"></video>
 
 
-## 鼻梁上的老花镜(增强现实)
+## 鼻梁上的老花镜（增强现实）
 <video width=80% src="/video/AR.mp4" controls="controls"></video>
 
-## hi-渡边君(chatbot)
+## hi-渡边君（chatbot）
 <video width=80% src="/video/hi%E6%B8%A1%E8%BE%B9%E5%90%9B.mp4" controls="controls"></video>
 
 
@@ -123,7 +123,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=80% src="/video/%E6%99%BA%E8%83%BD%E9%9F%B3%E7%AE%B1.mp4" controls="controls"></video>
 
 
-## 掌控板(reverse shell)
+## 掌控板（reverse shell）
 <video width=80% src="/video/%E6%8E%8C%E6%8E%A7%E6%9D%BF.mp4" controls="controls"></video>
 
 ## unity、lego、scratch3-adapter（by 联想研究院）
@@ -149,10 +149,10 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ## Candy Language for Vector
 <video width=80% src="/video/candy_vector.mp4" controls="controls"></video>
 
-## 接入arduino
+## 接入 Arduino
 <video width=80% src="/video/arduino.mp4" controls="controls"></video>
 
-## Physics extension and LeapMotion
+## Physics extension and Leap Motion
 <video width=40% src="/video/physics_leapmotion.mp4" controls="controls"></video>
 
 ## wechat extension
@@ -162,10 +162,10 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ## Cozmo and Vector: Where did the human go?
 <video width=80% src="/video/where-did-the-human-go.mp4" controls="controls"></video>
 
-## 渡边君(cozmo+vector)
+## 渡边君（cozmo+vector）
 <video width=80% src="/video/cosplayhi%E6%B8%A1%E8%BE%B9%E5%90%9B.mp4" controls="controls"></video>
 
-## 灵光一现(脑电波+智能家居)
+## 灵光一现（脑电波＋智能家居）
 <video width=80% src="/video/%E7%81%B5%E5%85%89%E4%B8%80%E7%8E%B0.mp4" controls="controls"></video>
 
 
@@ -186,9 +186,9 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 <video width=40% src="/video/wand.mp4" controls="controls"></video>
 
-## CodeLab ❤️ toio
+## CodeLab ❤️ Toio
  
-### 给我一个toio，我可以转动地球
+### 给我一个 Toio，我可以转动地球
 <video width=40% src="/video/Rotating-the-earth%20.mp4" controls="controls"></video>
 
 
@@ -196,16 +196,16 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=40% src="/video/toio_neverland_logo_light.mp4" controls="controls"></video>
 
 
-### 天空没有留下鸟的痕迹，但toio已飞过
+### 天空没有留下鸟的痕迹，但 Toio 已飞过
 <video width=40% src="/video/toio_fly.mp4" controls="controls"></video>
 
-## 接入3D游戏
+## 接入 3D 游戏
 <video width=40% src="/video/game_adapter.mp4" controls="controls"></video>
 
 ## 山寨版龟派气功
 <video width=80% src="/video/%E5%B1%B1%E5%AF%A8%E7%89%88%E9%BE%9F%E6%B4%BE%E6%B0%94%E5%8A%9F.mp4" controls="controls"></video>
 
-## CodeLab X leju robot
+## CodeLab x leju robot
 <video width=80% src="/video/leju_codelab.mp4" controls="controls"></video>
 
 ## 手势窗帘
@@ -215,7 +215,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ## 体验者初次学会适应变量
 <video width=80% src="/video/%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%E5%8F%98%E9%87%8F.mp4" controls="controls"></video>
 
-## toio etoys
+## Toio etoys
 <video width=40% src="/video/toio-etoys.mp4" controls="controls"></video>
 
 
@@ -225,22 +225,22 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ## 灰袍巫师
 <video width=40% src="/video/wand_tello.mp4" controls="controls"></video>
 
-## Scratch x 微信 X IoT
+## Scratch x 微信 x IoT
 <video width=40% src="/video/wechat_iot.mp4" controls="controls"></video>
 
-## Jupyter + Scratch
+## Jupyter ＋ Scratch
 <video width=80% src="/video/jupyter_scratch.mp4" controls="controls"></video>
 
 ## 谁动了我的糖果
 <video width=80% src="/video/toio_candy.mp4" controls="controls"></video>
 
-## toio music interface
+## Toio music interface
 <video width=80% src="/video/toio_music.mp4" controls="controls"></video>
 
-## toio music interface2
+## Toio music interface2
 <video width=80% src="/video/toio_music2.mp4" controls="controls"></video>
 
-## I am reading(Python)
+## I am reading (Python)
 <video width=80% src="/video/python_neverland.mp4" controls="controls"></video>
 
 
@@ -250,25 +250,25 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ## 自制门禁系统
 <video width=80% src="/video/%E8%87%AA%E5%88%B6%E9%97%A8%E7%A6%81.mp4" controls="controls"></video>
 
-## CodeLab有嘻哈
+## CodeLab 有嘻哈
 <video width=80% src="/video/codelab%E6%9C%89%E5%98%BB%E5%93%88.mp4" controls="controls"></video>
 
 
 ## 目之所及
 <video width=50% src="/video/eye_light.mp4" controls="controls"></video>
 
-## 兼容IPad
+## 兼容 iPad
 <video width=80% src="/video/codelab_ipad.mp4" controls="controls"></video>
 
 ## 可穿戴设备 & 魔杖
 <video width=50% src="/video/1572097577962892.mp4" controls="controls"></video>
 
-## fire!
+## Fire!
 <video width=80% src="https://www.codelab.club/img/wand_catapult_demo.mp4" controls="controls"></video>
 
 <video width=80% src="https://www.codelab.club/img/wand_catapult.mp4" controls="controls"></video>
 
-##  inspired by dynamicland
+## Inspired by DynamicLand
 <video width=80% src="/video/dynamicland_02.mp4" controls="controls"></video>
 
 
@@ -295,7 +295,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ### 一场烟火
 <video width=80% src="/video/一场烟火.mp4" controls="controls"></video>
 
-### toio泡泡龙
+### Toio 泡泡龙
 <video width=40% src="/video/toio泡泡龙.mp4" controls="controls"></video>
 
 ### Seeing Spaces
