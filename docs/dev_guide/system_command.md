@@ -1,14 +1,14 @@
-# codelab-message-pub系统命令
+# codelab-message-pub 系统命令
 
-安装完`codelab_adapter_client`之后，将生成`codelab-message-pub`系统命令, 它方便用来将CodeLab Adapter与其他编程语言做集成，我们展示了与30+种编程语言结合的例子。
+安装完`codelab_adapter_client`之后，将生成`codelab-message-pub`系统命令，它方便用来将 CodeLab Adapter 与其他编程语言做集成，我们展示了与 30+ 种编程语言结合的例子。
 
-Unix/Linux操作系统仅仅使用信号（signal）便能构建非常复杂的协同程序。Erlang从SmallTalk那儿学到仅使用message来协同程序，message是个极其强大的概念。
+Unix/Linux 操作系统仅仅使用信号（signal）便能构建非常复杂的协同程序。Erlang 从 SmallTalk 那儿学到仅使用 message 来协同程序，message 是个极其强大的概念。
 
-CodeLab Adapter的核心设计思路是: `Everything Is Message`(EIM), 我们在最新的`codelab_adapter_client`版本中，为其加入系统命令，方便在其他语言构建的程序中往CodeLab Adapter发送消息，这样一来，你就可以使用任何编程语言为Scratch构建插件，或者为CodeLab Adapter构建插件。
+CodeLab Adapter 的核心设计思路是：`Everything Is Message`（EIM），我们在最新的`codelab_adapter_client`版本中，为其加入系统命令，方便在其他语言构建的程序中往 CodeLab Adapter 发送消息，这样一来，你就可以使用任何编程语言为 Scratch 构建插件，或者为 CodeLab Adapter 构建插件。
 
-## 典型使用案例:
+## 典型使用案例：
 
-在CodeLab内部，我们的魔杖程序(使用魔杖控制空间里的事物)的机器视觉(CV)部分是使用C++写的（因为深度相机的C++ SDK比较完备），为了让深度相机与Scratch协同工作，`codelab-message-pub`便是理想的选择，它能够将消息的触角延伸到任何编程语言里。
+在 CodeLab 内部，我们的魔杖程序（使用魔杖控制空间里的事物）的机器视觉（CV）部分是使用 C++ 写的（因为深度相机的 C++ SDK 比较完备），为了让深度相机与 Scratch 协同工作，`codelab-message-pub`便是理想的选择，它能够将消息的触角延伸到任何编程语言里。
 
 
 ## codelab-message-pub
@@ -42,7 +42,7 @@ optional arguments:
 > codelab-message-pub -j '{"topic":"eim/test","payload":{"content":"test contenst"}}'
 ```
 
-使用`codelab-message-pub`时记得先打开CodeLab Adapter。
+使用`codelab-message-pub`时记得先打开 CodeLab Adapter。
 
 ## 支持语言
 以下是我们给出的主流/非主流编程语言与`codelab-message-pub`集成的范例，本质上是系统调用。
@@ -263,7 +263,7 @@ const {execSync} = require('child_process');
 execSync('codelab-message-pub -c hello_content');
 ```
 
-##  Prolog
+## Prolog
 ```prolog
 shell('codelab-message-pub -c hello_content').
 ```
