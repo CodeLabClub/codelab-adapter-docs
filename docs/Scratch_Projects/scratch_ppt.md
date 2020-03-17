@@ -4,14 +4,14 @@
 
 ## 项目介绍
 
-使用 Scratch 来制作 PPT，用于分享和演讲:
+使用 Scratch 来制作 PPT，用于分享和演讲：
 
 *  介绍自己
 *  介绍自己最喜欢的玩具
 *  介绍最喜欢的小动物
 *  介绍团队成员
 *  分享自己制作项目的经历
-*  ...
+*  ……
 
 ## 思路
 
@@ -28,7 +28,7 @@
 - 事件
 - Scratch EIM 插件
 - CodeLab Adapter Python Kernel Extension
-    - 打开本地文件(目录/视频)
+    - 打开本地文件（目录/视频）
 
 ## 进阶
 
@@ -47,17 +47,17 @@
 
 ### 使用说明
 
-#### 步骤 1: 打开 Codelab Adapter
+#### 步骤 1：打开 Codelab Adapter
 
 {!utils/open_adapter.md!}
 
-打开`extension_python_kernel`插件.
+打开`extension_python_kernel`插件。
 
-#### 步骤 2: 打开 Codelab Scratch3
+#### 步骤 2：打开 Codelab Scratch3
 
 {!utils/open_scratch.md!}
 
-#### 步骤3: 打开项目文件(.sb3文件)
+#### 步骤 3：打开项目文件（.sb3文件）
 将[项目源码](/sb3/CodeLab-PPT.sb3)下载到本地。
 
 {!utils/upload_sb3.md!}
@@ -72,5 +72,5 @@
 ...
 
 # 参考
-*  [scratch入门项目|故事](https://scratch.mit.edu/starter-projects)
+*  [Scratch 入门项目|故事](https://scratch.mit.edu/starter-projects)
 *  [raspberrypi Scratch Project](https://projects.raspberrypi.org/en/codeclub/scratch-module-1)
