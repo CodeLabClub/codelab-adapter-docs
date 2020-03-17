@@ -1,6 +1,6 @@
 # 将 Scratch 项目嵌入网站
 
-服务于教学和内容设计，也可用于构建和发布 microworld(《Mindstorms》)。
+服务于教学和内容设计，也可用于构建和发布 microworld（《Mindstorms》）。
 
 开发者和教师可以利用 CodeLab Scratch，将 sb3 项目嵌入到自己的网站和课程中。
 
@@ -61,16 +61,16 @@
 
 ## 如何将 sb3 文件保存到线上
 
-可以保存到任何服务器上(https), 只要允许跨域资源共享(CORS), 以下是 nginx 的配置:
+可以保存到任何服务器上（https），只要允许跨域资源共享（CORS），以下是 nginx 的配置：
 
 ```
 add_header Access-Control-Allow-Origin *;
 add_header Access-Control-Allow-Methods 'GET, OPTIONS';
 ```
 
-如果你没有自己的服务器, 可以将你的 sb3 文件提交到 CodeLab 的仓库里:[codelab-adapter-docs](https://github.com/CodeLabClub/codelab-adapter-docs/), 我们将为你代为托管。
+如果你没有自己的服务器, 可以将你的 sb3 文件提交到 CodeLab 的仓库里：[codelab-adapter-docs](https://github.com/CodeLabClub/codelab-adapter-docs/)，我们将为你代为托管。
 
-当然你也可以将其放在云存储上(诸如七牛云)。
+当然你也可以将其放在云存储上（诸如七牛云）。
 
 ## 参考
 
