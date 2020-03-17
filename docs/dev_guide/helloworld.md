@@ -146,6 +146,6 @@ export = HelloWorldExtension
 如果你对 EIM 在 Scratch3 一侧的源码感兴趣，我们也开源出来了，可以自行阅读：[scratch3_eim](https://github.com/CodeLabClub/scratch3_eim)。
 
 ## 小结
-从这个例子中，可以看出写一个自定义的插件是很简单的。而 CodeLab Adapter 对插件要做的事几乎没有任何限制，只要 Python 能做的事，插件系统都运行你做！就是说你可以自己写一个插件，让 Scratch3 来控制你的蓝牙设备、你的 ROS 机器人、你那跑着 OpenCV 的树莓派或者你童年那辆心爱的玩具四驱车。
+从这个例子中，可以看出写一个自定义的插件是很简单的。而 CodeLab Adapter 对插件要做的事几乎没有任何限制，只要 Python 能做的事，插件系统都能做！就是说你可以自己写一个插件，让 Scratch3 来控制你的蓝牙设备、你的 ROS 机器人、你那跑着 OpenCV 的树莓派或者你童年那辆心爱的玩具四驱车。
 
 enjoy it～
