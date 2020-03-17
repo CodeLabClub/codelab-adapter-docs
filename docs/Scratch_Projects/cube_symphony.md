@@ -12,7 +12,7 @@
 
 ## 思路
 
-在 Neverland 中使用 Longan 积木与空间中的智能家居交互: 将魔方控制器用作传感器, 进行交互式音乐创作。
+在 Neverland 中使用 Longan 积木与空间中的智能家居交互：将魔方控制器用作传感器，进行交互式音乐创作。
 
 ## 涉及的知识
 
@@ -44,13 +44,13 @@
 
 ### 使用说明
 
-#### 步骤 1: 打开 Codelab Adapter
+#### 步骤 1：打开 Codelab Adapter
 
 {!utils/open_adapter.md!}
 
 打开`extension_longan`插件.
 
-#### 步骤 2: 打开项目
+#### 步骤 2：打开项目
 
 [魔方交响乐](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/%E4%BA%A4%E5%93%8D%E4%B9%90.sb3)
 
@@ -60,7 +60,7 @@
 
 ### 你的创作
 
-一些建议:
+一些建议：
 
 - 挑选你喜欢的乐器组合
 - 尝试不同节奏
