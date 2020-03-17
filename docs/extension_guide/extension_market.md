@@ -1,18 +1,18 @@
-# extension market
-这是目前所有可用的插件，源代码在:[codelab_adapter_extensions](https://github.com/CodeLabClub/codelab_adapter_extensions)。源码以GPL协议开放。研究与学习可以随意使用它。
+# Extension Market
+这是目前所有可用的插件，源代码在：[codelab_adapter_extensions](https://github.com/CodeLabClub/codelab_adapter_extensions)。源码以 GPL 协议开放。研究与学习可以随意使用它。
 
-codelab.club内部在使用的一些插件近期也在整理源码，将陆续开放出来。欢迎大家一起改进它们。
+codelab.club 内部在使用的一些插件近期也在整理源码，将陆续开放出来。欢迎大家一起改进它们。
 
-你可以用这些插件将Scratch3.0/blockly:
+你可以用这些插件将 Scratch 3.0/blockly:
 
-*  接入Python kernel
+*  接入 Python kernel
 *  接入四轴飞行器
-*  接入Cozmo/Vector
-*  接入任何用Python写的AI程序
+*  接入 Cozmo/Vector
+*  接入任何用 Python 写的 AI 程序
 *  接入眼动仪
-*  接入minecraft
-*  接入blender
-*  ...
+*  接入 Minecraft
+*  接入 blender
+*  ……
 
 <!--
 以下是插件列表
