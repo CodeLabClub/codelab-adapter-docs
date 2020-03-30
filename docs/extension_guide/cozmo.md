@@ -3,7 +3,7 @@
 # Tutorial
 
 ### install codelab_adapter_client
-Python >= `3.5`
+Python >= `3.6`
 
 Linux/MacOS user:  `python3 -m pip install codelab_adapter_client --user`
 

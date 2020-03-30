@@ -147,6 +147,12 @@ xiaomi_aqara:
 
 加载后填入你之前记下的 token。
 
+!!! 提醒
+    如果你的 Home Assistant 访问地址不是`http://127.0.0.1:8123` (诸如运行在树莓派上)，你就无法在 **在线版** 中连接它( 浏览器安全策略 )。有两种解决方案:  
+    1. 使用离线版  
+    2. 将 Home Assistant 的访问地址`http://127.0.0.1:8123`映射到 https 上，可以采用以下任何一种方案:  
+        *    [ngrok](https://ngrok.com/)：下载并运行`ngrok http 8123`，你将 Home Assistant 的访问地址暴露到了 https 公网, 形如:`https://ff4b68f8.ngrok.io`.  
+        *    [其他办法](https://www.home-assistant.io/docs/configuration/remote/)
 
 <!--
 ### 在线版 CodeLab Scratch
