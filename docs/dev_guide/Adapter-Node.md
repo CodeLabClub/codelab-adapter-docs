@@ -8,6 +8,9 @@ extension 有如下的限制：
 
 如果你想使用 Python 社区海量的第三方库：诸如 [Pygame](https://github.com/pygame/pygame)、[NumPy](https://github.com/numpy/numpy)、[OpenCV](https://github.com/opencv/opencv)、[TensorFlow](https://github.com/tensorflow/tensorflow)，extension 就办不到了，但 Adapter Node 可以！
 
+!!! 提醒
+    如果你读过 [Adapter Server 的源码](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v2)，会发现，它们实际就是 Adapter Node (诸如 Cozmo / Vector )！只是这些 Node 获得了简单 UI ，可以被用户在前端 开启/关闭，而不需要手动启停。
+
 我们希望 CodeLab Adapter 专注于连接万物，所以构建了 Adapter Node，允许你在任何地方创建 CodeLab Adapter 的扩展，允许你使用任何 Python 库，无论你准备构建游戏、构建网站、构建深度学习应用还是构建一个机器人！
 
 ## Adapter Node 是什么
