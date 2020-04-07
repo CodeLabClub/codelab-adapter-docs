@@ -96,6 +96,7 @@ nav:
       - 使用(Usage): "extension_guide/usage.md"
       - micro:bit: "extension_guide/microbit.md"
       - micro:bit radio: "extension_guide/microbit_radio.md"
+      - arduino UNO: "extension_guide/arduino_UNO.md"
       - EIM: "extension_guide/eim.md"
       - EIM Monitor: "extension_guide/eim_monitor.md"
       - EIM Trigger: "extension_guide/eim_trigger.md"
