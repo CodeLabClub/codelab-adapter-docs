@@ -70,14 +70,14 @@ CodeLab Adapter 几乎支持任何平台，无论是 Scratch 3.0 构建的还是
 
 来信请注明公司/组织的一些基本信息，以及你们正在做的事情 ：）
 
-## Python 版本
+## Python 版本(CodeLab Adapter 3.0.0)
 
 我们在不同操作系统打包时，使用的 Python 版本不同。
 
 - Windows：3.7.4
-- macOS：3.6.5（更新的版本 pyinstaller 兼容性有问题）
+- macOS：3.7.2
 - Raspbian：3.7.3
-- Ubuntu：3.6.5
+- Ubuntu：3.7.5
 
 ## 如何使用 Python 拓展 Scratch 的能力？
 

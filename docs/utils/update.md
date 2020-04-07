@@ -1,5 +1,8 @@
-如果你之前使用过旧版本的软件，更新到新版本后，建议也更新一下插件目录(`~/codelab_adapter/extensions/`)
+如果你之前使用过旧版本的软件，更新到新版本后，建议也更新一下插件目录(`~/codelab_adapter/extensions/`) (你也可以直接删除[ `~/codelab_adapter/` 目录](http://localhost:8000/user_guide/FAQ/#_1)来更新)
 
-<img width="400px" src="../../img/v2/scratch3_adapter_update_v2.png">
+<img width="600px" src="/img/98a9f3b5b77b5b46bd2425c52349f24a.png">
+
+<img width="600px" src="/img/8a2ceea716604f96268d48a39f152956.png">
+
 
 旧的插件会被备份到同级目录(如`extensions_1540437691`)。
