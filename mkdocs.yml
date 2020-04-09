@@ -115,6 +115,7 @@ nav:
       - Tello: "extension_guide/tello.md"
       - Aelos Robot: "extension_guide/Aelos.md"
       - ROS: "extension_guide/ROS.md"
+      - RoboMaster: "extension_guide/RoboMaster.md"
       - Teachable Machine: "extension_guide/teachable_machine.md"
       - extension market: "extension_guide/extension_market.md"
   - Scratch插件:
