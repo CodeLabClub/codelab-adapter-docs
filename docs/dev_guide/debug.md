@@ -1,14 +1,15 @@
 # Debug
 
 ## 3 种 debug 方式
+Adapter 本质是个消息系统，调试的关键是观察往来的消息。
 
 目前有 3 种 debug 方式：
 
-1.  基于命令行的调试
-2.  基于日志的调试
-3.  基于 web 的调试
+1.  基于命令行的调试（只能看到消息）
+2.  基于日志的调试 (可以看到 log 信息)
+3.  基于 web 的调试（只能看到消息）
 
-我自己最偏好第一种：`基于命令行的调试`。
+我自己最偏好第一种：`基于命令行的调试`。如果你希望看到logger信息，则使用第2种方式。
 
 下边逐一陈述。
 
@@ -55,11 +56,13 @@ for line in sh.codelab_message_monitor(_iter=True):
 
 便可实时查看日志。
 
+<!--
 ### 基于 web 的调试
 
 入口在 Web UI 中。
 
 <img src="../../img/v2/adapter_webdebug_inter.png" width="300">
+-->
 
 !!! tip
 

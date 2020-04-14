@@ -1,9 +1,9 @@
 # DJI Tello（Edu）
 
 !!! 提醒
-    Tello 会占用 wifi，导致电脑无法联网，需要使用 CodeLab Adapter 的离线模式：[FAQ：离线使用](https://adapter.codelab.club/user_guide/FAQ/#_6)
+    Tello 会占用 wifi，导致电脑无法联网，需要使用 CodeLab Adapter 的离线模式：[FAQ：离线使用](/user_guide/FAQ/#_6)
 
-在[codelab-adapter](https://adapter.codelab.club/user_guide/install/)最新版本中, 已经内置了Tello插件。
+在[codelab-adapter](/user_guide/install/)最新版本中, 已经内置了Tello插件。
 
 ### 步骤 1：打开 CodeLab Scratch
 下载 [CodeLab Scratch Desktop(离线版)](https://www.codelab.club/blog/codelab-download/)，并运行它。

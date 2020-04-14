@@ -84,6 +84,11 @@ CodeLab Adapter 几乎支持任何平台，无论是 Scratch 3.0 构建的还是
 - [json message](/dev_guide/json-message/)。
 - 参考[使用 Python 拓展 Scratch 的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html#_4)。
 
+## 如何找到 Adapter 主目录
+Adapter 主目录，也是 Adapter 的日志目录，这儿存放了 Adapter 运行时使用的数据。
+
+Mac/Linux 用户的 Adapter 主目录在：`~/codelab_adapter`，如果找不到插件目录（如 Windows 用户），可以通过 CodeLab Adapter Web UI 工具栏里的`插件->打开插件目录`打开它。
+
 ## 如何找到插件目录
 
 Mac/Linux 用户的插件目录在：`~/codelab_adapter/extensions`，如果找不到插件目录（如 Windows 用户），可以通过 CodeLab Adapter Web UI 工具栏里的`插件->打开插件目录`打开它。
@@ -149,3 +154,13 @@ CodeLab Adapter 支持离线使用，目前有 2 种方式使用它。
 推荐使用`方法 1`。
 
 典型的应用场景是在电脑无法联网时，诸如使用 [Tello](/extension_guide/tello/) 时。
+
+## 查看本地环境
+
+![](/img/bdc2f794bd15ed3faab14165b72badc2.png)
+
+你将看到:
+
+![](/img/54cef2d640ff035f772a64425811d6aa.png)
+
+其中包含了当前 Adapter 所处的计算机环境相关的信息。
