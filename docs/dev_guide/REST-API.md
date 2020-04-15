@@ -88,7 +88,7 @@ http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d9312
 如果你愿意，你可以搞个恶作剧，欺骗 Web UI 说 extension_eim 插件已经开启，但实际上并未开启，恶作剧的命令为：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/extension/statu/change" payload:='{ "content": "start", "extension_name": "extension_eim"}'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/node/statu/change" payload:='{ "content": "start", "extension_name": "extension_eim"}'
 ```
 
 可以看到 Web UI 成功被你骗过去了。
