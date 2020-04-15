@@ -70,7 +70,7 @@ http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d9312
 开启`extension_eim`插件：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/extensions/operate" payload:='{ "content": "start", "extension_name": "extension_eim"}'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/exts/operate" payload:='{ "content": "start", "extension_name": "extension_eim"}'
 ```
 
 在命令运行的瞬间，Web UI 会同步更新。
@@ -81,7 +81,7 @@ http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d9312
 关闭`extension_eim`插件：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/extensions/operate" payload:='{ "content": "stop", "extension_name": "extension_eim" }'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/exts/operate" payload:='{ "content": "stop", "extension_name": "extension_eim" }'
 ```
 
 ### 恶作剧
