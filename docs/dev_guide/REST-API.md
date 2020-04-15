@@ -29,7 +29,7 @@ CodeLab Adapter 内置 REST API。 出于安全考虑，该服务默认是关闭
 使用 [httpie](https://httpie.org/) 给 Scratch3 发送`hello`消息，对应的命令为：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="adapter/extensions/data" payload:='{"extension_id":"eim", "content":"hello"}'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="adapter/nodes/data" payload:='{"extension_id":"eim", "content":"hello"}'
 ```
 
 记得将其中的 token 替换你自己的。
@@ -44,7 +44,7 @@ CodeLab Scratch3 将成功接受消息：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
- -d '{"topic": "adapter/extensions/data","payload":{"extension_id":"eim", "content":"hello"}}' \
+ -d '{"topic": "adapter/nodes/data","payload":{"extension_id":"eim", "content":"hello"}}' \
  https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae
 ```
 

@@ -14,7 +14,7 @@ CodeLab Adapter的核心是一个消息系统，它是平台和编程语言无�
 
 ```js
 const AdapterNode = require('codelab_adapter_client_nodejs');
-const ADAPTER_TOPIC = "adapter/extensions/data";
+const ADAPTER_TOPIC = "adapter/nodes/data";
 
 class HelloWorldNode extends AdapterNode {
   constructor() {
