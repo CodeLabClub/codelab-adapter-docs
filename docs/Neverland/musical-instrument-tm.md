@@ -21,7 +21,7 @@
 
 -   使用 [Teachable Machine](https://teachablemachine.withgoogle.com/) 中的 [Image Project](https://teachablemachine.withgoogle.com/train/image)，训练 AI 来识别看书与合上书的不同状态。
 -   使用 [CodeLab Adapter](/) 将 Teachable Machine 的识别结果接入到 CodeLab Scratch 中
--   使用 CodeLab Scratch（[在线版](http://scratch3v2.codelab.club/){target=\_blank}、[离线版](https://www.codelab.club/blog/codelab-download/){target=\_blank}皆可）进行编程，让卡通形象、音乐与实物互动。
+-   使用 CodeLab Scratch（[在线版](http://scratch3v3.codelab.club/){target=\_blank}、[离线版](https://www.codelab.club/blog/codelab-download/){target=\_blank}皆可）进行编程，让卡通形象、音乐与实物互动。
 
 ### 你需要准备些什么
 
@@ -57,7 +57,7 @@
 ![](/img/669e65e3fa62e4f184a5af8568476bad.png)
 
 !!! 在线版与离线版打开方式
-    如果你是要在线版，直接[点击项目链接](https://scratch.codelab.club/projects/25/editor/)即可。未来我们会直接发布到社区里。<!--https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/tm乐器演奏.sb3-->  
+    如果你是要在线版，直接[点击项目链接](https://scratch.codelab.club/projects/25/editor/)即可。未来我们会直接发布到社区里。<!--https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/tm乐器演奏.sb3-->  
     如果你使用离线版，则下载[源码文件](/sb3/tm乐器演奏.sb3)，使用 CodeLab Scratch 加载它即可。  
 
 点击绿旗开始运行程序，将 Scratch 舞台区最大化。

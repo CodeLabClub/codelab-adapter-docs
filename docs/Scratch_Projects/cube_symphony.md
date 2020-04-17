@@ -40,7 +40,7 @@
 
 ### 项目地址
 
-- [魔方交响乐](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/%E4%BA%A4%E5%93%8D%E4%B9%90.sb3)
+- [魔方交响乐](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/%E4%BA%A4%E5%93%8D%E4%B9%90.sb3)
 
 ### 使用说明
 
@@ -52,7 +52,7 @@
 
 #### 步骤 2：打开项目
 
-[魔方交响乐](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/%E4%BA%A4%E5%93%8D%E4%B9%90.sb3)
+[魔方交响乐](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/%E4%BA%A4%E5%93%8D%E4%B9%90.sb3)
 
 #### 开始使用
 

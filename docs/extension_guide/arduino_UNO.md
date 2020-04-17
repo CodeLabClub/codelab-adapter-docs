@@ -83,6 +83,9 @@ ps: Linux 用户注意，scratch3_adapter 使用 USB 串口与 Arduino 连接，
 
 <img width="600px" src="/img/3978ac4efbffe08ec9870e31303c18d0.png"/>
 
+!!! 提醒
+    引脚在设置具体值之前，不允许读取，否则会出现tx/rx持续轮询被占用(你可以观察到板子上的灯常亮)，这是 [pymata_express](https://github.com/MrYsLab/pymata-express) 的机制决定的。遇到这种情况，请按下重置按钮重新连接。
+
 ## 感谢
 感谢 mryslab 在硬件驱动上的工作，该插件从他的工作中移植过来。
 

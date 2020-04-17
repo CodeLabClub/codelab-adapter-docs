@@ -34,7 +34,7 @@ cozmo.run_program(cozmo_program)
 ```
 
 ###  Download Codelab Adapter
-<a href="https://adapterv2.codelab.clubuser_guide/install/">Download  Codelab Adapter</a>
+<a href="https://adapter.codelab.club/user_guide/install/">Download  Codelab Adapter</a>
 
 run it
 
@@ -50,7 +50,7 @@ restart Codelab Adapter.
 -->
 
 ### Open Scratch 3.0
-open [CodeLab Scratch3](https://scratch3v2.codelab.club/)
+open [CodeLab Scratch3](https://scratch3.codelab.club/)
 
 ### Open extension_cozmo
 open extension_cozmo in CodeLab Adapter

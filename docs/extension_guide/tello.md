@@ -18,7 +18,7 @@ ps: 要求 CodeLab Scratch Desktop >= 1.2.0
 ### 步骤 3：启动 codelab-adapter
 双击启动 codelab-adapter。
 
-看到 [CodeLab Scratch](https://scratch3v2.codelab.club/) 指示灯显示绿色，代表连接成功。
+看到 [CodeLab Scratch](https://scratch3v3.codelab.club/) 指示灯显示绿色，代表连接成功。
 
 ![](../../img/scratch3-home-connect.png)
 

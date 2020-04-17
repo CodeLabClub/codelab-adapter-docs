@@ -10,7 +10,7 @@
 
 ### 它是如何工作的?
 *  [运行Home Assistant](/Neverland/HA){target=_blank}，接管空间的所有智能设备
-*  使用CodeLab Scratch([在线版](http://scratch3v2.codelab.club/){target=_blank}、[离线版](https://www.codelab.club/blog/codelab-download/){target=_blank}皆可)的Home Assistant扩展，控制智能设备
+*  使用CodeLab Scratch([在线版](http://scratch3v3.codelab.club/){target=_blank}、[离线版](https://www.codelab.club/blog/codelab-download/){target=_blank}皆可)的Home Assistant扩展，控制智能设备
 *  使用Scratch中的 **声音响度积木** 监测环境中的声音，当声音响度超过某个值，关灯！
 
 ### 你需要准备些什么
@@ -26,7 +26,7 @@
 ![](/img/13b988916cd857177044a077d4fde798.png)
 
 !!! 在线版与离线版打开方式
-    如果你是要在线版，直接[点击项目链接](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/neverland_helloworld.sb3)即可。未来我们会直接发布到社区里。  
+    如果你是要在线版，直接[点击项目链接](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/neverland_helloworld.sb3)即可。未来我们会直接发布到社区里。  
     如果你使用离线版，则下载[源码文件](/sb3/neverland_helloworld.sb3),使用Scratch加载它即可.   
     加载后填入你之前记下的token。
 

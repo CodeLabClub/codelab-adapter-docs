@@ -78,7 +78,7 @@ restart Codelab Adapter.
 -->
 
 ### Open Scratch 3.0
-open [CodeLab Scratch3](https://scratch3v2.codelab.club/)
+open [CodeLab Scratch3](https://scratch3v3.codelab.club/)
 
 ### Open extension_vector
 ![](/img/scratch3-vector_3dd2cf42.png)

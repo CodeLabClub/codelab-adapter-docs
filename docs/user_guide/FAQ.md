@@ -44,9 +44,9 @@ Scratch Link 和 CodeLab Adapter 可以协同工作。
 
 CodeLab Adapter 致力于提供更好的跨平台支持和开放的[插件系统](https://github.com/CodeLabClub/codelab_adapter_extensions)，CodeLab Adapter 的目标是连接万物，不只是连接教育硬件。
 
-## CodeLab Adapter 与 [Scratch3 Lab](https://scratch3v2.codelab.club/) 是否连接成功？
+## CodeLab Adapter 与 [Scratch3 Lab](https://scratch3v3.codelab.club/) 是否连接成功？
 
-CodeLab Adapter 启动之后，可以看到 [Scratch3 Lab](https://scratch3v2.codelab.club/) 指示灯显示绿色，代表连接成功。
+CodeLab Adapter 启动之后，可以看到 [Scratch3 Lab](https://scratch3v3.codelab.club/) 指示灯显示绿色，代表连接成功。
 
 <img alt="" src="../../../img/scratch3-home-connect.png">
 
@@ -103,7 +103,7 @@ Windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Ada
 
 ## CodeLab Adapter 网址是什么
 
-[scratch3v2.codelab.club](https://scratch3v2.codelab.club/)，你不需要记住， 可以在 Web UI 中打开它。
+[scratch3v3.codelab.club](https://scratch3v3.codelab.club/)，你不需要记住， 可以在 Web UI 中打开它。
 
 ## 目前都支持哪些插件
 

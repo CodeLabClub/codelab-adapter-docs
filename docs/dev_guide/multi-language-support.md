@@ -64,7 +64,7 @@ try {
 
 运行CodeLab Adapter（作为消息中心）, 运行我们的拓展: `node hello_world.js`
 
-让我们在[CodeLab Scratch3](https://scratch3v2.codelab.club/)中尝试一下反转字符串:
+让我们在[CodeLab Scratch3](https://scratch3v3.codelab.club/)中尝试一下反转字符串:
 
 <img width="800px" src="../../img/v2/helloworld_extension.png"/>
 

@@ -32,7 +32,7 @@
 
 ![](/img/tm_scratch_demo.png)
 
-在线打开它 [tm_scratch_demo](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/tm_scratch_demo.sb3)
+在线打开它 [tm_scratch_demo](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/tm_scratch_demo.sb3)
 
 !!! 提醒
     Teachable Machine 的网页不能在后台运行，需要和 Scratch 一起并列在桌面上，否则程序不会运行。

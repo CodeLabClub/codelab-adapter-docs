@@ -136,7 +136,7 @@ xiaomi_aqara:
 ## 使用 CodeLab Scratch 为家庭设备编程！
 
 
-你既可以使用 CodeLab Scratch [在线版](http://scratch3v2.codelab.club/){target=_blank}，也可以使用[离线版](https://www.codelab.club/blog/codelab-download/){target=_blank}来进行编程。
+你既可以使用 CodeLab Scratch [在线版](http://scratch3v3.codelab.club/){target=_blank}，也可以使用[离线版](https://www.codelab.club/blog/codelab-download/){target=_blank}来进行编程。
 
 ![](/img/13b988916cd857177044a077d4fde798.png)
 

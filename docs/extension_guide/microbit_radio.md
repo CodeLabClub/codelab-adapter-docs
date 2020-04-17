@@ -49,7 +49,7 @@ ps：linux 用户注意，CodeLab Adapter 使用 usb 串口与 micro:bit 连接�
 
 {!utils/open_scratch.md!}
 
-在此展示一个简单例子：使用 A、B 按钮让角色出现和消失。你可以在线打开它 [radio_hello_world_demo](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/radio_hello_world_demo.sb3)
+在此展示一个简单例子：使用 A、B 按钮让角色出现和消失。你可以在线打开它 [radio_hello_world_demo](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/radio_hello_world_demo.sb3)
 
 ## 总结
 根据以上的模版，加以调整，你可以自行构建自己的应用。
@@ -71,7 +71,7 @@ ps：linux 用户注意，CodeLab Adapter 使用 usb 串口与 micro:bit 连接�
     *  [可穿戴设备源码](https://makecode.microbit.org/_aVqEWK9DXbPR)
     *  [投石器源码](https://makecode.microbit.org/_3iAWv86hVHL9)
 *  Scratch
-    *  [wand_catapult](https://scratch3v2.codelab.club/?sb3url=https://adapter.codelab.club/sb3/wand_catapult.sb3)
+    *  [wand_catapult](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/wand_catapult.sb3)
 
 
 我们来关注下以上 2 个 micro:bit 中信息的流向，

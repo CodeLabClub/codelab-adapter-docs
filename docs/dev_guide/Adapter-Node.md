@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
 运行 my_first_adapter_node.py：`python3 my_first_adapter_node.py`
 
-让我们在 [CodeLab Scratch3](https://scratch3v2.codelab.club/) 中尝试一下反转字符串：
+让我们在 [CodeLab Scratch3](https://scratch3v3.codelab.club/) 中尝试一下反转字符串：
 
 <img width="800px" src="../../img/v2/helloworld_extension.png"/>
 
