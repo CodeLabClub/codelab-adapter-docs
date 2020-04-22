@@ -43,9 +43,9 @@ ps：linux 用户注意，CodeLab Adapter 使用 usb 串口与 micro:bit 连接�
 点击加载 `extension_microbit_radio` 插件
 
 !!! tips
-    如果你对该插件源码感兴趣，[欢迎阅读](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_microbit_radio.py)，采用 Python 构建。
+    如果你对该插件源码感兴趣，[欢迎阅读](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_microbit_radio.py)，采用 Python 构建。
 
-## 步骤 4：打开 [Codelab Scratch3](https://scratch3.codelab.club/)，构建自己的应用
+## 步骤 4：打开 [Codelab Scratch3](https://scratch3v3.codelab.club/)，构建自己的应用
 
 {!utils/open_scratch.md!}
 

@@ -54,7 +54,7 @@ restart Codelab Adapter.
 
 ### Open Scratch 3.0
 
-open [CodeLab Scratch3](https://scratch3.codelab.club/)
+open [CodeLab Scratch3](https://scratch3v3.codelab.club/)
 
 ### Open extension_cozmo
 

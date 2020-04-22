@@ -1,6 +1,6 @@
 '''
 # python >= 3.6
-pip3 install codelab_adapter_client --upgrade anki_vector --user
+pip3 install codelab_adapter_client anki_vector --user
 wget https://github.com/anki/vector-python-sdk/raw/master/examples/tutorials/01_hello_world.py
 python3 01_hello_world.py  # should be ok
 '''

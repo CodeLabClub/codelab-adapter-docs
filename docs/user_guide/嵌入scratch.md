@@ -8,7 +8,7 @@
 
 ### Pong Starter
 
-[Pong Starter](https://scratch3.codelab.club/embed/?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3)
+[Pong Starter](https://scratch3v3.codelab.club/embed/?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3)
 
 ```html
 <iframe
@@ -22,7 +22,7 @@
 ></iframe>
 ```
 
-<iframe src="https://scratch3.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3" allowtransparency="true" width="500" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch3v3.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3" allowtransparency="true" width="500" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 ### Dress Up Tera
 

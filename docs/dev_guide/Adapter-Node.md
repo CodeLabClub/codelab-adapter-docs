@@ -2,7 +2,7 @@
 !!! 提醒
     在 Adapter 3.0中，Adapter Node替代了原先 server 的功能，可以直接放在[ Adapter 主目录](/user_guide/FAQ/#adapter)下的 nodes 目录里，供用户作为 Adapter 的扩展使用。在未来，我们将允许用户在插件库里从云端下载Adapter Node！目前只支持从云端下载 extension。
 
-在上一节：[hello world](/dev_guide/helloworld/) 中我们学会了如何自定义一个 extension。
+在上一节：[hello world(Adapter Extension)](/dev_guide/helloworld/) 中我们学会了如何自定义一个 extension。
 
 extension 有如下的限制：
 
@@ -12,7 +12,7 @@ extension 有如下的限制：
 如果你想使用 Python 社区海量的第三方库：诸如 [Pygame](https://github.com/pygame/pygame)、[NumPy](https://github.com/numpy/numpy)、[OpenCV](https://github.com/opencv/opencv)、[TensorFlow](https://github.com/tensorflow/tensorflow)，extension 就办不到了，但 Adapter Node 可以！
 
 !!! 提醒
-    如果你读过 [Adapter Server 的源码](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v2)，会发现，它们实际就是 Adapter Node (诸如 Cozmo / Vector )！只是这些 Node 获得了简单 UI ，可以被用户在前端 开启/关闭，而不需要手动启停。
+    如果你读过 [Adapter Node 的源码](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v3)，会发现，它们实际就是 Adapter Node (诸如 Cozmo / Vector )！只是这些 Node 获得了简单 UI ，可以被用户在前端 开启/关闭，而不需要手动启停。
 
 我们希望 CodeLab Adapter 专注于连接万物，所以构建了 Adapter Node，允许你在任何地方创建 CodeLab Adapter 的扩展，允许你使用任何 Python 库，无论你准备构建游戏、构建网站、构建深度学习应用还是构建一个机器人！
 
@@ -166,4 +166,4 @@ window.mainloop()
 ## 更多例子
 *  [blender](/extension_guide/blender/)：这是个实际的案例，演示如何使用 AdapterNode 基础类粘合不同软件，将其变为 Adapter Node。
 *  [examples](https://github.com/CodeLabClub/codelab_adapter_client_python/tree/master/examples)
-*  [servers_v2](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/servers_v2)
+*  [node_v3](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/nodes_v3)

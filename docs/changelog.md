@@ -71,3 +71,5 @@
     *  Scratch3Lab -> CodeLabClub
 *  2019.11.13 2.6.2
     *  支持 headless 模式（linux），用于开机自启、无人值守的环境
+*  2020.04.17 3.0.0
+    *  [发行说明](https://www.codelab.club/blog/3-release/)

@@ -24,7 +24,7 @@
 
 ![](/img/tm_demo.png)
 
-## 步骤 3：打开 [Codelab Scratch3](https://scratch3.codelab.club/)
+## 步骤 3：打开 [Codelab Scratch3](https://scratch3v3.codelab.club/)
 
 {!utils/open_scratch.md!}
 

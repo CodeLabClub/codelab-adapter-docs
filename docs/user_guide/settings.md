@@ -37,7 +37,7 @@ CodeLab Adapter 允许用户的自定义配置。只需要在`~/codelab_adapter`
 
 ## PYTHON3_PATH
 
-系统的 Python3 路径，当使用 [CodeLab Adapter server](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/servers_v2) 时，实际上是调用了使用了系统的 Python3。
+系统的 Python3 路径，当使用 [CodeLab Adapter Node](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/nodes_v3) 时，实际上是调用了使用了系统的 Python3。
 
 PYTHON3_PATH 默认为：
 

@@ -28,7 +28,7 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 <img width="300px" src="../../img/v2/adapter_scratch_style_ui.png"/>
 
-下载`https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_blender.py`插件。
+下载`https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_blender.py`(v2)插件。
 
 下载完成后，刷新 CodeLab Adapter Web UI，或者手动将其放到插件目录。
 
@@ -42,4 +42,4 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 # todo
 
-将 [blender_server](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/servers_v2/blender_server.py) 写成  blender 插件。
+将 [blender_server](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/servers_v2/blender_server.py) (v2)写成  blender 插件。

@@ -13,7 +13,7 @@
 也可以在 [CodeLab Adapter 讨论组](https://forums.codelab.club/c/codelab-adapter)里讨论。
 
 ## 插件启停
-目前，插件启动为线程。Python 线程需要[手动管理](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p01_start_stop_thread.html)，这部分的代码目前还比较粗糙。为了允许用户在 UI 中通过勾选来启停插件。建议插件作者使用`while self._running:`，参考 [extension_eim](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_eim.py)。
+目前，插件启动为线程。Python 线程需要[手动管理](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p01_start_stop_thread.html)，这部分的代码目前还比较粗糙。为了允许用户在 UI 中通过勾选来启停插件。建议插件作者使用`while self._running:`，参考 [extension_eim](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_eim.py)。
 
 
 在 1.0 版本发布之前，插件部分我们将迁往协程，如此一来我们就能轻易管理插件的启停。目前 Python 社区很多库还不支持协程，所以我们不打算立刻迁移。

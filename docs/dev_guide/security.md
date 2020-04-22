@@ -22,14 +22,14 @@
 
 ### Python Kernel
 
-考虑到运行真实 Python 代码的风险，2.5.0 之后，我们[使用`eval`替代`exec`](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_python_kernel.py#L52)，并且对其做了限制，尽管如此，黑客社区依然有针对 eval 的精妙攻击方式。
+考虑到运行真实 Python 代码的风险，2.5.0 之后，我们[使用`eval`替代`exec`](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_python_kernel.py#L58)，并且对其做了限制，尽管如此，黑客社区依然有针对 eval 的精妙攻击方式。
 
-所以我们使用 [verify_token](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_python_kernel.py#L39) 验证请求的消息是否携带 token，考虑到兼容性，目前来自 WEBSOCKET API 的消息，默认被加上 token，所以我们在未来版本中将考虑对请求域名做检验。
+所以我们使用 [verify_token](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_python_kernel.py#L65) 验证请求的消息是否携带 token，考虑到兼容性，目前来自 WEBSOCKET API 的消息，默认被加上 token，所以我们在未来版本中将考虑对请求域名做检验。
 
-如果你构建了安全攸关的应用，请考虑使用 [verify_token](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_python_kernel.py#L39) 校验  token。
+如果你构建了安全攸关的应用，请考虑使用 [verify_token](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_python_kernel.py#L65) 校验  token。
 
 !!! tip
-    如果你希望像原先那样，真实地运行完整的 Python 代码，原先的插件在[这儿](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_python_kernel_exec.py)。
+    如果你希望像原先那样，真实地运行完整的 Python 代码，原先的插件在这儿:[extension_python_kernel_exec.py(v2)](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v2/extension_python_kernel_exec.py)。
 
 !!! tip
     如果你只是希望在浏览器中教学 Python 语法，在浏览器中运行的 [Brython](https://brython.info/) 可能是更好的的选择。

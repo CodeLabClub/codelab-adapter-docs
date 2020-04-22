@@ -7,4 +7,4 @@
 
 下载完成之后重启软件，即可看到插件。
 
-所有插件列表在 [codelab_adapter_extensions](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v2)。
+所有插件列表在 [codelab_adapter_extensions](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v3)。
