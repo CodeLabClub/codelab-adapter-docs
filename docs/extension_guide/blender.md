@@ -9,7 +9,7 @@
 cd /Applications/blender.app/Contents/Resources/2.80/python/bin
 wget https://bootstrap.pypa.io/get-pip.py
 ./python3.7m ./get-pip.py --prefix /Applications/blender.app/Contents/Resources/2.80/python
-./python3.7m pip3 install codelab_adapter_client
+./python3.7m pip3 install codelab_adapter_client --upgrade
 ```
 
 ### 在 blender 中运行 [blender_server](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/servers_v2/blender_server.py)

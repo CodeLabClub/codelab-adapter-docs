@@ -14,7 +14,7 @@ CodeLab Adapter 的核心设计思路是：`Everything Is Message`（EIM），�
 ## codelab-message-pub
 
 ### 安装
-`pip install codelab_adapter_client`
+`pip install codelab_adapter_client --upgrade`
 
 ### 使用帮助
 ```bash

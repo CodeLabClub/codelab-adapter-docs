@@ -78,7 +78,7 @@ export = EIMExtension
 
 代码很简单，而且大部分是样板代码，有几点值得注意：
 
-*  `NODE_ID` 默认为 `EIM`，可以不写。
+*  `NODE_ID` 默认为 `eim`，可以不写。
 *  `extension_message_handle` 是个回调函数，处理从 Scratch 过来的消息（一般由积木触发）
 *  `run` 是插件的主体代码，当你在 Web UI 中选择插件时，发生的事情是：
     *  首先实例化插件类（在此是`export = EIMExtension`）
@@ -132,6 +132,10 @@ export = HelloWorldExtension
 <img width="800px" src="../../img/v2/helloworld_extension.png"/>
 
 恭喜你，已经能够让 Scratch 与 Python 对话了，你现在可以用你的 Python 技能来为 Scratch 写拓展啦！
+
+!!!提醒
+    你可以将自定义插件发布到[插件市场](/extension_guide/extension_market/), 用户点击即可下载使用。
+
 
 ## 调试技巧
 建议你在写 Python 插件的时候，先做好单元测试，然后再作为插件放到插件目录里运行。

@@ -17,7 +17,7 @@ Adapter 本质是个消息系统，调试的关键是观察往来的消息。
 
 需要本地有 Python 环境（`Python >= 3.6`）
 
-安装`pip install codelab_adapter_client`
+安装`pip install codelab_adapter_client --upgrade`
 
 codelab_adapter_client 会为你装上 2 个命令行调试工具：
 

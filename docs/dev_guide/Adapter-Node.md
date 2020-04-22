@@ -25,7 +25,7 @@ Adapter Node 只是普通的 Python 程序，继承自 [AdapterNode](https://git
 你需要完成这些前置工作：
 
 *  安装了 Python3(`>=3.6`)
-*  pip3 install codelab_adapter_client
+*  pip3 install codelab_adapter_client --upgrade
 
 接着可以随便在什么地方创建一个 Python 文件，随便给它起个名字，诸如`my_first_adapter_node.py`：
 
@@ -80,6 +80,9 @@ if __name__ == "__main__":
 成功！
 
 它只是普通的 Python 程序，使用你本地的 Python 环境，所以你现在可以使用 [Pygame](https://github.com/pygame/pygame)、[NumPy](https://github.com/numpy/numpy)、[OpenCV](https://github.com/opencv/opencv)、[TensorFlow](https://github.com/tensorflow/tensorflow) 来增强 Scratch3 啦！
+
+!!!提醒
+    你可以将自定义插件发布到[插件市场](/extension_guide/extension_market/), 用户点击即可下载使用。
 
 ## GUI
 有开发者在邮件中提到：

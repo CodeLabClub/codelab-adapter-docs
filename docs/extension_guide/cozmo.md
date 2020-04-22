@@ -2,13 +2,13 @@
 
 # Tutorial
 
-### install codelab_adapter_client
+### install codelab_adapter_client --upgrade
 
 Python >= `3.6`
 
-Linux/MacOS user: `python3 -m pip install codelab_adapter_client --user`
+Linux/MacOS user: `python3 -m pip install codelab_adapter_client --upgrade --user`
 
-windows user: `python -m pip install codelab_adapter_client --user`
+windows user: `python -m pip install codelab_adapter_client --upgrade --user`
 
 ### Install the SDK on your system
 

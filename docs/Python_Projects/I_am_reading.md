@@ -40,7 +40,7 @@
 
 #### 步骤 2：安装依赖
 
-`pip install codelab_adapter_client`
+`pip install codelab_adapter_client --upgrade`
 
 #### 步骤 3：下载源码
 

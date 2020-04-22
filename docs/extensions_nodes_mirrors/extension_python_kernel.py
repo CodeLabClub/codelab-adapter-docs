@@ -31,7 +31,7 @@ class PythonKernelExtension(Extension):
 
     def __init__(self):
         super().__init__()
-        self.NODE_ID = "eim/python"
+        self.EXTENSION_ID = "eim/python"
 
         self.PyHelper = PyHelper()
 
