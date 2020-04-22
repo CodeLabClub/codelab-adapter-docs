@@ -1,20 +1,23 @@
 # Vector
-<!--Vector CodeLab-->
->  Anki is a company whose products always seem to delight. 
 
-We love [Cozmo](https://www.anki.com/en-us/cozmo), we love [Vector](https://www.anki.com/en-us/vector).
+<!--Vector CodeLab-->
+
+> Anki is a company whose products always seem to delight.
+
+We love [Cozmo](https://www.anki.com/en-us/cozmo), and [Vector](https://www.anki.com/en-us/vector).
 
 [Codelab Adapter](https://adapterv2.codelab.club) is a software that connect Scratch 3.0 to the open-source hardware, IoT and AI.
 
-We make a [Codelab Adapter](https://adapterv2.codelab.club) extension to connect Vector to Scratch 3.0. It just like Cozmo codelab. 
+We make a [Codelab Adapter](https://adapterv2.codelab.club) extension to connect Vector to Scratch 3.0. It just like Cozmo codelab.
 
 ![](/img/scratch3-vector_2b21057e.png)
 
 Now the Vector extension is built into the [Codelab Adapter](https://adapterv2.codelab.club)!
 
-
 # Video tutorial
+
 ### for Windows
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/PmF10SKTnvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### for MacOS/Linux
@@ -24,14 +27,16 @@ Now the Vector extension is built into the [Codelab Adapter](https://adapterv2.c
 # Tutorial
 
 ### install codelab_adapter_client
+
 Python >= `3.6`
 
-Linux/MacOS user:  `python3 -m pip install codelab_adapter_client --user`
+Linux/MacOS user: `python3 -m pip install codelab_adapter_client --user`
 
 windows user: `python -m pip install codelab_adapter_client --user`
 
 ### Install the SDK on your system
-Follow Vector official tutorial:  [Initial Setup](https://developer.anki.com/vector/docs/initial.html)
+
+Follow Vector official tutorial: [Initial Setup](https://developer.anki.com/vector/docs/initial.html)
 
 If the following code (`hello_world.py`) runs smoothly, go to the next step.
 
@@ -58,11 +63,9 @@ if __name__ == "__main__":
     main()
 ```
 
+### Download Codelab Adapter
 
-
-
-###  Download  Codelab Adapter
-<a href="https://adapterv2.codelab.clubuser_guide/install/">Download  Codelab Adapter</a>
+<a href="https://adapter.codelab.club/user_guide/install/">Download Codelab Adapter</a>
 
 run it
 
@@ -78,15 +81,16 @@ restart Codelab Adapter.
 -->
 
 ### Open Scratch 3.0
+
 open [CodeLab Scratch3](https://scratch3v3.codelab.club/)
 
 ### Open extension_vector
+
 ![](/img/scratch3-vector_3dd2cf42.png)
 
 Ok!
 
 Enjoy it :)
-
 
 !!! Tip
     Tool for watching the camera feed and test animations of Anki's robot Vector: [Vector-Explorer-Tool](https://github.com/GrinningHermit/Vector-Explorer-Tool)
@@ -95,15 +99,20 @@ Enjoy it :)
 
 Here are some demo cases（just like Cozmo CodeLab）:
 
-##  Vector and Leap Motion
+## Vector and Leap Motion
+
 <video width=300px src="/video/vector_leapmotion.mp4" controls="controls"></video>
 
-
 ## Switch Labo and Vector
+
 <video width=300px src="/video/vector_labo.mp4" controls="controls"></video>
 
 ## Candy Language for Vector
+
 <video width=600px src="/video/candy_vector.mp4" controls="controls"></video>
 
+# Advanced
+You can create your own custom  blocks based on the **exec block**. Almost all [Vector SDK API](https://developer.anki.com/vector/docs/index.html) work.
 
 
+![](/img/6fb9589ebcd88e5f31e414ed4884d6cb.png)

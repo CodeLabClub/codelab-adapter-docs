@@ -29,7 +29,7 @@ CodeLab Adapter 内置 REST API。 出于安全考虑，该服务默认是关闭
 使用 [httpie](https://httpie.org/) 给 Scratch3 发送`hello`消息，对应的命令为：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="adapter/nodes/data" payload:='{"extension_id":"eim", "content":"hello"}'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="adapter/nodes/data" payload:='{"NODE_ID":"eim", "content":"hello"}'
 ```
 
 记得将其中的 token 替换你自己的。
@@ -44,7 +44,7 @@ CodeLab Scratch3 将成功接受消息：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
- -d '{"topic": "adapter/nodes/data","payload":{"extension_id":"eim", "content":"hello"}}' \
+ -d '{"topic": "adapter/nodes/data","payload":{"NODE_ID":"eim", "content":"hello"}}' \
  https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae
 ```
 
@@ -57,7 +57,7 @@ curl -X POST -H "Content-Type: application/json" \
 使用 [httpie](https://httpie.org/) 给 CodeLab Adapter Extension 发送`hello`消息，对应的命令为：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="scratch/extensions/command" payload:='{"extension_id":"eim", "content":"hello"}'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="scratch/extensions/command" payload:='{"NODE_ID":"eim", "content":"hello"}'
 ```
 
 <img width="500px" src="../../img/v2/restapi_adapter_hello.png"/>
@@ -103,13 +103,13 @@ http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d9312
 开灯：
 
 ```bash
-http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"light","service":"turn_on","service_data":{"entity_id":"light.yeelight1"}},"extension_id": "eim"}'
+http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"light","service":"turn_on","service_data":{"entity_id":"light.yeelight1"}},"NODE_ID": "eim"}'
 ```
 
 关灯：
 
 ```bash
-http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"light","service":"turn_off","service_data":{"entity_id":"light.yeelight1"}},"extension_id": "eim"}'
+http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"light","service":"turn_off","service_data":{"entity_id":"light.yeelight1"}},"NODE_ID": "eim"}'
 ```
 
 ### 升降窗帘
@@ -117,13 +117,13 @@ http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topi
 降下窗帘：
 
 ```bash
-http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"cover","service":"close_cover","service_data":{"entity_id":"cover.0x00158d00034f6a69_cover"}},"extension_id": "eim"}'
+http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"cover","service":"close_cover","service_data":{"entity_id":"cover.0x00158d00034f6a69_cover"}},"NODE_ID": "eim"}'
 ```
 
 升起窗帘：
 
 ```bash
-http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"cover","service":"open_cover","service_data":{"entity_id":"cover.0x00158d00034f6a69_cover"}},"extension_id": "eim"}'
+http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"cover","service":"open_cover","service_data":{"entity_id":"cover.0x00158d00034f6a69_cover"}},"NODE_ID": "eim"}'
 ```
 
 ## 想象空间

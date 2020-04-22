@@ -1,4 +1,6 @@
 # 路线图（Roadmap）
+
+## 2.0 (end)
 *  移动端支持
     *  已完成：[codelab-adapter 的移动端解决方案](https://blog.just4fun.site/codelab-adapter-mobile.html)
 *  允许在 GUI 面板上启停插件
@@ -23,3 +25,5 @@
     *  json-rpc
     *  异步实现
 *  提供更好用的通信机制（包装 zeromq 到 utils），作为最佳实践
+
+## 3.0

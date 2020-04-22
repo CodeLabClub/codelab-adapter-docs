@@ -40,7 +40,7 @@ from codelab_adapter_client import AdapterNode
 class EIMNode(AdapterNode):
     def __init__(self):
         super().__init__()
-        self.EXTENSION_ID = "eim"
+        self.NODE_ID = "eim"
 
     def send_message_to_scratch(self, content):
         message = self.message_template()
@@ -113,7 +113,7 @@ from codelab_adapter_client import AdapterNode
 class EIMNode(AdapterNode):
     def __init__(self):
         super().__init__()
-        self.EXTENSION_ID = "eim"
+        self.NODE_ID = "eim"
 
     def send_message_to_scratch(self, content):
         message = self.message_template()

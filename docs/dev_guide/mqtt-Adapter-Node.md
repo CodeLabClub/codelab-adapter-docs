@@ -26,12 +26,12 @@ class HelloWorldMQTTNode(AdapterMQTTNode):
         kwargs["logger"] = logger
         kwargs["external_message_processor"] = self.external_message_processor
         super().__init__(*args, **kwargs)
-        self.EXTENSION_ID = "eim"
+        self.NODE_ID = "eim"
 
     def external_message_processor(self, topic, payload):
         self.logger.debug(payload)
         content = payload["zmq_payload"]["content"]
-        extension_id = payload["zmq_payload"]["extension_id"]
+        NODE_ID = payload["zmq_payload"]["NODE_ID"]
         if type(content) == str:
             content_send_to_scratch = content[::-1] # 反转
             payload["zmq_payload"]["content"] = content_send_to_scratch

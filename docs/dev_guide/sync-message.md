@@ -36,7 +36,7 @@ from codelab_adapter.core_extension import Extension
 class SyncHelloWorldExtension(Extension):
     def __init__(self):
         super().__init__()
-        self.EXTENSION_ID = "eim"
+        self.NODE_ID = "eim"
 
     def send_message_to_scratch(self, payload):
         message = self.message_template()

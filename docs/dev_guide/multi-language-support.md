@@ -87,7 +87,7 @@ try {
 
   (defn --init-- [self]
     (.--init-- (super))
-    (setv self.EXTENSION_ID  "eim"))
+    (setv self.NODE_ID  "eim"))
 
   (defn extension-message-handle [self topic payload]
         (print f"the message payload from scratch: {payload}")

@@ -1,5 +1,5 @@
-# hello world
-我们来写一个自定义插件，实现`hello world`。
+# hello world(Adapter Extension)
+我们来写一个自定义插件（extension），实现`hello world`。
 
 ## 一些唠叨
 如果你不爱听唠叨，这部分可以跳过：）
@@ -51,7 +51,7 @@ class EIMExtension(Extension):
 
     def __init__(self):
         super().__init__()
-        self.EXTENSION_ID = "eim"
+        self.NODE_ID = "eim"
 
     def extension_message_handle(self, topic, payload):
         self.logger.info(f'eim message:{payload}')
@@ -78,7 +78,7 @@ export = EIMExtension
 
 代码很简单，而且大部分是样板代码，有几点值得注意：
 
-*  `EXTENSION_ID` 默认为 `EIM`，可以不写。
+*  `NODE_ID` 默认为 `EIM`，可以不写。
 *  `extension_message_handle` 是个回调函数，处理从 Scratch 过来的消息（一般由积木触发）
 *  `run` 是插件的主体代码，当你在 Web UI 中选择插件时，发生的事情是：
     *  首先实例化插件类（在此是`export = EIMExtension`）
@@ -104,7 +104,7 @@ from codelab_adapter.core_extension import Extension
 class HelloWorldExtension(Extension):
     def __init__(self):
         super().__init__()
-        self.EXTENSION_ID = "eim"
+        self.NODE_ID = "eim"
 
     def send_message_to_scratch(self, content):
         message = self.message_template()

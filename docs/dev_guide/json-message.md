@@ -34,7 +34,7 @@ from codelab_adapter.core_extension import Extension
 class RobotXYExtension(Extension):
     def __init__(self):
         super().__init__()
-        self.EXTENSION_ID = "eim/robot"
+        self.NODE_ID = "eim/robot"
 
     def extension_message_handle(self, topic, payload):
         self.logger.debug(f'the message payload from scratch: {payload}')
@@ -51,7 +51,7 @@ class RobotXYExtension(Extension):
 export = RobotXYExtension
 ```
 
-在此，值得注意的是`self.EXTENSION_ID = "eim/robot"`，观察前头的截图，可以看出`"eim/robot"`与 Scratch3 eim 的积木块的对应关系。
+在此，值得注意的是`self.NODE_ID = "eim/robot"`，观察前头的截图，可以看出`"eim/robot"`与 Scratch3 eim 的积木块的对应关系。
 
 ## 开始测试
 如果你对如何运行 CodeLab Adapter extension 不熟悉，请参考 [hello world](/dev_guide/helloworld/)。
@@ -76,7 +76,7 @@ from codelab_adapter.core_extension import Extension
 class RobotXYExtension(Extension):
     def __init__(self):
         super().__init__()
-        self.EXTENSION_ID = "eim/robot"
+        self.NODE_ID = "eim/robot"
 
     def extension_message_handle(self, topic, payload):
         self.logger.debug(f'the message payload from scratch: {payload}')

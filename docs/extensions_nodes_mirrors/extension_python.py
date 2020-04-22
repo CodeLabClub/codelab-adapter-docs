@@ -31,8 +31,8 @@ class PythonKernelExtension(Extension):
 
     def __init__(self):
         super().__init__()
-        self.NODE_ID = "eim/python"
-
+        self.NODE_ID = self.generate_node_id(__file__) # old: "eim/python"
+        self.logger.debug(f'NODE_ID -> {self.NODE_ID}')
         self.PyHelper = PyHelper()
 
     @contextlib.contextmanager

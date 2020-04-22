@@ -52,7 +52,7 @@ class JupyterlabNode(AdapterNode):
     '''
     def __init__(self):
         super().__init__()
-        self.EXTENSION_ID = "eim/JupyterlabNode"
+        self.NODE_ID = "eim/JupyterlabNode"
 
     def run(self):
         adapter_home_path = get_adapter_home_path()
