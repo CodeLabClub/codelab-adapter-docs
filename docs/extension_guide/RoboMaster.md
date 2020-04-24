@@ -22,7 +22,7 @@ RoboMaster EP
 
 ![](/img/77317362a5ee5a6138c6209adadc2fb6.png)
 
-点击打开项目: [robotmaster-helloworld](https://scratch.codelab.club/projects/69/){{target=_blank}}
+点击打开项目: [robotmaster-helloworld](https://scratch.codelab.club/projects/69/){target=_blank}
 
 
 ## 更多

@@ -136,4 +136,4 @@ http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topi
 
 ## 黑客精神
 
-CodeLab Adapter 的所有功能都已经被服务化，所以你可以使用 REST API 来做 CodeLab Adapter 所能做到的任何事情，无论是控制内部功能，还是发送消息（everything is message）。唯一需要的知识是有关消息的结构，你可以使用`codelab-message-monitor`来观察消息结构。
+CodeLab Adapter 的所有功能都已经被服务化，所以你可以使用 REST API 来做 CodeLab Adapter 所能做到的任何事情，无论是控制内部功能，还是发送消息（everything is a  message）。唯一需要的知识是有关消息的结构，你可以使用`codelab-message-monitor`来观察消息结构。

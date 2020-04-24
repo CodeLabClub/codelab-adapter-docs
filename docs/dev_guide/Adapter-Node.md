@@ -157,7 +157,7 @@ window.mainloop()
 
 
 ## 想象空间
-如果你希望构建分布式的应用，诸如构建密室逃脱中的各种机关。只需要[做一下配置就行](https://adapterv2.codelab.club/user_guide/settings/#open_message_hub)，让 CodeLab Adapter 接受分布式的请求。
+如果你希望构建分布式的应用，诸如构建密室逃脱中的各种机关。只需要[做一下配置就行](https://adapter.codelab.club/user_guide/settings/#open_message_hub)，让 CodeLab Adapter 接受分布式的请求。
 
 你可以将 Adapter Node 跑在任何地方，来增强 CodeLab Adapter 的能力，无论是本地、云端还是分布式节点。
 

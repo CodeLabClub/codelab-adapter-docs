@@ -13,7 +13,7 @@
 
 我们在 [CodeLab Scratch3](https://scratch3v3.codelab.club)中构建了一些通用的消息积木（EIM），我们尽量将它做的通用，让开发者只需在 CodeLab Adapter 自定义插件，即可在 Scratch3 中使用。
 
-这块的核心概念很简单，如 EIM 所代表的含义：`Everything Is Message`，消息是一种极其强大的概念，如 Alan Kay 说的：
+这块的核心概念很简单，如 EIM 所代表的含义：`Everything Is a Message`，消息是一种极其强大的概念，如 Alan Kay 说的：
 
 >  The big idea is messaging.
 
@@ -38,7 +38,7 @@ EIM 插件的源码在这儿：[extension_eim.py](https://github.com/CodeLabClub
 
 ```python
 '''
-EIM: Everything Is Message
+EIM: Everything Is A Message
 '''
 import time
 from codelab_adapter.core_extension import Extension
@@ -46,7 +46,7 @@ from codelab_adapter.core_extension import Extension
 
 class EIMExtension(Extension):
     '''
-    Everything Is Message
+    Everything Is A Message
     '''
 
     def __init__(self):

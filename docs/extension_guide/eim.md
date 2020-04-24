@@ -24,8 +24,8 @@ eim 每秒钟更新一次数值，将数值报告给 Scratch3。
 
 选择对应的 Scratch3 插件：EIM
 
-<img width="600px" src="../../img/v2/scratch3_extensions_eim.png"/>
+<img width="600px" src="/img/v2/scratch3_extensions_eim.png"/>
 
 我们可以让 Scratch3 的角色读出 EIM 每秒更新一次的数值：
 
-<img width="600px" src="../../img/v2/scratch_eim_read_value.png"/>
+<img width="600px" src="/img/v2/scratch_eim_read_value.png"/>

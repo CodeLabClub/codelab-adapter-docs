@@ -4,7 +4,7 @@
 
 Unix/Linux 操作系统仅仅使用信号（signal）便能构建非常复杂的协同程序。Erlang 从 SmallTalk 那儿学到仅使用 message 来协同程序，message 是个极其强大的概念。
 
-CodeLab Adapter 的核心设计思路是：`Everything Is Message`（EIM），我们在最新的`codelab_adapter_client`版本中，为其加入系统命令，方便在其他语言构建的程序中往 CodeLab Adapter 发送消息，这样一来，你就可以使用任何编程语言为 Scratch 构建插件，或者为 CodeLab Adapter 构建插件。
+CodeLab Adapter 的核心设计思路是：`Everything Is a Message`（EIM），我们在最新的`codelab_adapter_client`版本中，为其加入系统命令，方便在其他语言构建的程序中往 CodeLab Adapter 发送消息，这样一来，你就可以使用任何编程语言为 Scratch 构建插件，或者为 CodeLab Adapter 构建插件。
 
 ## 典型使用案例：
 
