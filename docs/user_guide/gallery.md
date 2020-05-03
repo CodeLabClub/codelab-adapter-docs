@@ -43,23 +43,23 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=40% src="/video/supermarry.mp4" controls="controls"></video>
 
 
-## 在 Scratch3 Lab 中，无线控制 bit:bot
+## 在 CodeLab Scratch3 中，无线控制 bit:bot
 <video src="../../img/bitbot.mp4" controls="controls"></video>
 
-## 在 Scratch3 Lab 中，使用 micro:bit 开/关灯
+## 在 CodeLab Scratch3 中，使用 micro:bit 开/关灯
 <video src="../../img/microbit_mi.mp4" controls="controls"></video>
 
 参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
 
-## 在 Scratch3 Lab 中，利用运动检测开/关灯
+## 在 CodeLab Scratch3 中，利用运动检测开/关灯
 <video src="/video/scratch-smart-home.mp4" controls="controls"></video>
 
-### 在 Scratch3 Lab 中，利用传感器做体感游戏
+### 在 CodeLab Scratch3 中，利用传感器做体感游戏
 <video src="../../img/mc_404game.mp4" controls="controls"></video>
 
 参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
 
-## 在 Scratch3 Lab 中，使用本地的机器视觉
+## 在 CodeLab Scratch3 中，使用本地的机器视觉
 <video src="../../img/dp_vision.mp4" controls="controls"></video>
 
 

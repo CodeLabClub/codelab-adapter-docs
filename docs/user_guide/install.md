@@ -2,25 +2,27 @@
 
 CodeLab Adapter v3 目前发布了 Mac、Windows（支持 windows 7 及以上版本）、Ubuntu、Raspbian（树莓派）的客户端.
 
-## 下载（最新版本：3_0_0）
+## 下载（最新版本：3_1_0）
 
 你可以免费下载（点击对应的操作系统链接）：
 
 
-*  [macOS（64bit）](http://scratch3-files.just4fun.site/codelab-adapter-mac-3_0_0.zip)
+*  [macOS（64bit）](http://scratch3-files.just4fun.site/codelab-adapter-mac-3_1_0.zip)
     *  macOS 10.13.5+
     *  如果你点击应用闪退，请参考：[打开来自身份不明开发者的应用](https://support.apple.com/kb/PH25088?locale=zh_CN&viewlocale=zh_CN)
 * Windows（Windows 7 及以上）
-    * [Windows](http://scratch3-files.just4fun.site/codelab-adapter-win-3_0_0.exe.zip)：Windows 7、Windows10 已测试（32 位和 64 位都可用）
+    * [Windows](http://scratch3-files.just4fun.site/codelab-adapter-win-3_1_0.exe.zip)：Windows 7、Windows10 已测试（32 位和 64 位都可用）
 * linux
     正在构建中...
 * Raspbian
     * 正在构建中...
     * 下载，解压，赋予运行权限：`chmod +x xxx`
 
+<!--
 ## 更新
 
 {!utils/update.md!}
+-->
 
 ## 兼容性
 

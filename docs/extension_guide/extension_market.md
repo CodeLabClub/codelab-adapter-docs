@@ -17,7 +17,7 @@ CodeLab Adapter 3.0 有一个统一的插件市场，可以方便下载到新的
 只需要将你自定义的 [Adapter Extension](/dev_guide/helloworld/) 或者 [Adapter Node](/dev_guide/Adapter-Node/) 提交到[codelab_adapter_extensions](https://github.com/CodeLabClub/codelab_adapter_extensions), 提交合并之后，它将出现在插件市场中。
 
 !!!提醒
-    3.0.0 插件市场仅支持 Adapter Extension，3.1.0 版本增加了对 Adapter Node 的支持。Adapter Node 脚本可以托管在互联网的任何位置。
+    3.1.0 版本增加了对 Adapter Node 的支持。Adapter Node 脚本可以托管在互联网的任何位置。
 
 这是目前所有可用的插件都在：[codelab_adapter_extensions](https://github.com/CodeLabClub/codelab_adapter_extensions)。源码以 GPL 协议开放。研究与学习可以随意使用它。
 

@@ -4,7 +4,7 @@ CodeLab Adapter 内置 REST API。 出于安全考虑，该服务默认是关闭
 
 你可以在[用户配置文件（`~/codelab_adapter/user_settings.py`）](/user_guide/FAQ/#_2)中将其开启`OPEN_REST_API = True`。
 
-出于安全考虑，你需要使用`token`与 REST API 通信（`token`也在用户配置文件中），具体使用方式参考下边例子。
+出于安全考虑，你需要使用`token`与 REST API 通信（你可以从 WebUI 中复制 token ），具体使用方式参考下边例子。
 
 ## 测试工具
 
@@ -29,7 +29,7 @@ CodeLab Adapter 内置 REST API。 出于安全考虑，该服务默认是关闭
 使用 [httpie](https://httpie.org/) 给 Scratch3 发送`hello`消息，对应的命令为：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="adapter/nodes/data" payload:='{"NODE_ID":"eim", "content":"hello"}'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="adapter/nodes/data" payload:='{"node_id":"eim", "content":"hello"}'
 ```
 
 记得将其中的 token 替换你自己的。
@@ -44,7 +44,7 @@ CodeLab Scratch3 将成功接受消息：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
- -d '{"topic": "adapter/nodes/data","payload":{"NODE_ID":"eim", "content":"hello"}}' \
+ -d '{"topic": "adapter/nodes/data","payload":{"node_id":"eim", "content":"hello"}}' \
  https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae
 ```
 
@@ -57,7 +57,7 @@ curl -X POST -H "Content-Type: application/json" \
 使用 [httpie](https://httpie.org/) 给 CodeLab Adapter Extension 发送`hello`消息，对应的命令为：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="scratch/extensions/command" payload:='{"NODE_ID":"eim", "content":"hello"}'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="scratch/extensions/command" payload:='{"node_id":"eim", "content":"hello"}'
 ```
 
 <img width="500px" src="../../img/v2/restapi_adapter_hello.png"/>
@@ -67,10 +67,13 @@ http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d9312
 由于我们已经将 CodeLab Adapter 内部 API 服务化了，所以使用 REST API 可以对 CodeLab Adapter 做任何粒度的控制（依然是受到 [Home Assistant](https://www.home-assistant.io/) 的启发）。
 
 ### 开启插件
+!!!提醒
+    启停extension
+
 开启`extension_eim`插件：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/exts/operate" payload:='{ "content": "start", "extension_name": "extension_eim"}'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/exts/operate" payload:='{ "content": "start", "node_name": "extension_eim"}'
 ```
 
 在命令运行的瞬间，Web UI 会同步更新。
@@ -81,17 +84,20 @@ http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d9312
 关闭`extension_eim`插件：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/exts/operate" payload:='{ "content": "stop", "extension_name": "extension_eim" }'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/exts/operate" payload:='{ "content": "stop", "node_name": "extension_eim" }'
 ```
+
+!!!提醒
+    如果你要启停 node ，topic 为`core/nodes/operate`
 
 ### 恶作剧
 如果你愿意，你可以搞个恶作剧，欺骗 Web UI 说 extension_eim 插件已经开启，但实际上并未开启，恶作剧的命令为：
 
 ```bash
-http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/node/statu/change" payload:='{ "content": "start", "extension_name": "extension_eim"}'
+http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d93124c341ae topic="core/node/statu/change" payload:='{ "content": "start", "node_name": "extension_eim"}'
 ```
 
-可以看到 Web UI 成功被你骗过去了。
+可以看到 Web UI 成功被你骗过去了:)
 
 <img width="800px" src="../../img/v2/restapi_statu_change.png"/>
 
@@ -103,13 +109,13 @@ http POST https://codelab-adapter.codelab.club:12358/api/message?token=86d6d9312
 开灯：
 
 ```bash
-http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"light","service":"turn_on","service_data":{"entity_id":"light.yeelight1"}},"NODE_ID": "eim"}'
+http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"light","service":"turn_on","service_data":{"entity_id":"light.yeelight1"}},"node_id": "eim"}'
 ```
 
 关灯：
 
 ```bash
-http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"light","service":"turn_off","service_data":{"entity_id":"light.yeelight1"}},"NODE_ID": "eim"}'
+http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"light","service":"turn_off","service_data":{"entity_id":"light.yeelight1"}},"node_id": "eim"}'
 ```
 
 ### 升降窗帘
@@ -117,13 +123,13 @@ http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topi
 降下窗帘：
 
 ```bash
-http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"cover","service":"close_cover","service_data":{"entity_id":"cover.0x00158d00034f6a69_cover"}},"NODE_ID": "eim"}'
+http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"cover","service":"close_cover","service_data":{"entity_id":"cover.0x00158d00034f6a69_cover"}},"node_id": "eim"}'
 ```
 
 升起窗帘：
 
 ```bash
-http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"cover","service":"open_cover","service_data":{"entity_id":"cover.0x00158d00034f6a69_cover"}},"NODE_ID": "eim"}'
+http POST https://rpi.codelab.club:12358/api/message?token=86d6d93124c341ae topic="to_HA" payload:='{ "content":{"type":"call_service","domain":"cover","service":"open_cover","service_data":{"entity_id":"cover.0x00158d00034f6a69_cover"}},"node_id": "eim"}'
 ```
 
 ## 想象空间

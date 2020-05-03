@@ -22,7 +22,7 @@
 
 <img width="500px" src="../../img/scratch3_adapter_agree.png"/>
 
-完成之后，scratch3_adapter 就可以与 Scratch3 Lab 建立连接了
+完成之后，scratch3_adapter 就可以与 CodeLab Scratch3 建立连接了
 -->
 
 ## 步骤 3：连接设备，加载插件
