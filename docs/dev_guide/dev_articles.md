@@ -14,6 +14,8 @@
 *  [codelab.club ❤️ Vector](https://blog.just4fun.site/codelab-love-Vector.html)
 -   [使用 Scratch 3.0 制作幻灯片](https://blog.just4fun.site/scratch3-adapter-presentation.html)
 -   [积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
+-   [CodeLab ❤️ Blender](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/codelab-love-blender/)
+-   [CodeLab Adapter 接入blender](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/scratch3-adapter-blender/)
 
 ## 架构设计
 

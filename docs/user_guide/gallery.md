@@ -315,3 +315,17 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=80% src="/video/1576905320614182.mp4" controls="controls"></video>
 
 
+## 积木消失了
+
+<video width=80% src="/video/1587801240738968.mp4" controls="controls"></video>
+
+
+## "RoboMaster EP"
+
+<video width=50% src="/video/1587120578222179.mp4" controls="controls"></video>
+
+## Minecraft
+<video src="/video/1588665494072465.mp4" controls="controls"></video>
+
+## Sonic Pi
+<video src="/video/1588741044537372.mp4" controls="controls"></video>

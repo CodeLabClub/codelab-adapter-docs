@@ -1,4 +1,8 @@
 # MQTT Adapter Node
+
+!!! 提醒
+    还未迁移到 Adapter 3.0, 推荐先使用 [MQTT_adapter](/extension_guide/MQTT_adapter/)
+
 提醒：需要使用 [CodeLab Adapter 最新版本](/user_guide/install/)。
 
 通过继承 [AdapterMQTTNode](https://github.com/CodeLabClub/codelab_adapter_mqtt_client/blob/master/codelab_adapter_mqtt_client/codelab_adapter_mqtt_client.py#L12)，我们可以利用 MQTT 通道构建 Adapter Node，一旦你理解 MQTT message 的消息细节，就可以在任何平台任何设备上构建 Adapter Node，从超级计算机到单片机。

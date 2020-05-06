@@ -16,12 +16,14 @@ CodeLab Adapter 的核心设计思路是：`Everything Is a Message`（EIM），
 ### 安装
 `pip install codelab_adapter_client --upgrade`
 
+确保 `codelab_adapter_client >= 1.6.2`
+
 ### 使用帮助
 ```bash
 > codelab-message-pub -h
 usage: codelab-message-pub [-h] [-i CODELAB_ADAPTER_IP_ADDRESS] [-n NAME]
                            [-p PUBLISHER_PORT] [-s SUBSCRIBER_PORT] [-t TOPIC]
-                           [-c CONTENT] [-j JSON_MESSAGE]
+                           [-d NODE_ID] [-c CONTENT] [-j JSON_MESSAGE]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -31,6 +33,7 @@ optional arguments:
   -p PUBLISHER_PORT     Publisher IP port
   -s SUBSCRIBER_PORT    Subscriber IP port
   -t TOPIC              message topic
+  -d NODE_ID            node id
   -c CONTENT            payload['content']
   -j JSON_MESSAGE       json message(with topic and payload)
 ```
@@ -39,7 +42,7 @@ optional arguments:
 ```bash
 > codelab-message-pub -t hello_topic
 > codelab-message-pub -c hello_content
-> codelab-message-pub -j '{"topic":"eim/test","payload":{"content":"test contenst"}}'
+> codelab-message-pub -j '{"payload":{"content":"test contenst", "token":"xxx"}}'
 ```
 
 使用`codelab-message-pub`时记得先打开 CodeLab Adapter。

@@ -1,3 +1,8 @@
+'''
+todo
+    自动登陆默认不启用，可通过配置项启用
+    kill itchat thread
+'''
 import itchat, time
 from itchat.content import TEXT
 import zmq
@@ -7,7 +12,6 @@ from codelab_adapter.utils import threaded
 from codelab_adapter.core_extension import Extension
 
 codelab_adapter_dir = pathlib.Path.home() / "codelab_adapter"
-
 
 class WechatGateway(Extension):
     HELP_URL = "https://adapter.codelab.club/extension_guide/wechat/"
@@ -91,10 +95,10 @@ class WechatGateway(Extension):
     @threaded
     def wechat_run_as_thread(self):
         # todo kill itchat
-        picDir = str(codelab_adapter_dir / "nodes" /
+        picDir = str(codelab_adapter_dir / "extensions" /
                      "adapter_QR.png")  # fix 打包软件打开本地图片的权限问题
         statusStorageDir = str(
-            codelab_adapter_dir / "nodes" / 'adapter_itchat.pkl')
+            codelab_adapter_dir / "extensions" / 'adapter_itchat.pkl')
         itchat.msg_register([TEXT])(self.text_reply)
         itchat.msg_register(TEXT, isGroupChat=True)(self.group_text_reply)
         itchat.auto_login(

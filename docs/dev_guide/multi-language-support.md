@@ -37,7 +37,7 @@ class HelloWorldNode extends AdapterNode {
       .join("");
     const message = {
       topic: ADAPTER_TOPIC,
-      payload: { content: reverse_content }
+      payload: { content: reverse_content, node_id: 'eim' }
     };
     this.publish_payload(message.payload, message.topic);
   }
@@ -49,6 +49,7 @@ class HelloWorldNode extends AdapterNode {
   }
 
   run() {
+    this.pub_message();
   }
 }
 
