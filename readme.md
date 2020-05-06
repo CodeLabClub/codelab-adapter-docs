@@ -1,5 +1,5 @@
 # readme.md
-[CodeLab Adapter](https://adapterv2.codelab.club) 的项目文档，基于 [mkdocs](https://www.mkdocs.org/)。
+[CodeLab Adapter](https://adapter.codelab.club) 的项目文档，基于 [mkdocs](https://www.mkdocs.org/)。
 
 欢迎大家一起来维护文档。
 
@@ -30,4 +30,4 @@ make push
 
 如果你愿意将其翻译为英文，十分欢迎。
 
-可以参考已翻译的部分：[Our Values](https://adapterv2.codelab.club/about/value/#our-values)。
+可以参考已翻译的部分：[Our Values](https://adapter.codelab.club/about/value/#our-values)。
