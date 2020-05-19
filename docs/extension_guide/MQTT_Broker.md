@@ -1,6 +1,7 @@
 # Tutorial
 !!! 提醒
-    3.2中可用(近期发布)
+    3.2中可用(近期发布).  
+    如果你着急用，可以在本地安装[hbmqtt](https://hbmqtt.readthedocs.io/en/latest/index.html)，并运行`hbmqtt`, 与该插件等效。
 
 # 插件说明
 

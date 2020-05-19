@@ -10,7 +10,7 @@
 
 安装 Chrome 浏览器插件：[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)。
 
-点击安装 Tampermonkey 脚本 [Teachablemachine_Result.user.js](https://gist.github.com/wwj718/78402d0de9efb8d33742c8770056489c/raw/e92227044ae84a06ed84848dd1da3e76179bc7cd/Teachablemachine_Result_fixed.user.js)。
+点击安装 Tampermonkey 脚本 [Teachablemachine_Result.user.js](https://gist.github.com/wwj718/78402d0de9efb8d33742c8770056489c/raw/4e1373c3ce0d1c86af93310b42321251bee567b3/Teachablemachine_Result_fixed.user.js)。
 
 ## 步骤 1：打开 Codelab Adapter
 
@@ -30,9 +30,12 @@
 
 接着在 Scratch 中拿到 Teachable Machine 的训练结果，构建一个简单应用。
 
-![](/img/tm_scratch_demo.png)
+![](/img/WechatIMG569.png)
 
-在线打开它 [tm_scratch_demo](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/tm_scratch_demo.sb3)
+在线打开它 [tm_scratch_demo](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-tm-new.sb3)
+
+!!! tips
+    来自Teachable Machine的消息，源源不断流过来，有时候你并不希望重复触发同一件事。可以参考以下例子 [Scratch-tm-latest-class](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-tm-latest-class.sb3) 。
 
 !!! 提醒
     Teachable Machine 的网页不能在后台运行，需要和 Scratch 一起并列在桌面上，否则程序不会运行。

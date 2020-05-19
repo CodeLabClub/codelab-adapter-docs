@@ -2,6 +2,9 @@
 !!! 提醒
     在 Adapter 3.0中，Adapter Node替代了原先 server 的功能，可以直接放在[ Adapter 主目录](/user_guide/FAQ/#adapter)下的 nodes 目录里，供用户作为 Adapter 的扩展使用。在未来，我们将允许用户在插件库里从云端下载Adapter Node！目前只支持从云端下载 extension。
 
+!!! 提醒
+    使用 Adapter Node 之前，请确保本地 Python 环境中的 `codelab_adapter_client` 是最新版本。
+
 在上一节：[hello world(Adapter Extension)](/dev_guide/helloworld/) 中我们学会了如何自定义一个 extension。
 
 extension 有如下的限制：

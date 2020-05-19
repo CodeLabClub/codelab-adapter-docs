@@ -301,6 +301,19 @@ Notice: If you can't read Chinese, Please use Google Translate.
 ### Seeing Spaces
 <video width=80% src="/video/1576905372587643.mp4" controls="controls"></video>
 
+### COVID-19
+
+<video width=80% src="/video/1589296982429059.mp4" controls="controls"></video>
+
+<video width=80% src="/video/1589296982422368.mp4" controls="controls"></video>
+
+### Dynamic Table
+<video width=80% src="/video/1589459621915320.mp4" controls="controls"></video>
+
+<video width=80% src="/video/1589459630916864.mp4" controls="controls"></video>
+
+
+
 
 ## CodeLab Adapter ❤️ Teachable Machine
 <video width=80% src="/video/adapter_google_teachable_machine.mp4" controls="controls"></video>

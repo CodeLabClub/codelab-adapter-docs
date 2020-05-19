@@ -164,3 +164,35 @@ CodeLab Adapter 支持离线使用，目前有 2 种方式使用它。
 ![](/img/54cef2d640ff035f772a64425811d6aa.png)
 
 其中包含了当前 Adapter 所处的计算机环境相关的信息。
+
+## 软件意外退出
+当最后一个 client(webui) 关闭时，Adapter将退出。
+
+所以你在刷新webui时也能导致它退出(刷新意味着某个时刻断开)
+
+## 分布式使用 CodeLab Adapter
+[@在梦里 同学](https://rcfclass7.wordpress.com/author/muleizhang/) 提到在树莓派里运行 Scratch 比较卡(需要WebGL)。
+
+CodeLab Adapter 有很好的分布式支持:
+
+1. [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/) 可以与 CodeLab Adapter 分布式协同
+2. CodeLab Adapter 可以与 Scratch 分布式协同
+
+为了解决 **树莓派里运行 Scratch 比较卡** 的问题，我们 可以让Adapter 运行在树莓派里，Scratch 则运行在本机上。
+
+首先在树莓派中运行CodeLab Adapter，复制 WebUI 的URL, 形如: `https://codelab-adapter.codelab.club:12358/?token=765b3d2901ef47a0`
+
+![](/img/60e122ecf8f946ba72fdc13fe838abfd.png)
+
+将 codelab-adapter.codelab.club 修改为 树莓派的 IP 地址: `https://192.168.21.104:12358/?token=765b3d2901ef47a0`。
+
+现在你可以在 PC 里打开 树莓派里的 Adapter(需要安全校验) :
+
+![](/img/5ca765bc4fc70ad0120f42102a3abc0d.png)
+
+接着让我们在 CodeLab Scratch 里使用它, 打开: `https://scratch3v3.codelab.club/?adapter_host=192.168.21.104` (adapter_host 是 adapter 所在计算机的 IP，即树莓派的 IP， 它甚至可以运行在互联网的任何设备，任何位置！包括手机！)
+
+![](/img/6836f24ab4bcfd48cb648d68e98b190a.png)
+
+!!! tips
+    考虑到隐私，CodeLab Neverland 自建了聊天服务器，利用的正是以上机制，CodeLab办公室里的计算机都接入 树莓派上的 Adapter。
