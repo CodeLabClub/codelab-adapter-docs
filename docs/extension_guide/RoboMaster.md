@@ -20,9 +20,9 @@ RoboMaster EP
 ## 步骤 4：hello world
 现在让我们利用 Scratch3 控制 RoboMaster: 使用键盘的上下左右/空格来控制机器人移动和发射水弹。
 
-![](/img/77317362a5ee5a6138c6209adadc2fb6.png)
+![](/img/9325aa8542cc752d4cea3d2c636b9449.png)
 
-点击打开项目: [robotmaster-helloworld](https://scratch.codelab.club/projects/69/){target=_blank}
+点击打开项目: [robotmaster-helloworld](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-RoboMaster-helloworld.sb3){target=_blank}
 
 
 ## 更多
