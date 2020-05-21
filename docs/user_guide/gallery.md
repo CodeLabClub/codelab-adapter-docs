@@ -130,7 +130,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=80% src="/video/unity.mp4" controls="controls"></video>
 
 ## 四轴飞行器
-<video c src="/video/fly.mp4" controls="controls"></video>
+<video width=40% src="/video/fly.mp4" controls="controls"></video>
 
 ## oh my vector
 <video width=40% src="/video/vector_leapmotion.mp4" controls="controls"></video>
@@ -312,6 +312,9 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 <video width=80% src="/video/1589459630916864.mp4" controls="controls"></video>
 
+#### 小型解释器
+<video width=80% src="/video/1589977785885032.mp4" controls="controls"></video>
+
 
 
 
@@ -338,7 +341,12 @@ Notice: If you can't read Chinese, Please use Google Translate.
 <video width=50% src="/video/1587120578222179.mp4" controls="controls"></video>
 
 ## Minecraft
-<video src="/video/1588665494072465.mp4" controls="controls"></video>
+<video width=80% src="/video/1588665494072465.mp4" controls="controls"></video>
 
 ## Sonic Pi
-<video src="/video/1588741044537372.mp4" controls="controls"></video>
+<video width=80% src="/video/1588741044537372.mp4" controls="controls"></video>
+
+## Yanshee
+<video width=40% src="/video/1589960907435316.mp4" controls="controls"></video>
+
+
