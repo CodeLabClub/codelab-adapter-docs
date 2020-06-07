@@ -154,6 +154,10 @@ xiaomi_aqara:
         *    [ngrok](https://ngrok.com/)：下载并运行`ngrok http 8123`，你将 Home Assistant 的访问地址暴露到了 https 公网, 形如:`https://ff4b68f8.ngrok.io`.  
         *    [其他办法](https://www.home-assistant.io/docs/configuration/remote/)
 
+!!! 提醒
+  为了无线开关接入 CodeLab Scratch: 实体 id 应当携带 `single_double`: 形如`sensor.0x00158d00025dfse_single_double`。  
+  为了门窗感应器接入 CodeLab Scratch: 实体 id 应当携带 `door`, 形如 `binary_sensor.0x00158d0002erdf_door` 
+
 <!--
 ### 在线版 CodeLab Scratch
 由于 CodeLab Scratch 的在线版使用`https`，所以你需要先将 Home Assistant 的访问地址`http://127.0.0.1:8123`映射到 https 上。

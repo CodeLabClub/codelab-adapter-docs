@@ -62,6 +62,9 @@ def monitor(content,logger):
 
 在 Scratch EIM 中传递消息`https://www.codelab.club`试试。
 
+!!! 提醒
+    如果你想引入第三方库，请使用 node_eim_monitor.
+
 ## 参考
 
 - [使用 Python 拓展 Scratch 的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html)

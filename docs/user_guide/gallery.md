@@ -315,7 +315,30 @@ Notice: If you can't read Chinese, Please use Google Translate.
 #### 小型解释器
 <video width=80% src="/video/1589977785885032.mp4" controls="controls"></video>
 
+### spelling
+<video width=80% src="/video/1590154622682774.mp4" controls="controls"></video>
 
+### 皮卡与皮卡丘
+<video width=80% src="/video/1590237395592969.mp4" controls="controls"></video>
+
+### 如何画一只会跑的独角兽🦄️
+<video width=80% src="/video/1590237319828796.mp4" controls="controls"></video>
+
+### 42 (DynamicTable4Math)
+<video width=80% src="/video/42.mp4" controls="controls"></video>
+
+### 动画原理
+<video width=80% src="/video/1590665913541756.mp4" controls="controls"></video>
+
+
+<video width=80% src="/video/1590665910081123.mp4" controls="controls"></video>
+
+### 纸糊方向盘
+<video width=80% src="/video/1591182636036039.mp4" controls="controls"></video>
+
+<video width=80% src="/video/1591187790289712.mp4" controls="controls"></video>
+
+<video width=80% src="/video/1591509029108719.mp4" controls="controls"></video>
 
 
 ## CodeLab Adapter ❤️ Teachable Machine

@@ -2,6 +2,8 @@ site_name: CodeLab Adapter
 repo_url: https://github.com/CodeLabClub/codelab-adapter-docs
 edit_uri: edit/v2/docs/
 site_description: the docs
+extra_javascript:
+    - 'js/baidu-tongji.js'
 theme:
   name: material
   language: "zh"
@@ -74,14 +76,16 @@ nav:
       - 手势窗帘: "Scratch_Projects/手势窗帘.md"
   - Python Projects:
       - 介绍(introduction): "Python_Projects/introduction.md"
+      - 安装Python.md: "Python_Projects/install_python.md"
       - I am reading!: "Python_Projects/I_am_reading.md"
+      - Python 与 Scratch: "Python_Projects/python_scratch.md"
   - 开发手册(dev guide):
       - 介绍(introduction): "dev_guide/introduction.md"
       - 架构(Architecture): "dev_guide/Architecture.md"
-      - hello world: "dev_guide/helloworld.md"
+      - hello world(Adapter Extension): "dev_guide/helloworld.md"
       - json message: "dev_guide/json-message.md"
       - Adapter Node: "dev_guide/Adapter-Node.md"
-      - MQTT Adapter Node: "dev_guide/mqtt-Adapter-Node.md"
+      - MQTT Adapter Node(正在迁移中): "dev_guide/mqtt-Adapter-Node.md"
       - 同步风格的消息(sync message): "dev_guide/sync-message.md"
       - 编程语言支持(multi language support): "dev_guide/multi-language-support.md"
       - 与其他编程语言集成(system command): "dev_guide/system_command.md"
@@ -94,6 +98,7 @@ nav:
   - 插件(extensions):
       - 介绍(introduction): "extension_guide/introduction.md"
       - 使用(Usage): "extension_guide/usage.md"
+      - extension market: "extension_guide/extension_market.md"
       - micro:bit: "extension_guide/microbit.md"
       - micro:bit radio: "extension_guide/microbit_radio.md"
       - arduino UNO: "extension_guide/arduino_UNO.md"
@@ -106,18 +111,30 @@ nav:
       - Cozmo: "extension_guide/cozmo.md"
       - wechat: "extension_guide/wechat.md"
       - webserver: "extension_guide/webserver.md"
-      - OpenCV: "extension_guide/opencv.md"
-      - Tensorflow: "extension_guide/tensorflow.md"
-      - Python kernel extention: "extension_guide/extension_python_kernel.md"
-      - mpfshell: "extension_guide/mpfshell.md"
-      - blender: "extension_guide/blender.md"
-      - Pando Robot: "extension_guide/Pando.md"
-      - Tello: "extension_guide/tello.md"
-      - Aelos Robot: "extension_guide/Aelos.md"
-      - ROS: "extension_guide/ROS.md"
+      - Python eval kernel: "extension_guide/extension_python_kernel.md"
+      - Python exec kernel: "extension_guide/python_exec.md"
       - RoboMaster: "extension_guide/RoboMaster.md"
+      - jupyterlab: "extension_guide/jupyterlab.md"
       - Teachable Machine: "extension_guide/teachable_machine.md"
-      - extension market: "extension_guide/extension_market.md"
+      - Stage: "extension_guide/stage.md"
+      - blender: "extension_guide/blender.md"
+      - RaspberryPi GPIO: "extension_guide/rpi_gpio.md"
+      - Minecraft: "extension_guide/minecraft.md"
+      - Sonic Pi : "extension_guide/sonicPi.md"
+      - MQTT Adapter: 'extension_guide/MQTT_adapter.md'
+      - MQTT Broker : "extension_guide/MQTT_Broker.md"
+      - Calypso: "extension_guide/Calypso.md"
+      - Box2D: "extension_guide/Box2D.md"
+      - physical blocks: "extension_guide/physical_blocks.md"
+      - Yanshee: "extension_guide/yanshee.md"
+      - json: "extension_guide/json.md"
+      - OpenCV(正在迁移中): "extension_guide/opencv.md"
+      - Tensorflow(正在迁移中): "extension_guide/tensorflow.md"
+      - mpfshell(正在迁移中): "extension_guide/mpfshell.md"
+      - Pando Robot(正在迁移中): "extension_guide/Pando.md"
+      - Tello(正在迁移中): "extension_guide/tello.md"
+      - Aelos Robot(正在迁移中): "extension_guide/Aelos.md"
+      - ROS(正在迁移中): "extension_guide/ROS.md"
   - Scratch插件:
       - 介绍(introduction): "scratch_extensions/introduction.md"
   - 社区版Neverland:
@@ -126,6 +143,8 @@ nav:
       - 读书与思考: "Neverland/reading-thinking.md"
       - 乐器演奏 (Teachable Machine): "Neverland/musical-instrument-tm.md"
       - 安装Home Assistant: "Neverland/HA.md"
+  - CodeLab DynamicTable:
+      - 介绍(introduction): "DynamicTable/index.md"
   - 关于(about):
       - 联系我们(contact us): "about/contact.md"
       - why: "about/why.md"
