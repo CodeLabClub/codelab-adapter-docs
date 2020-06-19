@@ -4,7 +4,7 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 ## 闭眼，请熄灯
 
-<video width=80% src="/video/%E9%97%AD%E7%9C%BC%E8%AF%B7%E7%86%84%E7%81%AF.mp4" controls="controls"></video>
+<!--<video width=80% src="/video/%E9%97%AD%E7%9C%BC%E8%AF%B7%E7%86%84%E7%81%AF.mp4" controls="controls"></video>-->
 
 
 ## 收工，吃饭

@@ -128,6 +128,14 @@ nav:
       - physical blocks: "extension_guide/physical_blocks.md"
       - Yanshee: "extension_guide/yanshee.md"
       - json: "extension_guide/json.md"
+      - imageData: "extension_guide/imageData.md"
+      - home assistant: "extension_guide/ha.md"
+      - iot: "extension_guide/iot.md"
+      - leap motion: "extension_guide/leapmotion.md"
+      - faceapi: "extension_guide/faceapi.md"
+      - posenet: "extension_guide/posenet.md"
+      - knn: "extension_guide/knn.md"
+      - yolo: "extension_guide/yolo.md"
       - OpenCV(正在迁移中): "extension_guide/opencv.md"
       - Tensorflow(正在迁移中): "extension_guide/tensorflow.md"
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"
@@ -145,6 +153,7 @@ nav:
       - 安装Home Assistant: "Neverland/HA.md"
   - CodeLab DynamicTable:
       - 介绍(introduction): "DynamicTable/index.md"
+      - hello world: "DynamicTable/hello_world.md"
   - 关于(about):
       - 联系我们(contact us): "about/contact.md"
       - why: "about/why.md"
