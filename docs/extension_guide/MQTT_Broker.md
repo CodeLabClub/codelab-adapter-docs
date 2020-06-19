@@ -1,7 +1,8 @@
 # Tutorial
 !!! 提醒
-    3.2中可用(近期发布).  
-    如果你着急用，可以在本地安装[hbmqtt](https://hbmqtt.readthedocs.io/en/latest/index.html)，并运行`hbmqtt`, 与该插件等效。
+    基于[hbmqtt](https://hbmqtt.readthedocs.io/en/latest/index.html)，该项目作者似乎不维护了，[目前存在一个bug](https://github.com/beerfactory/hbmqtt/issues/119)可能无法工作。
+    可以使用 CodeLab 公共的mqtt broker:`mqtt://guest:test@iot.codelab.club`.
+    建议到插件市场里下载最新插件。
 
 # 插件说明
 

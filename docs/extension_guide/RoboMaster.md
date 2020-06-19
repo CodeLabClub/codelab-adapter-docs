@@ -1,6 +1,9 @@
 # RoboMaster
 RoboMaster EP
 
+!!! 提醒
+    RoboMaster EP 最近SDK做了更新，建议到插件市场下载最新插件。
+
 # Tutorial
 ## 依赖
 

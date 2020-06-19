@@ -18,12 +18,36 @@ physical blocks 在软件层面是一个 CodeLab Adapter插件，由于 CodeLab 
 *  运行程序！
 -->
 
-使用 physical blocks，可以在一张桌子上对实物进行编程，而无需借助屏幕。
+使用 physical blocks，可以在一张桌子上对实物进行编程。
 
 参考:
 
 -   [CodeLab DynamicTable: A Seeing World](https://www.codelab.club/blog/codelab-dynamictable-a-seeing-world/)
 -   [CodeLab DynamicTable: 一个可实施的技术方案](https://www.codelab.club/blog/codelab-dynamictable-an-instance/)
+
+## 提醒
+
+第一次运行插件，Windows 和 Mac 用户会自行按照依赖: `opencv-contrib-python`, 依赖比较大(`> 60MB`), 耐心等待 1 分钟左右，安装完成会会弹出通知。
+
+Linux 用户需要手动安装 `opencv-contrib-python`（有系统依赖）。
+
+### 树莓派用户
+
+安装依赖系统
+
+```bash
+sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt-get install libxvidcore-dev libx264-dev
+sudo apt install libatlas-base-dev
+sudo apt-get install qt4-dev-tools
+sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
+```
+
+之后安装`opencv-contrib-python`
+
+-   `pip3 install opencv-contrib-python==3.4.6.27`
+
 
 ## Demo
 
@@ -33,12 +57,9 @@ physical blocks 在软件层面是一个 CodeLab Adapter插件，由于 CodeLab 
 
 <video width=80% src="/video/1590154622682774.mp4" controls="controls"></video>
 
+## 入门案例
 
-## 提醒
-第一次运行插件，Windows 和 Mac用户会自行按照依赖: `opencv-contrib-python`, 依赖比较大(`> 60MB`), 耐心等待1分钟左右，安装完成会会弹出通知。
+分享两个入门案例:
 
-Linux用户需要手动安装 `opencv-contrib-python`（有系统依赖）。
-
-树莓派用户参考:[Install OpenCV 4 on Raspberry Pi 4 and Raspbian Buster](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/)
-
-
+-   [Scratch-marker-angle-demo.sb3](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-marker-angle-demo.sb3){target=\_blank} : 获取 marker 旋转角
+-   [Scratch-spell-demo.sb3](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-spell-demo.sb3){target=\_blank} : 获取 marker id 列表(从左到右，从上到下)
