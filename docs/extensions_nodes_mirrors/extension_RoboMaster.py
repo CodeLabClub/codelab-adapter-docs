@@ -7,11 +7,12 @@ from codelab_adapter.core_extension import Extension
 
 
 class RoboMasterExtension(Extension):
+    NODE_ID = "eim/extension_RoboMaster"
     HELP_URL = "http://adapter.codelab.club/extension_guide/RoboMaster/"
-    
+    DESCRIPTION = "开火！RoboMaster"
+
     def __init__(self):
         super().__init__()
-        self.NODE_ID = self.generate_node_id(__file__)
         self.q = queue.Queue()
 
     def get_robot_ip(self):
@@ -43,12 +44,12 @@ class RoboMasterExtension(Extension):
     def run(self):
         command_socket = self.create_command_socket()
         # 默认建立连接
-        connect_msg = "command"
+        connect_msg = "command;"
         command_socket.send(connect_msg.encode('utf-8'))
         buf = command_socket.recv(1024) # todo: timeout
         # todo 开启事件上报, 默认开启，使用一个新的socket线程，接收事件。使用bucket token
         self.logger.info(f"connect: {buf}")
-        self.pub_notification("RoboMaster Connected!", type="SUCCESS")
+        self.pub_notification("Device(RoboMaster) Connected!", type="SUCCESS")
         while self._running:
             # wait for the command for the client(scratch/web app)
             time.sleep(0.05)

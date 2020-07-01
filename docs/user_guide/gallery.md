@@ -1,6 +1,7 @@
 # 演示视频（Gallery）
 
-Notice: If you can't read Chinese, Please use Google Translate. 
+!!! Notice
+    If you can't read Chinese, Please use Google Translate. 
 
 ## 闭眼，请熄灯
 
@@ -340,6 +341,14 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 <video width=80% src="/video/1591509029108719.mp4" controls="controls"></video>
 
+### [震动检测器](https://www.codelab.club/blog/vibration-detectors/)
+
+<video width=80% src="/video/1592219388632217.mp4" controls="controls"></video>
+
+### [生日贺卡](https://www.codelab.club/blog/dynamictable-happybirthday/)
+<video width=80% src="/video/1592575084486393.mp4" controls="controls"></video>
+
+
 
 ## CodeLab Adapter ❤️ Teachable Machine
 <video width=80% src="/video/adapter_google_teachable_machine.mp4" controls="controls"></video>
@@ -371,5 +380,13 @@ Notice: If you can't read Chinese, Please use Google Translate.
 
 ## Yanshee
 <video width=40% src="/video/1589960907435316.mp4" controls="controls"></video>
+
+
+## Hey Siri
+<video width=80% src="/video/1593328552202841.mp4" controls="controls"></video>
+
+<video width=80% src="/video/1593410656522462.mp4" controls="controls"></video>
+
+<video width=80% src="/video/1593428681227193.mp4" controls="controls"></video>
 
 

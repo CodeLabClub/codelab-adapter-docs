@@ -6,12 +6,13 @@ import zmq
 
 
 class EimTriggerExtension(Extension):
+    NODE_ID = "eim"
     HELP_URL = "http://adapter.codelab.club/extension_guide/eim_trigger/"
     WEIGHT = 97
+    DESCRIPTION = "触发一条eim消息"
     
     def __init__(self):
         super().__init__()
-        self.NODE_ID = "eim"
 
     def run(self):
         module_name = "eim_trigger"
@@ -19,21 +20,21 @@ class EimTriggerExtension(Extension):
             importlib.import_module(module_name)
         except Exception as e:
             self.pub_notification(f'{e}', type="ERROR")
-            return
-        module = sys.modules[module_name]
-        importlib.reload(module)
-        while self._running:
-            try:
-                response = sys.modules[
-                    module_name].trigger()
-                if response:
-                    message = {"payload": {"content": response}}
-                    self.publish(message)
-            except zmq.error.ZMQError as e:
-                self.logger.error(f'{e}')
-            except Exception as e:
-                self.logger.error(f'{e}')
-                self.pub_notification(f'{e}')
+        else:
+            module = sys.modules[module_name]
+            importlib.reload(module)
+            while self._running:
+                try:
+                    response = sys.modules[
+                        module_name].trigger()
+                    if response:
+                        message = {"payload": {"content": response}}
+                        self.publish(message)
+                except zmq.error.ZMQError as e:
+                    self.logger.error(f'{e}')
+                except Exception as e:
+                    self.logger.error(f'{e}')
+                    self.pub_notification(f'{e}')
 
 
 export = EimTriggerExtension

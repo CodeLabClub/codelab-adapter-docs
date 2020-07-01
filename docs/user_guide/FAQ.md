@@ -196,3 +196,19 @@ CodeLab Adapter 有很好的分布式支持:
 
 !!! tips
     考虑到隐私，CodeLab Neverland 自建了聊天服务器，利用的正是以上机制，CodeLab办公室里的计算机都接入 树莓派上的 Adapter。
+
+## 如何在离网状态下使用CodeLab Adapter
+在某些情况下，可能处于离网状态（诸如控制[tello](/extension_guide/tello/)时，需要连接到tello网络)
+
+@RedYin 给出了一个技巧: 修改hosts
+
+添加如下host规则:
+
+`codelab-adapter.codelab.club        127.0.0.1`
+
+以下是不同系统的hosts文件所在位置
+
+*  Windows: `C:\Windows\System32\drivers\etc\hosts`
+*  Android: `/system/etc/hosts`
+*  Mac/Linux: `/etc/hosts`
+*  iPhone: `/etc/hosts`

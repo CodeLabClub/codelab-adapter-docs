@@ -1,6 +1,6 @@
 # Tutorial
 
-该文档由 [@Hanson 同学](https://rcfclass7.wordpress.com/author/hansonxie/) 创建。
+该文档由 [@Hanson 同学](http://www.concentric-circle.com/author/admin/) 创建。
 
 ## 介绍
 

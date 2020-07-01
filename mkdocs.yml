@@ -136,11 +136,12 @@ nav:
       - posenet: "extension_guide/posenet.md"
       - knn: "extension_guide/knn.md"
       - yolo: "extension_guide/yolo.md"
+      - Tello: "extension_guide/tello.md"
+      - Siri: "extension_guide/siri.md"
       - OpenCV(正在迁移中): "extension_guide/opencv.md"
       - Tensorflow(正在迁移中): "extension_guide/tensorflow.md"
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"
       - Pando Robot(正在迁移中): "extension_guide/Pando.md"
-      - Tello(正在迁移中): "extension_guide/tello.md"
       - Aelos Robot(正在迁移中): "extension_guide/Aelos.md"
       - ROS(正在迁移中): "extension_guide/ROS.md"
   - Scratch插件:

@@ -14,11 +14,13 @@ from codelab_adapter.core_extension import Extension
 codelab_adapter_dir = pathlib.Path.home() / "codelab_adapter"
 
 class WechatGateway(Extension):
+
+    NODE_ID = "eim/extension_wechat"
     HELP_URL = "https://adapter.codelab.club/extension_guide/wechat/"
+    DESCRIPTION = "将微信积木化" # wechat -- 勉强能用的聊天工具
 
     def __init__(self):
         super().__init__()
-        self.NODE_ID = self.generate_node_id(__file__)
         
     def extension_message_handle(self, topic, payload):
         '''

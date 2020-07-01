@@ -1,5 +1,3 @@
-from io import StringIO
-import contextlib
 import sys
 import time
 import subprocess
@@ -25,13 +23,14 @@ class PyHelper:
 
 class PythonKernelExtension(Extension):
 
+    NODE_ID = "eim/extension_python"
     HELP_URL = "http://adapter.codelab.club/extension_guide/extension_python_kernel/"
     WEIGHT = 95
+    VERSION = "1.0"  # extension version
+    DESCRIPTION = "Python eval"
 
     def __init__(self):
         super().__init__()
-        self.NODE_ID = self.generate_node_id(__file__)  # old: "eim/python"
-        self.logger.debug(f'NODE_ID -> {self.NODE_ID}')
         self.PyHelper = PyHelper()
 
     def run_python_code(self, code):
