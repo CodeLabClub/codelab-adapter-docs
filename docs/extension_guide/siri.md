@@ -10,15 +10,16 @@ Hey siri
 
 <video width=80% src="/video/1593431022011083.mp4" controls="controls"></video>
 
-## 依赖
-
-{!utils/dependence.md!}
-
 ## 插件说明
 
 -   使用方式: 到[插件市场](/extension_guide/extension_market/)下载插件, 搜索 **siri**
 -   插件类型: [Adapter Extension](https://adapter.codelab.club/dev_guide/helloworld/)
 -   插件源码: [extension_Siri.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_Siri.py)
+
+## 依赖
+
+{!utils/dependence.md!}
+
 
 ## 步骤 1：打开 Codelab Adapter
 

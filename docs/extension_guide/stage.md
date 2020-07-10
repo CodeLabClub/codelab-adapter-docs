@@ -8,9 +8,9 @@ Adapter Stage 插件允许将舞台区的图像（舞台或者摄像头图像）
 
 当然，你也可以构建一个自动保存舞台状态的插件，或者自拍/美颜插件：）
 
-需要配合 Scratch `图像识别`插件中的积木使用。
+需要配合 Scratch `ImageData`插件中的积木使用。
 
-![](/img/999e46633d51f05d58c863c698fcb109.png)
+![](/img/2836c967559229322131a9e994056b53.png)
 
 !!! 提醒
     在 Adapter 3.2 之前，你需要自行从[插件市场](/extension_guide/extension_market/s)里下载 Stage 插件。 [源码地址](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_stage.py)

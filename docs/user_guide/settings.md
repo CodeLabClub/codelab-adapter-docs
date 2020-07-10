@@ -1,6 +1,6 @@
 # 配置文件
 
-CodeLab Adapter 允许用户的自定义配置。只需要在`~/codelab_adapter`目录下创建`user_settings.py`文件即可。 
+CodeLab Adapter 允许用户的自定义配置。配置文件位于:`~/codelab_adapter/user_settings.py`。 
 
 2.6.4 之后，支持使用环境变量覆盖这些配置项，诸如`AUTO_OPEN_WEBUI=false codelab-adapter`
 

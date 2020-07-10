@@ -15,7 +15,7 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 
 ## 步骤 1：hello [MakeCode](https://makecode.microbit.org/#editor)
 
-从一个简单的例子开始：[radio_node](https://makecode.microbit.org/_VawLpzCesgKa)
+从一个简单的例子开始：[radio_node](https://makecode.microbit.org/_VawLpzCesgKa) ([new version](https://makecode.microbit.org/_4EKALy3hCDcq), 需要配合v1.1的 microbit radio 插件使用)
 
 将上述代码 download 到`功能板`(2 块 micro:bit 中的一块)。
 
@@ -23,6 +23,11 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 
 1. 当`功能板`收到来自 CodeLab Scratch 的消息(`c`)时, 显示一颗爱心。（`scratch -> microbit`）
 2. 当`功能板`的`A 按钮`被按下时，发送字符`a`, `B 按钮`被按下时，发送字符`b`（`microbit -> scratch`）
+
+这样便完成了`Scratch--无线microbot`的双向通信:
+
+    *  `scratch -> microbit`
+    *  `microbit -> scratch`
 
 ## 步骤 2：拔下`功能板`，接上`中转站`，加载固件
 
@@ -82,3 +87,13 @@ ps：linux 用户注意，CodeLab Adapter 使用 usb 串口与 micro:bit 连接�
 
 !!! 提醒
     运行项目时，记得把 CodeLab Adapter 运行起来。
+
+### Scratch 翻页笔
+硬件方面，使用了2个microbit:
+
+-   作为翻页笔的手持的microbit: [固件](https://adapter.codelab.club/hex/microbit-翻页笔.hex)
+-   作为中转站(dongle)的microbit: [固件](https://adapter.codelab.club/hex/microbit_radio_adapter.hex)
+
+它们之间基于 radio 通信（[micro:bit radio](https://adapter.codelab.club/extension_guide/microbit_radio/)）
+
+Scratch 程序参考 [Scratch-翻页笔-demo.sb3](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-翻页笔-demo.sb3){target=\_blank}

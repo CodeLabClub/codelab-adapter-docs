@@ -389,4 +389,6 @@
 
 <video width=80% src="/video/1593428681227193.mp4" controls="controls"></video>
 
+## RoboMaster && Motion Sensor
+<video width=40% src="/video/1593762499427152.mp4" controls="controls"></video>
 

@@ -17,6 +17,9 @@
 如果你没有安装过Python3， 本文将引导你安装它。
 
 ## Windows用户
+!!! 
+    Windows10用户，需要到应用商店里安装Python(微软的强制要求)。或者参考 [管理应用执行别名](https://blog.csdn.net/u013214212/article/details/102784937)
+
 如果之前没有安装过Python3， 推荐下载安装 [Python3.7](http://scratch3-files.just4fun.site/python-3.7.4.exe)。下载完成后，点击安装即可。
 
 如果你之前安装过Python3，但版本低于 **3.6** , 建议卸载后，再安装。

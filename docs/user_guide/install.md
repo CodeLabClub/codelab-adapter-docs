@@ -12,6 +12,7 @@ CodeLab Adapter v3 目前发布了 Mac、Windows（支持 windows 7 及以上版
     *  如果你点击应用闪退，请参考：[打开来自身份不明开发者的应用](https://support.apple.com/kb/PH25088?locale=zh_CN&viewlocale=zh_CN)
 * Windows（Windows 7 及以上）
     * [Windows](https://scratch3-files.just4fun.site/codelab-adapter-win_3_3_2.zip)：Windows 7、Windows10 已测试（32 位和 64 位都可用）
+        *  Windows 7下最好以管理员权限运行。
 * [Linux](https://scratch3-files.just4fun.site/codelab-adapter-kali_3_3_2.zip)
     *  构建于 Kali linux
     *  在Ubuntu 20.04下测试可用
