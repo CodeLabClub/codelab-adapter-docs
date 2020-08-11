@@ -1,4 +1,6 @@
 # Tutorial
+!!! 提醒
+    [microbit radio插件](/extension_guide/microbit_radio/)与 [usb microbit插件](/extension_guide/microbit/)不能同时使用.
 
 ## 依赖
 
@@ -27,13 +29,13 @@
 
 ## 步骤 3：连接 micro:bit，加载插件
 
-使用数据线将 micro:bit 接入电脑，下载 <a href="../../img/usb_Microbit_frimeware.hex" target="_blank">usb_Microbit_frimeware.hex</a> 右键保存到本地，并将保存的文件拖入 micro:bit 中。
+使用数据线将 micro:bit 接入电脑，下载 <a href="../../img/usb_Microbit_firmware.hex" target="_blank">usb_Microbit_firmware.hex</a> 右键保存到本地，并将保存的文件拖入 micro:bit 中。
 
 ps: Windows 7 用户注意（Mac 和 Windows 10 用户可以跳过），为了能发现并连接 micro:bit，需要[安装驱动](../../img/mbedWinSerial_16466.exe)（和使用 mu-editor 操作相同）
 
 完成后在 CodeLab Adapter 中点击加载 usb micro:bit 插件:
 
-<img width="300px" src="../../img/v2/open_usbmicrobit_scratch_style.png"/>
+<!-- ![add image]()-->
 
 你应该看到 micro:bit 背后的信号灯高频闪烁，如果它没有高频闪烁，则按一下 micro:bit 背部的复位按钮
 
@@ -64,3 +66,7 @@ ps: linux 用户注意，scratch3_adapter 使用 usb 串口与 micro:bit 连接�
 如果你想接入的设备目前没有默认插件支持它，你可以自己来写，CodeLab Adapter 允许你将任何硬件接入 scratch 3.0 中，别害怕，需要的代码很少也很简单，详情参见[开发手册](/dev_guide/helloworld/)。我们支持使用任何编程语言来写拓展，目前我们自己主要使用 Python。
 
 我们也将在 [extension guide](/extension_guide/introduction/) 中介绍各种社区插件的使用方法。
+
+
+!!! 
+    [usb_Microbit_firmware.hex的源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/firmware/usb_Microbit_firmware_hex.py)。 采用[python.microbit.org](https://python.microbit.org/v/2.0)生成hex

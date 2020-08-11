@@ -1,5 +1,8 @@
 # Tutorial
 
+!!! 提醒
+    [microbit radio插件](/extension_guide/microbit_radio/)与 [usb microbit插件](/extension_guide/microbit/)不能同时使用.
+
 ## 介绍
 
 我们在 [CodeLab Adapter 深度连接 micro:bit 生态](https://www.codelab.club/blog/codelab-adapter-microbit-deep-connect/)中提到
@@ -15,7 +18,7 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 
 ## 步骤 1：hello [MakeCode](https://makecode.microbit.org/#editor)
 
-从一个简单的例子开始：[radio_node](https://makecode.microbit.org/_VawLpzCesgKa) ([new version](https://makecode.microbit.org/_4EKALy3hCDcq), 需要配合v1.1的 microbit radio 插件使用)
+从一个简单的例子开始：[radio_node](https://makecode.microbit.org/_4EKALy3hCDcq)（`Adapter > 3.4`）
 
 将上述代码 download 到`功能板`(2 块 micro:bit 中的一块)。
 
@@ -32,14 +35,11 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 ## 步骤 2：拔下`功能板`，接上`中转站`，加载固件
 
 
-使用数据线将`中转站` micro:bit 接入电脑，下载 <a href="/hex/microbit_radio_adapter.hex" target="_blank">microbit_radio_adapter.hex</a> 右键保存到本地，并将保存的文件拖入 micro:bit 中。
+使用数据线将`中转站` micro:bit 接入电脑，刷入[固件](https://makecode.microbit.org/_EL20Rp98pHAg)。
 
-ps：Windows 7 用户注意（Mac 和 Windows 10 用户可以跳过），为了能发现并连接 micro:bit，需要[安装驱动](/img/mbedWinSerial_16466.exe)（和使用 mu-editor 操作相同）
-
-ps：linux 用户注意，CodeLab Adapter 使用 usb 串口与 micro:bit 连接，linux 下，使用 usb 串口需要做权限设置：`sudo chmod 666 /dev/ttyACM0`
-
-!!! tips
-    如果你对固件的源码感兴趣，欢迎[查看源码](https://makecode.microbit.org/_EL20Rp98pHAg)，CodeLab 的大多数工作都是开放的。
+!!! 提醒
+    Windows 7用户注意，无法发现 micro:bit，需要[安装驱动](/img/mbedWinSerial_16466.exe)（和使用 mu-editor 操作相同）  
+    linux 用户注意，CodeLab Adapter 使用 usb 串口与 micro:bit 连接，linux 下，使用 usb 串口需要做权限设置：`sudo chmod 666 /dev/ttyACM0`
 
 ## 步骤 3：打开 Codelab Adapter
 
@@ -64,9 +64,9 @@ ps：linux 用户注意，CodeLab Adapter 使用 usb 串口与 micro:bit 连接�
 ### fire！
 我们使用 micro:bit 来赋予淘宝上的普通魔杖以魔法。一共需要 3 个 micro:bit，一个用作中转站，一个用作可穿戴手表（micro:bit 绑在表带上），一个用作投石器。
 
-<video width=80% src="https://www.codelab.club/img/wand_catapult_demo.mp4" controls="controls"></video>
+<video width=80% src="/video/wand_catapult_demo.mp4" controls="controls"></video>
 
-<video width=80% src="https://www.codelab.club/img/wand_catapult.mp4" controls="controls"></video>
+<video width=80% src="/video//wand_catapult.mp4" controls="controls"></video>
 
 当我们挥动魔杖时，触发投石器开关，fire！
 
@@ -74,7 +74,7 @@ ps：linux 用户注意，CodeLab Adapter 使用 usb 串口与 micro:bit 连接�
 
 *  micro:bit
     *  [可穿戴设备源码](https://makecode.microbit.org/_aVqEWK9DXbPR)
-    *  [投石器源码](https://makecode.microbit.org/_3iAWv86hVHL9)
+    *  [投石器源码](https://makecode.microbit.org/_AyU3211xeEYv)
 *  Scratch
     *  [wand_catapult](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/wand_catapult.sb3)
 
@@ -91,8 +91,8 @@ ps：linux 用户注意，CodeLab Adapter 使用 usb 串口与 micro:bit 连接�
 ### Scratch 翻页笔
 硬件方面，使用了2个microbit:
 
--   作为翻页笔的手持的microbit: [固件](https://adapter.codelab.club/hex/microbit-翻页笔.hex)
--   作为中转站(dongle)的microbit: [固件](https://adapter.codelab.club/hex/microbit_radio_adapter.hex)
+-   作为翻页笔的手持的microbit: [固件](https://makecode.microbit.org/_bHLV7q2fK3Hc)
+-   作为中转站(dongle)的microbit: [固件](https://makecode.microbit.org/_EL20Rp98pHAg)
 
 它们之间基于 radio 通信（[micro:bit radio](https://adapter.codelab.club/extension_guide/microbit_radio/)）
 
