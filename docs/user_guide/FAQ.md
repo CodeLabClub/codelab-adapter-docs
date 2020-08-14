@@ -91,9 +91,9 @@ Mac/Linux 用户的 Adapter 主目录在：`~/codelab_adapter`，如果找不到
 
 ## 如何找到插件目录
 
-Mac/Linux 用户的插件目录在：`~/codelab_adapter/extensions`，如果找不到插件目录（如 Windows 用户），可以通过 CodeLab Adapter Web UI 工具栏里的`插件->打开插件目录`打开它。
+Mac/Linux 用户的插件目录在：`~/codelab_adapter/extensions`，如果找不到插件目录（如 Windows 用户），可以通过 CodeLab Adapter Web UI 工具栏里的`插件->打开扩展目录`打开它，之后找到`extensions`文件夹。
 
-![](/img/webui_helper.png)
+![](/img/70554ac8052ccaf33175aa851893fd6c.png)
 
 ## 用户配置文件放在哪儿
 

@@ -155,8 +155,9 @@ xiaomi_aqara:
         *    [其他办法](https://www.home-assistant.io/docs/configuration/remote/)
 
 !!! 提醒
-  为了无线开关接入 CodeLab Scratch: 实体 id 应当携带 `single_double`: 形如`sensor.0x00158d00025dfse_single_double`。  
-  为了门窗感应器接入 CodeLab Scratch: 实体 id 应当携带 `door`, 形如 `binary_sensor.0x00158d0002erdf_door`
+  无线开关的名字应该形如`无线开关.01`；  
+  门窗感应器名字应该包含`门磁`；  
+
 
 !!! 提醒
   如果想接入 zigbee 设备，请使用 [zigbee2mqtt](https://www.zigbee2mqtt.io/integration/home_assistant.html)，目前已支持[以下设备](https://www.zigbee2mqtt.io/information/supported_devices.html)

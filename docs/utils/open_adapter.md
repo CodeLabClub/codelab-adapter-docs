@@ -2,4 +2,4 @@
 
 Codelab Adapter 启动之后，将打开默认浏览器。
 
-<img width="300px" src="/img/v2/adapter_scratch_style_ui.png"/>
+![](/img/b46d9d62f98889dec948531577e564f3.png)

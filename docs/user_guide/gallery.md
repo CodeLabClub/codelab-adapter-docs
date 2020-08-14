@@ -7,6 +7,9 @@
 
 <!--<video width=80% src="/video/%E9%97%AD%E7%9C%BC%E8%AF%B7%E7%86%84%E7%81%AF.mp4" controls="controls"></video>-->
 
+# 读书与思考
+
+<video width=80% src="/video/读书与思考.mp4" controls="controls"></video>
 
 ## 收工，吃饭
 <video width=80% src="/video/turnofflight_byfinger.mp4" controls="controls"></video>
@@ -265,9 +268,9 @@
 <video width=50% src="/video/1572097577962892.mp4" controls="controls"></video>
 
 ## Fire!
-<video width=80% src="https://www.codelab.club/img/wand_catapult_demo.mp4" controls="controls"></video>
+<video width=80% src="/video/wand_catapult_demo.mp4" controls="controls"></video>
 
-<video width=80% src="https://www.codelab.club/img/wand_catapult.mp4" controls="controls"></video>
+<video width=80% src="/video/wand_catapult.mp4" controls="controls"></video>
 
 ## Inspired by DynamicLand
 <video width=80% src="/video/dynamicland_02.mp4" controls="controls"></video>
@@ -391,4 +394,10 @@
 
 ## RoboMaster && Motion Sensor
 <video width=40% src="/video/1593762499427152.mp4" controls="controls"></video>
+
+## GameShell
+<video width=80% src="/video/1597283986388211.mp4" controls="controls"></video>
+
+
+<video width=80% src="/video/1597283973481982.mp4" controls="controls"></video>
 
