@@ -155,11 +155,6 @@ xiaomi_aqara:
         *    [其他办法](https://www.home-assistant.io/docs/configuration/remote/)
 
 !!! 提醒
-  无线开关的名字应该形如`无线开关.01`；  
-  门窗感应器名字应该包含`门磁`；  
-
-
-!!! 提醒
   如果想接入 zigbee 设备，请使用 [zigbee2mqtt](https://www.zigbee2mqtt.io/integration/home_assistant.html)，目前已支持[以下设备](https://www.zigbee2mqtt.io/information/supported_devices.html)
 
 <!--

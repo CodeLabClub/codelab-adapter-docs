@@ -48,10 +48,12 @@ class EIMExtension(Extension):
     '''
     Everything Is A Message
     '''
+    NODE_ID = "eim"
+    DESCRIPTION = "Everything Is a Message"
+    HELP_URL = "https://adapter.codelab.club/extension_guide/eim/"
 
     def __init__(self):
         super().__init__()
-        self.NODE_ID = "eim"
 
     def extension_message_handle(self, topic, payload):
         self.logger.info(f'eim message:{payload}')
@@ -102,9 +104,11 @@ from codelab_adapter.core_extension import Extension
 
 
 class HelloWorldExtension(Extension):
+    NODE_ID = "eim"
+    
     def __init__(self):
         super().__init__()
-        self.NODE_ID = "eim"
+        
 
     def send_message_to_scratch(self, content):
         message = self.message_template()
