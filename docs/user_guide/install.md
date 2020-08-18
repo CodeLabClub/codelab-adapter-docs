@@ -11,6 +11,7 @@ CodeLab Adapter v3 目前发布了 Mac、Windows（支持 windows 7 及以上版
     *  [完整版](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-mac-full.zip)
     *  [精简版](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-mac.zip)
     *  macOS 10.13.5+
+    *  macOS 10.15 打开软件可能会比较慢(有时需要3-5秒)，问题目前还在定位中。
     *  如果你点击应用闪退，以此点击`右键->打开`。或者参考：[打开来自身份不明开发者的应用](https://support.apple.com/kb/PH25088?locale=zh_CN&viewlocale=zh_CN)
 * Windows（Windows 7 及以上）
     *  [完整版](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-win-full.zip)
