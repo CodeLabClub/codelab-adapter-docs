@@ -47,6 +47,8 @@ markdown_extensions:
 nav:
   - 主页(Home): "index.md"
   # - 用户手册(user guide):
+  - Getstart: 
+      - 安装: "get_start/install.md"
   - 用户手册(user guide):
       - 安装(install): "user_guide/install.md"
       # - 下载(download): 'user_guide/develop.md'
