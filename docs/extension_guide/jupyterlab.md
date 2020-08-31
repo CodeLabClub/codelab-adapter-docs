@@ -28,7 +28,8 @@ CodeLab Adapter 将其集成到插件，如果想编辑代码，诸如
 运行 **extention_jupyterlab** 插件。
 
 !!! 提醒
-    确保你已经[安装了 Python3](/Python_Projects/install_python/)。  
+    完整版已经内置了一切依赖。  
+    如果你是有精简版，确保你已经[安装了 Python3](/Python_Projects/install_python/)。  
     你不必手动安装 **jupyterlab** ，运行插件，CodeLab Adapter 会为你其余的一切。  
     当然你也可以在命令行里手动安装它。
 

@@ -16,8 +16,12 @@ Hack [Kano Code](https://kano.me/us/landing/app)，使其与 CodeLab Adapter 兼
     mac系统新版本（13.14之后）安全性提高，如果无法运行hack后的软件(Mac应用已损坏，打不开)，如果可能需要先运行: `sudo spctl --master-disable` 或者  `sudo xattr -rd com.apple.quarantine 空格 软件的路径`
     
 ## 步骤 2：打开 与 Adapter 兼容的 Kano Code
+!!! tips
+    关于魔杖如何与电脑连接参考[官方页面](https://kano.me/row/store/products/coding-wand)或者 APP
 
 在 Kano Code 里编程
+
+从`Event`菜单栏中拖出咒语积木；从`Draw`菜单栏中拉出`to adapter`积木，组合出魔法规则:
 
 ![](/img/19d2272252efe03397fab32c58032ac0.png)
 

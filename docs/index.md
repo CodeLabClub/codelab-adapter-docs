@@ -4,17 +4,31 @@
 
 ![](img/adapter_party.jpeg)
 
-CodeLab Adapter 构建在消息之上(`Everything Is a Message`)， 致力于连接万物，无论是软件还是硬件，无论是 AI、开源硬件、现实世界的物体、还是虚拟世界的动画角色，接入 CodeLab Adapter，皆可彼此互动。
+CodeLab Adapter 是一个由 Python 构建的软件(构建在消息之上(`Everything Is a Message`))， 致力于连接万物，无论是软件还是硬件，无论是 AI、开源硬件、现实世界的物体、还是虚拟世界的动画角色，接入 CodeLab Adapter，皆可彼此互动。
 
-在 CodeLab Adapter 驱动的环境里，你可以与万物沟通，你可以让神经网络识别出你的身体部位，进而制作一个体感游戏, 或是通过算法让整个空间变得智能。你可以在朋友生日那天，在 Ta 进门的一刻，将手中的魔杖一挥，在空中划一个字母 L 的轨迹，瞬间，点亮房间里五彩的灯光。
+在 CodeLab Adapter 驱动的环境里，通过使用 Scratch 或 Python 编程，你可以与万物沟通:  你可以在朋友生日那天，在 Ta 进门的一刻，将手中的魔杖一挥，在空中划一个字母 L 的轨迹，瞬间，点亮房间里五彩的灯光。 <!--你可以让环境识别出你的运动，进而制作一个体感游戏, 或是让整个空间变得智能。-->
 
 <video width=40% src="/video/wand.mp4" controls="controls"></video>
+
+<!--阐述它
+Adapter里干了啥
+
+在上述的例子中
+
+如果你是Scatch用户
+
+如果之前接触过编程(诸如Python)
+-->
 
 <br/>
 
 <video width=80% src="/video/1590237319828796.mp4" controls="controls"></video>
 
-这儿有更多[演示案例](/user_guide/gallery/)。
+这儿有更多[演示案例](/user_guide/gallery/):
+
+<!--综合案例-->
+
+<video width=80% src="https://scratch3-files.just4fun.site/CodeLabVideos3_5m.mp4" controls="controls"></video>
 
 <!--
 CodeLab Adapter 的一个典型用例，是将任何有趣的东西接入 Scratch 3.0，接入之后你便能用 Scratch 3.0 的积木来操控它，让它与任何接入 Scratch 3.0 的物体互动。无论是来自现实世界的物体，还是来自虚拟世界的 AI 或动画角色，都能彼此互动，我们不想针对某个硬件产品发布一个客户端，我们相信创意来自广泛的连接，我们致力于做一个中立的东西，将 Scratch 3.0 连接到更广阔的领域，我们想做到[宽围墙](http://learn.media.mit.edu/lcl/weeks/week5/)。
@@ -27,7 +41,7 @@ CodeLab Adapter 的一个典型用例，是将任何有趣的东西接入 Scratc
 CodeLab Adapter 的典型用途包括:
 
 -   扩展 Scratch 的能力（[比 Scratch Link 更强大](/user_guide/FAQ/#scratch-link)）
-    -  AI、IoT、开源硬件、实物、虚拟角色...
+    -   AI、IoT、开源硬件、实物、虚拟角色...
 -   Python 入门: 一开始就玩起来
 -   构建[可编程空间](https://www-old.codelab.club/blog/design-principles-behind-neverland/)
 -   [构建 Dynamic Table](https://www-old.codelab.club/blog/codelab-dynamictable-a-seeing-world/)
@@ -37,9 +51,8 @@ CodeLab Adapter 的典型用途包括:
 
 -   开放
 -   高度可扩展
-    -  [Extension](/dev_guide/helloworld/) 和 [Node](/dev_guide/Adapter-Node/)
+    -   [Extension](/dev_guide/helloworld/) 和 [Node](/dev_guide/Adapter-Node/)
 -   万物皆消息
--   灵活的插件系统
 -   RESTful API
 -   支持多门编程语言(34+)
 -   将 Scratch 和 Python 视为一等公民
