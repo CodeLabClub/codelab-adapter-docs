@@ -53,9 +53,9 @@ nav:
       - 入门案例1: "get_start/gs_pyproject.md"
       - 入门案例2: "get_start/gs_microbit.md"
   - 用户手册(user guide):
-      - 安装(install): "user_guide/install.md"
+      # - 安装(install): "user_guide/install.md"
       # - 下载(download): 'user_guide/develop.md'
-      - 使用(usage): "user_guide/usage.md"
+      # - 使用(usage): "user_guide/usage.md"
       - 进阶(advanced): "user_guide/advanced.md"
       - 展示视频(gallery): "user_guide/gallery.md"
       - 常见问题(FAQ): "user_guide/FAQ.md"
