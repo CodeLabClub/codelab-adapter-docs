@@ -48,7 +48,10 @@ nav:
   - 主页(Home): "index.md"
   # - 用户手册(user guide):
   - Getstart: 
-      - 安装: "get_start/install.md"
+      - Adapter简介: "get_start/gs_adapter_intro.md"
+      - 安装Adapter: "get_start/gs_install.md"
+      - 入门案例1: "get_start/gs_pyproject.md"
+      - 入门案例2: "get_start/gs_microbit.md"
   - 用户手册(user guide):
       - 安装(install): "user_guide/install.md"
       # - 下载(download): 'user_guide/develop.md'
