@@ -57,7 +57,7 @@ Adapter插件可以让创作平台拥有更多的能力，我们可以用创作�
 
 到这里，我们已经将所有的工作做完了，现在我们将点击绿旗，再点击小猫。看看会发生什么？
 
-![](..img/pyproject_start_extension4.gif)
+![](/img/pyproject_start_extension4.gif)
 
 如果在操作过程遇到困难，可以直接参考[项目源码](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/pyproject1.sb3)
 

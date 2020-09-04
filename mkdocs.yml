@@ -47,7 +47,7 @@ markdown_extensions:
 nav:
   - 主页(Home): "index.md"
   # - 用户手册(user guide):
-  - Getstart: 
+  - 快速入门: 
       - Adapter简介: "get_start/gs_adapter_intro.md"
       - 安装Adapter: "get_start/gs_install.md"
       - 入门案例1: "get_start/gs_pyproject.md"
@@ -112,7 +112,7 @@ nav:
       - micro:bit: "extension_guide/microbit.md"
       - micro:bit radio: "extension_guide/microbit_radio.md"
       - arduino UNO: "extension_guide/arduino_UNO.md"
-      - EIM: "extension_guide/eim.md"
+      # - EIM: "extension_guide/eim.md"
       - EIM Monitor: "extension_guide/eim_monitor.md"
       - EIM Trigger: "extension_guide/eim_trigger.md"
       - HCI: "extension_guide/HCI.md"
