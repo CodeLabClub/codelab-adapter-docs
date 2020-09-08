@@ -33,9 +33,14 @@
 <img width="600px" src="/img/scratch3_tello.png"/>
 
 
+
 运行 Tello 插件。
 
 ![](/img/870f31bff87dc33c9640280c786ca483.png)
+
+之后依次点击 `控制飞机` 、 `起飞`
+
+<img width="600px" src="/img/46f87c6602288de4df896243fc87a3dc.png"/>
 
 起飞吧！
 

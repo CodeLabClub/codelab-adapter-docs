@@ -15,7 +15,7 @@
     同时，CodeLab Neverland 也致力于去实践约翰·杜威提倡的
     > Education as life.
     
-    <video width="80%" src="https://www.codelab.club/video/1583729439575050.mp4" controls="controls"></video>
+    <video width="80%" src="/video/1583729439575050.mp4" controls="controls"></video>
 
 
 
