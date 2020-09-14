@@ -80,6 +80,9 @@ yeelight:
 ![](/img/ha_yeelight.jpeg)
 
 ### 米家智能家庭套装
+!!! 提醒
+  米家智能家庭套装似乎已经不支持局域网通信。 推荐使用兼容 HomeKit 的网关，可以直接接入 Home Assistant
+
 #### 步骤 1：配网
 下载 **米家** 手机客户端 ，按照APP引导，首先为 **智能网关** 配网，之后把其他设备接入进来。
 
@@ -136,7 +139,7 @@ xiaomi_aqara:
 ## 使用 CodeLab Scratch 为家庭设备编程！
 
 
-你既可以使用 CodeLab Scratch [在线版](http://scratch3v3.codelab.club/){target=_blank}，也可以使用[离线版](https://www.codelab.club/blog/codelab-download/){target=_blank}来进行编程。
+你既可以使用 CodeLab Scratch [在线版](http://scratch3v3.codelab.club/){target=_blank}，也可以使用[离线版](https://www.codelab.club/blog/2020/08/20/tools/){target=_blank}来进行编程。
 
 ![](/img/13b988916cd857177044a077d4fde798.png)
 

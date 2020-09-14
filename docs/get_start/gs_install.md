@@ -20,7 +20,7 @@
 |     操作系统     |     完整版     |    精简版      |     系统要求   |      安装注意事项      |
 | :--------: | :---------: | :--------: | -------- | ---------- |
 | macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-mac-full.zip) | [macLite.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-mac.zip) | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
-| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-win-full.zip)   | [winLite.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-mac.zip)  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
+| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-win-full.zip)   | [winLite.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-win.zip)  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
 | Linux     | 无   | [linux.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
 | Raspbian（树莓派） | 无   | [rpi.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
 

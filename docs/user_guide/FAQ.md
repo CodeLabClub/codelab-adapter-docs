@@ -148,7 +148,7 @@ TOKEN = "ls3fb138c4124027"
 ## 离线使用
 CodeLab Adapter 支持离线使用，目前有 2 种方式使用它。
 
- 1. 配合 [CodeLab Scratch Desktop（离线版）](https://www.codelab.club/blog/codelab-download/)使用。
+ 1. 配合 [CodeLab Scratch Desktop（离线版）](https://www.codelab.club/blog/2020/08/20/tools/)使用。
  2. 将 Web UI 里的`codelab-adapter.codelab.club`替换为`127.0.0.1`，形如 `https://codelab-adapter.codelab.club:12358/?token=YOUR_TOKEN`，重新刷新页面。
 
 推荐使用`方法 1`。

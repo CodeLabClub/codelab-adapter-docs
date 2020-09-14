@@ -13,7 +13,7 @@
 ### 它是如何工作的?
 
 -   [运行 Home Assistant](/Neverland/HA){target=\_blank}，接管空间的所有智能设备。
--   使用 CodeLab Scratch（[在线版](http://scratch3v3.codelab.club/){target=\_blank}、[离线版](https://www.codelab.club/blog/codelab-download/){target=\_blank}皆可）的 Home Assistant 扩展，控制智能设备。
+-   使用 CodeLab Scratch（[在线版](http://scratch3v3.codelab.club/){target=\_blank}、[离线版](https://www.codelab.club/blog/2020/08/20/tools/){target=\_blank}皆可）的 Home Assistant 扩展，控制智能设备。
 -   使用 Scratch 中的 **图片分类积木** ，训练 AI 来识别看书与合上书的不同状态。
 
 ### 你需要准备些什么
