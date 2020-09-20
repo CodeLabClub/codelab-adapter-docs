@@ -48,7 +48,8 @@ Hack [Kano Code](https://kano.me/us/landing/app)，使其与 CodeLab Adapter 兼
 以上积木的含义: `当魔法(id为1的魔法)触发时，发出猫叫声`
 
 !!! tips
-    建议把 Scratch 页面和 kano 软件并置在桌面。处于后台的浏览器，可能会休眠(有些系统的默认行为)。
+    建议把 Scratch 页面和 kano 软件并置在桌面。处于后台的浏览器，可能会休眠(有些系统的默认行为)。  
+    此外，由于蓝牙连接范围有限，挥动魔杖时 尽量别离电脑太远。
 
 ## Demo
 
