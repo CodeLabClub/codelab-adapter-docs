@@ -1,7 +1,5 @@
 # Python对象的连接器：EIM 插件
 
-[toc]
-
 好事多磨，经过[对象和消息](object_illustrate.md)的介绍我们终于来到第一个项目案例： EIM。
 
 ## 教程目的

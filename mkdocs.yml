@@ -53,8 +53,8 @@ nav:
       - 入门案例1: "get_start/gs_pyproject.md"
       - 入门案例2: "get_start/gs_microbit.md"
   - 项目教程: 
-      - 教程开篇: "project_tourial/welcome_pt.md"
-      - 对象与消息: "project_tourial/object_illustrate.md"
+      - 教程开篇: "project_tutorial/welcome_pt.md"
+      - 对象与消息: "project_tutorial/object_illustrate.md"
       - Python对象连接器：EIM: "project_tutorial/eim_pt.md"
   - 用户手册(user guide):
       # - 安装(install): "user_guide/install.md"
