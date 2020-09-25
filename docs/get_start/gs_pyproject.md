@@ -18,11 +18,11 @@ Adapter插件可以让创作平台拥有更多的能力，我们可以用创作�
 
 接下来我们将Python扩展添加到创作平台中，点击左下角的添加扩展。
 
-![](/img/getstart_pyproject3.png)
+![getstart_pyproject3](/img/getstart_pyproject3.png)
 
 在添加扩展页面找到并点击Python扩展
 
-![](/img/getstart_pyproject4.png)
+![getstart_pyproject4](/img/getstart_pyproject4.png)
 
 到这里，第一步：添加Python扩展就完成了。
 
@@ -30,25 +30,25 @@ Adapter插件可以让创作平台拥有更多的能力，我们可以用创作�
 
 ## 第二步：开始编程
 
-<!--> 在介绍广播积木时，需要加个介绍广播积木的链接？ 帮助不理解该概念的使用者，去了解这一概念。
--->
+<!-- 在介绍广播积木时，需要加个介绍广播积木的链接？ 帮助不理解该概念的使用者，去了解这一概念。-->
+
 在这里我们将启用Python扩展，并且 **利用扩展将Codelab的主页和小猫连接起来。**
 
-首先，让我们编程，**点击绿旗的时候，就启动Python扩展**。
+首先，让我们编程， **点击绿旗的时候，就启动Python扩展**。
 
-![](/img/pyproject_start_extension1.gif)
+![pyproject_start_extension1](/img/pyproject_start_extension1.gif)
 
 随后我们将创造一个属于自己的积木，在创造一个积木时，我们先给积木取个名字，然后将我们想要赋予积木的功能拖到自定义积木的下方。
 
-![](/img/pyproject_start_extension2.gif)
+![pyproject_start_extension2](/img/pyproject_start_extension2.gif)
 
 要赋予自定义积木打开网站的能力，只需要将 `PyHelper.open_url("https://codelab.club")` 复制并粘贴到python积木块中, 这样一来我们就赋予了自定义积木块打开Codelab网站的能力了。
 
-![](/img/pyproject_pyblock.png)
+![pyproject_pyblock](/img/pyproject_pyblock.png)
 
 到这里好像可以结束了，可是我们的目标是让小猫来打开网站。接下来我们将积木的能力赋予给小猫。
 
-![](/img/pyproject_start_extension3.gif)
+![pyproject_start_extension3](/img/pyproject_start_extension3.gif)
 
 ---
 
@@ -56,7 +56,7 @@ Adapter插件可以让创作平台拥有更多的能力，我们可以用创作�
 
 到这里，我们已经将所有的工作做完了，现在我们将点击绿旗，再点击小猫。看看会发生什么？
 
-![](img/pyproject_start_extension4.gif)
+![pyproject_start_extension4](/img/pyproject_start_extension4.gif)
 
 如果在操作过程遇到困难，可以直接参考[项目源码](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/pyproject1.sb3)
 
