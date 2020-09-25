@@ -22,8 +22,8 @@ physical blocks 在软件层面是一个 CodeLab Adapter插件，由于 CodeLab 
 
 参考:
 
--   [CodeLab DynamicTable: A Seeing World](https://www.codelab.club/blog/codelab-dynamictable-a-seeing-world/)
--   [CodeLab DynamicTable: 一个可实施的技术方案](https://www.codelab.club/blog/codelab-dynamictable-an-instance/)
+-   [CodeLab DynamicTable: A Seeing World](https://www-old.codelab.club/blog/codelab-dynamictable-a-seeing-world/)
+-   [CodeLab DynamicTable: 一个可实施的技术方案](https://www-old.codelab.club/blog/codelab-dynamictable-an-instance/)
 
 ## 提醒
 
@@ -67,3 +67,26 @@ sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
 ## 更多案例
 *  [第一期的直播演示项目](https://www.codelab.club/blog/the-first-live-showcase-projects-code/)
 *  [智能家居展厅](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-spelling-iot-show.sb3)
+
+# FAQ
+
+### 如何打印 Marker
+我们提供了一份30张的版本:
+
+![](https://adapter.codelab.club/img/e6cc193e54fdda12ae3ada44c2299dfd.png)
+
+你可以从 [arucogen](https://chev.me/arucogen/) 里打印（建议从编号1开始）
+
+更多细节参考[CodeLab DynamicTable: 一个可实施的技术方案](https://www-old.codelab.club/blog/codelab-dynamictable-an-instance/)
+
+### 默认的Marker只有50种, 想要更多怎么办
+默认是`4X4_50`(最多50种)的marker， 你可以选择`4x4_100`(最多100种)，或者`4x4_1000`(最多1000种)
+
+选择之后请修改(推荐使用[JupyterLab](/extension_guide/jupyterlab/))插件里对应的代码(104行):
+
+```python
+# aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_50)
+aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_100)
+```
+
+关于不同的marker数量决定了字典的大小，越小的数字，鲁棒性越好。 考虑到大多数用户的场景，50个是够用的，所以我们默认采用50.

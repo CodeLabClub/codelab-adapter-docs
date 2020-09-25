@@ -6,23 +6,25 @@
 
 CodeLab Adapter 是一个由 Python 构建的软件(构建在消息之上(`Everything Is a Message`))， 致力于连接万物，无论是软件还是硬件，无论是 AI、开源硬件、现实世界的物体、还是虚拟世界的动画角色，接入 CodeLab Adapter，皆可彼此互动。
 
-在 CodeLab Adapter 驱动的环境里，通过使用 Scratch 或 Python 编程，你可以与万物沟通:  你可以在朋友生日那天，在 Ta 进门的一刻，将手中的魔杖一挥，在空中划一个字母 L 的轨迹，瞬间，点亮房间里五彩的灯光。 <!--你可以让环境识别出你的运动，进而制作一个体感游戏, 或是让整个空间变得智能。-->
+在 CodeLab Adapter 驱动的环境里，通过使用 Scratch 或 Python 编程，你可以与万物沟通: 你可以在朋友生日那天，在 Ta 进门的一刻，将手中的魔杖一挥，在空中划一个字母 L 的轨迹，瞬间，点亮房间里五彩的灯光。 <!--你可以让环境识别出你的运动，进而制作一个体感游戏, 或是让整个空间变得智能。-->
 
-<video width=40% src="/video/wand.mp4" controls="controls"></video>
+<video width=80% src="/video/IMG_0657_1598435455275317.mp4" controls="controls"></video>
+
+在这个例子中, 我们做了一场魔法烟花秀: 实施第一个魔法，时间被冻结，烟花静止在空中；实施第二个魔法，将烟花"解冻"; 实时第三个魔法-- 百花齐放。 Adapter 负责将烟花(虚拟)与魔杖连接在一起，用户在创作平台中操控两者，演绎故事。
 
 <!--阐述它
 Adapter里干了啥
 
 在上述的例子中
 
-如果你是Scatch用户
+假设 你是Scatch用户
 
 如果之前接触过编程(诸如Python)
 -->
 
-<br/>
+<video width=80%  src="/video/%E8%AF%BB%E4%B9%A6%E4%B8%8E%E6%80%9D%E8%80%83.mp4" controls="controls"></video>
 
-<video width=80% src="/video/1590237319828796.mp4" controls="controls"></video>
+这个例子演示了如何构建一个**理解**你当前处境的 AI，当你正在阅读时，AI 将为你把灯打开；当你合上书，AI 将为你把灯关掉，让你沉浸在黑暗中思考。 Adapter 负责接入外部 AI 与现实空间，使得你可以在创作平台对它们编程。
 
 这儿有更多[演示案例](/user_guide/gallery/):
 

@@ -36,7 +36,7 @@
 
 在 Scratch 中:
 
-![](/img/dc823a401b6962fbfe25f5919716fadc.png)
+![](/img/09f4119ebb7e35375af5075a0138ef82.png)
 
 源文件: [Scratch-calypso](https://scratch3v3.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-calypso_new.sb3)
 

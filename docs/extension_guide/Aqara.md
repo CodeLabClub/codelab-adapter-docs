@@ -11,6 +11,8 @@ Aqara(绿米)智能家居用户可在 CodeLab 创作平台上对智能设备进�
 <video width=50% src="/video/wand.mp4" controls="controls"></video>
 
 # 使用
+!!! 提醒
+    目前只支持 Aqara 网关，不支持小米网关。
 
 ### 获取 token
 

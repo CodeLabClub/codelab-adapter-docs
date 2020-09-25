@@ -24,13 +24,14 @@ Adapter插件可以让创作平台拥有更多的能力，我们可以用创作�
 
 ![getstart_pyproject4](/img/getstart_pyproject4.png)
 
+
 到这里，第一步：添加Python扩展就完成了。
 
 ---
 
 ## 第二步：开始编程
 
-<<<<<<< HEAD
+
 <!-- 在介绍广播积木时，需要加个介绍广播积木的链接？ 帮助不理解该概念的使用者，去了解这一概念。-->
 
 在这里我们将启用Python扩展，并且 **利用扩展将Codelab的主页和小猫连接起来。**
@@ -57,8 +58,8 @@ Adapter插件可以让创作平台拥有更多的能力，我们可以用创作�
 
 到这里，我们已经将所有的工作做完了，现在我们将点击绿旗，再点击小猫。看看会发生什么？
 
-<<<<<<< HEAD
 ![pyproject_start_extension4](/img/pyproject_start_extension4.gif)
+
 
 如果在操作过程遇到困难，可以直接参考[项目源码](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/pyproject1.sb3)
 

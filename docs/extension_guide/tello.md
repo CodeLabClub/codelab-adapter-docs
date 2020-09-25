@@ -1,23 +1,27 @@
 # DJI Tello
 
+<!--
 可以在[插件市场](/extension_guide/extension_market/)中下载 Tello 插件。
-
-<!--添加注释-->
+添加注释-->
 
 !!! 提醒
     Tello 会占用 wifi，导致电脑无法联网。有两种方式在 CodeLab Scratch 使用它:  
-    1. 打开 `https://scratch3v3.codelab.club?adapter_host=127.0.0.1` 
-    2. 使用 CodeLab Adapter 的离线模式：[FAQ：离线使用](/user_guide/FAQ/#_6) (在3.4.0中可用)
+    1. 打开 `https://scratch3v3.codelab.club?adapter_host=127.0.0.1`  
+    2. 使用 CodeLab Adapter 的离线模式：[FAQ：离线使用](/user_guide/FAQ/#_6) (在`>=3.4.0`的版本中可用)
+
+以下是在线版使用教程，离线版基本相似。
 
 ### 步骤 1：打开 [CodeLab Scratch](https://scratch3v3.codelab.club?adapter_host=127.0.0.1)
-确保与Adapte连接正常。
+运行CodeLab Adapter， 确保在线平台与Adapte连接正常。
+
+第一次运行请点击`verify`积木，信任该网站。(离线版不需要)
 
 看到 [CodeLab Scratch](https://scratch3v3.codelab.club?adapter_host=127.0.0.1) 指示灯显示绿色，代表连接成功。
 
 ![](/img/v2/codelab-scratch3.png)
 
 <!--
-下载 [CodeLab Scratch Desktop(离线版)](https://www.codelab.club/blog/codelab-download/)，并运行它。
+下载 [CodeLab Scratch Desktop(离线版)](https://www.codelab.club/blog/2020/08/20/tools/)，并运行它。
 
 ![](../img/scratch3-home.png)
 -->
@@ -33,9 +37,14 @@
 <img width="600px" src="/img/scratch3_tello.png"/>
 
 
+
 运行 Tello 插件。
 
 ![](/img/870f31bff87dc33c9640280c786ca483.png)
+
+之后依次点击 `控制飞机` 、 `起飞`
+
+<img width="600px" src="/img/46f87c6602288de4df896243fc87a3dc.png"/>
 
 起飞吧！
 

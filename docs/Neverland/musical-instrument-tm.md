@@ -21,7 +21,7 @@
 
 -   使用 [Teachable Machine](https://teachablemachine.withgoogle.com/) 中的 [Image Project](https://teachablemachine.withgoogle.com/train/image)，训练 AI 来识别看书与合上书的不同状态。
 -   使用 [CodeLab Adapter](/) 将 Teachable Machine 的识别结果接入到 CodeLab Scratch 中
--   使用 CodeLab Scratch（[在线版](http://scratch3v3.codelab.club/){target=\_blank}、[离线版](https://www.codelab.club/blog/codelab-download/){target=\_blank}皆可）进行编程，让卡通形象、音乐与实物互动。
+-   使用 CodeLab Scratch（[在线版](http://scratch3v3.codelab.club/){target=\_blank}、[离线版](https://www.codelab.club/blog/2020/08/20/tools/){target=\_blank}皆可）进行编程，让卡通形象、音乐与实物互动。
 
 ### 你需要准备些什么
 
