@@ -35,7 +35,9 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 ## 步骤 2：拔下`功能板`，接上`中转站`，加载固件
 
 
-使用数据线将`中转站` micro:bit 接入电脑，刷入[固件](https://makecode.microbit.org/_EL20Rp98pHAg)。
+使用数据线将`中转站` micro:bit 接入电脑，刷入[固件](https://makecode.microbit.org/_DwAhFXWLtbeX)。
+
+<!--旧的固件 https://makecode.microbit.org/_EL20Rp98pHAg-->
 
 !!! 提醒
     Windows 7用户注意，无法发现 micro:bit，需要[安装驱动](/img/mbedWinSerial_16466.exe)（和使用 mu-editor 操作相同）  
@@ -50,11 +52,11 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 !!! tips
     如果你对该插件源码感兴趣，[欢迎阅读](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_microbit_radio.py)，采用 Python 构建。
 
-## 步骤 4：打开 [Codelab Scratch3](https://scratch3v3.codelab.club/)，构建自己的应用
+## 步骤 4：打开 [Codelab Scratch3](https://scratch-beta.codelab.club/)，构建自己的应用
 
 {!utils/open_scratch.md!}
 
-在此展示一个简单例子：使用 A、B 按钮让角色出现和消失。你可以在线打开它 [radio_hello_world_demo](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/radio_hello_world_demo.sb3)
+在此展示一个简单例子：使用 A、B 按钮让角色出现和消失。你可以在线打开它 [radio_hello_world_demo](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/radio_hello_world_demo.sb3)
 
 ## 总结
 根据以上的模版，加以调整，你可以自行构建自己的应用。
@@ -76,7 +78,7 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
     *  [可穿戴设备源码](https://makecode.microbit.org/_aVqEWK9DXbPR)
     *  [投石器源码](https://makecode.microbit.org/_AyU3211xeEYv)
 *  Scratch
-    *  [wand_catapult](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/wand_catapult.sb3)
+    *  [wand_catapult](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/wand_catapult.sb3)
 
 
 我们来关注下以上 2 个 micro:bit 中信息的流向，
@@ -96,4 +98,4 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 
 它们之间基于 radio 通信（[micro:bit radio](https://adapter.codelab.club/extension_guide/microbit_radio/)）
 
-Scratch 程序参考 [Scratch-翻页笔-demo.sb3](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-翻页笔-demo.sb3){target=\_blank}
+Scratch 程序参考 [Scratch-翻页笔-demo.sb3](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-翻页笔-demo.sb3){target=\_blank}

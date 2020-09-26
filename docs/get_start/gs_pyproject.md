@@ -61,7 +61,7 @@ Adapter插件可以让创作平台拥有更多的能力，我们可以用创作�
 ![pyproject_start_extension4](/img/pyproject_start_extension4.gif)
 
 
-如果在操作过程遇到困难，可以直接参考[项目源码](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/pyproject1.sb3)
+如果在操作过程遇到困难，可以直接参考[项目源码](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/pyproject1.sb3)
 
 ---
 

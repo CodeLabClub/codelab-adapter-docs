@@ -23,7 +23,7 @@
 
 启动 CodeLab Adapter，运行 node_minecraft 插件。
 
-打开 Scratch 编程界面，我们已经制作了一个 demo:[Scratch-mcTurtle](https://scratch3v3.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-mcTurtle.sb3)， 你可以从这里起步，它是一个运行在Minecraft世界里的Turtle，它会出现在你周围 推荐你飞到空中(空格)去看它的运行轨迹。
+打开 Scratch 编程界面，我们已经制作了一个 demo:[Scratch-mcTurtle](https://scratch-beta.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-mcTurtle.sb3)， 你可以从这里起步，它是一个运行在Minecraft世界里的Turtle，它会出现在你周围 推荐你飞到空中(空格)去看它的运行轨迹。
 
 <video src="/video/1588665494072465.mp4" controls="controls"></video>
 

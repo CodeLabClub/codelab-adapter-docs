@@ -10,4 +10,4 @@ json 插件。
 
 ![](/img/45b2b5086c8672d47830eae1b86f4a7a.png)
 
-[Scratch-json-var](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-json-var.sb3)
+[Scratch-json-var](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-json-var.sb3)

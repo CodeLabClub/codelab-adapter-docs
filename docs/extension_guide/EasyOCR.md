@@ -32,7 +32,7 @@ run_monitor(monitor)
 
 对以上机制不熟悉的朋友可以参考 [使用4 行 Pyhon 代码扩展 Scratch](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/4-line-python-code-as-scratch-ext/)
 
-打开 [测试项目](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-EasyOCR.sb3)
+打开 [测试项目](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-EasyOCR.sb3)
 
 由于 easyocr 的计算发生在本地，且基于神经网络，所以处理时间比较久， 处理后的结果将返回到`收到的消息`
 

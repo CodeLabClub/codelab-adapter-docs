@@ -8,11 +8,11 @@
 
 ### Pong Starter
 
-[Pong Starter](https://scratch3v3.codelab.club/embed/?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3)
+[Pong Starter](https://scratch-beta.codelab.club/embed/?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3)
 
 ```html
 <iframe
-  src="https://scratch3v3.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3"
+  src="https://scratch-beta.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3"
   allowtransparency="true"
   width="500"
   height="450"
@@ -22,13 +22,13 @@
 ></iframe>
 ```
 
-<iframe src="https://scratch3v3.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3" allowtransparency="true" width="500" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch-beta.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Pong_Starter.sb3" allowtransparency="true" width="500" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 ### Dress Up Tera
 
 ```html
 <iframe
-  src="https://scratch3v3.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Dress_Up_Tera.sb3"
+  src="https://scratch-beta.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Dress_Up_Tera.sb3"
   allowtransparency="true"
   width="500"
   height="450"
@@ -38,16 +38,16 @@
 ></iframe>
 ```
 
-<iframe src="https://scratch3v3.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Dress_Up_Tera.sb3" allowtransparency="true" width="500" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch-beta.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/Dress_Up_Tera.sb3" allowtransparency="true" width="500" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 
 ### 交响乐
 
-[交响乐](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/交响乐.sb3)
+[交响乐](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/交响乐.sb3)
 
 ```html
 <iframe
-  src="https://scratch3v3.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/交响乐.sb3"
+  src="https://scratch-beta.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/交响乐.sb3"
   allowtransparency="true"
   width="500"
   height="450"
@@ -57,7 +57,7 @@
 ></iframe>
 ```
 
-<iframe src="https://scratch3v3.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/交响乐.sb3" allowtransparency="true" width="500" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch-beta.codelab.club/player.html?sb3url=https://adapter.codelab.club/sb3/交响乐.sb3" allowtransparency="true" width="500" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 ## 如何将 sb3 文件保存到线上
 

@@ -12,4 +12,4 @@ Yanshee 是一个开放的硬件平台，采用Raspberry Pi + STM32 开放式硬
 <video width=40% src="/video/1589960907435316.mp4" controls="controls"></video>
 
 
-[Scratch-Yanshee](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-yanshee.sb3)
+[Scratch-Yanshee](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-yanshee.sb3)

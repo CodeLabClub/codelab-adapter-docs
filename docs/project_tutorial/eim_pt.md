@@ -125,6 +125,6 @@
 
 那么，我们还可以用到 *Python语言* 的哪些能力去处理 *Scratch* 的消息呢？比如：
 
-- 在 *Python对象* 中使用AI自然语言处理，去理解小猫说的话，制作一个自动回复的机器人。[聊天机器人项目](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-tuling-chatbot.sb3)
+- 在 *Python对象* 中使用AI自然语言处理，去理解小猫说的话，制作一个自动回复的机器人。[聊天机器人项目](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-tuling-chatbot.sb3)
 - 在 *Python对象* 中使用图像识别，让小猫去理解摄像头的事物是什么？[图像识别项目](../extension_guide/EasyOCR.md)
 - 比如。。。

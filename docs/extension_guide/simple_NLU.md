@@ -45,7 +45,7 @@ NLU 是一个语义解析器，语言文本的输入，是任意的。你可以�
 ![](/img/3a2539ceababd25a668c6c7de55c6f63.png)
 
 
-加载[Scratch-simple-nlu-cozmo](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-nlu-cozmo.sb3){target=\_blank}
+加载[Scratch-simple-nlu-cozmo](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-nlu-cozmo.sb3){target=\_blank}
 
 !!! 提醒
     如果你加载遇到问题，可能需要先刷新浏览器缓存
@@ -55,7 +55,7 @@ NLU 是一个语义解析器，语言文本的输入，是任意的。你可以�
 如果一切正常，可以拿起你的Siri，控制Cozmo啦！
 
 !!! 使用Scratch内置语音输入
-    如果你不想使用Siri，也可以使用CodeLab Scratch内置的语音输入， 以下是案例：[Scratch-nlu-cozmo-with-Scratch-input](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-nlu-cozmo-with-Scratch-input.sb3){target=\_blank}。按下 `a`按键,开始语音输入(默认5秒，你可以自己调节输入时长)
+    如果你不想使用Siri，也可以使用CodeLab Scratch内置的语音输入， 以下是案例：[Scratch-nlu-cozmo-with-Scratch-input](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-nlu-cozmo-with-Scratch-input.sb3){target=\_blank}。按下 `a`按键,开始语音输入(默认5秒，你可以自己调节输入时长)
 
 # 进阶
 

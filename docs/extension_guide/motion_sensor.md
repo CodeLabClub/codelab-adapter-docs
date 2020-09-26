@@ -19,4 +19,4 @@
 
 
 
-[Scratch-robomaster-motion-sensor.sb3](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-robomaster-motion-sensor.sb3){target=\_blank}
+[Scratch-robomaster-motion-sensor.sb3](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-robomaster-motion-sensor.sb3){target=\_blank}

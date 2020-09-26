@@ -28,7 +28,7 @@ RoboMaster EP
 <!--
 ![](/img/9325aa8542cc752d4cea3d2c636b9449.png)
 
-点击打开项目: [robotmaster-helloworld](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-RoboMaster-helloworld.sb3){target=_blank}
+点击打开项目: [robotmaster-helloworld](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-RoboMaster-helloworld.sb3){target=_blank}
 -->
 
 ## 更多

@@ -4,7 +4,7 @@
     我们会在近期的3.2.2版本中修复它
 
 !!!提醒
-    如果你当前的 Adapter 版本低于`3.1.0`，想在[CodeLab Scratch](https://scratch3v3.codelab.club/)体验最新的event、sensor类型积木(像我们在博客文章[Scratch 拓展最佳实践 -- 以 Cozmo 为例]()里提到的)，需要在[插件市场](/extension_guide/extension_market/)里下载最新版本的[node_cozmo.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_cozmo.py)插件。
+    如果你当前的 Adapter 版本低于`3.1.0`，想在[CodeLab Scratch](https://scratch-beta.codelab.club/)体验最新的event、sensor类型积木(像我们在博客文章[Scratch 拓展最佳实践 -- 以 Cozmo 为例]()里提到的)，需要在[插件市场](/extension_guide/extension_market/)里下载最新版本的[node_cozmo.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_cozmo.py)插件。
 
 # Tutorial
 
@@ -60,7 +60,7 @@ restart Codelab Adapter.
 
 ### Open Scratch 3.0
 
-open [CodeLab Scratch3](https://scratch3v3.codelab.club/)
+open [CodeLab Scratch3](https://scratch-beta.codelab.club/)
 
 ### Open extension_cozmo
 

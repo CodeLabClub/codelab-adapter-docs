@@ -37,14 +37,14 @@ wget https://bootstrap.pypa.io/get-pip.py
 
 ### 开始使用
 
-打开 [CodeLab Scratch3](https://scratch3v3.codelab.club/)，开始使用。
+打开 [CodeLab Scratch3](https://scratch-beta.codelab.club/)，开始使用。
 
 <video width=600px src="/video/blender.mp4" controls="controls"></video>
 
 如果遇到问题，请尝试刷新浏览器缓存。
 
 #### Demo
-[Scratch blender](https://scratch3v3.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-blender.sb3)
+[Scratch blender](https://scratch-beta.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-blender.sb3)
 
 
 # todo

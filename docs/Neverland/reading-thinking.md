@@ -13,7 +13,7 @@
 ### 它是如何工作的?
 
 -   [运行 Home Assistant](/Neverland/HA){target=\_blank}，接管空间的所有智能设备。
--   使用 CodeLab Scratch（[在线版](http://scratch3v3.codelab.club/){target=\_blank}、[离线版](https://www.codelab.club/blog/2020/08/20/tools/){target=\_blank}皆可）的 Home Assistant 扩展，控制智能设备。
+-   使用 CodeLab Scratch（[在线版](http://scratch-beta.codelab.club/){target=\_blank}、[离线版](https://www.codelab.club/blog/2020/08/20/tools/){target=\_blank}皆可）的 Home Assistant 扩展，控制智能设备。
 -   使用 Scratch 中的 **图片分类积木** ，训练 AI 来识别看书与合上书的不同状态。
 
 ### 你需要准备些什么
@@ -30,7 +30,7 @@
 ![](/img/bfad7206e13a0eaca82005bb7125f4f5.png)
 
 !!! 在线版与离线版打开方式
-    如果你是要在线版，直接[点击项目链接](https://scratch.codelab.club/projects/24/editor/)即可。未来我们会直接发布到社区里。<!--https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/reading-thinking.sb3-->  
+    如果你是要在线版，直接[点击项目链接](https://scratch.codelab.club/projects/24/editor/)即可。未来我们会直接发布到社区里。<!--https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/reading-thinking.sb3-->  
     如果你使用离线版，则下载[源码文件](/sb3/reading-thinking.sb3)，使用 Scratch 加载它即可.  
     加载后填入你之前记下的 token。
 

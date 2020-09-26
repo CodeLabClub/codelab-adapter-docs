@@ -38,4 +38,4 @@ hbmqtt_sub --url mqtt://127.0.0.1 -t from_scratch
 ![](/img/0f3729283a13ed781801789995b8e4a8.png)
 
 # Scratch 相关源码
-[Scratch-mqtt-adapter](https://scratch3v3.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-mqtt-adapter.sb3)
+[Scratch-mqtt-adapter](https://scratch-beta.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-mqtt-adapter.sb3)

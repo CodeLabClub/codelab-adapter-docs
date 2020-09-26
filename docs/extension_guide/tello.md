@@ -6,17 +6,17 @@
 
 !!! 提醒
     Tello 会占用 wifi，导致电脑无法联网。有两种方式在 CodeLab Scratch 使用它:  
-    1. 打开 `https://scratch3v3.codelab.club?adapter_host=127.0.0.1`  
+    1. 打开 `https://scratch-beta.codelab.club?adapter_host=127.0.0.1`  
     2. 使用 CodeLab Adapter 的离线模式：[FAQ：离线使用](/user_guide/FAQ/#_6) (在`>=3.4.0`的版本中可用)
 
 以下是在线版使用教程，离线版基本相似。
 
-### 步骤 1：打开 [CodeLab Scratch](https://scratch3v3.codelab.club?adapter_host=127.0.0.1)
+### 步骤 1：打开 [CodeLab Scratch](https://scratch-beta.codelab.club?adapter_host=127.0.0.1)
 运行CodeLab Adapter， 确保在线平台与Adapte连接正常。
 
 第一次运行请点击`verify`积木，信任该网站。(离线版不需要)
 
-看到 [CodeLab Scratch](https://scratch3v3.codelab.club?adapter_host=127.0.0.1) 指示灯显示绿色，代表连接成功。
+看到 [CodeLab Scratch](https://scratch-beta.codelab.club?adapter_host=127.0.0.1) 指示灯显示绿色，代表连接成功。
 
 ![](/img/v2/codelab-scratch3.png)
 

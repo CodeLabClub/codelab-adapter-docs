@@ -61,12 +61,12 @@ sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
 
 分享两个入门案例:
 
--   [Scratch-marker-angle-demo.sb3](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-marker-angle-demo.sb3){target=\_blank} : 获取 marker 旋转角
--   [Scratch-spell-demo.sb3](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-spell-demo.sb3){target=\_blank} : 获取 marker id 列表(从左到右，从上到下)
+-   [Scratch-marker-angle-demo.sb3](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-marker-angle-demo.sb3){target=\_blank} : 获取 marker 旋转角
+-   [Scratch-spell-demo.sb3](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-spell-demo.sb3){target=\_blank} : 获取 marker id 列表(从左到右，从上到下)
 
 ## 更多案例
 *  [第一期的直播演示项目](https://www.codelab.club/blog/the-first-live-showcase-projects-code/)
-*  [智能家居展厅](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-spelling-iot-show.sb3)
+*  [智能家居展厅](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-spelling-iot-show.sb3)
 
 # FAQ
 

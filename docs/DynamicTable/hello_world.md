@@ -40,7 +40,7 @@ ImageData 负责与 Scratch 舞台区数据交互，诸如获取舞台区的截�
 
 可以看到视频里，一共有 4 个 marker，从左到右 id 分别为 **28， 27，26，25**
 
-利用这个积木，可以构建 [单词拼写程序](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-spell-demo.sb3){target=\_blank}
+利用这个积木，可以构建 [单词拼写程序](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-spell-demo.sb3){target=\_blank}
 
 <video width=80% src="https://adapter.codelab.club/video/1590154622682774.mp4" controls="controls"></video>
 
@@ -50,7 +50,7 @@ ImageData 负责与 Scratch 舞台区数据交互，诸如获取舞台区的截�
 ![](/img/9c1c6546a1eb7a16d840d627bb213f6a.png)
 
 
-[Scratch-marker-angle-demo.sb3](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-marker-angle-demo.sb3){target=\_blank}
+[Scratch-marker-angle-demo.sb3](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-marker-angle-demo.sb3){target=\_blank}
 
 利用旋转角可以构建纸糊方向盘:
 

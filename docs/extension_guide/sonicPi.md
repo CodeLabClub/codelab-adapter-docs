@@ -19,7 +19,7 @@
 
 启动 CodeLab Adapter，运行 node_sonicPi 插件。
 
-打开 Scratch 编程界面，我们已经制作了一个 demo:[Scratch-SonicPi](https://scratch3v3.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-SonicPi.sb3)。
+打开 Scratch 编程界面，我们已经制作了一个 demo:[Scratch-SonicPi](https://scratch-beta.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-SonicPi.sb3)。
 
 <video src="/video/1588741044537372.mp4" controls="controls"></video>
 

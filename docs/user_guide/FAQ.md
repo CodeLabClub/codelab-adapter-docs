@@ -44,9 +44,9 @@ Scratch Link 和 CodeLab Adapter 可以协同工作。
 
 CodeLab Adapter 致力于提供更好的跨平台支持和开放的[插件系统](https://github.com/CodeLabClub/codelab_adapter_extensions)，CodeLab Adapter 的目标是连接万物，不只是连接教育硬件。
 
-## CodeLab Adapter 与 [CodeLab Scratch3](https://scratch3v3.codelab.club/) 是否连接成功？
+## CodeLab Adapter 与 [CodeLab Scratch3](https://scratch-beta.codelab.club/) 是否连接成功？
 
-CodeLab Adapter 启动之后，可以看到 [CodeLab Scratch3](https://scratch3v3.codelab.club/) 指示灯显示绿色，代表连接成功。
+CodeLab Adapter 启动之后，可以看到 [CodeLab Scratch3](https://scratch-beta.codelab.club/) 指示灯显示绿色，代表连接成功。
 
 <img alt="" src="../../../img/scratch3-home-connect.png">
 
@@ -103,7 +103,7 @@ Windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Ada
 
 ## CodeLab Adapter 网址是什么
 
-[scratch3v3.codelab.club](https://scratch3v3.codelab.club/)，你不需要记住， 可以在 Web UI 中打开它。
+[scratch-beta.codelab.club](https://scratch-beta.codelab.club/)，你不需要记住， 可以在 Web UI 中打开它。
 
 ## 目前都支持哪些插件
 
@@ -190,7 +190,7 @@ CodeLab Adapter 有很好的分布式支持:
 
 ![](/img/5ca765bc4fc70ad0120f42102a3abc0d.png)
 
-接着让我们在 CodeLab Scratch 里使用它, 打开: `https://scratch3v3.codelab.club/?adapter_host=192.168.21.104` (adapter_host 是 adapter 所在计算机的 IP，即树莓派的 IP， 它甚至可以运行在互联网的任何设备，任何位置！包括手机！)
+接着让我们在 CodeLab Scratch 里使用它, 打开: `https://scratch-beta.codelab.club/?adapter_host=192.168.21.104` (adapter_host 是 adapter 所在计算机的 IP，即树莓派的 IP， 它甚至可以运行在互联网的任何设备，任何位置！包括手机！)
 
 ![](/img/6836f24ab4bcfd48cb648d68e98b190a.png)
 

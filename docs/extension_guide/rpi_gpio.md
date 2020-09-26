@@ -31,7 +31,7 @@ Raspbian 默认已经预装 gpiozero 。
     在 Adapter 3.2 之前，你需要自行从[插件市场](/extension_guide/extension_market/)里下载 raspberrypi 插件。 [源码地址](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_raspberrypi.py)  
     树莓派默认地址为:`raspberrypi.local`, 如果你ping不通它，可以手动在插件里填写树莓派ip。
 
-运行树莓派插件，打开 [Scratch-rpi-gpiozero](https://scratch3v3.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-gpiozero.sb3)。
+运行树莓派插件，打开 [Scratch-rpi-gpiozero](https://scratch-beta.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-gpiozero.sb3)。
 
     
 !!! 提醒

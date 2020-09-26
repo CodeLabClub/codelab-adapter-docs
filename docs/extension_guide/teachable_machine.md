@@ -24,7 +24,7 @@
 
 ![](/img/tm_demo.png)
 
-## 步骤 3：打开 [Codelab Scratch3](https://scratch3v3.codelab.club/)
+## 步骤 3：打开 [Codelab Scratch3](https://scratch-beta.codelab.club/)
 
 {!utils/open_scratch.md!}
 
@@ -32,10 +32,10 @@
 
 ![](/img/WechatIMG569.png)
 
-在线打开它 [tm_scratch_demo](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-tm-new.sb3)
+在线打开它 [tm_scratch_demo](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-tm-new.sb3)
 
 !!! tips
-    来自Teachable Machine的消息，源源不断流过来，有时候你并不希望重复触发同一件事。可以参考以下例子 [Scratch-tm-latest-class](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-tm-latest-class.sb3) 。
+    来自Teachable Machine的消息，源源不断流过来，有时候你并不希望重复触发同一件事。可以参考以下例子 [Scratch-tm-latest-class](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-tm-latest-class.sb3) 。
 
 !!! 提醒
     Teachable Machine 的网页不能在后台运行，需要和 Scratch 一起并列在桌面上，否则程序不会运行。

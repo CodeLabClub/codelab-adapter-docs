@@ -6,7 +6,7 @@
 
 ---
 
-在Scratch中，如果我们想要不同的 *动画角色* 能够互相交流，可以怎么做呢？比如[小熊快跑](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/run_bear.sb3)项目（鼓励狂点链接查看源码）
+在Scratch中，如果我们想要不同的 *动画角色* 能够互相交流，可以怎么做呢？比如[小熊快跑](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/run_bear.sb3)项目（鼓励狂点链接查看源码）
 <!-- 补充项目的代码地址 -->
 
 ![runbear](/img/run_yobear.gif)

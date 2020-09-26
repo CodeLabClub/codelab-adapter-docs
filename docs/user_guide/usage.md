@@ -6,7 +6,7 @@
 
 ## micro:bit
 
-在 [Codelab Scratch 3.0](https://scratch3v3.codelab.club) 中使用 micro:bit，基于 USB，支持 Mac、Windows（支持 Windows 7 及以上版本）、Ubuntu、Raspbian（树莓派）。
+在 [Codelab Scratch 3.0](https://scratch-beta.codelab.club) 中使用 micro:bit，基于 USB，支持 Mac、Windows（支持 Windows 7 及以上版本）、Ubuntu、Raspbian（树莓派）。
 
 使用说明：[micro:bit](/extension_guide/microbit)。
 

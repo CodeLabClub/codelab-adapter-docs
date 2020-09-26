@@ -20,4 +20,4 @@ Adapter Stage 插件允许将舞台区的图像（舞台或者摄像头图像）
 如果你想使用 OpenCV 或 Tensorflow 处理图像，需要自定义[Adapter Node](/dev_guide/Adapter-Node/)
 
 ## Demo
-[stage image](https://scratch3v3.codelab.club?sb3url=https://adapter.codelab.club/sb3/stage_image.sb3)
+[stage image](https://scratch-beta.codelab.club?sb3url=https://adapter.codelab.club/sb3/stage_image.sb3)
