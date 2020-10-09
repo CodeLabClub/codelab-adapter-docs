@@ -127,4 +127,4 @@ ps：对这部分不熟悉的同学，请回看[入门案例：microbit](../get_
 以上可能还不能满足一些好奇小伙伴的野心：
 > 我能用其他对象（比如Python对象）去和 *Micro:bit 生态* 进行交互吗？这样我就可以让 Micro:bit 获得更多可自定义的行为了。
 
-当然可以啦！接下来我们将用 *Scratch PPT* 的例子，展示 **Python对象，Scratch对象 和 Micro:bit** 的交流协作，去制作一个属于自己的独特 *Power Point* 工具。
+当然可以啦！接下来我们将用 *Scratch PPT* 的例子，展示 **Python对象，Scratch对象 和 Micro:bit** 的交流协作，去制作一个扩展多功能的独特 *PPT* 。
