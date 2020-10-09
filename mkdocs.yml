@@ -56,7 +56,8 @@ nav:
       - 教程开篇: "project_tutorial/welcome_pt.md"
       - 对象与消息: "project_tutorial/object_illustrate.md"
       - Python对象连接器：EIM: "project_tutorial/eim_pt.md"
-      - Micro:bit Radio: "project_tutorial/microbit_pt.md"
+      - 无线Micro:bit：Radio: "project_tutorial/microbit_pt.md"
+      - 多对象交互：Scratch PPT: "project_tutorial/scratch_ppt.md"
   - 用户手册(user guide):
       # - 安装(install): "user_guide/install.md"
       # - 下载(download): 'user_guide/develop.md'
