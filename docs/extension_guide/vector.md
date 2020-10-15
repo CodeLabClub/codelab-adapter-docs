@@ -4,7 +4,6 @@
 
 > Anki is a company whose products always seem to delight.
 
-We love [Cozmo](https://www.anki.com/en-us/cozmo), and [Vector](https://www.anki.com/en-us/vector).
 
 [Codelab Adapter](https://adapterv2.codelab.club) is a software that connect Scratch 3.0 to the open-source hardware, IoT and AI.
 

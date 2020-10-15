@@ -92,7 +92,7 @@ ps：对这部分不熟悉的同学，请回看[入门案例：microbit](../get_
 
 *Scratch* 代码如图所示：
 
-![microbit_Scratch_code](/img/microbit_scratch_code.png)
+![microbit_Scratch_code](/img/bdcd168d02f0a1d1abeaffd24d145b73.png)
 
 [Micro:bit Radio项目](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/microbit_radio_code.sb3)
 

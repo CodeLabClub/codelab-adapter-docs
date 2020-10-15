@@ -30,7 +30,7 @@ def monitor(msg):
 run_monitor(monitor)
 ```
 
-对以上机制不熟悉的朋友可以参考 [使用4 行 Pyhon 代码扩展 Scratch](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/4-line-python-code-as-scratch-ext/)
+对以上机制不熟悉的朋友可以参考 [Python对象的连接器：EIM 插件](/project_tutorial/eim_pt/)
 
 打开 [测试项目](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-EasyOCR.sb3)
 

@@ -22,7 +22,7 @@
 2.  构建 CodeLab Adapter 插件：`extension_robot_xy.py`，在插件中处理传递过来的`(x,y)`
 
 ## 在 Scratch3 中自定义新的积木
-<img width="800px" src="../../img/v2/robotxy_scratch3.png"/>
+<img width="800px" src="/img/v2/robotxy_scratch3.png"/>
 
 
 ## 构建 CodeLab Adapter 插件
@@ -32,9 +32,10 @@ from codelab_adapter.core_extension import Extension
 
 
 class RobotXYExtension(Extension):
+    NODE_ID = "eim/robot"
+    s
     def __init__(self):
         super().__init__()
-        self.NODE_ID = "eim/robot"
 
     def extension_message_handle(self, topic, payload):
         self.logger.debug(f'the message payload from scratch: {payload}')
@@ -56,7 +57,7 @@ export = RobotXYExtension
 ## 开始测试
 如果你对如何运行 CodeLab Adapter extension 不熟悉，请参考 [hello world](/dev_guide/helloworld/)。
 
-<img width="800px" src="../../img/v2/robot_xy.png"/>
+<img width="800px" src="/img/v2/robot_xy.png"/>
 
 
 ## json message from CodeLab Adapter to Scratch3
@@ -74,9 +75,10 @@ from codelab_adapter.core_extension import Extension
 
 
 class RobotXYExtension(Extension):
+    NODE_ID = "eim/robot"
+
     def __init__(self):
         super().__init__()
-        self.NODE_ID = "eim/robot"
 
     def extension_message_handle(self, topic, payload):
         self.logger.debug(f'the message payload from scratch: {payload}')
@@ -101,7 +103,7 @@ export = RobotXYExtension
 重新勾选`extension_robot_xy`插件，现在你可以在 Scratch 中收到 CodeLab Adapte 传过来的 json 数据了！
 
 
-<img width="800px" src="../../img/v2/randomxy_scratch.png"/>
+<img width="800px" src="/img/v2/randomxy_scratch.png"/>
 
 在 Scratch 一侧，使用 json 拓展来解析传递过来的消息。
 

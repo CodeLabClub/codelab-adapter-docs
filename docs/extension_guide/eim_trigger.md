@@ -33,13 +33,11 @@ def trigger():
 
 ## 步骤 3：加载 extension_eim_trigger 插件
 
-在 Web UI 中点击加载 **extension_eim_trigger** 插件：
+在 Web UI 中点击加载 **extension_eim_trigger** 插件
 
-<img width="300px" src="/img/v2/open_adapter_trigger_extension.png"/>
-
-开启 **extension_eim_trigger** 插件后，
 
 ## 步骤 4：hello world
+开启 **extension_eim_trigger** 插件后
 
 选择对应的 Scratch3 插件：EIM
 

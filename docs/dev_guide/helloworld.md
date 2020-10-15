@@ -17,11 +17,9 @@
 
 >  The big idea is messaging.
 
-如果你用过 ZeroMQ 或者 Erlang 大概深有体会。
+如果你用过 **Smalltalk / ZeroMQ / Erlang** 大概深有体会。
 
-## 正式开始
-EIM 插件很适合作为示例，来讲解如何创建自定义 CodeLab Adapter 插件。
-
+<!--
 ## 使用 EIM 插件
 在开始讲解 EIM 源码之前，你先使用一下 EIM 插件，看下它是个啥：[EIM 使用教程](/extension_guide/eim/)
 
@@ -87,10 +85,10 @@ export = EIMExtension
     *  之后将`run`运行为线程。run 方法一般使用 `while self._running` 来阻塞，`run` 方法一旦结束，该插件的生命周期就结束了。
 
 至于你要在`extension_message_handle`和`run`中写什么 Python 代码则是完全自由的。
-
+-->
 
 ## 自定义插件
-讲解完 EIM 插件，我们来实现一个自定义插件：`helloworld extension`
+我们来实现一个自定义插件：`helloworld extension`
 
 我们构建这样一个自定义插件，它的功能为：
 
@@ -128,6 +126,17 @@ class HelloWorldExtension(Extension):
 
 export = HelloWorldExtension
 ```
+
+代码很简单，而且大部分是样板代码，有几点值得注意：
+
+*  `NODE_ID` 默认为 `eim`，可以不写。
+*  `extension_message_handle` 是个回调函数，处理从 Scratch 过来的消息（一般由积木触发）
+*  `run` 是插件的主体代码，当你在 Web UI 中选择插件时，发生的事情是：
+    *  首先实例化插件类（在此是`export = EIMExtension`）
+    *  之后将`run`运行为线程。run 方法一般使用 `while self._running` 来阻塞，`run` 方法一旦结束，该插件的生命周期就结束了。
+
+至于你要在`extension_message_handle`和`run`中写什么 Python 代码则是完全自由的。
+
 
 将插件命名为`extension_hello_world.py`，将其放到插件目录里，Mac/Linux 用户的插件目录在：`~/codelab_adapter/extensions`，如果找不到插件目录（如 Windows 用户），可以通过 CodeLab Adapter 菜单栏上的 `插件->查看目录` 打开它。
 

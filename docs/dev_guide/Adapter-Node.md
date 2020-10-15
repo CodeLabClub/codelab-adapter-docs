@@ -1,9 +1,4 @@
 # Adapter Node
-!!! 提醒
-    在 Adapter 3.0中，Adapter Node替代了原先 server 的功能，可以直接放在[ Adapter 主目录](/user_guide/FAQ/#adapter)下的 nodes 目录里，供用户作为 Adapter 的扩展使用。在未来，我们将允许用户在插件库里从云端下载Adapter Node！目前只支持从云端下载 extension。
-
-!!! 提醒
-    使用 Adapter Node 之前，请确保本地 Python 环境中的 `codelab_adapter_client` 是最新版本。
 
 在上一节：[hello world(Adapter Extension)](/dev_guide/helloworld/) 中我们学会了如何自定义一个 extension。
 
@@ -12,15 +7,17 @@ extension 有如下的限制：
 1.  必须放置在插件目录中（`~/codelab_adapter/extensions`）。
 2.  只能使用 CodeLab Adapter [已打包的第三方库](https://github.com/CodeLabClub/codelab_adapter_extensions/wiki)。
 
-如果你想使用 Python 社区海量的第三方库：诸如 [Pygame](https://github.com/pygame/pygame)、[NumPy](https://github.com/numpy/numpy)、[OpenCV](https://github.com/opencv/opencv)、[TensorFlow](https://github.com/tensorflow/tensorflow)，extension 就办不到了，但 Adapter Node 可以！
+如果你想使用 Python 社区海量的第三方库：诸如 [Pygame](https://github.com/pygame/pygame)、[PyQt](https://zh.wikipedia.org/zh-hans/PyQt)、[PyTorch](https://pytorch.org/)、[flask](https://flask.palletsprojects.com/)... extension 就办不到了，但 Adapter Node 可以！
+
+ps: 如果你只是想把外部系统接入Adapter，也可以参考更为简单的: [与外部系统通信](https://adapter.codelab.club/user_guide/%E4%B8%8E%E5%A4%96%E9%83%A8%E7%B3%BB%E7%BB%9F%E9%80%9A%E4%BF%A1/)
 
 !!! 提醒
-    如果你读过 [Adapter Node 的源码](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v3)，会发现，它们实际就是 Adapter Node (诸如 Cozmo / Vector )！只是这些 Node 获得了简单 UI ，可以被用户在前端 开启/关闭，而不需要手动启停。
+    实际上 [Adapter Extension](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v3) 是 AdapterNode 的子类.
 
 我们希望 CodeLab Adapter 专注于连接万物，所以构建了 Adapter Node，允许你在任何地方创建 CodeLab Adapter 的扩展，允许你使用任何 Python 库，无论你准备构建游戏、构建网站、构建深度学习应用还是构建一个机器人！
 
 ## Adapter Node 是什么
-Adapter Node 只是普通的 Python 程序，继承自 [AdapterNode](https://github.com/CodeLabClub/codelab_adapter_client_python/blob/master/codelab_adapter_client/base.py#L174)。别害怕，它很简单的。
+Adapter Node 只是普通的 Python 程序，继承自 [AdapterNode](https://github.com/CodeLabClub/codelab_adapter_client_python/blob/master/codelab_adapter_client/base.py#L174)。
 
 ## 第一个 Adapter Node
 我们开始写第一个 Adapter Node。
@@ -85,10 +82,12 @@ if __name__ == "__main__":
 
 成功！
 
-它只是普通的 Python 程序，使用你本地的 Python 环境，所以你现在可以使用 [Pygame](https://github.com/pygame/pygame)、[NumPy](https://github.com/numpy/numpy)、[OpenCV](https://github.com/opencv/opencv)、[TensorFlow](https://github.com/tensorflow/tensorflow) 来增强 Scratch3 啦！
+它只是普通的 Python 程序，使用你本地的 Python 环境，所以你现在可以任何你偏爱的Python库来增强 Scratch3 啦！
 
+<!--
 !!!提醒
     你可以将自定义插件发布到[插件市场](/extension_guide/extension_market/), 用户点击即可下载使用。
+-->
 
 ## GUI
 有开发者在邮件中提到：
@@ -120,9 +119,10 @@ from codelab_adapter_client import AdapterNode
 
 
 class EIMNode(AdapterNode):
+    NODE_ID = "eim"
+
     def __init__(self):
         super().__init__()
-        self.NODE_ID = "eim"
 
     def send_message_to_scratch(self, content):
         message = self.message_template()

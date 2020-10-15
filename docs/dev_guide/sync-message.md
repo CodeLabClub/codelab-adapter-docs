@@ -18,7 +18,7 @@
 
 我们如何在异步中实现，同步模式呢？策略是使用 message_id。 
 
-目前 [Scratch EIM](https://github.com/CodeLabClub/scratch3_eim/blob/v2/index.js#L290) 已经支持同步风格的积木（阻塞风格）。
+目前 [Scratch EIM](https://github.com/CodeLabClub/scratch3_eim/blob/v3/index.js) 已经支持同步风格的积木（阻塞风格）。
 
 ## 实现
 这些同步风格的积木需要与同步风格的 CodeLab Adapter 插件一起使用。让我们来实现它。
@@ -61,7 +61,7 @@ export = SyncHelloWorldExtension
 
 通过与 [hello world 教程](/dev_guide/helloworld/)的对比，可以看出同步消息与异步消息在 CodeLab Adapter 插件一侧的区别：通过返回来自 Scratch 的消息中携带的 message_id（message_id 在 payload 中，通过观察日志，可以看到 payload 内部细节）。让请求者得知当前消息被响应了。
 
-同步消息与异步消息，在 Scratch 插件一侧的区别表现为不同的积木（是否`wait/等待`），js 代码层面的差异表现在：[发送消息的函数不同](https://github.com/CodeLabClub/scratch3_eim/blob/v2/index.js#L290)，这部分你可以直接使用 EIM 插件，可以不做深究。
+同步消息与异步消息，在 Scratch 插件一侧的区别表现为不同的积木（是否`wait/等待`），js 代码层面的差异表现在：[发送消息的函数不同](https://github.com/CodeLabClub/scratch3_eim/blob/v3/index.js)，这部分你可以直接使用 EIM 插件，可以不做深究。
 
 刷新 Web UI，点击运行`extension_hello_world.py`，接着你就可以在 Scratch 中与你的插件交互了。
 

@@ -2,7 +2,7 @@
 [tensorflow-yolov4](https://github.com/hhk7734/tensorflow-yolov4)， 请参考文档，安装响应依赖。
 
 
-接入方法参考[使用4 行 Pyhon 代码扩展 Scratch](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/4-line-python-code-as-scratch-ext/)
+接入方法参考[Python对象的连接器：EIM 插件](/project_tutorial/eim_pt/)
 
 使用前请将[coco.names](https://github.com/hhk7734/tensorflow-yolov4/tree/master/test/dataset) 和 [yolov4-tiny.weights](https://drive.google.com/file/d/1GJwGiR7rizY_19c_czuLN8p31BwkhWY5/view?usp=sharing) 下载到对应目录。
 

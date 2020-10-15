@@ -48,11 +48,11 @@ CodeLab Adapter 致力于提供更好的跨平台支持和开放的[插件系统
 
 CodeLab Adapter 启动之后，可以看到 [CodeLab Scratch3](https://scratch-beta.codelab.club/) 指示灯显示绿色，代表连接成功。
 
-<img alt="" src="../../../img/scratch3-home-connect.png">
+<img alt="" src="/img/scratch3-home-connect.png">
 
 ## 启动 CodeLab Adapter 后，与 scratch3 无法通信怎么办？
 
-检查下是不是打开了科学上网的软件。
+检查下是不是打开了科学上网的软件， 不要使用全局模式。
 
 ## CodeLab Adapter 可以支持其他平台吗？
 
@@ -70,19 +70,22 @@ CodeLab Adapter 几乎支持任何平台，无论是 Scratch 3.0 构建的还是
 
 来信请注明公司/组织的一些基本信息，以及你们正在做的事情 ：）
 
-## Python 版本(CodeLab Adapter 3.0.0)
+## Python 版本(CodeLab Adapter 3.7.0)
 
 我们在不同操作系统打包时，使用的 Python 版本不同。
 
-- Windows：3.7.4
-- macOS：3.7.2
-- Raspbian：3.7.3
-- Ubuntu：3.7.5
+- Windows：3.7
+- macOS：3.8
+- Raspbian：3.7
+- Ubuntu：3.7
+
+详情可以查看WebUI菜单里的 `环境 > 查看`
 
 ## 如何使用 Python 拓展 Scratch 的能力？
 
-- [json message](/dev_guide/json-message/)。
-- 参考[使用 Python 拓展 Scratch 的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html#_4)。
+-   [Python对象的连接器：EIM 插件](/project_tutorial/eim_pt/)
+-   [hello world(Adapter Extension)](https://adapter.codelab.club/dev_guide/helloworld/)
+-   [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/)
 
 ## 如何找到 Adapter 主目录
 Adapter 主目录，也是 Adapter 的日志目录，这儿存放了 Adapter 运行时使用的数据。
@@ -107,49 +110,25 @@ Windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Ada
 
 ## 目前都支持哪些插件
 
-[extensions_v2](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v2)。
+[codelab_adapter_extensions](https://github.com/CodeLabClub/codelab_adapter_extensions)。
 
 ## 支持移动端吗（iPad/手机）
 支持。
 
 这是一个[例子](/video/codelab_ipad.mp4)。
 
-## 如何开机自启
-从 2.6.2 开始， 支持 headless 模式（[点击下载 Raspbian 版本](/video/codelab-adapter-rpi-2_6_2.zip)），用于开机自启、无人值守的环境。
-
-```
-chmod +x codelab-adapter
-./codelab-adapter --cli
-```
-
-推荐配置为：
-
-```python
-# doc: https://adapter.codelab.club/user_guide/settings/
-OPEN_MESSAGE_HUB = True
-USE_SSL = False
-AUTO_OPEN_WEBUI = False
-PYTHON3_PATH = None
-DEFAULT_ADAPTER_HOST = "codelab-adapter.codelab.club"
-OPEN_WEBSOCKET_API = True
-OPEN_REST_API = False
-TOKEN = "ls3fb138c4124027"
-```
-
-之后打开 `http://raspberrypi.local:12358/?token=ls3fb138c4124027`
-
 ## 自定义存储目录
-2.6.3 开始支持这项功能。
 
 使用环境变量`ADAPTER_HOME_PATH`来软件 home 目录，
 
 例子：`ADAPTER_HOME_PATH=/tmp/my_adapter_home ./codelab-adapter --cli`
 
 ## 离线使用
-CodeLab Adapter 支持离线使用，目前有 2 种方式使用它。
+CodeLab Adapter 支持离线使用，目前有 3 种方式使用它。
 
- 1. 配合 [CodeLab Scratch Desktop（离线版）](https://www.codelab.club/blog/2020/08/20/tools/)使用。
- 2. 将 Web UI 里的`codelab-adapter.codelab.club`替换为`127.0.0.1`，形如 `https://codelab-adapter.codelab.club:12358/?token=YOUR_TOKEN`，重新刷新页面。
+1. 配合 [CodeLab Scratch Desktop（离线版）](https://www.codelab.club/blog/2020/08/20/tools/)使用。
+2. 修改host，添加一条`127.0.0.1 codelab-adapter.codelab.club`, [详情](#codelab-adapter_3)
+3. 将 Web UI 里的`codelab-adapter.codelab.club`替换为`127.0.0.1`，形如 `https://codelab-adapter.codelab.club:12358/?token=YOUR_TOKEN`，重新刷新页面。
 
 推荐使用`方法 1`。
 
@@ -157,7 +136,7 @@ CodeLab Adapter 支持离线使用，目前有 2 种方式使用它。
 
 ## 查看本地环境
 
-![](/img/bdc2f794bd15ed3faab14165b72badc2.png)
+![](/img/34ab42207fe08a68b255f117ae82a99d.png)
 
 你将看到:
 
@@ -182,13 +161,10 @@ CodeLab Adapter 有很好的分布式支持:
 
 首先在树莓派中运行CodeLab Adapter，复制 WebUI 的URL, 形如: `https://codelab-adapter.codelab.club:12358/?token=765b3d2901ef47a0`
 
-![](/img/60e122ecf8f946ba72fdc13fe838abfd.png)
-
 将 codelab-adapter.codelab.club 修改为 树莓派的 IP 地址: `https://192.168.21.104:12358/?token=765b3d2901ef47a0`。
 
 现在你可以在 PC 里打开 树莓派里的 Adapter(需要安全校验) :
 
-![](/img/5ca765bc4fc70ad0120f42102a3abc0d.png)
 
 接着让我们在 CodeLab Scratch 里使用它, 打开: `https://scratch-beta.codelab.club/?adapter_host=192.168.21.104` (adapter_host 是 adapter 所在计算机的 IP，即树莓派的 IP， 它甚至可以运行在互联网的任何设备，任何位置！包括手机！)
 
@@ -204,7 +180,7 @@ CodeLab Adapter 有很好的分布式支持:
 
 添加如下host规则:
 
-`codelab-adapter.codelab.club        127.0.0.1`
+`127.0.0.1 codelab-adapter.codelab.club`
 
 以下是不同系统的hosts文件所在位置
 
