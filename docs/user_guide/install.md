@@ -1,5 +1,6 @@
-# 安装（install）
+[安装（install）](/get_start/gs_install?version=latest)
 
+<!--
 CodeLab Adapter v3 目前发布了 Mac、Windows（支持 windows 7 及以上版本）、Ubuntu、Raspbian（树莓派）的客户端.
 
 ## 下载（最新版本：3_5_1）
@@ -28,11 +29,9 @@ CodeLab Adapter v3 目前发布了 Mac、Windows（支持 windows 7 及以上版
     * 在 Raspbian buster 版本中构建, Raspbian的版本低于 buster 可能无法使用。
     * 下载，解压，赋予运行权限：`chmod +x xxx`
 
-<!--
 ## 更新
 
 {!utils/update.md!}
--->
 
 ## 兼容性
 
@@ -47,6 +46,8 @@ Linux  测试了
 
 
 Raspbian 我们只测试了最新版本，如果有系统兼容性问题，欢迎[联系我们](/about/contact/)。
+-->
+
 
 <!--
 ps: macOS 10.14 下，按钮无法显示文字, 但不影响正常使用 (按钮文字 可以参考下图)

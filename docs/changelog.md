@@ -72,7 +72,7 @@
 *  2019.11.13 2.6.2
     *  支持 headless 模式（linux），用于开机自启、无人值守的环境
 *  2020.04.17 3.0.0
-    *  [发行说明](https://www.codelab.club/blog/3-release/)
+    *  [发行说明](https://www-old.codelab.club/blog/3-release/)
 *  2020.04.30 3.1.0
     *  自动更新 adapter home 目录
     *  插件市场支持extension/node下载(统称为plugin)，node可以是任何有效的url链接

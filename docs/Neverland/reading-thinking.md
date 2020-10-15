@@ -45,7 +45,7 @@
 !!! 提醒
     如果关灯后你的房间完全处于黑暗，那么当你再次翻开书，摄像头将看不到你的这个行为！一般来说只有一些光线，它就能看到。如果你的房间遮光效果真的很好，可以考虑使用红外夜视摄像头。  
     如果它识别地并不准确，观察是否是光线造成的。重复训练，知道你对这个 AI 感到满意。  
-    当然你也可以使用 Teachable Machine 来制作这个项目，它更加直观！ [CodeLab Adapter 已经将 Teachable Machine 接入进来了](https://www.codelab.club/blog/adapter-teachable-machine/)！  
+    当然你也可以使用 Teachable Machine 来制作这个项目，它更加直观！ [CodeLab Adapter 已经将 Teachable Machine 接入进来了](https://www-old.codelab.club/blog/adapter-teachable-machine/)！  
 
 
 ## 步骤 3：发挥想象

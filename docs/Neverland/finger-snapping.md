@@ -33,4 +33,4 @@
 ## 步骤 3：发挥想象
 现在你可以使用 CodeLab Scratch 的 Home Assistant 插件自由的编程啦，试着与 Scratch 里其他有趣的积木互动吧。
 
-如果你想让程序只对响指声作出反应，甚至只对你的响指声作出反应都是可能的，使用 AI 来做到这点！ [CodeLab Adapter 已经将 Teachable Machine 接入进来了](https://www.codelab.club/blog/adapter-teachable-machine/)，你可以使用声音、肢体、各种物体与你的房间进行互动！
+如果你想让程序只对响指声作出反应，甚至只对你的响指声作出反应都是可能的，使用 AI 来做到这点！ [CodeLab Adapter 已经将 Teachable Machine 接入进来了](https://www-old.codelab.club/blog/adapter-teachable-machine/)，你可以使用声音、肢体、各种物体与你的房间进行互动！

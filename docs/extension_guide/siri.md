@@ -64,4 +64,4 @@ Hey siri
 ![](/img/5c60c4484b208935f5bf6f3ced9752d1.png)
 
 # 原理说明
-*  [CodeLab ❤ Siri](https://www.codelab.club/blog/codelab-like-siri/)
+*  [CodeLab ❤ Siri](https://www-old.codelab.club/blog/codelab-like-siri/)

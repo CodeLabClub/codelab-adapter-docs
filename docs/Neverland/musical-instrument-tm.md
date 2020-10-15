@@ -42,7 +42,7 @@
 接下来，可以开始你的 Teachable Machine 之旅途。我们来展示一个例子。
 
 ### 训练模型
-在 Teachable Machine 训练你的 AI 助手，你需要教会它识别不同卡片，如果你对 Teachable Machine 不了解，参考我们的介绍文章 [CodeLab Adapter 接入 Teachable Machine](https://www.codelab.club/blog/adapter-teachable-machine/)。
+在 Teachable Machine 训练你的 AI 助手，你需要教会它识别不同卡片，如果你对 Teachable Machine 不了解，参考我们的介绍文章 [CodeLab Adapter 接入 Teachable Machine](https://www-old.codelab.club/blog/adapter-teachable-machine/)。
 
 建立 3 个分类，分别是 **guitar**、**sax**、**none**（空桌面）
 
@@ -80,5 +80,5 @@
 
 ## 参考
 
--   [CodeLab Adapter 接入 Teachable Machine](https://www.codelab.club/blog/adapter-teachable-machine/)
+-   [CodeLab Adapter 接入 Teachable Machine](https://www-old.codelab.club/blog/adapter-teachable-machine/)
 -   [插件（extensions）文档 - Teachable Machine](http://localhost:8000/extension_guide/teachable_machine/)

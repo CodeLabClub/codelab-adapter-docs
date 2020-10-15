@@ -2,7 +2,7 @@
 
 ## 介绍
 
-[CodeLab Adapter 接入 Teachable Machine](https://www.codelab.club/blog/adapter-teachable-machine/)
+[CodeLab Adapter 接入 Teachable Machine](https://www-old.codelab.club/blog/adapter-teachable-machine/)
 
 ## 依赖
 

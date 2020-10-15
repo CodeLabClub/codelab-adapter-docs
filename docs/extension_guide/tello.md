@@ -21,7 +21,7 @@
 ![](/img/v2/codelab-scratch3.png)
 
 <!--
-下载 [CodeLab Scratch Desktop(离线版)](https://www.codelab.club/blog/2020/08/20/tools/)，并运行它。
+下载 [CodeLab Scratch Desktop(离线版)](https://www-old.codelab.club/blog/2020/08/20/tools/)，并运行它。
 
 ![](../img/scratch3-home.png)
 -->

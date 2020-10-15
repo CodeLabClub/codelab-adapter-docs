@@ -17,14 +17,18 @@
 
 ## Codelab Adapter下载链接 {#download}
 
+最新版本: `3.7.0`
+
 |     操作系统     |     完整版     |    精简版      |     系统要求   |      安装注意事项      |
 | :--------: | :---------: | :--------: | -------- | ---------- |
-| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-mac-full.zip) | [macLite.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-mac.zip) | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
-| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-win-full.zip)   | [winLite.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-win.zip)  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
-| Linux     | 无   | [linux.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
-| Raspbian（树莓派） | 无   | [rpi.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_5_1-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
+| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_7_0-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
+| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3.7.0.msi)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
+| Linux     | 无   | [linux.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_7_0-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
+| Raspbian（树莓派） | 无   | [rpi.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_7_0-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
 
 附:各个版本的哈希值(Sha256)
+
+<!--
 
 |版本|Sha256|
 |--|--|
@@ -34,6 +38,15 @@
 |winLite|fbdf7162ba1701487632ee14317524588c9c02c8119e2829a2ed01a2a2a4f922|
 |linux|f7d76b35f3f5eaf4beb337b238e91e2911adf9c8a11070e7c6ef15a21db6b8cb|
 |rpi|8115d955b965ecd5099cb0f64828137b46b1010af54ef1fcf337d8ab3408b0fd|
+-->
+
+|版本|Sha256|
+|--|--|
+|macFull|7b94cccbd288d5db194594438968bf13fc9c639eda69ddd1328dbd7c34aa546b|
+|winFull|7a66fc4509a6daa07cbdc940f5f0eeaec429d4f2e95bbf5b02f68029a6f41db7|
+|linux|7f297e437befbef796ae02a47b9110b7292007b5ba82692b0a7ce930255b9135|
+|rpi|cc71e2cc97c3bce3a26bf5c8395dd759484a479052c853b18cca302e889f451b|
+
 
 ---
 
@@ -56,6 +69,17 @@
 
 1. [下载](#download)
     ![win1](/img/install_win_1.png)
+2. 双击安装软件, 安装完成后，可以从 **开始** 菜单栏里启动
+    ![win2](/img/7994f69a436f68cc67429fdfac2ade0d.png)
+
+3. 运行Adapter，会自动弹出默认浏览器（推荐使用Firefox或者Chrome浏览器）。
+    如果出现防火墙的警报，点击允许访问就好了。
+    ![win3](/img/install_win_3.png)
+
+    看到一下界面就说明安装成功了。
+    ![win4](/img/getstart_adapter.png)
+    
+<!--
 2. 右键解压,然后进入解压后的文件夹（为了方便使用，可以将adapter添加到桌面）
     ![win2](/img/install_win_2.png)
 3. 进入解压后的文件夹点击运行Adapter，会自动弹出默认浏览器（推荐使用Firefox或者Chrome浏览器）。
@@ -64,6 +88,7 @@
 
     看到一下界面就说明安装成功了。
     ![win4](/img/getstart_adapter.png)
+-->
 
 温馨提示：Windows 7下最好以管理员权限运行。
 

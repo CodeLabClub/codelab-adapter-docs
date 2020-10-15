@@ -1,6 +1,6 @@
 # 介绍
 
-这是 [社区版 Neverland](https://www.codelab.club/blog/neverland-community/) 相关文档。
+这是 [社区版 Neverland](https://www-old.codelab.club/blog/neverland-community/) 相关文档。
 
 !!! 解释
     ### CodeLab Neverland 是什么？

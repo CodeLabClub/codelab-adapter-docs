@@ -5,7 +5,7 @@
 
 ## 介绍
 
-我们在 [CodeLab Adapter 深度连接 micro:bit 生态](https://www.codelab.club/blog/codelab-adapter-microbit-deep-connect/)中提到
+我们在 [CodeLab Adapter 深度连接 micro:bit 生态](https://www-old.codelab.club/blog/codelab-adapter-microbit-deep-connect/)中提到
 
 > 我们将一块 micro:bit 接入电脑，用作中转站（类似 usb dongle），用于在 CodeLab Adapter 和任何 micro:bit 套件做中转站。这里的一个背景知识是，任何的 micro:bit 直接可以通过 radio（简易的无线连接）方便地彼此通信。
 > 在这个思路中，获得的一个意外收获是：能让任何电脑与 microbit 无线连接！即便没有蓝牙！
@@ -18,14 +18,20 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 
 ## 步骤 1：hello [MakeCode](https://makecode.microbit.org/#editor)
 
-从一个简单的例子开始：[radio_node](https://makecode.microbit.org/_4EKALy3hCDcq)（`Adapter > 3.4`）
+从一个简单的例子开始：[radio_node](https://makecode.microbit.org/_eXa1RFA4pTg2)（`Adapter > 3.4`）
+
+<!--https://makecode.microbit.org/_4EKALy3hCDcq-->
 
 将上述代码 download 到`功能板`(2 块 micro:bit 中的一块)。
 
 上述代码的功能是:
 
-1. 当`功能板`收到来自 CodeLab Scratch 的消息(`c`)时, 显示一颗爱心。（`scratch -> microbit`）
+<!--1. 当`功能板`收到来自 CodeLab Scratch 的消息(`c`)时, 显示一颗爱心。（`scratch -> microbit`）
 2. 当`功能板`的`A 按钮`被按下时，发送字符`a`, `B 按钮`被按下时，发送字符`b`（`microbit -> scratch`）
+-->
+
+1. 当`功能板`收到来自 CodeLab Scratch 的消息时, 将在矩阵屏上显示出消息。
+2. 当`功能板`的`A 按钮`被按下时，发送字符`a`, `B 按钮`被按下时，发送字符`b`（`microbit -> scratch`）， 当用力摇晃时，发送字符`shake`
 
 这样便完成了`Scratch--无线microbot`的双向通信:
 
@@ -47,10 +53,8 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 
 {!utils/open_adapter.md!}
 
-点击加载 `extension_microbit_radio` 插件
+点击加载 [extension_microbit_radio](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_microbit_radio.py) 插件
 
-!!! tips
-    如果你对该插件源码感兴趣，[欢迎阅读](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_microbit_radio.py)，采用 Python 构建。
 
 ## 步骤 4：打开 [Codelab Scratch3](https://scratch-beta.codelab.club/)，构建自己的应用
 

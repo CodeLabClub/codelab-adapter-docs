@@ -345,11 +345,11 @@
 
 <video width=80% src="https://adapter.codelab.club/video/1591509029108719.mp4" controls="controls"></video>
 
-### [震动检测器](https://www.codelab.club/blog/vibration-detectors/)
+### [震动检测器](https://www-old.codelab.club/blog/vibration-detectors/)
 
 <video width=80% src="https://adapter.codelab.club/video/1592219388632217.mp4" controls="controls"></video>
 
-### [生日贺卡](https://www.codelab.club/blog/dynamictable-happybirthday/)
+### [生日贺卡](https://www-old.codelab.club/blog/dynamictable-happybirthday/)
 <video width=80% src="https://adapter.codelab.club/video/1592575084486393.mp4" controls="controls"></video>
 
 

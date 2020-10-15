@@ -1,6 +1,6 @@
 # ROS
 ### 步骤 1：打开 CodeLab Scratch
-下载 [CodeLab Scratch Desktop（离线版）](https://www.codelab.club/blog/codelab-download/)，并运行它。
+下载 [CodeLab Scratch Desktop（离线版）](https://www.codelab.club/blog/2020/08/20/tools)，并运行它。
 
 ![](../img/scratch3-home.png)
 

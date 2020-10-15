@@ -15,5 +15,5 @@ DynamicTable 是:
 
 详情参考:
 
-*  [CodeLab DynamicTable: A Seeing World](https://www.codelab.club/blog/codelab-dynamictable-a-seeing-world/)
-*  [CodeLab DynamicTable: 一个可实施的技术方案](https://www.codelab.club/blog/codelab-dynamictable-an-instance/)
+*  [CodeLab DynamicTable: A Seeing World](https://www-old.codelab.club/blog/codelab-dynamictable-a-seeing-world/)
+*  [CodeLab DynamicTable: 一个可实施的技术方案](https://www-old.codelab.club/blog/codelab-dynamictable-an-instance/)

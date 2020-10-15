@@ -77,3 +77,5 @@ OPEN_REST_API 用于打开/关闭 [REST API](/dev_guide/REST-API/)。
 取消注释`# TOKEN = "<random string>"`，则永久固定 TOKEN。
 
 `<random string>` 在软件初次运行的时候在本地随机生成。
+
+## 
