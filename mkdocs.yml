@@ -163,6 +163,7 @@ nav:
       - Aqara: "extension_guide/Aqara.md"
       - EasyOCR: "extension_guide/EasyOCR.md"
       - tensorflow-yolov4: "extension_guide/tensorflow-yolov4.md"
+      - neverland2.0: "extension_guide/neverland2.md"
       - OpenCV(正在迁移中): "extension_guide/opencv.md"
       - Tensorflow(正在迁移中): "extension_guide/tensorflow.md"
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"
