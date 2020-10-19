@@ -10,7 +10,7 @@
 
 安装 Chrome 浏览器插件：[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)。
 
-点击安装 Tampermonkey 脚本 [Teachablemachine_Result.user.js](https://gist.github.com/wwj718/78402d0de9efb8d33742c8770056489c/raw/4e1373c3ce0d1c86af93310b42321251bee567b3/Teachablemachine_Result_fixed.user.js)。
+点击安装 Tampermonkey 脚本 [Teachablemachine_Result.user.js](https://gist.githubusercontent.com/wwj718/78402d0de9efb8d33742c8770056489c/raw/2b99784ff8cf0d344e86e8c2b781b0babfc84c33/Teachablemachine_Result_fixed.user.js)。
 
 ## 步骤 1：打开 Codelab Adapter
 

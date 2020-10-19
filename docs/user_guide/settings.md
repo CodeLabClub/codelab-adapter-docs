@@ -98,3 +98,8 @@ OPEN_REST_API 用于打开/关闭 [REST API](/dev_guide/REST-API/)。
 
 在windows/linux 下 RC_NODES默认为`[]`
 
+
+## USER_WHITELIST_HOSTNAME
+白名单
+
+只有加入白名单的域名才能与 Adapter 通信。

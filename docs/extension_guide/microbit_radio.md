@@ -1,11 +1,11 @@
 # Tutorial
 
 !!! 提醒
-    [microbit radio插件](/extension_guide/microbit_radio/)与 [usb microbit插件](/extension_guide/microbit/)不能同时使用.
+    只能用于 makecode radio， makecode radio 与 micropython radio不兼容。
 
 ## 介绍
 
-我们在 [CodeLab Adapter 深度连接 micro:bit 生态](https://www-old.codelab.club/blog/codelab-adapter-microbit-deep-connect/)中提到
+我们在 [CodeLab Adapter 深度连接 micro:bit （makecode）生态](https://www-old.codelab.club/blog/codelab-adapter-microbit-deep-connect/)中提到
 
 > 我们将一块 micro:bit 接入电脑，用作中转站（类似 usb dongle），用于在 CodeLab Adapter 和任何 micro:bit 套件做中转站。这里的一个背景知识是，任何的 micro:bit 直接可以通过 radio（简易的无线连接）方便地彼此通信。
 > 在这个思路中，获得的一个意外收获是：能让任何电脑与 microbit 无线连接！即便没有蓝牙！
@@ -18,7 +18,7 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 
 ## 步骤 1：hello [MakeCode](https://makecode.microbit.org/#editor)
 
-从一个简单的例子开始：[radio_node](https://makecode.microbit.org/_eXa1RFA4pTg2)（`Adapter > 3.4`）
+从一个简单的例子开始：[radio_node](https://makecode.microbit.org/_g1UfcDfv8cKp)（`Adapter > 3.4`）
 
 <!--https://makecode.microbit.org/_4EKALy3hCDcq-->
 
@@ -41,7 +41,9 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 ## 步骤 2：拔下`功能板`，接上`中转站`，加载固件
 
 
-使用数据线将`中转站` micro:bit 接入电脑，刷入[固件](https://makecode.microbit.org/_DwAhFXWLtbeX)。
+使用数据线将`中转站` micro:bit 接入电脑，刷入[固件](https://makecode.microbit.org/_hq7Ciugx396o)。
+
+<!--带版本 https://makecode.microbit.org/_hq7Ciugx396o-->
 
 <!--旧的固件 https://makecode.microbit.org/_EL20Rp98pHAg-->
 
