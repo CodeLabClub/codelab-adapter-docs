@@ -4,9 +4,12 @@
 
 [CodeLab Adapter 接入 Teachable Machine](https://www-old.codelab.club/blog/adapter-teachable-machine/)
 
-## 依赖
 
 {!utils/dependence.md!}
+
+## 依赖
+!!! 提醒
+    Longan团队已经将Teachable Machine部署到国内: [longan train](https://train.longan.link/), 并且内置支持CodeLab Adapter ,使用这个页面，就无须安装依赖了！直接跳到步骤1即可。
 
 安装 Chrome 浏览器插件：[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)。
 

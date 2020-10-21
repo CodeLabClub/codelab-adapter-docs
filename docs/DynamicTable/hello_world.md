@@ -6,7 +6,7 @@ DynamicTable 依赖于 Adapter 的内置的 `node_physical_blocks` 插件:
 
 ![](/img/008977d2d35d02c87bfc64cda9455e1e.png)
 
-为了运行`node_physical_blocks` 插件，你的[本地需要具备 Python 环境](https://adapter.codelab.club/Python_Projects/install_python/)。
+为了运行`node_physical_blocks` 插件，你的[本地需要具备 Python 环境](/Python_Projects/install_python/)。
 
 第一次运行`node_physical_blocks` 插件，会自动安装依赖: `opencv-contrib-python`, 依赖比较大(`> 60MB`), 耐心等待 1 分钟左右，安装完成会会弹出通知。
 

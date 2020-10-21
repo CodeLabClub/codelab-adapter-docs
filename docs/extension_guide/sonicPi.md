@@ -30,6 +30,14 @@
 
 如果你想深入了解[Sonic Pi](https://sonic-pi.net/)，可以跟着 Sonic Pi 软件内置的文档学习。
 
+## 发送消息
+`>= 3.7.2` 的 Adapter 支持使用Scratch积木发送OSC消息，消息的参数(args)是一个 list(采用json语法，字符串使用 **双引号** )
+
+## Receiving OSC
+[Sonic Pi Receiving OSC](https://sonic-pi.net/tutorial.html#section-12-1)
+
+参考这个文档，你也可以基于[python-sonic](https://python-osc.readthedocs.io/en/latest/client.html#example)构建一个[自定义插件](https://adapter.codelab.club/project_tutorial/eim_pt/#python)直接与Sonic Pi沟通。
+
 # 参考
 
 -   [Sonic Pi](https://sonic-pi.net/)
