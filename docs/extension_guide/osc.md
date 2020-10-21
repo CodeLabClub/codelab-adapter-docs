@@ -6,6 +6,12 @@
 
 最新版的 CodeLab Adapter(`>= 3.7.1`)内置了 OSC 服务，端口为`12361`
 
+CodeLab Adapter即可充当 OSC server，又可充当 OSC client， 两类积木都提供了
+
+# 积木说明
+
+![](/img/2a3227e7409216a400663f2bff7f7ab0.png)
+
 # 例子
 
 ## demo
@@ -40,3 +46,39 @@ address 和 args 可以在具体 osc 软件中找到。
 # 提醒
 
 一切都是消息！
+
+# OSC 相关软件推荐(client)
+我目前最喜欢的 OSC client 是:
+
+*  `Syntien`
+*  `Unipad`
+
+## Syntien
+Syntien 提供了丰富的控制面板
+
+<img width="350px" src="/img/WechatIMG1686.jpeg"/>
+<img width="350px" src="/img/WechatIMG1687.jpeg"/>
+<img width="350px" src="/img/WechatIMG1688.jpeg"/>
+
+<img width=80% src="/img/WechatIMG1685.jpeg"/>
+<img width=80% src="/img/WechatIMG1690.jpeg"/>
+
+它甚至允许你自定义面板！
+
+<img width="350px" src="/img/WechatIMG1681.jpeg"/>
+
+
+
+## Unipad
+
+<img width=80% src="/img/WechatIMG1693.jpeg"/>
+
+<img width=80% src="/img/WechatIMG1692.jpeg"/>
+
+<img width="350px" src="/img/WechatIMG1691.jpeg"/>
+
+
+Unipad 提供多种游戏手柄界面，这些可以很好地跟Scratch项目结合！ OSC 如此高的刷新率，几乎没有任何延迟
+
+# 进阶
+接入 [SonicPi](/extension_guide/sonicPi/) 玩起来！
