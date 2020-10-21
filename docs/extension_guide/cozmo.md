@@ -1,7 +1,18 @@
 # Cozmo
-目前仅在mac下做到了开箱可用。
 
-windows和linux用户在Codelab Adapter 启动之后，自行在本地运行 [node_cozmo](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_cozmo.py): `python node_cozmo.py`, [windows & linux user](#windows-linux-user)
+|        | Windows      |  MacOS   | Linux  |
+|  ----  | ----         |  ----  | ----  |
+| iOS    | [需要安装iTunes](http://cozmosdk.anki.com/docs/install-windows.html#mobile-device-setup)| 开箱可用  | [手动安装](http://cozmosdk.anki.com/docs/install-linux.html) |
+| Android| 开箱可用      | 开箱可用  | [手动安装](http://cozmosdk.anki.com/docs/install-linux.html) |
+
+
+### 运行 SDK 模式
+将 Cozmo 接入移动设备（手机/平板），并进入SDK模式。
+
+使用数据线将手机/平板接入电脑。
+
+详情参考: [官方文档](http://cozmosdk.anki.com/docs/initial.html)
+
 
 ### Download Codelab Adapter
 
@@ -39,15 +50,13 @@ You can create your own custom  blocks based on the **exec block**. Almost all [
 
 ---
 
-# windows & linux user
+# linux user
 
 ### install codelab_adapter_client
 
 Python >= `3.6`
 
 Linux/MacOS user: `python3 -m pip install codelab_adapter_client --upgrade --user`
-
-windows user: `python -m pip install codelab_adapter_client --upgrade --user`
 
 ### Install the SDK on your system
 
@@ -57,12 +66,8 @@ If the following code (`hello_world.py`) runs smoothly, go to the next step.
 
 ```python
 '''
-MacOS:
-    /usr/local/bin/python3 hello_world.py
 linux:
     /usr/bin/python3 hello_world.py
-Windows:
-    python hello_world.py
 '''
 
 import cozmo

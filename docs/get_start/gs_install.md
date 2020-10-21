@@ -17,14 +17,14 @@
 
 ## Codelab Adapter下载链接 {#download}
 
-最新版本: `3.7.1`
+最新版本: `3.7.2`
 
 |     操作系统     |     完整版     |    精简版      |     系统要求   |      安装注意事项      |
 | :--------: | :---------: | :--------: | -------- | ---------- |
-| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_7_1-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
-| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_7_1.msi)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
-| Linux     | 无   | [linux.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_7_1-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
-| Raspbian（树莓派） | 无   | [rpi.zip(3.7.0)](https://scratch3-files.just4fun.site/codelab-adapter-3_7_0-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
+| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_7_2-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
+| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/CodeLab-Adapter-3_7_2-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
+| Linux     | 无   | [linux.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_7_2-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
+| Raspbian（树莓派） | 无   | [rpi.zip](https://scratch3-files.just4fun.site/codelab-adapter-3_7_2-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
 
 附:各个版本的哈希值(Sha256)
 
@@ -42,10 +42,10 @@
 
 |版本|Sha256|
 |--|--|
-|macFull|015b16334d36e58a13b07d11335e5638267620c294c5fe74761c68b98a1d52cc|
-|winFull|f0f17bd999881a23639ad1b70918119818aa23c7b0084823c181467298b173ed|
-|linux|fca0f7756d05f64b9a011b75feb9687680bb788bbedf85b9d5d0433538e885e5|
-|rpi|cc71e2cc97c3bce3a26bf5c8395dd759484a479052c853b18cca302e889f451b|
+|macFull|0fdbec24ec9fe71933b233972736f1893df80b3e3dcb4673b9b1d804a00a2850|
+|winFull|a0e7553d87dc1b19256705581647b1be0d0448296f3169403f666ba85eef3b9f|
+|linux|81e591c47483e5c01b208da212e42620c1cc9a70f268d8ab40d2f15334552b87|
+|rpi|79aec5d85cb544781e58748a52221abcee4627b7b14e3330bd4c2e22bf70e42f|
 
 
 ---
@@ -69,8 +69,11 @@
 
 1. [下载](#download)
     ![win1](/img/install_win_1.png)
-2. 双击安装软件(如果之前安装过，请先卸载旧软件), 安装完成后，可以从 **开始** 菜单栏里启动
-    ![win2](/img/7994f69a436f68cc67429fdfac2ade0d.png)
+2. 右键解压,然后进入解压后的文件夹（为了方便使用，可以将adapter添加到桌面）, 双击 CodeLab-Adapter 文件。
+    ![win2](/img/6f482f9d136a541b4df590c9aebade6f.png)
+
+<!--2. 双击安装软件(如果之前安装过，请先卸载旧软件), 安装完成后，可以从 **开始** 菜单栏里启动
+    ![win2](/img/7994f69a436f68cc67429fdfac2ade0d.png)-->
 
 3. 运行Adapter，会自动弹出默认浏览器（推荐使用Firefox或者Chrome浏览器）。
     如果出现防火墙的警报，点击允许访问就好了。

@@ -30,4 +30,4 @@ make push
 
 如果你愿意将其翻译为英文，十分欢迎。
 
-可以参考已翻译的部分：[Our Values](https://adapter.codelab.club/about/value/#our-values)。
+可以参考已翻译的部分：[Our Values](/about/value/#our-values)。

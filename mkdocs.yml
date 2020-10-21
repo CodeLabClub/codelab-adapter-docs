@@ -105,7 +105,7 @@ nav:
       - 与其他编程语言集成(system command): "dev_guide/system_command.md"
       - 编程语言深度支持(multi language support): "dev_guide/multi-language-support.md"
       - 接入第三方平台: "dev_guide/接入第三方平台.md"
-      # - 定制与分发: "dev_guide/定制与分发.md" # wait
+      - 定制与分发: "dev_guide/定制与分发.md" # wait
       - REST API: "dev_guide/REST-API.md"
       - debug: "dev_guide/debug.md"
       - FAQ: "dev_guide/FAQ.md"
