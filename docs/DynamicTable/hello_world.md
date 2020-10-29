@@ -2,8 +2,13 @@
 
 ## 依赖
 
-DynamicTable 依赖于 Adapter 的内置的 `node_physical_blocks` 插件:
+DynamicTable 依赖于 Adapter 的内置的 `node_physical_blocks` 插件。 
 
+`node_physical_blocks` 最近推出了2.0版本: [physical blocks 2.0](https://adapter.codelab.club/extension_guide/physical_blocks2/)
+
+本文目前基于1.0版本。
+
+<!--
 ![](/img/008977d2d35d02c87bfc64cda9455e1e.png)
 
 为了运行`node_physical_blocks` 插件，你的[本地需要具备 Python 环境](/Python_Projects/install_python/)。
@@ -14,6 +19,7 @@ DynamicTable 依赖于 Adapter 的内置的 `node_physical_blocks` 插件:
     如果自动安装没有成功，你可以在命令行里手动安装: `pip install opencv-contrib-python --user`
 
 `node_physical_blocks`正常运行之后，就可以到 Scratch 中编程。
+-->
 
 ## Scratch
 

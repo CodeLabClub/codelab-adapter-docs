@@ -19,7 +19,7 @@ physical blocks 在软件层面是一个 CodeLab Adapter插件，由于 CodeLab 
 -->
 
 !!! 提醒
-    建议使用2.0版本: [physical blocks 2.0](/extension_guide/physical_blocks2/)
+    建议使用2.0版本: [physical blocks 2.0](/extension_guide/physical_blocks2/)。 不久将弃用1.0版本。
 
 使用 physical blocks，可以在一张桌子上对实物进行编程。
 
