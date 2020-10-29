@@ -18,13 +18,15 @@ Micro:bit就是一块小小的电路板，我们可以用它显示一个爱心�
 
 使用数据线将 micro:bit 接入电脑，这时候会看到Micro:bit的黄灯闪烁一会，就停止了。随后打开Codelab Adapter。
 
-温馨提示：Windows 7 用户注意（Mac 和 Windows 10 用户可以跳过），为了能发现并连接 micro:bit，需要[安装驱动](/img/mbedWinSerial_16466.exe)（下载后运行即可）
+温馨提示：Windows 7 用户注意，为了能发现并连接 micro:bit，需要[安装驱动](/img/mbedWinSerial_16466.exe)（下载后运行即可）
 
 ### 第二步：添加MicroBit扩展
 
 ![](/img/gs_microbit1.gif)
 
-在点击刷入固件之后， 会看到Micro:bit一直闪烁， 稍等片刻，固件就刷好了。这时我们就将创作平台和Micro:bit连接起来了。
+如果是第一次连接，会自动刷入固件，刷入固件是将看到Micro:bit背面的LED灯快速闪烁， 稍等片刻，固件就刷好了。
+
+刷完之后，重新连接，连接之后，你应该看到 micro:bit 背后的信号灯高频闪烁，这时我们就将创作平台和Micro:bit连接起来了。
 
 温馨提示：Linux 非root用户注意，在刷入固件之前，使用 usb 串口需要做权限设置：`sudo chmod 666 /dev/ttyACM0`。
 

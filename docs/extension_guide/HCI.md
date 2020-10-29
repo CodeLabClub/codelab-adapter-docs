@@ -6,7 +6,10 @@
 
 
 
-## 步骤 1：安装依赖（[PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/index.html)）
+## 步骤 1：安装依赖
+Windows 和 Mac 用户开箱可用。 Linux需要安装依赖:
+
+
 参考 [PyAutoGUI Install](https://pyautogui.readthedocs.io/en/latest/install.html)
 
 `pip3 install codelab_adapter_client --upgrade`

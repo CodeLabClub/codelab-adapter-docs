@@ -142,6 +142,7 @@ nav:
       - Calypso: "extension_guide/Calypso.md"
       - Box2D: "extension_guide/Box2D.md"
       - physical blocks: "extension_guide/physical_blocks.md"
+      - physical blocks 2.0: "extension_guide/physical_blocks2.md"
       - Yanshee: "extension_guide/yanshee.md"
       - json: "extension_guide/json.md"
       - imageData: "extension_guide/imageData.md"

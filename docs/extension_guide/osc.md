@@ -61,11 +61,10 @@ Syntien 提供了丰富的控制面板
 <img width="350px" src="/img/WechatIMG1688.jpeg"/>
 
 <img width=80% src="/img/WechatIMG1685.jpeg"/>
-<img width=80% src="/img/WechatIMG1690.jpeg"/>
 
 它甚至允许你自定义面板！
 
-<img width="350px" src="/img/WechatIMG1681.jpeg"/>
+<img width=80% src="/img/WechatIMG1690.jpeg"/>
 
 
 

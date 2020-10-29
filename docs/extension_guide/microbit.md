@@ -29,17 +29,20 @@
 
 ## 步骤 3：连接 micro:bit，加载插件
 
-使用数据线将 micro:bit 接入电脑，下载 <a href="../../img/usb_Microbit_firmware.hex" target="_blank">usb_Microbit_firmware.hex</a> 右键保存到本地，并将保存的文件拖入 micro:bit 中。
+使用数据线将 micro:bit 接入电脑。
 
-ps: Windows 7 用户注意（Mac 和 Windows 10 用户可以跳过），为了能发现并连接 micro:bit，需要[安装驱动](../../img/mbedWinSerial_16466.exe)（和使用 mu-editor 操作相同）
+ps: Windows 7 用户注意，为了能发现并连接 micro:bit，需要[安装驱动](../../img/mbedWinSerial_16466.exe)（和使用 mu-editor 操作相同）
 
-完成后在 CodeLab Adapter 中点击加载 usb micro:bit 插件:
+在 CodeLab Adapter 中点击加载 usb micro:bit 插件:
 
 <!-- ![add image]()-->
 
-你应该看到 micro:bit 背后的信号灯高频闪烁，如果它没有高频闪烁，则按一下 micro:bit 背部的复位按钮
+如果你是第一次连接，会自动烧录固件（背面LED灯快速闪烁）。刷完之后，重新连接，连接之后，你应该看到 micro:bit 背后的信号灯高频闪烁，如果它没有高频闪烁，则按一下 micro:bit 背部的复位按钮
 
 ps: linux 用户注意，scratch3_adapter 使用 usb 串口与 micro:bit 连接，linux 下，使用 usb 串口需要做权限设置：`sudo chmod 666 /dev/ttyACM0`
+
+!!! 提醒
+    如果你遇到问题，可手动烧录[固件](/hex/usb_Microbit_firmware.hex)(保存文件到本地，并拖到 Microbit盘里)
 
 ## 步骤 4：hello world
 

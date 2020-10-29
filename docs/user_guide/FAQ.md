@@ -188,3 +188,9 @@ CodeLab Adapter 有很好的分布式支持:
 *  Android: `/system/etc/hosts`
 *  Mac/Linux: `/etc/hosts`
 *  iPhone: `/etc/hosts`
+
+## Windows 系统常见文件
+
+### 提示`缺少Python3`
+
+可能是你把 Adapter 当到了带有 **空格** 的文件夹里了。

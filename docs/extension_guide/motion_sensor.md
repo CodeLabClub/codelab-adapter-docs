@@ -4,6 +4,9 @@
 ![](https://kanome-cms-media-production.kano.me/media/components/adc9e906-5e14-4178-ae32-164fd4f9ee8f.jpeg)
 
 ## 插件说明
+!!! 注意
+    Windows 和 Mac 用户开箱可用。
+
 
 -   使用方式: 到[插件市场](/extension_guide/extension_market/)下载插件, 搜索 **motion**
 -   插件类型: [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/)

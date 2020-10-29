@@ -87,6 +87,9 @@ eval(code, {"__builtins__": None}, {
 ![](/img/0a58a769497bdd4cacb5e93acca88014.png)
 
 # 最后
+!!! 提醒
+    exec 可能带来各种安全风险，暂时将其从插件市场移走了。eval也更符合我们采用的`对象/消息`隐喻。  
+    如果你确实需要exec，可以自行构建插件， 参考[python_exec.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/python_exec.py)
 
 内置在 Adapter 里的 Python 插件以 [eval](https://docs.python.org/zh-cn/3.7/library/functions.html#eval) 执行 Python 代码(只能执行表达式)，如果你希望以功能更轻大的 [exec](https://docs.python.org/zh-cn/3.7/library/functions.html#exec) (可执行任何 Python 语句)执行 Python 代码，可以在[插件市场](/extension_guide/extension_market/)里下载 [extension_python_exec 插件](/extension_guide/python_exec/)。
 

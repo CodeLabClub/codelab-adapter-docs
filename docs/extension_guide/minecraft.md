@@ -5,13 +5,9 @@
 
 # 插件说明
 
--   使用方式: 到[插件市场](/extension_guide/extension_market/)下载插件, 搜索 **minecraft**
--   插件类型: [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/)
--   插件源码: [node_minecraft.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_minecraft.py)
--   依赖库(python): 
-    *  `python -m pip install codelab_adapter_client mcpi minecraftstuff  --upgrade`
+Windows 和 Mac 用户开箱可用。Linux用户将自动安装依赖
 
-    <!--todo 自动安装 https://stackoverflow.com/questions/12937533/use-pip-install-uninstall-inside-a-python-script -->
+<!--todo 自动安装 https://stackoverflow.com/questions/12937533/use-pip-install-uninstall-inside-a-python-script -->
 
 # 外部环境依赖
 
