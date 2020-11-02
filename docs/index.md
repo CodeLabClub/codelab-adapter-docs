@@ -4,13 +4,17 @@
 
 ![](img/adapter_party.jpeg)
 
+## 是什么？
+
 CodeLab Adapter 是一个由 Python 构建的软件(构建在消息之上(`Everything Is a Message`))， 致力于连接万物，无论是软件还是硬件，无论是 AI、开源硬件、现实世界的物体、还是虚拟世界的动画角色，接入 CodeLab Adapter，皆可彼此互动。
 
 在 CodeLab Adapter 驱动的环境里，通过使用 Scratch 或 Python 编程，你可以与万物沟通: 你可以在朋友生日那天，在 Ta 进门的一刻，将手中的魔杖一挥，在空中划一个字母 L 的轨迹，瞬间，点亮房间里五彩的灯光。 <!--你可以让环境识别出你的运动，进而制作一个体感游戏, 或是让整个空间变得智能。-->
 
+具体请看下面两个演示案例：
+
 <video width=80% src="/video/IMG_0657_1598435455275317.mp4" controls="controls"></video>
 
-在这个例子中, 我们做了一场魔法烟花秀: 实施第一个魔法，时间被冻结，烟花静止在空中；实施第二个魔法，将烟花"解冻"; 实时第三个魔法-- 百花齐放。 Adapter 负责将烟花(虚拟)与魔杖连接在一起，用户在创作平台中操控两者，演绎故事。
+在上方视频中, 我们做了一场魔法烟花秀: 请看视频左侧，当挥动手中的魔杖实施第一个魔法，时间被冻结，视频右侧烟花静止在空中；实施第二个魔法，将烟花"解冻"; 实施第三个魔法-- 百花齐放。 Adapter 负责将烟花(虚拟)与魔杖(实物)连接在一起，用户在一个[创作平台](https://create.codelab.club/projects/editor)中即可同时操控两者，演绎自己编写的故事。
 
 <!--阐述它
 Adapter里干了啥
@@ -24,9 +28,9 @@ Adapter里干了啥
 
 <video width=80%  src="/video/%E8%AF%BB%E4%B9%A6%E4%B8%8E%E6%80%9D%E8%80%83.mp4" controls="controls"></video>
 
-这个例子演示了如何构建一个**理解**你当前处境的 AI，当你正在阅读时，AI 将为你把灯打开；当你合上书，AI 将为你把灯关掉，让你沉浸在黑暗中思考。 Adapter 负责接入外部 AI 与现实空间，使得你可以在创作平台对它们编程。
+上方第二个视频演示了如何构建一个 **理解** 你当前处境的 AI，当你正在阅读时，AI 将为你把灯打开；当你合上书，AI 将为你把灯关掉，让你沉浸在黑暗中思考。 Adapter 负责接入外部 AI 与现实空间内的智能灯具，辅助你在[创作平台](https://create.codelab.club/projects/editor)中通过编程控制他们。
 
-这儿有更多[演示案例](/user_guide/gallery/):
+下面请看案例集锦视频，更多的在[这里](https://codelab.club/projects)。
 
 <!--综合案例-->
 
@@ -38,23 +42,24 @@ CodeLab Adapter 的一个典型用例，是将任何有趣的东西接入 Scratc
 
 <!--todo 视频-->
 
-# 能做什么
+## 能做什么？
 
 CodeLab Adapter 的典型用途包括:
 
--   扩展 Scratch 的能力（[比 Scratch Link 更强大](/user_guide/FAQ/#scratch-link)）
-    -   AI、IoT、开源硬件、实物、虚拟角色...
--   Python 入门: 一开始就玩起来
--   构建[可编程空间](https://www-old.codelab.club/blog/design-principles-behind-neverland/)
--   [构建 Dynamic Table](https://www-old.codelab.club/blog/codelab-dynamictable-a-seeing-world/)
+-   扩展 Scratch 的能力（[比 Scratch Link 更强大](/user_guide/FAQ/#scratch-link)）  
+    为它接入 AI、IoT、开源硬件、始就玩起来实物、虚拟角色...使Scratch成为酷上加酷的[创作平台](https://create.codelab.club/projects/editor)
+-   Python 入门  
+    Adapter 由 Python 构建，对 Scratch 的增强也是通过使用 Python 写的插件实现。因此，Python 入门者通过简单修改现成插件代码为己所用、或编写新的插件代码，即可快速上手玩起来
+-   [构建可编程空间](https://codelab.club/blog/2020/04/29/%E5%8F%AF%E7%BC%96%E7%A8%8B%E7%A9%BA%E9%97%B4/)
+-   [构建 Dynamic Table](https://codelab.club/blog/2020/05/31/DynamicTable/)
 -   扩展在线编程平台(Blockly 等)的能力
 
-# 特性
+## 特性有哪些？
 
 -   开放
 -   高度可扩展
-    -   [Extension](/dev_guide/helloworld/) 和 [Node](/dev_guide/Adapter-Node/)
--   万物皆消息
+    -   [插件(Extension)](/dev_guide/helloworld/) 和 [节点(Node)](/dev_guide/Adapter-Node/)
+-   万物皆消息(EIM, Everything Is a Message)
 -   RESTful API
 -   支持多门编程语言(34+)
 -   将 Scratch 和 Python 视为一等公民
