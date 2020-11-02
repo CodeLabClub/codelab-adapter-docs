@@ -126,4 +126,4 @@
 
 接下来我们将进入使用Adapter的环节，通过两个例子看看Adapter可以做些什么吧。
 
-在安装中如果遇到问题，欢迎[在Codelab社区](https://scratch.codelab.club/)中提出。
+在安装中如果遇到问题，欢迎[在Codelab社区](https://discuss.codelab.club/)中提出。

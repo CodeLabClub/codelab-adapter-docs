@@ -19,12 +19,12 @@ Windows 和 Mac 用户开箱可用。Linux用户将自动安装依赖
 
 启动 CodeLab Adapter，运行 node_minecraft 插件。
 
-打开 Scratch 编程界面，我们已经制作了一个 demo:[Scratch-mcTurtle](https://scratch-beta.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-mcTurtle.sb3)， 你可以从这里起步，它是一个运行在Minecraft世界里的Turtle，它会出现在你周围 推荐你飞到空中(空格)去看它的运行轨迹。
+打开 Scratch 编程界面，我们已经制作了一个 demo:[Scratch-mcTurtle](https://scratch-beta.codelab.club?sb3url=https://adapter.codelab.club/sb3/Scratch-mcTurtle2.sb3)(如果你打开出错，请清理浏览器缓存)， 你可以从这里起步，它是一个运行在Minecraft世界里的Turtle，它会出现在你周围 推荐你飞到空中(空格)去看它的运行轨迹。
 
 <video src="/video/1588665494072465.mp4" controls="controls"></video>
 
 
-如果你想做更多有趣的事，建议阅读[minecraft](stuffaboutcode.com/p/minecraft.html), 我们鼓励你去修改[插件源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_minecraft.py)，去支持更多的对象。欢迎把你的修改结果提交到 CodeLab 源码仓库，分享给社区里的其他人用
+如果你想做更多有趣的事，建议阅读[minecraft](https://www.stuffaboutcode.com/p/minecraft.html), 我们鼓励你去修改[插件源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_minecraft.py)，去支持更多的对象。欢迎把你的修改结果提交到 CodeLab 源码仓库，分享给社区里的其他人用
 
 
 
