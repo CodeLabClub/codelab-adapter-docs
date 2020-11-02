@@ -9,9 +9,11 @@
 ```
 git clone https://github.com/CodeLabClub/codelab-adapter-docs
 cd codelab-adapter-docs
-pip3 install mkdocs pymdown-extensions mkdocs-material
+pip3 install mkdocs pymdown-extensions mkdocs-material markdown_include
+
 # debug
 mkdocs serve
+
 # build
 mkdocs build
 
