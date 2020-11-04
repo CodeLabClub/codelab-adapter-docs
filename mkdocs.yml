@@ -94,6 +94,7 @@ nav:
       - 安装Python.md: "Python_Projects/install_python.md"
       - I am reading!: "Python_Projects/I_am_reading.md"
       - Python 与 Scratch: "Python_Projects/python_scratch.md"
+      - 项目列表: "Python_Projects/project-list.md"
   - 开发手册(dev guide):
       - 介绍(introduction): "dev_guide/introduction.md"
       - 架构(Architecture): "dev_guide/Architecture.md"
