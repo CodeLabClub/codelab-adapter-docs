@@ -16,6 +16,7 @@ Windows 和 Mac 用户开箱可用。 Linux需要安装依赖（参考文末）
 -   [CodeLab DynamicTable: 一个可实施的技术方案](https://www-old.codelab.club/blog/codelab-dynamictable-an-instance/)
 
 ## 积木介绍
+
 ![](/img/121f181ffb02f95cddf1501c47decd12.png)
 
 可以从 [arucogen](https://chev.me/arucogen/) 查询 ArUco marker id

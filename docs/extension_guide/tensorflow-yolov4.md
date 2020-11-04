@@ -1,5 +1,5 @@
 # Tutorial
-[tensorflow-yolov4](https://github.com/hhk7734/tensorflow-yolov4)， 请参考文档，安装响应依赖。
+[tensorflow-yolov4](https://github.com/hhk7734/tensorflow-yolov4)， 请参考文档，安装相应依赖。
 
 
 接入方法参考[Python对象的连接器：EIM 插件](/project_tutorial/eim_pt/)
