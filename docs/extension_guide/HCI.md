@@ -16,6 +16,9 @@ Windows 和 Mac 用户开箱可用。 Linux需要安装依赖:
 
 ps: 使用 Python3
 
+!!! 提醒
+    MacOS 升级到最新版本后，可能会导致部分控制类积木无法使用，使系统安全机制升级造成的（我也是可悲的 Mac 用户，下个计算机一定要使用开源系统。）。详情参考:[Pyautogui doesn't seem to work on macOS Mojave](https://github.com/asweigart/pyautogui/issues/247)。 相关问题: [Catalina does not allow to capture the screen](https://github.com/BoboTiG/python-mss/issues/134)。这个问题的结局方案似乎是让系统信任Adapter内置的Python: `codelab-adapter-3_7_3-mac.app/Contents/Resources/Support/bin/python3`
+
 ## 步骤 2：打开 Codelab Adapter
 
 {!utils/open_adapter.md!}

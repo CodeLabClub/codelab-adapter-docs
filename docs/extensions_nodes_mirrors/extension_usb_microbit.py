@@ -22,6 +22,7 @@ class MicrobitHelper:
         self.logger = extensionInstance.logger
         self.port = None  # 当前连接的port
         self.ser = None
+        self.flash_finished_notification = "The firmware is flashed!"
 
 
     def connect(self, port, firmware_type, **kwargs):
@@ -54,12 +55,16 @@ class MicrobitHelper:
                     self.extensionInstance.pub_notification("flashing new firmware...",type="INFO") 
                     _ser.close()
                     flash_usb_microbit(firmware_path)
+                    # flash_usb_microbit是非阻塞的
+                    # https://github.com/ntoll/uflash/blob/master/tests/test_uflash.py
+                    # self.extensionInstance.pub_notification(self.flash_finished_notification, type="SUCCESS")
                     return
             except Exception as e:
                 self.extensionInstance.logger.exception("!!!")
                 _ser.close()
-                self.extensionInstance.pub_notification("flashing firmware...",type="INFO") 
+                self.extensionInstance.pub_notification("flashing firmware...",type="INFO")
                 flash_usb_microbit(firmware_path)
+                # self.extensionInstance.pub_notification(self.flash_finished_notification, type="SUCCESS")
                 raise e
 
         if firmware_type == "makecode_radio":
@@ -75,12 +80,14 @@ class MicrobitHelper:
                     _ser.close()
                     self.extensionInstance.pub_notification("flashing firmware...",type="ERROR") 
                     flash_makecode_file(firmware_path)
+                    # self.extensionInstance.pub_notification(self.flash_finished_notification, type="SUCCESS")
                     return
             except Exception as e:
                 self.extensionInstance.logger.error(e)
                 _ser.close()
-                flash_makecode_file(firmware_path)
                 self.extensionInstance.pub_notification("flashing firmware...",type="ERROR") 
+                flash_makecode_file(firmware_path)
+                # self.extensionInstance.pub_notification(self.flash_finished_notification, type="SUCCESS")
                 raise e
         
         self.ser = _ser

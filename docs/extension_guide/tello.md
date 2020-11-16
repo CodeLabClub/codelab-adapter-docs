@@ -11,6 +11,7 @@
 
 以下是在线版使用教程，离线版基本相似。
 
+
 ### 步骤 1：打开 [CodeLab Scratch](https://scratch-beta.codelab.club?adapter_host=127.0.0.1)
 运行CodeLab Adapter， 确保在线平台与Adapte连接正常。
 
@@ -61,3 +62,21 @@
 ## DJI Tello x Switch Joy-Con
 
 <video width=300px src="/video/tello_joy_con.mp4" controls="controls"></video>
+
+# 改进
+目前 Tello 的插件都已开源，很久没更新，稳定性不高，大家可以一起改进它
+
+*  [extension_tello](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_tello.py)
+*  [scratch3_tello](https://github.com/CodeLabClub/scratch3_tello)
+
+!!! 提醒
+    如果你希望做一些更复杂的事，建议直接使用社区里的 Python SDK与 设备交互，之后使用 [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/) 将其接入Adapter环境中。
+
+## Tello api 文档
+*  [SDK 2.0](https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf)
+*  [DJITelloPy](https://github.com/damiafuentes/DJITelloPy)
+<!--
+*  [TelloPy](https://github.com/hanyazou/TelloPy)
+*  [Tello-Python](https://github.com/dji-sdk/Tello-Python)
+-->
+*  [multi_robot_drone_example](https://robomaster-dev.readthedocs.io/zh_CN/latest/python_sdk/multi_robot_drone_example.html)

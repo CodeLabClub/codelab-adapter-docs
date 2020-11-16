@@ -78,3 +78,9 @@ def cozmo_program(robot: cozmo.robot.Robot):
 
 cozmo.run_program(cozmo_program)
 ```
+
+# 进阶
+参考 [Cozmo API](http://cozmosdk.anki.com/docs/api.html)，建议在  [jupyterlab](https://adapter.codelab.club/extension_guide/jupyterlab/) 中做实验(已经内置好了Cozmo环境)
+
+!!! 提醒
+    如果你希望做一些更复杂的事，建议直接使用社区里的 Python SDK与 设备交互，之后使用 [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/) 将其接入Adapter环境中。

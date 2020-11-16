@@ -80,4 +80,7 @@ Syntien 提供了丰富的控制面板
 Unipad 提供多种游戏手柄界面，这些可以很好地跟Scratch项目结合！ OSC 如此高的刷新率，几乎没有任何延迟
 
 # 进阶
-接入 [SonicPi](/extension_guide/sonicPi/) 玩起来！
+接入支持OSC的软件玩起来：
+
+    *  音乐: [SonicPi](/extension_guide/sonicPi/)
+    *  AI：[Wekinator](http://www.wekinator.org/)
