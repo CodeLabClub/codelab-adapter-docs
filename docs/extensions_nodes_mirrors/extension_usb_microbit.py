@@ -73,7 +73,7 @@ class MicrobitHelper:
             try:
                 data = self.readline(_ser)
                 self.extensionInstance.logger.debug(f"makecode_radio uart reply: {data}")
-                if type(data)==str and data >= "0.3":
+                if type(data)==str and data >= "0.4": # todo 0.4 set radio_03 其他不要动，固件变了
                     self.extensionInstance.logger.debug(f"makecode radio firmware -> {data}")   
                 else:
                     # flash

@@ -1,5 +1,8 @@
 # DJI Tello
 
+!!! tello
+    请使用 [tello2.0](/extension_guide/tello/)
+
 <!--
 可以在[插件市场](/extension_guide/extension_market/)中下载 Tello 插件。
 添加注释-->

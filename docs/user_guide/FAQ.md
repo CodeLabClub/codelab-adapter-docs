@@ -126,8 +126,8 @@ Windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Ada
 ## 离线使用
 CodeLab Adapter 支持离线使用，目前有 3 种方式使用它。
 
-1. 配合 [CodeLab Scratch Desktop（离线版）](https://www.codelab.club/blog/2020/08/20/tools/)使用。
-2. 修改host，添加一条`127.0.0.1 codelab-adapter.codelab.club`, [详情](#codelab-adapter_3)
+1. (推荐) 修改host，添加一条`127.0.0.1 codelab-adapter.codelab.club` , [详情](#codelab-adapter_3)
+2. 配合 [CodeLab Scratch Desktop（离线版）](https://www.codelab.club/blog/2020/08/20/tools/)使用。
 3. 将 Web UI 里的`codelab-adapter.codelab.club`替换为`127.0.0.1`，形如 `https://codelab-adapter.codelab.club:12358/?token=YOUR_TOKEN`，重新刷新页面。
 
 推荐使用`方法 1`。

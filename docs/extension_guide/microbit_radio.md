@@ -2,7 +2,7 @@
 
 !!! 提醒
     只能用于 makecode radio， makecode radio 与 micropython radio不兼容。   
-    Adapter 3.7.4版本将支持切换 radio channel。
+    Adapter `3.7.4` 支持切换 radio channel。
 
 ## 介绍
 
@@ -43,7 +43,7 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 
 <!--新版本 0.4 允许设置 channel https://makecode.microbit.org/_P2297z3f0Pkz-->
 
-使用数据线将`中转站` micro:bit 接入电脑，刷入[固件](https://makecode.microbit.org/_hq7Ciugx396o)。
+使用数据线将`中转站` micro:bit 接入电脑，刷入[固件](https://makecode.microbit.org/_P2297z3f0Pkz)。
 
 <!--带版本 https://makecode.microbit.org/_hq7Ciugx396o-->
 

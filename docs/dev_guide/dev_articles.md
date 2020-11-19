@@ -3,7 +3,8 @@
 ## 开发
 
 -   [创建你的第一个 Scratch 3.0 Extension](https://blog.just4fun.site/create-first-Scratch3-Extension.html)
--   [构建并发布一个 CodeLab Adapter 插件](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/publish-codelab-adapter-extension/)
+-   [如何开发一个 CodeLab Adapter 插件](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/create-adapter-plugin/)
+-   [构建并发布一个 CodeLab Adapter 插件(旧版本，不推荐)](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/publish-codelab-adapter-extension/)
 -   [将CodeLab Adapter用作Python解释器](https://blog.just4fun.site/scratch3-adapter-as-python-interpreter.html)
 -   [Python 与 Scratch 的双向通信](https://blog.just4fun.site/python-scratch-with-adapter.html)
 -   [使用 Python 拓展 Scratch 的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html)
