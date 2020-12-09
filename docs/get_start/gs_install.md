@@ -69,7 +69,7 @@
 
 1. [下载](#download)
     ![win1](/img/install_win_1.png)
-2. 右键解压,然后进入解压后的文件夹（为了方便使用，可以将adapter添加到桌面）, 双击 CodeLab-Adapter 文件。
+2. 右键解压,然后进入解压后的文件夹, 双击 CodeLab-Adapter 文件。（提醒: 最好不要重命名文件夹，如果要重命名，确保名字中没有中文和空格）
     ![win2](/img/6f482f9d136a541b4df590c9aebade6f.png)
 
 <!--2. 双击安装软件(如果之前安装过，请先卸载旧软件), 安装完成后，可以从 **开始** 菜单栏里启动
@@ -103,7 +103,7 @@
 
 温馨提示：
 
-- 无法运行请赋予可执行权限`chmod u+x xxx`
+- 无法运行请赋予可执行权限`chmod u+x Adapter软件名`
 - 在Ubuntu 16.04下可能无法自动打开浏览器。建议在命令行下启动它，你将看到`https://codelab-adapter.codelab.club:12358/`, 这个链接即是 WebUI
 - 当前经测试的发行版有Ubuntu，Kali，ArchLinux
 
@@ -111,7 +111,8 @@
 
 1. 下载
 2. 解压
-3. 赋予运行权限：`chmod +x xxx`，运行
+3. 赋予运行权限：`chmod +x Adapter软件名`，再双击运行
+    *  也可以右键修改文件权限，使其可运行
 
 ---
 

@@ -13,7 +13,7 @@
 -   插件源码: [node_motionSensor_proximity.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_motionSensor_proximity.py)、[node_motionSensor_gesture.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_motionSensor_gesture.py)
 
 !!! 提醒
-    node_motionSensor_proximity 和  node_motionSensor_gesture 插件，分别对应 motion sensor 手势模式和距离模式。两个插件不能同时运行，当需要切换到另一个插件时，需要把当前正在运行的插件给停止了。
+    node_motionSensor_proximity 和  node_motionSensor_gesture 插件，分别对应 motion sensor 距离模式 和 手势模式。两个插件不能同时运行，当需要切换到另一个插件时，需要把当前正在运行的插件给停止了。
 
 # Demo
 

@@ -173,6 +173,8 @@ nav:
       - Etoys: "extension_guide/etoys.md"
       - Squeak/Smalltalk: "extension_guide/Squeak.md"
       - Wekinator: "extension_guide/Wekinator.md"
+      - yeelight: "extension_guide/yeelight.md"
+      - 悟空机器人(教育版): "extension_guide/alphamini.md"
       - OpenCV(正在迁移中): "extension_guide/opencv.md"
       - Tensorflow(正在迁移中): "extension_guide/tensorflow.md"
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"

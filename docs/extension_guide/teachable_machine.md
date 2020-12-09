@@ -51,3 +51,4 @@ Longan团队已经将Teachable Machine部署到国内: [Longan Teachable Machine
 
 点击安装 Tampermonkey 脚本 [Teachablemachine_Result.user.js](https://gist.githubusercontent.com/wwj718/78402d0de9efb8d33742c8770056489c/raw/2b99784ff8cf0d344e86e8c2b781b0babfc84c33/Teachablemachine_Result_fixed.user.js)。
 
+运行Adapter之后如何页面弹出，已连接Adapter，则说明一切正常

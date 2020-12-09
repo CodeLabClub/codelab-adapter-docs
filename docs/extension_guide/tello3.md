@@ -27,7 +27,8 @@ pip install robomaster codelab_adapter_client --upgrade
 ## 开始！
 
 !!! 提醒
-    Tello 会占用 wifi，导致电脑无法联网，请使用 CodeLab Adapter 的离线模式: [FAQ：离线使用](/user_guide/FAQ/#_6) (在`>=3.4.0`的版本中可用)。
+    Tello 会占用 wifi，导致电脑无法联网，请使用 CodeLab Adapter 的离线模式: [FAQ：离线使用](/user_guide/FAQ/#_6) (在`>=3.4.0`的版本中可用)。  
+    更好的方式可能是将Tello接入路由器上，或者使用USB无线网卡，避免电脑无法上网。
 
 
 ### 步骤 1：打开 [CodeLab Scratch](https://scratch-beta.codelab.club)

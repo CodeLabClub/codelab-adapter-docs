@@ -37,6 +37,9 @@ windows user: `python -m pip install codelab_adapter_client --upgrade --user`
 
 Follow Vector official tutorial: [Initial Setup](https://developer.anki.com/vector/docs/initial.html)
 
+!!! 提醒
+    如果 Vector 的 IP发生了变化（诸如将Vector 带入新的 wifi 环境），不需要重新认证(python3 -m anki_vector.configure), 只需要修本地改配置文件即可（第一次认证留下的）,  配置文件为: `~/.anki_vector/sdk_config.ini`
+
 If the following code (`hello_world.py`) runs smoothly, go to the next step.
 
 ```python

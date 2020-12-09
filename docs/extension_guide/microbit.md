@@ -1,4 +1,8 @@
 # Tutorial
+
+!!! 提醒
+    microbit v2 用户，请使用这个[固件](/hex/usb_Microbit_firmware_4v2.hex)。目前需要手动刷新，Adapter的下个版本我们将提供更好的支持。
+
 !!! 提醒
     [microbit radio插件](/extension_guide/microbit_radio/)与 [usb microbit插件](/extension_guide/microbit/)不能同时使用.
 
@@ -42,7 +46,7 @@ ps: Windows 7 用户注意，为了能发现并连接 micro:bit，需要[安装�
 ps: linux 用户注意，scratch3_adapter 使用 usb 串口与 micro:bit 连接，linux 下，使用 usb 串口需要做权限设置：`sudo chmod 666 /dev/ttyACM0`
 
 !!! 提醒
-    如果你遇到问题，可手动烧录[固件](/hex/usb_Microbit_firmware.hex)(保存文件到本地，并拖到 Microbit盘里)
+    如果你遇到问题，可手动烧录[固件(v1)](/hex/usb_Microbit_firmware.hex)(保存文件到本地，并拖到 Microbit盘里)。 microbit v2 用户，请使用这个[固件](/hex/usb_Microbit_firmware_4v2.hex)
 
 ## 步骤 4：hello world
 

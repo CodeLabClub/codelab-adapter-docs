@@ -5,7 +5,8 @@ Tello 插件的 2.0 版本， 基于[DJITelloPy](https://github.com/damiafuentes
 支持Tello、Tello Edu 和 Tello TT。
 
 !!! 提醒
-    Tello 会占用 wifi，导致电脑无法联网，请使用 CodeLab Adapter 的离线模式: [FAQ：离线使用](/user_guide/FAQ/#_6) (在`>=3.4.0`的版本中可用)。
+    Tello 会占用 wifi，导致电脑无法联网，请使用 CodeLab Adapter 的离线模式: [FAQ：离线使用](/user_guide/FAQ/#_6) (在`>=3.4.0`的版本中可用)。  
+    更好的方式可能是将Tello接入路由器上，或者使用USB无线网卡，避免电脑无法上网。
 
 以下是在线版使用教程，离线版基本相似。
 
@@ -31,11 +32,13 @@ Tello 插件的 2.0 版本， 基于[DJITelloPy](https://github.com/damiafuentes
 
 选择 scratch3 中的 Tello2.0 插件.
 
+<img width="600px" src="/img/88d6fb6817a5d059d7a228a76009b89d.png"/>
+
 <!--<img width="600px" src="/img/scratch3_tello.png"/>-->
 
 
 
-运行 Tello 插件。
+运行 Tello2.0 插件。
 
 <!--![](/img/870f31bff87dc33c9640280c786ca483.png)-->
 
@@ -61,6 +64,8 @@ Tello 插件的 2.0 版本， 基于[DJITelloPy](https://github.com/damiafuentes
 
 ## 进阶
 你可以在 Tello 广播积木里调用 [api](https://djitellopy.readthedocs.io/en/latest/tello/)！形如: [tello.flip_left()](https://djitellopy.readthedocs.io/en/latest/tello/#djitellopy.tello.Tello.flip_left)
+
+利用API，你也可以与停机坪(机器视觉)交互([get_mission_pad_id](https://djitellopy.readthedocs.io/en/latest/tello/#djitellopy.tello.Tello.get_mission_pad_id)).API里有很多与停机坪相关的函数。
 
 如果你希望做一些更复杂的事，建议直接使用社区里的 [DJITelloPy](https://github.com/damiafuentes/DJITelloPy) 与 设备交互（[api](https://djitellopy.readthedocs.io/en/latest/tello/)），之后使用 [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/) 将其接入Adapter环境中。
 
