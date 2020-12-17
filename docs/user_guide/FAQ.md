@@ -113,7 +113,11 @@ Windows 用户如果找不到用户配置文件目录，可以通过 CodeLab Ada
 [codelab_adapter_extensions](https://github.com/CodeLabClub/codelab_adapter_extensions)。
 
 ## 支持移动端吗（iPad/手机）
-支持。
+Adapter 无法直接运行在移动端（可以运行在安卓的linux模拟器（如Termux）上）
+
+在移动端上使用 Adapter 的方式是，将 Adapter 运行在计算机(如树莓派)上，之后通过url参数指向它:  `https://scratch-beta.codelab.club/?adapter_host=192.168.31.140`
+
+但由于不同平台对 https 的限制策略不同，可能需要一些处理技巧。
 
 这是一个[例子](/video/codelab_ipad.mp4)。
 

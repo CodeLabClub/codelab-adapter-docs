@@ -103,3 +103,17 @@ OPEN_REST_API 用于打开/关闭 [REST API](/dev_guide/REST-API/)。
 白名单
 
 只有加入白名单的域名才能与 Adapter 通信。
+
+## ZMQ_LOOP_TIME
+决定消息收发的速度，由于Adapter本质上是个消息系统，所以 ZMQ_LOOP_TIME 直接影响Adapter的运行速度。
+
+ZMQ_LOOP_TIME 默认值 0.02 （秒），ZMQ_LOOP_TIME 越小，Adapter 消息速度(EIM、Linda)越快。
+
+相应的代价是 Adapter 会占用更多CPU。
+
+## OPEN_LINDA_REST_API
+是否开启 [Linda REST API](https://adapter.codelab.club/user_guide/Linda/#rest-api)
+
+默认是开启(True)
+
+## 
