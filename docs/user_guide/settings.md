@@ -115,5 +115,3 @@ ZMQ_LOOP_TIME 默认值 0.02 （秒），ZMQ_LOOP_TIME 越小，Adapter 消息�
 是否开启 [Linda REST API](https://adapter.codelab.club/user_guide/Linda/#rest-api)
 
 默认是开启(True)
-
-## 
