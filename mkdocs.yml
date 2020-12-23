@@ -197,6 +197,8 @@ nav:
   - CodeLab DynamicTable:
       - 介绍(introduction): "DynamicTable/index.md"
       - hello world: "DynamicTable/hello_world.md"
+  - 帮助:
+      - 论坛: "help/index.md"
   - 关于(about):
       - 联系我们(contact us): "about/contact.md"
       - why: "about/why.md"

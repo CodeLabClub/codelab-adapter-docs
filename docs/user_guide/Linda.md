@@ -14,6 +14,7 @@ CodeLab Adapter 4.0 内置了 Linda server（Tuple Space），目前我们提供
 -   [Scratch Client](#scratch-client)
 -   [REST API](#rest-api)
 -   [cli (命令行客户端)](#cli)
+-   [JavaScript Client(开发者)](#javascript-client)
 
 Linda 最有趣的一个地方是，所有 Tuple Space 参与者（跨语言、跨系统、跨网络）都能够互操作，语义由参与者自己"协调", 所以 Alan Kay 将 Linda 称为"协调语言"。
 
@@ -174,6 +175,11 @@ codelab-linda rd --data '[1, 2, 3]' # []
 codelab-linda rd --data '[1, "*"]'
 ```
 
+# JavaScript Client
+方便开发者，将 Linda 引入自己的web项目。
+
+CodeLab 目前使用 JavaScript Client，将 Linda 带入 CodeLab Scratch、CodeLab Adapter WebUI 和 Lively。
+
 # Demo
 
 
@@ -207,7 +213,31 @@ node.linda_in(["response", "loudness", "*"])
 
 跨语言对象之间的互操作
 
-用到了 Jupyter notebook 里的 ipywidgets
+用到了 Jupyter notebook 里的 ipywidgets.
+
+```python
+# 请使用 jupyter notebook，而不是jupyterlab
+from ipywidgets import interact, interactive, fixed, interact_manual
+from codelab_adapter_client import AdapterNode
+import time
+
+class MyNode(AdapterNode):
+    NODE_ID = "linda/jupyter"
+
+    def __init__(self):
+        super().__init__()
+
+node = MyNode()
+node.receive_loop_as_thread()
+
+@interact(show=True, x=100, size=100)
+def f(show,x,size):
+    node.linda_out(["%%x", x]) # 提醒，f函数是非阻塞的，高度拉动可能会导致太多并发任务。如果卡住，请点击停止按钮
+    node.linda_out(["%%show", show])
+    node.linda_out(["%%size", size])
+    return show,x,size
+```
+
 
 # 进阶
 ## 消息风格

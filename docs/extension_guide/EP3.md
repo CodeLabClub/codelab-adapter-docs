@@ -1,5 +1,8 @@
 # RoboMaster 3.0
 
+!!!提醒
+    目前只支持RoboMaster EP(暂不支持S1)，受限于大疆的开放接口: [RoboMaster SDK 新手入门 - EP 篇](https://robomaster-dev.readthedocs.io/zh_CN/latest/python_sdk/beginner_ep.html)
+
 RoboMaster EP 插件的 3.0 版本， 基于 DJI 官方的 SDK: [RoboMaster SDK](https://robomaster-dev.readthedocs.io/zh_CN/latest/python_sdk/beginner_drone.html)库。
 
 能够充分利用设备的能力。

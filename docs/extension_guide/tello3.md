@@ -63,7 +63,7 @@ pip install robomaster codelab_adapter_client --upgrade
 ![](/img/d5f48154f5c40003eeb416137b1055ad.png)
 
 
-[tello3-demo](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/tello3-demo.sb3)
+[tello3-demo](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-tello3.sb3)
 
 
 <!--![](/img/870f31bff87dc33c9640280c786ca483.png)-->

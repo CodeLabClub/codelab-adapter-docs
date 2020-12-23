@@ -79,3 +79,9 @@ CodeLab Adapter 允许以[命令行方式启动（没有GUI）](/user_guide/FAQ/
 为了方便软件的二次分发和自定义，CodeLab Adapter 允许开发者覆盖用户配置文件([user_settings.py](/user_guide/settings/))，进而对 CodeLab Adapter 做初始化配置。
 
 只需要将自定义的 [user_settings.py](/user_guide/settings/) 放在 CodeLab Adapter 同级目录中即可。
+
+## 如何集成到 Electron
+
+只需要集成[scratch3_eim](https://github.com/CodeLabClub/scratch3_eim)即可。
+
+如果你想使用 socketio client 连接与 Adapter 沟通，参考[此处源码](https://github.com/CodeLabClub/scratch3_eim/blob/v3/codelab_adapter_base.js#L61)。

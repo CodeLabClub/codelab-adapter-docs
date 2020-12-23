@@ -1,8 +1,8 @@
 # RoboMaster
 RoboMaster EP
 
-!!! 提醒
-    RoboMaster EP 最近SDK做了更新，建议到插件市场下载最新插件。
+!!!提醒
+    目前只支持RoboMaster EP(暂不支持S1)，受限于大疆的开放接口: [RoboMaster SDK 新手入门 - EP 篇](https://robomaster-dev.readthedocs.io/zh_CN/latest/python_sdk/beginner_ep.html)
 
 # Tutorial
 ## 依赖
