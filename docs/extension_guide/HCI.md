@@ -42,8 +42,15 @@ ps: 使用 Python3
 [魔杖播放视频](https://create.codelab.club/projects/8499/)
 
 <!--
-[Scratch-魔杖播放视频](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-wand-player.sb3)
+[Scratch-魔杖播放视频](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-wand-player2.sb3)
 -->
+
+!!!提醒
+    windows 10 的用户可能会遇到如下问题: 每次打开的都是文档文件夹。原因可能是中文编码问题。 解决方案:确保文件路径没有中文（建议放在D盘根目录下）诸如: `PyHelper.open(r'D:\cozmo.mp4')`
+
+!!!改进
+    如果你的播放器不直接弹出到桌面（诸如window10，默认显示在页脚），可以考虑使用网页打开视频: PyHelper.open_url(video_url), video_url 是这个视频的 url 地址
+
 
 ## 高阶用法
 HCI 插件允许你写 Python 代码，[PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/index.html) 文档中的所有功能你都可以在 Scratch 中使用。

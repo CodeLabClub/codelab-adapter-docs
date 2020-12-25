@@ -180,6 +180,7 @@ nav:
       - yeelight: "extension_guide/yeelight.md"
       - 创意编程: "extension_guide/creating-coding.md"
       - 交互激光雷达: "extension_guide/lidar.md"
+      - Switch: "extension_guide/switch.md"
       - OpenCV(正在迁移中): "extension_guide/opencv.md"
       - Tensorflow(正在迁移中): "extension_guide/tensorflow.md"
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"

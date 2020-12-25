@@ -15,6 +15,7 @@ CodeLab Adapter 4.0 内置了 Linda server（Tuple Space），目前我们提供
 -   [REST API](#rest-api)
 -   [cli (命令行客户端)](#cli)
 -   [JavaScript Client(开发者)](#javascript-client)
+-   [mush-lang](#mush-lang)
 
 Linda 最有趣的一个地方是，所有 Tuple Space 参与者（跨语言、跨系统、跨网络）都能够互操作，语义由参与者自己"协调", 所以 Alan Kay 将 Linda 称为"协调语言"。
 
@@ -180,6 +181,37 @@ codelab-linda rd --data '[1, "*"]'
 
 CodeLab 目前使用 JavaScript Client，将 Linda 带入 CodeLab Scratch、CodeLab Adapter WebUI 和 Lively。
 
+```js
+import AdapterBaseClient from "./codelab_adapter_base.js"; // https://github.com/CodeLabClub/scratch3_eim/blob/v3/codelab_adapter_base.js
+let NODE_ID = "linda/js/client";
+let HELP_URL = "https://adapter.codelab.club/user_guide/Linda/";
+let runtime = null;
+let adapter_client = new AdapterBaseClient(NODE_ID, HELP_URL, runtime);
+
+await adapter_client.linda_out([1,2,3]).then((data)=>{console.log("linda",data); return data}) 
+
+tuple = await adapter_client.linda_in(["hi", "lively", "*"]).then((data)=>{console.log("linda",data); return data})
+
+tuple = await adapter_client.linda_in(["hi", "python", "from Lively"]).then((data)=>{console.log("linda",data); return data})
+
+tuple = await adapter_client.linda_in(["hello", "lively", "*"]).then((data)=>{console.log("linda",data); return data})
+
+await adapter_client.linda_in([1,2,5], 1000).then((data)=>{console.log("linda",data); return data}) //超时
+```
+
+
+
+# mush-lang
+>  LISP 是一种构建材料 -- Alan Kay
+
+为了更好地探索 Linda 的可能性，我们围绕 Linda 的基本原语，构建了一门简单的语言 -- **mush-lang**。
+
+mush-lang 采用 LISP 风格的语法，可以视为 LISP 的一门玩具方言。 LISP 因其同构性(内外表示一致)，可能是所有语言中最简单的。
+
+mush-lang 目前在 Python 中实现。
+
+![](/img/WechatIMG1765.png)
+
 # Demo
 
 
@@ -232,9 +264,9 @@ node.receive_loop_as_thread()
 
 @interact(show=True, x=100, size=100)
 def f(show,x,size):
-    node.linda_out(["%%x", x]) # 提醒，f函数是非阻塞的，高度拉动可能会导致太多并发任务。如果卡住，请点击停止按钮
-    node.linda_out(["%%show", show])
-    node.linda_out(["%%size", size])
+    node.linda_out(["%%x", x], wait=False) # f函数是非阻塞的回调函数，使用wait=False参数，使node.linda_out使非阻塞的，此时相当于流，记得使用 message tuple（见下文）
+    node.linda_out(["%%show", show], wait=False)
+    node.linda_out(["%%size", size], wait=False)
     return show,x,size
 ```
 
@@ -263,6 +295,8 @@ linda 的基本观点是数据不停生灭（由用户显式操控）。
 *  [message_tuple demo](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/linda-message_tuple.sb3)
 
 
+!!!视角
+    站在变量的视角，你可以将其看作全局变量
 
 
 # FAQ
