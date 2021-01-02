@@ -33,3 +33,9 @@ make push
 如果你愿意将其翻译为英文，十分欢迎。
 
 可以参考已翻译的部分：[Our Values](/about/value/#our-values)。
+
+# push to github
+```bash
+git checkout gh-pages
+ghp-import -r github -p site
+```
