@@ -79,3 +79,23 @@ def edit_version(c):
     cmd = "code docs/about/latest_version.json"
     run_cmd(cmd)  
 # 生成json
+
+@task
+def watermark(c, video_path,output):
+    '''
+    fab watermark /tmp/1600057223631481.mp4 1600057223631481.mp4
+    '''
+    cmd = f'ffmpeg -i "{video_path}" -vf "movie=Logo.png[watermark];[in][watermark] overlay=main_w-overlay_w-10:main_h-overlay_h-10[out]" "docs/video/{output}"'
+    run_cmd(cmd)  
+
+@task
+def push(c):
+    cmd = "git push github new_v2:v2"
+    run_cmd(cmd)
+
+@task
+def to_github(c):
+    cmd1 = "rm -rf  site/video"
+    cmd2 = "ghp-import site"
+    run_cmd(cmd1)
+    run_cmd(cmd2)
