@@ -1,0 +1,2856 @@
+
+
+
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="the docs">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="复制">
+      
+        <meta name="lang:clipboard.copied" content="已复制">
+      
+        <meta name="lang:search.language" content="ja">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="没有找到符合条件的结果">
+      
+        <meta name="lang:search.result.one" content="找到 1 个符合条件的结果">
+      
+        <meta name="lang:search.result.other" content="# 个符合条件的结果">
+      
+        <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>安装Home Assistant - CodeLab Adapter</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#03a9f4">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="light-blue" data-md-color-accent="light-blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#home-assistant" tabindex="1" class="md-skip">
+        跳转至
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="CodeLab Adapter" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              CodeLab Adapter
+            </span>
+            <span class="md-header-nav__topic">
+              
+                安装Home Assistant
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            键入以开始搜索
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/CodeLabClub/codelab-adapter-docs/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="CodeLab Adapter" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    CodeLab Adapter
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/CodeLabClub/codelab-adapter-docs/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="主页(Home)" class="md-nav__link">
+      主页(Home)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      快速入门
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        快速入门
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../get_start/gs_adapter_intro/" title="Adapter简介" class="md-nav__link">
+      Adapter简介
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../get_start/gs_install/" title="安装Adapter" class="md-nav__link">
+      安装Adapter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../get_start/gs_pyproject/" title="入门案例1" class="md-nav__link">
+      入门案例1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../get_start/gs_microbit/" title="入门案例2" class="md-nav__link">
+      入门案例2
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      项目教程
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        项目教程
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../project_tutorial/welcome_pt/" title="教程开篇" class="md-nav__link">
+      教程开篇
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../project_tutorial/object_illustrate/" title="对象与消息" class="md-nav__link">
+      对象与消息
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../project_tutorial/eim_pt/" title="Python对象连接器：EIM" class="md-nav__link">
+      Python对象连接器：EIM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../project_tutorial/microbit_pt/" title="无线Micro:bit：Radio" class="md-nav__link">
+      无线Micro:bit：Radio
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../project_tutorial/scratch_ppt/" title="多对象交互：Scratch PPT" class="md-nav__link">
+      多对象交互：Scratch PPT
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      用户手册(user guide)
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        用户手册(user guide)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user_guide/Linda/" title="Linda" class="md-nav__link">
+      Linda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user_guide/advanced/" title="进阶(advanced)" class="md-nav__link">
+      进阶(advanced)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user_guide/gallery/" title="展示视频(gallery)" class="md-nav__link">
+      展示视频(gallery)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user_guide/FAQ/" title="常见问题(FAQ)" class="md-nav__link">
+      常见问题(FAQ)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user_guide/settings/" title="配置文件(settings)" class="md-nav__link">
+      配置文件(settings)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user_guide/嵌入scratch/" title="将 Scratch 项目嵌入网站" class="md-nav__link">
+      将 Scratch 项目嵌入网站
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user_guide/与外部系统通信/" title="与外部系统通信" class="md-nav__link">
+      与外部系统通信
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../changelog/" title="历史(changelog)" class="md-nav__link">
+      历史(changelog)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Scratch Projects
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Scratch Projects
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/introduction/" title="介绍(introduction)" class="md-nav__link">
+      介绍(introduction)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/音乐主题活动/" title="音乐主题活动" class="md-nav__link">
+      音乐主题活动
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/scratch_ppt/" title="Scratch PPT" class="md-nav__link">
+      Scratch PPT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/霍格沃兹/" title="霍格沃兹" class="md-nav__link">
+      霍格沃兹
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/cube_symphony/" title="cube symphony" class="md-nav__link">
+      cube symphony
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/彩虹的旋律/" title="彩虹的旋律" class="md-nav__link">
+      彩虹的旋律
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/击掌奏乐/" title="击掌奏乐" class="md-nav__link">
+      击掌奏乐
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/目之所及/" title="目之所及" class="md-nav__link">
+      目之所及
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/芝麻开门/" title="芝麻开门" class="md-nav__link">
+      芝麻开门
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/纸做的开关/" title="纸做的开关" class="md-nav__link">
+      纸做的开关
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/自制门禁系统/" title="自制门禁系统" class="md-nav__link">
+      自制门禁系统
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/灰袍巫师/" title="灰袍巫师" class="md-nav__link">
+      灰袍巫师
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/鼻梁上的老花镜/" title="鼻梁上的老花镜" class="md-nav__link">
+      鼻梁上的老花镜
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/闭眼请熄灯/" title="闭眼请熄灯" class="md-nav__link">
+      闭眼请熄灯
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/击灭那盏灯/" title="击灭那盏灯" class="md-nav__link">
+      击灭那盏灯
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/手势窗帘/" title="手势窗帘" class="md-nav__link">
+      手势窗帘
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/i_am_reading/" title="正在读书" class="md-nav__link">
+      正在读书
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/搜索/" title="搜索" class="md-nav__link">
+      搜索
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Scratch_Projects/聊天机器人/" title="聊天机器人" class="md-nav__link">
+      聊天机器人
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Python Projects
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Python Projects
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Python_Projects/introduction/" title="介绍(introduction)" class="md-nav__link">
+      介绍(introduction)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Python_Projects/install_python/" title="安装Python.md" class="md-nav__link">
+      安装Python.md
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Python_Projects/I_am_reading/" title="I am reading!" class="md-nav__link">
+      I am reading!
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Python_Projects/python_scratch/" title="Python 与 Scratch" class="md-nav__link">
+      Python 与 Scratch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Python_Projects/project-list/" title="项目列表" class="md-nav__link">
+      项目列表
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      开发手册(dev guide)
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        开发手册(dev guide)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/introduction/" title="介绍(introduction)" class="md-nav__link">
+      介绍(introduction)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/Architecture/" title="架构(Architecture)" class="md-nav__link">
+      架构(Architecture)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/helloworld/" title="hello world(Adapter Extension)" class="md-nav__link">
+      hello world(Adapter Extension)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/json-message/" title="json message" class="md-nav__link">
+      json message
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/Adapter-Node/" title="Adapter Node" class="md-nav__link">
+      Adapter Node
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/mqtt-Adapter-Node/" title="MQTT Adapter Node(正在迁移中)" class="md-nav__link">
+      MQTT Adapter Node(正在迁移中)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/sync-message/" title="同步风格的消息(sync message)" class="md-nav__link">
+      同步风格的消息(sync message)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/system_command/" title="与其他编程语言集成(system command)" class="md-nav__link">
+      与其他编程语言集成(system command)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/multi-language-support/" title="编程语言深度支持(multi language support)" class="md-nav__link">
+      编程语言深度支持(multi language support)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/接入第三方平台/" title="接入第三方平台" class="md-nav__link">
+      接入第三方平台
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/定制与分发/" title="定制与分发" class="md-nav__link">
+      定制与分发
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/REST-API/" title="REST API" class="md-nav__link">
+      REST API
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/debug/" title="debug" class="md-nav__link">
+      debug
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/FAQ/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/security/" title="安全性(security)" class="md-nav__link">
+      安全性(security)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev_guide/dev_articles/" title="dev articles" class="md-nav__link">
+      dev articles
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      插件(extensions)
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        插件(extensions)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/introduction/" title="介绍(introduction)" class="md-nav__link">
+      介绍(introduction)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/usage/" title="使用(Usage)" class="md-nav__link">
+      使用(Usage)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/extension_market/" title="extension market" class="md-nav__link">
+      extension market
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/microbit/" title="micro:bit" class="md-nav__link">
+      micro:bit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/microbit_radio/" title="micro:bit radio" class="md-nav__link">
+      micro:bit radio
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/arduino_UNO/" title="arduino UNO" class="md-nav__link">
+      arduino UNO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/eim_monitor/" title="EIM Monitor" class="md-nav__link">
+      EIM Monitor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/eim_trigger/" title="EIM Trigger" class="md-nav__link">
+      EIM Trigger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/HCI/" title="HCI" class="md-nav__link">
+      HCI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/Kano_Wand/" title="Kano Wand" class="md-nav__link">
+      Kano Wand
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/vector/" title="Vector" class="md-nav__link">
+      Vector
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/cozmo/" title="Cozmo" class="md-nav__link">
+      Cozmo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/wechat/" title="wechat" class="md-nav__link">
+      wechat
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/webserver/" title="webserver" class="md-nav__link">
+      webserver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/extension_python_kernel/" title="Python eval kernel" class="md-nav__link">
+      Python eval kernel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/python_exec/" title="Python exec kernel" class="md-nav__link">
+      Python exec kernel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/RoboMaster/" title="RoboMaster" class="md-nav__link">
+      RoboMaster
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/EP3/" title="RoboMaster 3.0" class="md-nav__link">
+      RoboMaster 3.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/jupyterlab/" title="jupyterlab" class="md-nav__link">
+      jupyterlab
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/teachable_machine/" title="Teachable Machine" class="md-nav__link">
+      Teachable Machine
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/stage/" title="Stage" class="md-nav__link">
+      Stage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/blender/" title="blender" class="md-nav__link">
+      blender
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/rpi_gpio/" title="RaspberryPi GPIO" class="md-nav__link">
+      RaspberryPi GPIO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/minecraft/" title="Minecraft" class="md-nav__link">
+      Minecraft
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/sonicPi/" title="Sonic Pi" class="md-nav__link">
+      Sonic Pi
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/MQTT_adapter/" title="MQTT Adapter" class="md-nav__link">
+      MQTT Adapter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/MQTT_Broker/" title="MQTT Broker" class="md-nav__link">
+      MQTT Broker
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/Calypso/" title="Calypso" class="md-nav__link">
+      Calypso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/Box2D/" title="Box2D" class="md-nav__link">
+      Box2D
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/physical_blocks/" title="physical blocks 1.0" class="md-nav__link">
+      physical blocks 1.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/physical_blocks2/" title="physical blocks 2.0" class="md-nav__link">
+      physical blocks 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/yanshee/" title="Yanshee" class="md-nav__link">
+      Yanshee
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/json/" title="json" class="md-nav__link">
+      json
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/imageData/" title="imageData" class="md-nav__link">
+      imageData
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/ha/" title="home assistant" class="md-nav__link">
+      home assistant
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/iot/" title="iot" class="md-nav__link">
+      iot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/leapmotion/" title="leap motion" class="md-nav__link">
+      leap motion
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/faceapi/" title="faceapi" class="md-nav__link">
+      faceapi
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/posenet/" title="posenet" class="md-nav__link">
+      posenet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/knn/" title="knn" class="md-nav__link">
+      knn
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/yolo/" title="yolo" class="md-nav__link">
+      yolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/tello/" title="Tello" class="md-nav__link">
+      Tello
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/tello2/" title="Tello2.0" class="md-nav__link">
+      Tello2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/tello3/" title="Tello3.0" class="md-nav__link">
+      Tello3.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/siri/" title="Siri" class="md-nav__link">
+      Siri
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/simple_NLU/" title="simple NLU" class="md-nav__link">
+      simple NLU
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/motion_sensor/" title="kano motion sensor" class="md-nav__link">
+      kano motion sensor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/uart_adapter/" title="UART Adapter" class="md-nav__link">
+      UART Adapter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/NetworkZero/" title="NetworkZero" class="md-nav__link">
+      NetworkZero
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/SimplePyboard/" title="SimplePyboard" class="md-nav__link">
+      SimplePyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/GameShell/" title="GameShell" class="md-nav__link">
+      GameShell
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/Aqara/" title="Aqara" class="md-nav__link">
+      Aqara
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/EasyOCR/" title="EasyOCR" class="md-nav__link">
+      EasyOCR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/tensorflow-yolov4/" title="tensorflow-yolov4" class="md-nav__link">
+      tensorflow-yolov4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/neverland2/" title="neverland2.0" class="md-nav__link">
+      neverland2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/osc/" title="OSC" class="md-nav__link">
+      OSC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/tuio/" title="TUIO" class="md-nav__link">
+      TUIO
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/etoys/" title="Etoys" class="md-nav__link">
+      Etoys
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/Squeak/" title="Squeak/Smalltalk" class="md-nav__link">
+      Squeak/Smalltalk
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/Wekinator/" title="Wekinator" class="md-nav__link">
+      Wekinator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/alphamini/" title="悟空机器人(教育版)" class="md-nav__link">
+      悟空机器人(教育版)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/digimon/" title="digimon" class="md-nav__link">
+      digimon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/yeelight/" title="yeelight" class="md-nav__link">
+      yeelight
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/creating-coding/" title="创意编程" class="md-nav__link">
+      创意编程
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/lidar/" title="交互激光雷达" class="md-nav__link">
+      交互激光雷达
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/switch/" title="Switch" class="md-nav__link">
+      Switch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/opencv/" title="OpenCV(正在迁移中)" class="md-nav__link">
+      OpenCV(正在迁移中)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/tensorflow/" title="Tensorflow(正在迁移中)" class="md-nav__link">
+      Tensorflow(正在迁移中)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/mpfshell/" title="mpfshell(正在迁移中)" class="md-nav__link">
+      mpfshell(正在迁移中)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/Pando/" title="Pando Robot(正在迁移中)" class="md-nav__link">
+      Pando Robot(正在迁移中)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/Aelos/" title="Aelos Robot(正在迁移中)" class="md-nav__link">
+      Aelos Robot(正在迁移中)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../extension_guide/ROS/" title="ROS(正在迁移中)" class="md-nav__link">
+      ROS(正在迁移中)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Scratch插件
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Scratch插件
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../scratch_extensions/introduction/" title="介绍(introduction)" class="md-nav__link">
+      介绍(introduction)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10" checked>
+    
+    <label class="md-nav__link" for="nav-10">
+      社区版Neverland
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        社区版Neverland
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" title="介绍(introduction)" class="md-nav__link">
+      介绍(introduction)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../finger-snapping/" title="收工吃饭" class="md-nav__link">
+      收工吃饭
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reading-thinking/" title="读书与思考" class="md-nav__link">
+      读书与思考
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../musical-instrument-tm/" title="乐器演奏 (Teachable Machine)" class="md-nav__link">
+      乐器演奏 (Teachable Machine)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        安装Home Assistant
+      </label>
+    
+    <a href="./" title="安装Home Assistant" class="md-nav__link md-nav__link--active">
+      安装Home Assistant
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#home-assistant_1" class="md-nav__link">
+    Home Assistant 简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    安装在哪里？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    环境依赖
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    开始安装
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#home-assistant_2" class="md-nav__link">
+    启动 Home Assistant
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    添加智能设备
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#yeelight" class="md-nav__link">
+    接入 Yeelight 彩光灯
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    步骤 1：配网
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    步骤 2：局域网访问
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-ip" class="md-nav__link">
+    步骤 3：获取设备 IP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    步骤 4：添加配置信息
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-home-assistant" class="md-nav__link">
+    步骤 5：重启 Home Assistant
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    步骤 1：配网
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    步骤 2：局域网访问
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    步骤 3：添加配置信息
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-home-assistant" class="md-nav__link">
+    步骤 4：重启 Home Assistant
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codelab-scratch-home-assistant" class="md-nav__link">
+    使用 CodeLab Scratch 连接 Home Assistant
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#home-assistant-token" class="md-nav__link">
+    获取 Home Assistant 访问 token
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codelab-scratch" class="md-nav__link">
+    使用 CodeLab Scratch 为家庭设备编程！
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    拓展
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11">
+    
+    <label class="md-nav__link" for="nav-11">
+      CodeLab DynamicTable
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-11">
+        CodeLab DynamicTable
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../DynamicTable/" title="介绍(introduction)" class="md-nav__link">
+      介绍(introduction)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../DynamicTable/hello_world/" title="hello world" class="md-nav__link">
+      hello world
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-12" type="checkbox" id="nav-12">
+    
+    <label class="md-nav__link" for="nav-12">
+      帮助
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-12">
+        帮助
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../help/" title="论坛" class="md-nav__link">
+      论坛
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13">
+    
+    <label class="md-nav__link" for="nav-13">
+      关于(about)
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-13">
+        关于(about)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/contact/" title="联系我们(contact us)" class="md-nav__link">
+      联系我们(contact us)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/why/" title="why" class="md-nav__link">
+      why
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/value/" title="价值观(value)" class="md-nav__link">
+      价值观(value)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/License/" title="证书(license)" class="md-nav__link">
+      证书(license)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/roadmap/" title="路线图(Roadmap)" class="md-nav__link">
+      路线图(Roadmap)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#home-assistant_1" class="md-nav__link">
+    Home Assistant 简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    安装在哪里？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    环境依赖
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    开始安装
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#home-assistant_2" class="md-nav__link">
+    启动 Home Assistant
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    添加智能设备
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#yeelight" class="md-nav__link">
+    接入 Yeelight 彩光灯
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    步骤 1：配网
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    步骤 2：局域网访问
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-ip" class="md-nav__link">
+    步骤 3：获取设备 IP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    步骤 4：添加配置信息
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-home-assistant" class="md-nav__link">
+    步骤 5：重启 Home Assistant
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    步骤 1：配网
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    步骤 2：局域网访问
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    步骤 3：添加配置信息
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-home-assistant" class="md-nav__link">
+    步骤 4：重启 Home Assistant
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codelab-scratch-home-assistant" class="md-nav__link">
+    使用 CodeLab Scratch 连接 Home Assistant
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#home-assistant-token" class="md-nav__link">
+    获取 Home Assistant 访问 token
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codelab-scratch" class="md-nav__link">
+    使用 CodeLab Scratch 为家庭设备编程！
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    拓展
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/CodeLabClub/codelab-adapter-docs/edit/v2/docs/Neverland/HA.md" title="编辑此页" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="home-assistant">安装和配置 Home Assistant<a class="headerlink" href="#home-assistant" title="Permanent link">&para;</a></h1>
+<div class="admonition neverland 与 home assistant">
+<p class="admonition-title">Neverland</p>
+<p>社区版 Neverland 使用 <a href="https://www.home-assistant.io/" target="_blank">Home Assistant</a> 驱动家居/联网设备，用户可以使用 CodeLab Scratch、Python，或者 CodeLab Adapter 支持的<a href="https://adapter.codelab.club/dev_guide/system_command/">其他 34 门编程语言</a>，与家居/联网设备交互。</p>
+</div>
+<h2 id="home-assistant_1">Home Assistant 简介<a class="headerlink" href="#home-assistant_1" title="Permanent link">&para;</a></h2>
+<p>Home Assistant 是一个开源家庭自动化软件，将隐私放在首位，由全球各地的志愿者构建。目前支持 1,500+ 智能家居设备。</p>
+<p>Home Assistant 采用 Python 构建，可以运行在任何主流操作系统，以及<a href="https://www.raspberrypi.org/" target="_blank">树莓派</a>中。</p>
+<h2 id="_1">安装在哪里？<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.home-assistant.io/">Home Assistant</a> 有<a href="https://www.home-assistant.io/docs/installation/" target="_blank">多种安装方法</a>。如果你打算长期使用它，将其用于家庭自动化，推荐<a href="https://www.home-assistant.io/getting-started/">在树莓派上安装</a>。 如果你安装它是为了临时使用 Scratch 来对家庭设备进行编程，则直接在你编程的电脑上安装即可。</p>
+<h2 id="_2">环境依赖<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.python.org/downloads/" target="_blank">Python</a> &gt;= <code>3.6</code></p>
+<h2 id="_3">开始安装<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>pip3 install homeassistant</code><ul>
+<li>国内用户可通过更换 pypi 源加速安装过程: <code>pip3 install homeassistant  -i https://mirrors.aliyun.com/pypi/simple</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="home-assistant_2">启动 Home Assistant<a class="headerlink" href="#home-assistant_2" title="Permanent link">&para;</a></h2>
+<p><code>hass --open-ui</code></p>
+<p>第一次启动时，会安装部分依赖项，根据网络情况不同，耗时不等。</p>
+<p>一切准备就绪，将自动打开浏览器，进入都 Home Assistant 主页。访问地址是：<code>http://127.0.0.1:8123</code></p>
+<p><img alt="" src="https://www.home-assistant.io/images/getting-started/username.png" /></p>
+<p>第一次使用需要填写基本用户信息，放心，数据都保存在本地。</p>
+<h2 id="_4">添加智能设备<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>这里展示如何接入 Yeelight 彩光灯（<a href="https://www.yeelight.com/zh_CN/product/lemon-color" target="_blank">购买链接</a>）和米家智能家庭套装（<a href="https://item.mi.com/product/5708.html" target="_blank">购买链接</a>）。</p>
+<p>如果你有其他智能设备需要接入，可参考<a href="https://www.home-assistant.io/" target="_blank">官方文档</a>。或者 Google 搜索<code>home assistant + 你想接入的设备</code>。</p>
+<h3 id="yeelight">接入 Yeelight 彩光灯<a class="headerlink" href="#yeelight" title="Permanent link">&para;</a></h3>
+<h4 id="1">步骤 1：配网<a class="headerlink" href="#1" title="Permanent link">&para;</a></h4>
+<p>下载 <strong>Yeelight</strong> 手机客户端 ，按照 App 引导，为彩光灯配网。</p>
+<p>配网完成后，你应该能使用 App 控制它。</p>
+<h4 id="2">步骤 2：局域网访问<a class="headerlink" href="#2" title="Permanent link">&para;</a></h4>
+<p>进入设备页，点击右下角按钮。</p>
+<p><img src="/img/yeelight1.jpeg" width=300 /></p>
+<p>允许局域网访问。</p>
+<h4 id="3-ip">步骤 3：获取设备 IP<a class="headerlink" href="#3-ip" title="Permanent link">&para;</a></h4>
+<p>进入设备页，点击左上角控制器，获取设备 IP。</p>
+<p><img src="/img/yeelight2.jpeg" width=300 /></p>
+<h4 id="4">步骤 4：添加配置信息<a class="headerlink" href="#4" title="Permanent link">&para;</a></h4>
+<p>将 Yeelight 彩光灯配置信息，添加到 <a href="https://www.home-assistant.io/docs/configuration/" target="_blank">Home Assistant 配置文件（configuration.yaml）</a>里。</p>
+<p>配置文件所在路径:</p>
+<div class="codehilite"><pre><span></span>macOS   ~/.homeassistant
+Linux   ~/.homeassistant
+Windows %APPDATA%/.homeassistant
+</pre></div>
+
+<p>添加配置信息:</p>
+<div class="codehilite"><pre><span></span><span class="nt">yeelight</span><span class="p">:</span>
+  <span class="nt">devices</span><span class="p">:</span>
+    <span class="nt">192.168.21.102</span><span class="p">:</span>
+      <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Living Room</span>
+</pre></div>
+
+<h4 id="5-home-assistant">步骤 5：重启 Home Assistant<a class="headerlink" href="#5-home-assistant" title="Permanent link">&para;</a></h4>
+<p>重启之后，你应该可以使用 Home Assistant 控制 Yeelight 彩光灯了！</p>
+<p><img alt="" src="/img/ha_yeelight.jpeg" /></p>
+<div class="admonition 提醒">
+<p class="admonition-title">提醒</p>
+</div>
+<p>米家智能家庭套装似乎已经不支持局域网通信。 推荐使用兼容 HomeKit 的网关，可以直接接入 Home Assistant</p>
+<h4 id="1_1">步骤 1：配网<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h4>
+<p>下载 <strong>米家</strong> 手机客户端 ，按照APP引导，首先为 <strong>智能网关</strong> 配网，之后把其他设备接入进来。</p>
+<p>配网完成后，你应该能使用 App 控制它们。</p>
+<h4 id="2_1">步骤 2：局域网访问<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h4>
+<p>进入 <strong>智能网关</strong> 页，点击右上角，点击 <code>关于</code>。</p>
+<p><img src="/img/mijia.jpeg" width=300 /></p>
+<p>进入关于页，猛戳空白处多下（操作听硬核的 :P）， 将出现 <strong>局域网通信协议</strong>，
+<img src="/img/mijia2.jpeg" width=300 /></p>
+<p>点击进入，打开它，并记下密码：</p>
+<p><img src="/img/mijia3.jpeg" width=300 /></p>
+<h4 id="3">步骤 3：添加配置信息<a class="headerlink" href="#3" title="Permanent link">&para;</a></h4>
+<p>将 Yeelight 彩光灯配置信息，添加到 <a href="https://www.home-assistant.io/docs/configuration/" target="_blank">Home Assistant配置文件（configuration.yaml）</a>里。</p>
+<p>配置文件所在路径：</p>
+<div class="codehilite"><pre><span></span>macOS   ~/.homeassistant
+Linux   ~/.homeassistant
+Windows %APPDATA%/.homeassistant
+</pre></div>
+
+<p>添加配置信息：</p>
+<div class="codehilite"><pre><span></span><span class="nt">xiaomi_aqara</span><span class="p">:</span>
+  <span class="nt">discovery_retry</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">5</span>
+  <span class="nt">gateways</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="nt">key</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">60n163sp2rduqx4ri</span>
+</pre></div>
+
+<h4 id="4-home-assistant">步骤 4：重启 Home Assistant<a class="headerlink" href="#4-home-assistant" title="Permanent link">&para;</a></h4>
+<p>重启之后，你应该可以使用 Home Assistant 控制 <strong>米家智能家庭套装</strong> 里的设备了！</p>
+<p><img alt="" src="/img/ha_mijia.jpeg" /></p>
+<h2 id="codelab-scratch-home-assistant">使用 CodeLab Scratch 连接 Home Assistant<a class="headerlink" href="#codelab-scratch-home-assistant" title="Permanent link">&para;</a></h2>
+<p>为了方便用户使用 Scratch 驱动家居设备，我们需要获取 Home Assistant 的访问 token，将其粘贴到 CodeLab Scratch 里的 Home Assistant 拓展积木里。如此一来我们就可以使用 CodeLab Scratch 来为家庭/教室里的设备编程。打个响指，把灯关掉！</p>
+<h4 id="home-assistant-token">获取 Home Assistant 访问 token<a class="headerlink" href="#home-assistant-token" title="Permanent link">&para;</a></h4>
+<p>如图依次按顺序（1、2、3）操作：</p>
+<p><img alt="" src="/img/ha_token.png" /></p>
+<p>由于 token 只出现一次，所以你最好先复制粘贴到记事本里。</p>
+<h2 id="codelab-scratch">使用 CodeLab Scratch 为家庭设备编程！<a class="headerlink" href="#codelab-scratch" title="Permanent link">&para;</a></h2>
+<p>你既可以使用 CodeLab Scratch <a href="http://scratch-beta.codelab.club/" target="_blank">在线版</a>，也可以使用<a href="https://www.codelab.club/blog/2020/08/20/tools/" target="_blank">离线版</a>来进行编程。</p>
+<p><img alt="" src="/img/13b988916cd857177044a077d4fde798.png" /></p>
+<div class="admonition 在线版与离线版打开方式">
+<p class="admonition-title">在线版与离线版打开方式</p>
+<p>如果你是要在线版，直接<a href="https://scratch.codelab.club/projects/23/editor/">点击项目链接</a>即可。
+如果你使用离线版，则下载<a href="/sb3/neverland_helloworld.sb3">源码文件</a>，使用 Scratch 加载它即可。</p>
+</div>
+<p>加载后填入你之前记下的 token。</p>
+<div class="admonition 提醒">
+<p class="admonition-title">提醒</p>
+<p>如果你的 Home Assistant 访问地址不是<code>http://127.0.0.1:8123</code> (诸如运行在树莓派上)，你就无法在 <strong>在线版</strong> 中连接它( 浏览器安全策略 )。有两种解决方案:<br />
+1. 使用离线版<br />
+2. 将 Home Assistant 的访问地址<code>http://127.0.0.1:8123</code>映射到 https 上，可以采用以下任何一种方案:<br />
+    *    <a href="https://ngrok.com/">ngrok</a>：下载并运行<code>ngrok http 8123</code>，你将 Home Assistant 的访问地址暴露到了 https 公网, 形如:<code>https://ff4b68f8.ngrok.io</code>.<br />
+    *    <a href="https://www.home-assistant.io/docs/configuration/remote/">其他办法</a></p>
+</div>
+<div class="admonition 提醒">
+<p class="admonition-title">提醒</p>
+</div>
+<p>如果想接入 zigbee 设备，请使用 <a href="https://www.zigbee2mqtt.io/integration/home_assistant.html">zigbee2mqtt</a>，目前已支持<a href="https://www.zigbee2mqtt.io/information/supported_devices.html">以下设备</a></p>
+<!--
+### 在线版 CodeLab Scratch
+由于 CodeLab Scratch 的在线版使用`https`，所以你需要先将 Home Assistant 的访问地址`http://127.0.0.1:8123`映射到 https 上。
+
+有很多种策略实现它：
+
+*  [ngrok](https://ngrok.com/)：下载并运行`ngrok http 8123`，你将 Home Assistant 的访问地址暴露到了 https 公网, 形如:`https://ff4b68f8.ngrok.io`.
+*  [mkcert](https://github.com/FiloSottile/mkcert)
+*  [其他办法](https://www.home-assistant.io/docs/configuration/remote/)
+
+总之你应该能够以 https 方式访问它。
+-->
+
+<h2 id="_5">拓展<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>除了可以使用 CodeLab Scratch 连接 Home Assistant，我们还可以使用 CodeLab Adapter 连接 Home Assistant，这对我们在创客/IoT 实验室里展开教学，以及进行多语言教学（34+ 编程语言）都很有用。</p>
+<p>这部分的文档我们将在未来同步过来。</p>
+<h1 id="_6">参考<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h1>
+<ul>
+<li><a href="https://www.home-assistant.io/docs/installation/virtualenv/">Installation in Python virtual environment</a></li>
+<li><a href="https://www.home-assistant.io/getting-started/">Install Home Assistant</a></li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../musical-instrument-tm/" title="乐器演奏 (Teachable Machine)" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                乐器演奏 (Teachable Machine)
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../DynamicTable/" title="介绍(introduction)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                介绍(introduction)
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.c648116f.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+                <script src="../../assets/javascripts/lunr/tinyseg.js"></script>
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.ja.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="../../js/baidu-tongji.js"></script>
+      
+    
+  </body>
+</html>
