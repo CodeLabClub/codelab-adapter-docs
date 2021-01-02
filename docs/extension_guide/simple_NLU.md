@@ -19,7 +19,7 @@ simple NLU 是一个简单的语义处理器，基于简单的规则匹配，可
 ## 插件说明
 
 -   使用方式: 到[插件市场](/extension_guide/extension_market/)下载插件, 搜索 **NLU**
--   插件类型: [Adapter Extension](https://adapter.codelab.club/dev_guide/helloworld/)
+-   插件类型: [Adapter Extension](/dev_guide/helloworld/)
 -   插件源码: [extension_simple_NLU.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_simple_NLU.py)
 
 ## 依赖
@@ -32,7 +32,7 @@ simple NLU 是一个简单的语义处理器，基于简单的规则匹配，可
 
 NLU 是一个语义解析器，语言文本的输入，是任意的。你可以使用 Scratch 内置的语音输入；也可以使用 Siri。
 
-如果你和视频 demo 一样，准备使用 Siri，需要先将 Siri 接入到 Adapter 中，参考[文档](https://adapter.codelab.club/extension_guide/siri/)。
+如果你和视频 demo 一样，准备使用 Siri，需要先将 Siri 接入到 Adapter 中，参考[文档](/extension_guide/siri/)。
 
 ## 步骤 1：打开 Codelab Adapter
 

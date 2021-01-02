@@ -9,7 +9,7 @@ extension 有如下的限制：
 
 如果你想使用 Python 社区海量的第三方库：诸如 [Pygame](https://github.com/pygame/pygame)、[PyQt](https://zh.wikipedia.org/zh-hans/PyQt)、[PyTorch](https://pytorch.org/)、[flask](https://flask.palletsprojects.com/)... extension 就办不到了，但 Adapter Node 可以！
 
-ps: 如果你只是想把外部系统接入Adapter，也可以参考更为简单的: [与外部系统通信](https://adapter.codelab.club/user_guide/%E4%B8%8E%E5%A4%96%E9%83%A8%E7%B3%BB%E7%BB%9F%E9%80%9A%E4%BF%A1/)
+ps: 如果你只是想把外部系统接入Adapter，也可以参考更为简单的: [与外部系统通信](/user_guide/%E4%B8%8E%E5%A4%96%E9%83%A8%E7%B3%BB%E7%BB%9F%E9%80%9A%E4%BF%A1/)
 
 !!! 提醒
     实际上 [Adapter Extension](https://github.com/CodeLabClub/codelab_adapter_extensions/tree/master/extensions_v3) 是 AdapterNode 的子类.
@@ -163,7 +163,7 @@ window.mainloop()
 
 
 ## 想象空间
-如果你希望构建分布式的应用，诸如构建密室逃脱中的各种机关。只需要[做一下配置就行](https://adapter.codelab.club/user_guide/settings/#open_message_hub)，让 CodeLab Adapter 接受分布式的请求。
+如果你希望构建分布式的应用，诸如构建密室逃脱中的各种机关。只需要[做一下配置就行](/user_guide/settings/#open_message_hub)，让 CodeLab Adapter 接受分布式的请求。
 
 你可以将 Adapter Node 跑在任何地方，来增强 CodeLab Adapter 的能力，无论是本地、云端还是分布式节点。
 

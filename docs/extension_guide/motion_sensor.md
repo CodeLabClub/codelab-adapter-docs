@@ -9,7 +9,7 @@
 
 
 -   使用方式: 到[插件市场](/extension_guide/extension_market/)下载插件, 搜索 **motion**
--   插件类型: [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/)
+-   插件类型: [Adapter Node](/dev_guide/Adapter-Node/)
 -   插件源码: [node_motionSensor_proximity.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_motionSensor_proximity.py)、[node_motionSensor_gesture.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_motionSensor_gesture.py)
 
 !!! 提醒

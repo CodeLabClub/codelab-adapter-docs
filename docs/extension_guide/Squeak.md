@@ -17,7 +17,7 @@ Etoys、Croquet、第一代的Scratch都是用 Squeak 实现的。
 ## 接入 Adapter
 有很多种方式将 Squeak 和 Adapter连在一起，诸如HTTP、Websocket、ZeroMQ，系统调用(Adapter python client提供系统命令)，你也可以自己写一个Adapter插件来连接两者。
 
-目前我最喜欢的一种方式是使用 [OSC](https://adapter.codelab.club/extension_guide/osc/), 由于最新的Adapter内置了 OSC server，所以我们可以轻松将Squeak用作 osc cleint， 消息流向是 `Squeak->Adapter`。
+目前我最喜欢的一种方式是使用 [OSC](/extension_guide/osc/), 由于最新的Adapter内置了 OSC server，所以我们可以轻松将Squeak用作 osc cleint， 消息流向是 `Squeak->Adapter`。
 
 ## demo
 

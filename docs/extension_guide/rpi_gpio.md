@@ -40,7 +40,7 @@ Raspbian 默认已经预装 gpiozero 。
     ![](/img/fa6b43a839c1e55d8e761529ac996970.png) 
 
 # 最后
-我们并不打算构建完备的积木组操控树莓派，树莓派高度灵活，难以完全积木化它的所有特性，那样不会提高可理解性。 我们希望用户灵活使用 Python 去增强 Scratch ，更好的扩展模式可以参考[Python eval kernel](https://adapter.codelab.club/extension_guide/extension_python_kernel/)。
+我们并不打算构建完备的积木组操控树莓派，树莓派高度灵活，难以完全积木化它的所有特性，那样不会提高可理解性。 我们希望用户灵活使用 Python 去增强 Scratch ，更好的扩展模式可以参考[Python eval kernel](/extension_guide/extension_python_kernel/)。
 
 当然一些功能是可以积木化的，期待你来提交 PR。
 

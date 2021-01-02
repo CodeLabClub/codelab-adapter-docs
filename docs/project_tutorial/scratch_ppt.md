@@ -44,7 +44,7 @@
 
 > 这里引入 *Python对象* 能力的方式与 [*Eim插件教程*](./eim_pt.md) 不一样，用到的是 *Python插件* 。在 [*入门教程1*](../get_start/gs_pyproject.md)中有示例如何使用。
 
-这里简单解释一下插件工作的原理，在 [*Python插件*](https://adapter.codelab.club/extension_guide/extension_python_kernel/) 代码文件中，定义了 `PyHelper类` ，在该类中定义了用于打开连接的 `open_url 方法` 。Scratch积木块通过广播一条 *代码语句* ：`PyHelper.open_url(url)` 给 *Python对象* ，然后 *Python对象* 就会执行这段代码，打开相应的链接了。
+这里简单解释一下插件工作的原理，在 [*Python插件*](/extension_guide/extension_python_kernel/) 代码文件中，定义了 `PyHelper类` ，在该类中定义了用于打开连接的 `open_url 方法` 。Scratch积木块通过广播一条 *代码语句* ：`PyHelper.open_url(url)` 给 *Python对象* ，然后 *Python对象* 就会执行这段代码，打开相应的链接了。
 
 !!! 提醒
     PyHelper类中还有一个方法很实用: `open`, 这个方法以系统默认的方式打开任何东西: 诸如文本、图片、视频、软件...只要传入想打开的东西的 **绝对系统路径** 即可。诸如打开Chrome浏览器: `PyHelper.open("C:\Program Files\Google\Chrome\Application\chrome.exe")`

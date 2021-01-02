@@ -61,7 +61,7 @@ Windows 和 Mac 用户开箱可用。 Linux需要安装依赖（参考文末）
 ### 如何打印 Marker
 我们提供了一份30张的版本:
 
-![](https://adapter.codelab.club/img/e6cc193e54fdda12ae3ada44c2299dfd.png)
+![](/img/e6cc193e54fdda12ae3ada44c2299dfd.png)
 
 你可以从 [arucogen](https://chev.me/arucogen/) 里打印（建议从编号1开始）
 

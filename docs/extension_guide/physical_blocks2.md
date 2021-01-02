@@ -1,7 +1,7 @@
 # Tutorial
 
 ## 介绍
-physical blocks 2.0，新的更新我们都将在这个版本是进行，[physical blocks 1.0](https://adapter.codelab.club/extension_guide/physical_blocks/)在未来将弃用。
+physical blocks 2.0，新的更新我们都将在这个版本是进行，[physical blocks 1.0](/extension_guide/physical_blocks/)在未来将弃用。
 
 使用 physical blocks，可以在一张桌子上对实物进行编程。
 
@@ -54,14 +54,14 @@ Windows 和 Mac 用户开箱可用。 Linux需要安装依赖（参考文末）
 ### 与1.0版本的区别？
 标记列表默认是字符串(序列化之后)，可以随意与scrath积木组合(诸如`xx包含xx`积木)，避免因为操作list引起的崩溃（诸如将list保存为变量）。
 
-在2.0中，直到主动使用JSON parse积木解析后，它才称为列表。相关操作参考:[json积木](https://adapter.codelab.club/extension_guide/json/)，也可参考前边的例子: [physical-blocks2-spell-demo](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/physical-blocks2-spell-demo.sb3){target=\_blank}
+在2.0中，直到主动使用JSON parse积木解析后，它才称为列表。相关操作参考:[json积木](/extension_guide/json/)，也可参考前边的例子: [physical-blocks2-spell-demo](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/physical-blocks2-spell-demo.sb3){target=\_blank}
 
 此外2.0 只使用一个积木更新数据，提高标签存在的稳定性（也提高速度），其中一种典型的编程模式是: 在一次更新数据之后的积木都对应更新瞬间的视野状态。而不像1.0，每个积木都有各自瞬间的视野。
 
 ### 如何打印 Marker
 我们提供了一份30张的版本:
 
-![](https://adapter.codelab.club/img/e6cc193e54fdda12ae3ada44c2299dfd.png)
+![](/img/e6cc193e54fdda12ae3ada44c2299dfd.png)
 
 你可以从 [arucogen](https://chev.me/arucogen/) 里打印（建议从编号1开始）
 

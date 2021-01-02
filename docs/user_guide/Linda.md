@@ -334,7 +334,7 @@ reboot针对的是linda server的操作。
 
 ## 速度
 <!--
-[ZMQ_LOOP_TIME](https://adapter.codelab.club/user_guide/settings/#zmq_loop_time)
+[ZMQ_LOOP_TIME](/user_guide/settings/#zmq_loop_time)
 
 以下是一个在scratch里进行速率测试的demo
 

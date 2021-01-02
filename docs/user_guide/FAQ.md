@@ -84,8 +84,8 @@ CodeLab Adapter 几乎支持任何平台，无论是 Scratch 3.0 构建的还是
 ## 如何使用 Python 拓展 Scratch 的能力？
 
 -   [Python对象的连接器：EIM 插件](/project_tutorial/eim_pt/)
--   [hello world(Adapter Extension)](https://adapter.codelab.club/dev_guide/helloworld/)
--   [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/)
+-   [hello world(Adapter Extension)](/dev_guide/helloworld/)
+-   [Adapter Node](/dev_guide/Adapter-Node/)
 
 ## 如何找到 Adapter 主目录
 Adapter 主目录，也是 Adapter 的日志目录，这儿存放了 Adapter 运行时使用的数据。
@@ -158,7 +158,7 @@ CodeLab Adapter 支持离线使用，目前有 3 种方式使用它。
 
 CodeLab Adapter 有很好的分布式支持:
 
-1. [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/) 可以与 CodeLab Adapter 分布式协同
+1. [Adapter Node](/dev_guide/Adapter-Node/) 可以与 CodeLab Adapter 分布式协同
 2. CodeLab Adapter 可以与 Scratch 分布式协同
 
 为了解决 **树莓派里运行 Scratch 比较卡** 的问题，我们 可以让Adapter 运行在树莓派里，Scratch 则运行在本机上。

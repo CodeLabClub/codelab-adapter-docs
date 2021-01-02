@@ -3,7 +3,7 @@
 # 插件说明
 
 -   使用方式: 到[插件市场](/extension_guide/extension_market/)下载插件, 搜索 **mqtt**
--   插件类型: [Adapter Extension](https://adapter.codelab.club/dev_guide/helloworld/)
+-   插件类型: [Adapter Extension](/dev_guide/helloworld/)
 -   插件源码: [extension_mqtt_adapter.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_mqtt_adapter.py)
 
 # 使用场景
@@ -14,7 +14,7 @@ extension_mqtt_adapter.py 插件桥接 mqtt 与 Scratch。
 
 ## mqtt -> Scratch
 !!! 提醒
-    你需要首先选择一个mqtt broker，[extension_mqtt_adapter.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_mqtt_adapter.py#L24)假设你在本地运行了一个mqtt broker(mqtt 127.0.0.1 1883)。你可以使用任何mqtt broker。在 Adapter 3.2 中，将自带一个轻量级高性能的 mqtt broker: [MQTT Broker](https://adapter.codelab.club/extension_guide/MQTT_Broker/)
+    你需要首先选择一个mqtt broker，[extension_mqtt_adapter.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_mqtt_adapter.py#L24)假设你在本地运行了一个mqtt broker(mqtt 127.0.0.1 1883)。你可以使用任何mqtt broker。在 Adapter 3.2 中，将自带一个轻量级高性能的 mqtt broker: [MQTT Broker](/extension_guide/MQTT_Broker/)
 
 将消息从mqtt client 发往Scratch:
 

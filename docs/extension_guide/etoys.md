@@ -42,7 +42,7 @@ Etoys与外部通信的方式并不多，在  **百宝箱** 里，仅发现了Sc
 也欢迎你自己进行hack ：）
 
 ### 使用
-使用方式很简单，在Adapter 中开启 `extension_socket_server` 插件（如果不存在该插件，到[插件市场](https://adapter.codelab.club/extension_guide/extension_market/)下载即可），源码在[extension_socket_server.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_socket_server.py)
+使用方式很简单，在Adapter 中开启 `extension_socket_server` 插件（如果不存在该插件，到[插件市场](/extension_guide/extension_market/)下载即可），源码在[extension_socket_server.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_socket_server.py)
 
 开启插件后，加载demo程序，并点击绿旗运行它。
 
@@ -86,7 +86,7 @@ Alan Kay 和 Etoys社区围绕Etoys写了许多精彩的文章，推荐阅读。
 
 
 ## 进阶
-你可以参考[Etoys 学习笔记: 与 Scratch 互操作](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/etoys-learning-note/)自行构建功能更丰富的Server，使用 [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/) 将其接入Adapter生态。
+你可以参考[Etoys 学习笔记: 与 Scratch 互操作](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/etoys-learning-note/)自行构建功能更丰富的Server，使用 [Adapter Node](/dev_guide/Adapter-Node/) 将其接入Adapter生态。
 
 ## 参考
 

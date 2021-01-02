@@ -15,7 +15,7 @@ Adapter Stage 插件允许将舞台区的图像（舞台或者摄像头图像）
 !!! 提醒
     在 Adapter 3.2 之前，你需要自行从[插件市场](/extension_guide/extension_market/s)里下载 Stage 插件。 [源码地址](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_stage.py)
 
-运行 Stage 插件（当前插件的功能是把图像保存到 [Adapter Home 目录](https://adapter.codelab.club/user_guide/FAQ/#adapter)）,你可以通过修改插件做其他事情。
+运行 Stage 插件（当前插件的功能是把图像保存到 [Adapter Home 目录](/user_guide/FAQ/#adapter)）,你可以通过修改插件做其他事情。
 
 如果你想使用 OpenCV 或 Tensorflow 处理图像，需要自定义[Adapter Node](/dev_guide/Adapter-Node/)
 

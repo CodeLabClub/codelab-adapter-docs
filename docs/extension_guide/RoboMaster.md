@@ -35,4 +35,4 @@ RoboMaster EP
 协议细节参考[ robomaster-dev 协议内容](https://robomaster-dev.readthedocs.io/zh_CN/latest/sdk/protocol_api.html)
 
 !!! 提醒
-    如果你希望做一些更复杂的事，建议直接使用社区里的 Python SDK与 设备交互，之后使用 [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/) 将其接入Adapter环境中。
+    如果你希望做一些更复杂的事，建议直接使用社区里的 Python SDK与 设备交互，之后使用 [Adapter Node](/dev_guide/Adapter-Node/) 将其接入Adapter环境中。

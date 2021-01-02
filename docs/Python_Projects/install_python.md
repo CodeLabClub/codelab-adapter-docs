@@ -29,12 +29,12 @@
 MacOS自带了 Python3，如果你看到系统自带的 Python3 版本低于**3.6**， 推荐下载安装 [Python3.7](http://scratch3-files.just4fun.site/python-3.7.5-macosx10.9.pkg)， 下载完成后，点击安装即可。
 
 !!! 提醒
-    如果你是开发者，你的本地环境里可能有很多个版本的 Python3 环境，建议使用 [pyenv](https://github.com/pyenv/pyenv) 来管理它。你可以在配置文件里，[指定 Adapter 使用的 Python 版本](https://adapter.codelab.club/user_guide/settings/#python3_path)。
+    如果你是开发者，你的本地环境里可能有很多个版本的 Python3 环境，建议使用 [pyenv](https://github.com/pyenv/pyenv) 来管理它。你可以在配置文件里，[指定 Adapter 使用的 Python 版本](/user_guide/settings/#python3_path)。
 
 ## Linux用户
 Linux 自带了 Python3，如果你看到系统自带的 Python3 版本低于**3.6**， 推荐使用 [pyenv](https://github.com/pyenv/pyenv) 安装新的 Python3 版本。
 
-你可以在配置文件里，[指定 Adapter 使用的 Python3 版本](https://adapter.codelab.club/user_guide/settings/#python3_path)。
+你可以在配置文件里，[指定 Adapter 使用的 Python3 版本](/user_guide/settings/#python3_path)。
 
 ---
 

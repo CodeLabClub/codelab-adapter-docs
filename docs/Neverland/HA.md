@@ -1,7 +1,7 @@
 # 安装和配置 Home Assistant
 
 !!!Neverland 与 Home Assistant
-    社区版 Neverland 使用 [Home Assistant](https://www.home-assistant.io/){target=_blank} 驱动家居/联网设备，用户可以使用 CodeLab Scratch、Python，或者 CodeLab Adapter 支持的[其他 34 门编程语言](https://adapter.codelab.club/dev_guide/system_command/)，与家居/联网设备交互。
+    社区版 Neverland 使用 [Home Assistant](https://www.home-assistant.io/){target=_blank} 驱动家居/联网设备，用户可以使用 CodeLab Scratch、Python，或者 CodeLab Adapter 支持的[其他 34 门编程语言](/dev_guide/system_command/)，与家居/联网设备交互。
 
 ## Home Assistant 简介
 Home Assistant 是一个开源家庭自动化软件，将隐私放在首位，由全球各地的志愿者构建。目前支持 1,500+ 智能家居设备。

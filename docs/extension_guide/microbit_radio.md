@@ -110,6 +110,6 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 -   作为翻页笔的手持的microbit: [固件](https://makecode.microbit.org/_bHLV7q2fK3Hc)
 -   作为中转站(dongle)的microbit: [固件](https://makecode.microbit.org/_EL20Rp98pHAg)
 
-它们之间基于 radio 通信（[micro:bit radio](https://adapter.codelab.club/extension_guide/microbit_radio/)）
+它们之间基于 radio 通信（[micro:bit radio](/extension_guide/microbit_radio/)）
 
 Scratch 程序参考 [Scratch-翻页笔-demo.sb3](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-翻页笔-demo.sb3){target=\_blank}

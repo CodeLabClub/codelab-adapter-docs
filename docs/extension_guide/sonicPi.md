@@ -32,7 +32,7 @@ Windows 和 Mac 用户开箱可用。Linux用户将自动安装依赖
 ## Receiving OSC
 [Sonic Pi Receiving OSC](https://sonic-pi.net/tutorial.html#section-12-1)
 
-参考这个文档，你也可以基于[python-sonic](https://python-osc.readthedocs.io/en/latest/client.html#example)构建一个[自定义插件](https://adapter.codelab.club/project_tutorial/eim_pt/#python)直接与Sonic Pi沟通。
+参考这个文档，你也可以基于[python-sonic](https://python-osc.readthedocs.io/en/latest/client.html#example)构建一个[自定义插件](/project_tutorial/eim_pt/#python)直接与Sonic Pi沟通。
 
 # 参考
 

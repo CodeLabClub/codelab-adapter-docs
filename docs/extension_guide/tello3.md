@@ -9,7 +9,7 @@ Tello 插件的 3.0 版本， 基于 DJI 官方的 SDK: [RoboMaster SDK](https:/
 # 使用说明
 目前该插件并未内置到 Adapter 中（因其复杂的打包依赖，而且跨平台兼容性不好）。
 
-我们目前将插件构建为 [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/)，可以在Adapter外部以普通Python文件运行，一旦运行起来，与普通Adapter插件是一样的，能够与Adapter体系的所有事物交互。
+我们目前将插件构建为 [Adapter Node](/dev_guide/Adapter-Node/)，可以在Adapter外部以普通Python文件运行，一旦运行起来，与普通Adapter插件是一样的，能够与Adapter体系的所有事物交互。
 
 ## Python环境
 首先你本地需要有 Python 环境（`Python>=3.6`）

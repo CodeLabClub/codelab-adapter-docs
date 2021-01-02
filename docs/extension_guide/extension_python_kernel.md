@@ -52,7 +52,7 @@ Python 插件将以 [eval](https://docs.python.org/zh-cn/3.7/library/functions.h
 
 再来做一个例子，[@HansonXie](http://www.concentric-circle.com/author/admin/) 给我写了封邮件，说想写一个extension或者node来进行文件存储，希望用Python来做，而不是Javascript。在此我写个简单例子
 
-我们可以使用 [Jupyterlab](https://adapter.codelab.club/extension_guide/jupyterlab/) 编辑[extension_python.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_python.py). 在其中增加一个新的助手类，来负责存储文件
+我们可以使用 [Jupyterlab](/extension_guide/jupyterlab/) 编辑[extension_python.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_python.py). 在其中增加一个新的助手类，来负责存储文件
 
 ```python
 class StorageHelp:

@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
 ### Download Codelab Adapter
 
-<a href="https://adapter.codelab.club/user_guide/install/">Download Codelab Adapter</a>
+<a href="/get_start/gs_install/">Download Codelab Adapter</a>
 
 run it
 

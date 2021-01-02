@@ -4,7 +4,7 @@
 
 DynamicTable 依赖于 Adapter 的内置的 `node_physical_blocks` 插件。 
 
-`node_physical_blocks` 最近推出了2.0版本: [physical blocks 2.0](https://adapter.codelab.club/extension_guide/physical_blocks2/)
+`node_physical_blocks` 最近推出了2.0版本: [physical blocks 2.0](/extension_guide/physical_blocks2/)
 
 本文目前基于1.0版本。
 
@@ -48,7 +48,7 @@ ImageData 负责与 Scratch 舞台区数据交互，诸如获取舞台区的截�
 
 利用这个积木，可以构建 [单词拼写程序](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-spell-demo.sb3){target=\_blank}
 
-<video width=80% src="https://adapter.codelab.club/video/1590154622682774.mp4" controls="controls"></video>
+<video width=80% src="/video/1590154622682774.mp4" controls="controls"></video>
 
 #### 获取 marker 旋转角
 使用该积木可以获得摄像头里某个 marker 的旋转角
@@ -60,7 +60,7 @@ ImageData 负责与 Scratch 舞台区数据交互，诸如获取舞台区的截�
 
 利用旋转角可以构建纸糊方向盘:
 
-<video width=80% src="https://adapter.codelab.club/video/1591187790289712.mp4" controls="controls"></video>
+<video width=80% src="/video/1591187790289712.mp4" controls="controls"></video>
 
 #### 获取 marker 位置
 使用该积木可以获得摄像头里某个 marker 的位置信息

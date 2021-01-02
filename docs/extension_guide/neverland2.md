@@ -22,7 +22,7 @@
 ## adapter master
 `ADAPTER_MODE=3 ./codelab-adapter`
 
-关于 [Adapter 的模式](https://adapter.codelab.club/user_guide/settings/#adapter_mode)
+关于 [Adapter 的模式](/user_guide/settings/#adapter_mode)
 
 ## adapter node
 `python3 makey_node.py`

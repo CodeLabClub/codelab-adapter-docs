@@ -1,5 +1,5 @@
 # Tutorial
-![](https://adapter.codelab.club/img/WechatIMG1601.jpeg)
+![](/img/WechatIMG1601.jpeg)
 
 
 ## 依赖
@@ -12,7 +12,7 @@
 # Demo
 将 GameShell 接入 CodeLab Adapter 之后， 我们将其用作 CodeLab 可编程空间的控制手柄:
 
-<video src="https://adapter.codelab.club/video/1597283986388211.mp4" controls="controls"></video>
+<video src="/video/1597283986388211.mp4" controls="controls"></video>
 
 
-<video src="https://adapter.codelab.club/video/1597283973481982.mp4" controls="controls"></video>
+<video src="/video/1597283973481982.mp4" controls="controls"></video>

@@ -67,7 +67,7 @@ Tello 插件的 2.0 版本， 基于[DJITelloPy](https://github.com/damiafuentes
 
 利用API，你也可以与停机坪(机器视觉)交互([get_mission_pad_id](https://djitellopy.readthedocs.io/en/latest/tello/#djitellopy.tello.Tello.get_mission_pad_id)).API里有很多与停机坪相关的函数。
 
-如果你希望做一些更复杂的事，建议直接使用社区里的 [DJITelloPy](https://github.com/damiafuentes/DJITelloPy) 与 设备交互（[api](https://djitellopy.readthedocs.io/en/latest/tello/)），之后使用 [Adapter Node](https://adapter.codelab.club/dev_guide/Adapter-Node/) 将其接入Adapter环境中。
+如果你希望做一些更复杂的事，建议直接使用社区里的 [DJITelloPy](https://github.com/damiafuentes/DJITelloPy) 与 设备交互（[api](https://djitellopy.readthedocs.io/en/latest/tello/)），之后使用 [Adapter Node](/dev_guide/Adapter-Node/) 将其接入Adapter环境中。
 
 ## Tello api 文档
 *  [DJITelloPy](https://github.com/damiafuentes/DJITelloPy)

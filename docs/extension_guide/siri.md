@@ -13,7 +13,7 @@ Hey siri
 ## 插件说明
 
 -   使用方式: 到[插件市场](/extension_guide/extension_market/)下载插件, 搜索 **siri**
--   插件类型: [Adapter Extension](https://adapter.codelab.club/dev_guide/helloworld/)
+-   插件类型: [Adapter Extension](/dev_guide/helloworld/)
 -   插件源码: [extension_Siri.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_Siri.py)
 
 ## 依赖
