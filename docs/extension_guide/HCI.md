@@ -43,14 +43,33 @@ ps: 使用 Python3
 
 <!--
 [Scratch-魔杖播放视频](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-wand-player2.sb3)
--->
+
 
 !!!提醒
     windows 10 的用户可能会遇到如下问题: 每次打开的都是文档文件夹。原因可能是中文编码问题。 解决方案:确保文件路径没有中文（建议放在D盘根目录下）诸如: `PyHelper.open(r'D:\cozmo.mp4')`
 
 !!!改进
     如果你的播放器不直接弹出到桌面（诸如window10，默认显示在页脚），可以考虑使用网页打开视频: PyHelper.open_url(video_url), video_url 是这个视频的 url 地址
+-->
 
+### Windows 10 用户
+Windows10的某些版本，默认会在页面下方闪烁播放器图标，而不是打开。
+
+<!--如果你的播放器不直接弹出到桌面（诸如window10，默认显示在页脚），-->
+
+可以考虑使用网页打开视频链接，如果你的视频在本地，可以托管给 Adapter，具体而言: <!--`PyHelper.open_url(video_url)`, video_url 是这个视频的 url 地址-->
+
+*  在 Adapter Web UI 里  **打开扩展目录**
+
+![](/img/1aab31657caaab331c079dfcdb761a1b.png)
+
+* 将视频放到 **扩展目录** 下的 **src** 目录里
+
+![](/img/aa96417404a90ebd709e47a94d35827d.png)
+
+* 现在这个视频可以使用链接打开了! 它的地址为: `https://codelab-adapter.codelab.club:12358/static/1608804837247213.mp4`, 注意，最后的 **1608804837247213.mp4** 是你的视频名字，最好不用中文。
+
+这是一个示例程序: [魔杖开场视频--使用链接](https://create.codelab.club/projects/8544/editor){target=\_blank}
 
 ## 高阶用法
 HCI 插件允许你写 Python 代码，[PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/index.html) 文档中的所有功能你都可以在 Scratch 中使用。

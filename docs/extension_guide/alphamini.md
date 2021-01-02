@@ -94,8 +94,50 @@ robot.play_action(action_name='010') # 打招呼
 robot.play_expression(express_name='codemao13') # 疑问
 ```
 
-
 ---
 
 !!! 提醒
     悟空内部运行一个安卓系统，带有内嵌 Python 环境
+
+
+# FAQ
+## 有些网络无法扫描到悟空
+似乎和局域网内的设备发现机制（mdns？）有关。 通过以下脚本排查问题。如果以下脚本无法扫描到设备，请联系优必选客服人员。
+
+注意将 `00447` 替换成你自己的设备号
+
+```python
+# pip install alphamini
+# https://github.com/marklogg/mini_demo/blob/master/test/test_connect.py
+import asyncio
+import logging
+
+import mini.mini_sdk as MiniSdk
+from mini.dns.dns_browser import WiFiDevice
+
+"""根据机器人序列号后缀搜索设备
+    搜索指定序列号(在机器人屁股后面)的机器人, 可以只输入序列号尾部字符即可,长度任意, 建议5个字符以上可以准确匹配
+"""
+device_name = "00447"
+
+async def test_get_device_by_name():
+    '''
+    10秒超时
+    Returns:
+        WiFiDevice: 包含机器人名称,ip,port等信息
+    '''
+    result: WiFiDevice = await MiniSdk.get_device_by_name(device_name, 10)
+    print(f"test_get_device_by_name result:{result}")
+    return result
+
+async def main():
+    device: WiFiDevice = await test_get_device_by_name()
+    if device:
+        print("已发现设备")
+    else:
+        print("无法发现设备")
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```

@@ -79,3 +79,17 @@
     *  Cozmo 插件支持 event、sensor
     *  Adapter 默认随最后一个client关闭而关闭，允许用户配置该行为
     *  重构 WebUI 的 Adatper socketio client，使其易于二次开发
+
+---
+
+*  2020.12.28 [4.0.0](http://118.31.62.99:10000/blog/2020/12/28/adapter-4)
+    *  提供 Linda 支持！
+    *  支持激光雷达，将普通地面变为交互式 Scratch 舞台（社区版暂未提供相关支持，目前近提供给CodeLab合作方）
+    *  与CodeLab IP访问方式兼容
+    *  修复与 token 有关的安全风险
+    *  webui, 基于最新codelab_adapter_base.js
+    *  解决websocket input token潜在风险
+*  2021.12.31 4.1.0
+    *  修复目录字符问题（空格、中文）
+    *  WebUI 支持 Linda 可视化
+    *  修复4.0.0引起的魔杖问题

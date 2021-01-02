@@ -1,10 +1,13 @@
 # Linda
+![](/img/The_Tower_of_Babel.jpg)
+
+
+用于协调不同的程序，使它们进行协作。
 
 !!! 提醒
     在 **Adapter >= 4.0** 中可用。  
-    Adapter 4.0 预计本月底发布，CodeLab 成员可预先使用Alpha版 `http://nc.codelab.club:8888/s/ytJDb6kkBRM7z5k` (仅在 Neverland 内网可访问)
+    <!--这Adapter 4.0 预计本月底发布，CodeLab 成员可预先使用Alpha版 `http://nc.codelab.club:8888/s/ytJDb6kkBRM7z5k` (仅在 Neverland 内网可访问)-->
 
-![](https://blog.just4fun.site/post/img/011233bf058d45eb2deb2b05e288f2bd.png)
 
 # 介绍
 
@@ -60,7 +63,11 @@ class MyNode(AdapterNode):
 node = MyNode()
 node.receive_loop_as_thread()
 time.sleep(0.1)
+```
 
+创建Adapter Node之后，就可以通过node使用linda了。
+
+```python
 res = node.linda_reboot() # reboot linda server, clean tuple space
 assert res == []
 
@@ -143,7 +150,7 @@ assert res == []
 
 ## dump
 
-`http post https://codelab-adapter.codelab.club:12358/api/linda operate=dump tuple:='["dump"]'`
+`http post https://codelab-adapter.codelab.club:12358/api/linda operate=dump`
 
 其他原语类似
 
@@ -204,7 +211,7 @@ await adapter_client.linda_in([1,2,5], 1000).then((data)=>{console.log("linda",d
 # mush-lang
 >  LISP 是一种构建材料 -- Alan Kay
 
-为了更好地探索 Linda 的可能性，我们围绕 Linda 的基本原语，构建了一门简单的语言 -- **mush-lang**。
+为了更好地探索 Linda 的可能性，我们围绕 Linda 的基本原语，构建了一门简单的语言 -- [**mush-lang**](https://github.com/wwj718/mush-lang)。
 
 mush-lang 采用 LISP 风格的语法，可以视为 LISP 的一门玩具方言。 LISP 因其同构性(内外表示一致)，可能是所有语言中最简单的。
 
@@ -301,12 +308,50 @@ linda 的基本观点是数据不停生灭（由用户显式操控）。
 
 # FAQ
 
-## 如何提到 Linda 操作的速度
+## 如何看到 Linda Tuple Space
+`Adapter >=4.1.0`
+
+![](/img/1cefdae213e9de3ab272c5217e67c2e8.png)
+
+
+
+## 在 Scratch 里有些 **in/rd** 积木一直阻塞
+简单而言，按照以下顺序运行程序: 
+
+*  确保在linda in/rd  积木运行之前，先运行linda reboot
+*  之后在启动Scratch程序
+
+以下是原因分析(可以不看):
+
+这个Linda背后的实现有关，Adapter Linda 目前是C/S架构。Scratch中的 in/rd 积木实际上 promise。
+
+reboot针对的是linda server的操作。
+
+如果程序在 in/rd 的时候，被reboot，则客户端(Scratch)的 in/rd 对应的promise永远不会被解决。
+
+
+**linda reboot** 一下
+
+## 速度
+<!--
 [ZMQ_LOOP_TIME](https://adapter.codelab.club/user_guide/settings/#zmq_loop_time)
 
 以下是一个在scratch里进行速率测试的demo
 
 [linda-rate](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/linda-rate.sb3)
+-->
+
+默认情况下，30帧/s。
+
+在Python客户端，通过修改参数，可以提高到300-600帧/s。
+
+```python
+class MyNode(AdapterNode):
+    NODE_ID = "linda/test"
+
+    def __init__(self):
+        super().__init__(recv_mode="block", bucket_fill_rate=1000, bucket_token=1000)
+```
 
 
 ## Linda 与 EIM

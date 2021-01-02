@@ -85,3 +85,7 @@ CodeLab Adapter 允许以[命令行方式启动（没有GUI）](/user_guide/FAQ/
 只需要集成[scratch3_eim](https://github.com/CodeLabClub/scratch3_eim)即可。
 
 如果你想使用 socketio client 连接与 Adapter 沟通，参考[此处源码](https://github.com/CodeLabClub/scratch3_eim/blob/v3/codelab_adapter_base.js#L61)。
+
+## Scratch里的小绿点是怎么实现的？
+
+Scratch里的小绿点用于反应网页与Adapter的连通性, 小绿点的状态由[AdapterBaseClient connected 属性](https://github.com/CodeLabClub/scratch3_eim/blob/v3/codelab_adapter_base.js)决定。它属于 scratch-gui，而不属于scratch extension，这部分你需要自己实现。

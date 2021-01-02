@@ -1,7 +1,8 @@
 # Tutorial
 
 !!! 提醒
-    使用micro:bit v2的话，需要手动在 makecode 里刷入固件。   
+    使用micro:bit v2的话，需要手动在 makecode 里刷入固件（推荐使用v1）   
+    micro:bit v1 和 micro:bit v2 的radio可以通信。   
     只能用于 makecode radio， makecode radio 与 micropython radio不兼容。   
     Adapter `3.7.4` 支持切换 radio channel。  
     
