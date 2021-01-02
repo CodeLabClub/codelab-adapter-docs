@@ -2489,7 +2489,7 @@
 <blockquote>
 <p>这里引入 <em>Python对象</em> 能力的方式与 <a href="../eim_pt/"><em>Eim插件教程</em></a> 不一样，用到的是 <em>Python插件</em> 。在 <a href="../../get_start/gs_pyproject/"><em>入门教程1</em></a>中有示例如何使用。</p>
 </blockquote>
-<p>这里简单解释一下插件工作的原理，在 <a href="https://adapter.codelab.club/extension_guide/extension_python_kernel/"><em>Python插件</em></a> 代码文件中，定义了 <code>PyHelper类</code> ，在该类中定义了用于打开连接的 <code>open_url 方法</code> 。Scratch积木块通过广播一条 <em>代码语句</em> ：<code>PyHelper.open_url(url)</code> 给 <em>Python对象</em> ，然后 <em>Python对象</em> 就会执行这段代码，打开相应的链接了。</p>
+<p>这里简单解释一下插件工作的原理，在 <a href="/extension_guide/extension_python_kernel/"><em>Python插件</em></a> 代码文件中，定义了 <code>PyHelper类</code> ，在该类中定义了用于打开连接的 <code>open_url 方法</code> 。Scratch积木块通过广播一条 <em>代码语句</em> ：<code>PyHelper.open_url(url)</code> 给 <em>Python对象</em> ，然后 <em>Python对象</em> 就会执行这段代码，打开相应的链接了。</p>
 <div class="admonition 提醒">
 <p class="admonition-title">提醒</p>
 <p>PyHelper类中还有一个方法很实用: <code>open</code>, 这个方法以系统默认的方式打开任何东西: 诸如文本、图片、视频、软件...只要传入想打开的东西的 <strong>绝对系统路径</strong> 即可。诸如打开Chrome浏览器: <code>PyHelper.open("C:\Program Files\Google\Chrome\Application\chrome.exe")</code></p>

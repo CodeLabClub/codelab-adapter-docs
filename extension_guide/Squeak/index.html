@@ -2372,7 +2372,7 @@
 <p>关于 Squeak 入门，可参考<a href="https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/smalltalk-guide/">Smalltalk 入门导览</a></p>
 <h2 id="adapter">接入 Adapter<a class="headerlink" href="#adapter" title="Permanent link">&para;</a></h2>
 <p>有很多种方式将 Squeak 和 Adapter连在一起，诸如HTTP、Websocket、ZeroMQ，系统调用(Adapter python client提供系统命令)，你也可以自己写一个Adapter插件来连接两者。</p>
-<p>目前我最喜欢的一种方式是使用 <a href="https://adapter.codelab.club/extension_guide/osc/">OSC</a>, 由于最新的Adapter内置了 OSC server，所以我们可以轻松将Squeak用作 osc cleint， 消息流向是 <code>Squeak-&gt;Adapter</code>。</p>
+<p>目前我最喜欢的一种方式是使用 <a href="/extension_guide/osc/">OSC</a>, 由于最新的Adapter内置了 OSC server，所以我们可以轻松将Squeak用作 osc cleint， 消息流向是 <code>Squeak-&gt;Adapter</code>。</p>
 <h2 id="demo">demo<a class="headerlink" href="#demo" title="Permanent link">&para;</a></h2>
 <p>在Squeak中, 下载 OSC : <a href="http://www.squeaksource.com/OSCClient/OSC-SimonHolland.14.mcz">OSC-SimonHolland</a>, 之后拖到 Squeak 桌面，加载使用即可。</p>
 <div class="codehilite"><pre><span></span>(<span class="nc">OSCMessage</span> <span class="nf">for:</span> {<span class="s">&#39;/eim/osc&#39;</span> <span class="p">.</span> <span class="m">1</span>}) <span class="nf">sendTo:</span> <span class="err">#</span>[<span class="m">127</span> <span class="nf">0</span> <span class="m">0</span> <span class="nf">1</span>] <span class="nf">port:</span> <span class="m">12361</span><span class="p">.</span>  <span class="c">&quot;turn right&quot;</span>

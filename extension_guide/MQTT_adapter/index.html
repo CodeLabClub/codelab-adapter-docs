@@ -2279,7 +2279,7 @@
 <h1 id="_1">插件说明<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <ul>
 <li>使用方式: 到<a href="/extension_guide/extension_market/">插件市场</a>下载插件, 搜索 <strong>mqtt</strong></li>
-<li>插件类型: <a href="https://adapter.codelab.club/dev_guide/helloworld/">Adapter Extension</a></li>
+<li>插件类型: <a href="/dev_guide/helloworld/">Adapter Extension</a></li>
 <li>插件源码: <a href="https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_mqtt_adapter.py">extension_mqtt_adapter.py</a></li>
 </ul>
 <h1 id="_2">使用场景<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h1>
@@ -2287,7 +2287,7 @@
 <p>原理很简单，它将来自mqtt的消息(mqtt topic:<code>to_scratch</code>)，转发到 eim 中，将eim中的消息转发到mqtt(mqtt topic:<code>from_scratch</code>). （下文有例子）</p>
 <div class="admonition 提醒">
 <p class="admonition-title">提醒</p>
-<p>你需要首先选择一个mqtt broker，<a href="https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_mqtt_adapter.py#L24">extension_mqtt_adapter.py</a>假设你在本地运行了一个mqtt broker(mqtt 127.0.0.1 1883)。你可以使用任何mqtt broker。在 Adapter 3.2 中，将自带一个轻量级高性能的 mqtt broker: <a href="https://adapter.codelab.club/extension_guide/MQTT_Broker/">MQTT Broker</a></p>
+<p>你需要首先选择一个mqtt broker，<a href="https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_mqtt_adapter.py#L24">extension_mqtt_adapter.py</a>假设你在本地运行了一个mqtt broker(mqtt 127.0.0.1 1883)。你可以使用任何mqtt broker。在 Adapter 3.2 中，将自带一个轻量级高性能的 mqtt broker: <a href="/extension_guide/MQTT_Broker/">MQTT Broker</a></p>
 </div>
 <p>将消息从mqtt client 发往Scratch:</p>
 <p><code>hbmqtt_pub --url mqtt://127.0.0.1 -t to_scratch -m "mqtt message"</code></p>
