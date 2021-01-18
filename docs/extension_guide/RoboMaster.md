@@ -4,6 +4,8 @@ RoboMaster EP
 !!!提醒
     目前只支持RoboMaster EP(暂不支持S1)，受限于大疆的开放接口: [RoboMaster SDK 新手入门 - EP 篇](https://robomaster-dev.readthedocs.io/zh_CN/latest/python_sdk/beginner_ep.html)
 
+<!--todo https://github.com/nanmu42/robomasterpy-->
+
 # Tutorial
 ## 依赖
 
@@ -36,3 +38,24 @@ RoboMaster EP
 
 !!! 提醒
     如果你希望做一些更复杂的事，建议直接使用社区里的 Python SDK与 设备交互，之后使用 [Adapter Node](/dev_guide/Adapter-Node/) 将其接入Adapter环境中。
+
+如果你要做复杂任务，建议在Python中与Robomaster交互:
+
+*  [robomasterpy](https://github.com/nanmu42/robomasterpy)
+*  [RoboMaster-SDK](https://github.com/dji-sdk/RoboMaster-SDK): 官方SDK跨平台性非常差, 似乎是因为比较早期的缘故
+
+## 有些网络无法连接到robomaster
+```py
+import socket
+
+ip_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+# 绑定 IP 广播端口
+ip_sock.bind(('0.0.0.0', 40926))
+
+# 等待接收数据
+ip_str = ip_sock.recvfrom(1024)
+
+# 输出数据
+print(ip_str)
+```

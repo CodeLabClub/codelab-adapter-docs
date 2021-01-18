@@ -96,6 +96,6 @@ def push(c):
 @task
 def to_github(c):
     cmd1 = "rm -rf  site/video"
-    cmd2 = "ghp-import site"
+    cmd2 = "ghp-import -r github -p site"
     run_cmd(cmd1)
     run_cmd(cmd2)

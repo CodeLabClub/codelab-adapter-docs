@@ -252,10 +252,10 @@ node.linda_in(["response", "loudness", "*"])
 
 跨语言对象之间的互操作
 
-用到了 Jupyter notebook 里的 ipywidgets.
+用到了 jupyterlab 3.0 里的 ipywidgets.
 
 ```python
-# 请使用 jupyter notebook，而不是jupyterlab
+# 在jupyterlab 3.0中可用
 from ipywidgets import interact, interactive, fixed, interact_manual
 from codelab_adapter_client import AdapterNode
 import time

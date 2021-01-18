@@ -203,3 +203,12 @@ CodeLab Adapter 有很好的分布式支持:
 以下是windows 10 下的操作: `右键目标文件 -> 属性`
 
 ![](/img/56e266852fbc94ef92d7b5d3f3125d38.png)
+
+## 为何有些网络下会无法Adapter发现/连接wifi设备
+这种情况，可能发生在wifi设备（悟空机器人、Romomaster EP）
+
+当你换一个网络就可用时， 那么问题可能是在某个网络启动Adapter，系统询问你是否允许其连接公共网络，你没有同意。
+
+可能的操作方法为: [Win10系统禁止/恢复某个程序连接网络的方法](https://jingyan.baidu.com/article/22a299b5e6fa909e18376a55.html)
+
+允许 adapter 内置的Python连网络（Python路径可在WebUI中看到）

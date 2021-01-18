@@ -1,76 +1,100 @@
-# pip install https://github.com/wwj718/DJITelloPy/archive/master.zip
 import time
 import json
-import socket
+import random
 from loguru import logger
 from codelab_adapter_client import AdapterNode
 from codelab_adapter_client.thing import AdapterThing
 from codelab_adapter_client.utils import get_or_create_node_logger_dir
-
-from djitellopy import Tello
 
 node_logger_dir = get_or_create_node_logger_dir()
 debug_log = str(node_logger_dir / "debug.log")
 logger.add(debug_log, rotation="1 MB", level="DEBUG")
 
 
-class TelloProxy(AdapterThing):
+class Robot:
     '''
-    对象内部可能出现意外错误，重置积木（重启整个插件）
-    self.thing = Tello() 由于是udp 所以与wifi的通断 不影响， self.thing总是可用
+    对象内部可能出现意外错误，重置积木（client/Scratch）（重启整个插件）
     '''
+    # 具体驱动
+    def __init__(self):
+        self.connected = False
+
+    def connect(self):
+        self.connected = True
+        return "ok"
+
+    def close(self):
+        self.connected = False
+        return "ok"
+
+    def takeoff(self):
+        time.sleep(1)
+        return "ok"
+    
+    def land(self):
+        time.sleep(1)
+        return "ok"
+    
+    def move_forward(self, x):
+        time.sleep(1)
+        return f"forward {x}"
+    
+    def query_height(self):
+        time.sleep(1)
+        return random.randint(1, 10)
+
+
+class ThingProxy(AdapterThing):
     def __init__(self, node_instance):
-        super().__init__(thing_name="Tello",
+        # todo pydanic
+        super().__init__(thing_name="Robot-BB8",
                          node_instance=node_instance)
+        self.n = 0
 
     def list(self, timeout=5) -> list:
-        if not self.thing:
-            self.thing = Tello()
-        self.thing.RESPONSE_TIMEOUT = timeout
-        logger.debug(f"self.thing: {self.thing}")
+        # check is onlien 192.168.10.1 CONTROL_UDP_PORT = 8889
+        self.n += 1
         try:
-            # if True:  # self.thing.connect():  # RESPONSE_TIMEOUT 7 ，判断是否可连接
-            # logger.debug(f"self.thing.connect(): {self.thing.connect()}")
-            self.thing.connect() #  返回True有问题，如果没有飞机，就会except
-            return ["192.168.10.1"]
+            if self.n % 2 == 1:
+                return ["192.168.10.1"]  # 随机
+            else:
+                self.node_instance.pub_notification(f'{self.thing_name} not found', type="ERROR")
+                return []
         except Exception as e:  # timeout
-            # self.thing.connect() except
-            logger.debug(f'error: {str(e)}')
-            self.node_instance.pub_notification(str(e),
-                                                type="ERROR")
+            self.node_instance.pub_notification(str(e), type="ERROR")
             return []
 
     def connect(self, ip, timeout=5):
-        # 修改 self.thing
         if not self.thing:
-            self.thing = Tello()
-        is_connected = self.thing.connect()  # 幂等操作 ，udp
+            # 多次连接
+            self.thing = Robot()
+        self.thing.connect()
+        is_connected = True  # 幂等操作 ，udp
         self.is_connected = is_connected
-        return True
 
     def status(self, **kwargs) -> bool:
         # check status
         # query thing status, 与设备通信，检查 is_connected 状态，修改它
-        return self.thing.connect()  # 超时7秒
+        pass
 
     def disconnect(self):
         self.is_connected = False
         try:
             if self.thing:
-                self.thing.clientSocket.close()  # 断开，允许本地其他client（如python client）
+                pass
         except Exception:
             pass
         self.thing = None
 
 
-class Tello3Node(AdapterNode):
-    NODE_ID = "eim/node_tello3"
-    HELP_URL = "https://adapter.codelab.club/extension_guide/tello3/"
-    DESCRIPTION = "tello 3.0"  # list connect
+class MyNode(AdapterNode):
+    NODE_ID = "eim/node_thingDemo"
+    HELP_URL = "https://adapter.codelab.club/extension_guide/node_thingDemo/"
+    DESCRIPTION = "thing Demo"  # list connect
 
     def __init__(self):
         super().__init__(logger=logger)
-        self.tello = TelloProxy(self)
+        self.thing = ThingProxy(self)
 
     def run_python_code(self, code):
         try:
@@ -78,10 +102,10 @@ class Tello3Node(AdapterNode):
                 code,
                 {"__builtins__": None},
                 {
-                    "tello": self.tello.thing,  # 直接调用方法
-                    "connect": self.tello.connect,
-                    "disconnect": self.tello.disconnect,
-                    "list": self.tello.list,
+                    "thing": self.thing.thing,  # 直接调用方法
+                    "connect": self.thing.connect,
+                    "disconnect": self.thing.disconnect,
+                    "list": self.thing.list,
                 })
         except Exception as e:
             output = e
@@ -99,15 +123,13 @@ class Tello3Node(AdapterNode):
         message = {"payload": payload}
         self.publish(message)
 
-    # self.pub_notification(str(e), type="ERROR")
-
     def run(self):
         while self._running:
             time.sleep(0.5)
 
     def terminate(self, **kwargs):
         try:
-            self.tello.disconnect()
+            self.thing.disconnect()
         except Exception:
             pass
         super().terminate(**kwargs)
@@ -115,7 +137,7 @@ class Tello3Node(AdapterNode):
 
 if __name__ == "__main__":
     try:
-        node = Tello3Node()
+        node = MyNode()
         node.receive_loop_as_thread()
         node.run()
     except Exception as e:
