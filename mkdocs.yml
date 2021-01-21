@@ -185,6 +185,8 @@ nav:
       - Switch: "extension_guide/switch.md"
       - sugar: "extension_guide/sugar.md"
       - Lego Mario: "extension_guide/legomario.md"
+      - BrainCo: "extension_guide/brainCo.md"
+      - Sphero RVR: "extension_guide/spheroRVR.md"
       - OpenCV(正在迁移中): "extension_guide/opencv.md"
       - Tensorflow(正在迁移中): "extension_guide/tensorflow.md"
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"
