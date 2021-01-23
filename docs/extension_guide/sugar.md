@@ -1,5 +1,7 @@
 # Sugar
 
+![](/img/sugar_bar.jpeg)
+
 构建 Sugar 插件的动机最初来自 @Lounsen 的想法: 接布尔量的 hat 积木。
 
 Sugar 插件是个实验室，试图为 Scratch 提供 **甜** 的语法糖。

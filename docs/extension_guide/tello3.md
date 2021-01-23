@@ -1,5 +1,5 @@
 # Tello 3.0
 
-Tello 插件的 3.0 版本.
+支持在 scratch 中扫描连接。
 
-采用scratch风格的连接 UI。
+功能同 [tello2.0](https://adapter.codelab.club/extension_guide/tello2/)

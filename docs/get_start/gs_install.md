@@ -17,14 +17,14 @@
 
 ## Codelab Adapter下载链接 {#download}
 
-最新版本: `4.1.0`
+最新版本: `4.2.1`
 
 |     操作系统     |     完整版     |    精简版      |     系统要求   |      安装注意事项      |
 | :--------: | :---------: | :--------: | -------- | ---------- |
-| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_2_0-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
-| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codeLab-adapter-4_2_0-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
-| Linux     | 无   | [linux.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_2_0-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
-| Raspbian（树莓派） | 无   | [rpi.zip(3.7.4)](https://scratch3-files.just4fun.site/codelab-adapter-3_7_4-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
+| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_2_1-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
+| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_2_1-win-fix.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
+| Linux     | 无   | [linux.zip(4.2.0)](https://scratch3-files.just4fun.site/codelab-adapter-4_2_0-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
+| Raspbian（树莓派） | 无   | [rpi.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_2_1-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
 
 附:各个版本的哈希值(Sha256)
 
@@ -40,14 +40,13 @@
 |rpi|8115d955b965ecd5099cb0f64828137b46b1010af54ef1fcf337d8ab3408b0fd|
 -->
 
-<!--
 |版本|Sha256|
 |--|--|
-|macFull|7edb1c012a431717c6b5f26d00e66bbb4feccd44862e2c761ca893fb89e2da3e|
-|winFull|f7ffe461cf2dd76a68f477b6c0c45b564b31f94763a3f0be9f8abd85512b0b39|
-|linux|fa05f4f68a643c676b579cea64eed9f6edc13b343c78e5e969ce90d2e70e637a|
-|rpi|24d4b796ca7b9cbac0758cacb2ede7e41119c46093b9f2089c40b10c0b33173d|
--->
+|macFull|cc5d5b9df4f2ce71730921ce3419f787afbea6441ddcfac61157fa394ca21c0d|
+|winFull|a1938ec2d5262b2db8ca4e2248fae9721cfe59420e0a31cc96ad040dc173a2d7|
+|linux|b8b8e1ab46b744b2c707b6514c9961b7915861f5d747f4050d26df0933c6a9ca|
+|rpi|ce186cbdaf8b45d94aaa43131b17b0da7ce20674474b58a982a16b805325f874|
+
 
 ---
 

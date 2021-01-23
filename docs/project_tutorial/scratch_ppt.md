@@ -16,7 +16,7 @@
 
 - 打开计算机本地的视频
 - *PPT* 换页只能依靠点击鼠标
-- 。。。
+- ...
 
 而在之前的案例中，我们尝试
 
@@ -29,7 +29,7 @@
 
 ---
 
-在这里我们尝试在已有的 [*Codelab演讲PPT*](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/codelab_ppt_base.sb3)(点击链接，打开项目) 上进行改进，为其添加以下功能
+在这里我们尝试在已有的 [*Codelab演讲PPT*](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/codelab_ppt_base.sb3)(点击链接，打开项目) 上进行改进，为其添加以下功能
 
 - *无线Micro:bit* 作为翻页笔
 - 可以打开任意网站视频（以 Codelab官网 为例）
@@ -98,7 +98,8 @@ ps： *python插件* 和 *eim插件* 的区别需要小伙伴先具备一些Pyth
 
 现在尝试一下，是否能在翻页动画结束后，自动转到 *Codelab官网* 呢？
 
-[完整项目代码](https://scratch3v3.codelab.club/?sb3url=https://adapter.codelab.club/sb3/codelab_ppt_improved.sb3)
+*  [改进版](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/codelab_ppt_improved.sb3)
+*  [完整版(社区)](https://create.codelab.club/projects/8800/editor/)
 
 ## 启发与想象力
 

@@ -1,3 +1,5 @@
 # RoboMaster 2.0
 
-采用scratch风格的连接 UI。
+支持在 scratch 中扫描连接。
+
+功能同 [RoboMaster](/extension_guide/RoboMaster/)

@@ -1,7 +1,7 @@
 # Tutorial
 
 !!! 提醒
-    microbit v2 用户，请使用这个[固件](/hex/usb_Microbit_firmware_4v2.hex)。目前需要手动刷新，Adapter的下个版本我们将提供更好的支持。
+    microbit v2 用户，请使用这个[固件](/hex/usb_Microbit_firmware_4v1v2.hex)。目前需要手动刷新，Adapter的下个版本(4.2.1)我们将提供更好的支持。
 
 !!! 提醒
     [microbit radio插件](/extension_guide/microbit_radio/)与 [usb microbit插件](/extension_guide/microbit/)不能同时使用.
