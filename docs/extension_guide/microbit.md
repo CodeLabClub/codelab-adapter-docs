@@ -1,10 +1,11 @@
 # Tutorial
 
+<!--
 !!! 提醒
-    microbit v2 用户，请使用这个[固件](/hex/usb_Microbit_firmware_4v1v2.hex)。目前需要手动刷新，Adapter的下个版本(4.2.1)我们将提供更好的支持。
+    microbit v2 用户，请使用这个[固件](/hex/usb_Microbit_firmware_4v1v2.hex)。目前需要手动刷新，Adapter的下个版本(4.2.1)我们将提供更好的支持。-->
 
 !!! 提醒
-    [microbit radio插件](/extension_guide/microbit_radio/)与 [usb microbit插件](/extension_guide/microbit/)不能同时使用.
+    [microbit radio插件](/extension_guide/microbit_radio/)与 [usb microbit插件](/extension_guide/microbit/)最好不要同时使用.  
 
 ## 依赖
 
@@ -77,3 +78,14 @@ ps: linux 用户注意，scratch3_adapter 使用 usb 串口与 micro:bit 连接�
 
 !!! 
     [usb_Microbit_firmware.hex的源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/firmware/usb_Microbit_firmware_hex.py)。 采用[python.microbit.org](https://python.microbit.org/v/2.0)生成hex
+
+# FAQ
+## MacOS 10.15 无法使用
+MacOS 用户 @patch 提到 MacOS 10.15 以后启用了SIP（System Integrity Protection系统完整性保护），程序对系统目录无法直接访问了。所以flashing new firmware 时报operation not permitted的错误就是这个问题导致的。  
+关掉系统的SIP以后再测试，flashing new firmware这一步成功了
+
+## 反复刷入固件
+建议拔掉microbit，再重新插入电脑
+
+## 第一次刷入固件
+目前有个bug，插拔microbit之后，可能会重新刷入固件。原因似乎是复合的，应该与node和固件（可以使用https://python.microbit.org/v/2加载固件）都有关，这两部目前都是开放的，欢迎大家修复

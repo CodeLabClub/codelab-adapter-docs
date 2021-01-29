@@ -89,7 +89,28 @@
     *  修复与 token 有关的安全风险
     *  webui, 基于最新codelab_adapter_base.js
     *  解决websocket input token潜在风险
-*  2021.12.31 4.1.0
+*  2020.12.31 4.1.0
     *  修复目录字符问题（空格、中文）
     *  WebUI 支持 Linda 可视化
     *  修复4.0.0引起的魔杖问题
+*  2021.01.20 4.2.0
+    *  支持新设备
+        *  BrainCo
+        *  LEGO Mario
+        *  Sphero RVR
+    *  改进Cozmo、Tello、Robomaster插件，使其支持在Scratch中扫描/连接
+    *  AdapterThing 目前被视为在Adapter里接入硬件设备的最佳实践
+    *  解决webui缩放时，页面失调问题
+    *  支持云端更新配置(`global_settings.toml`)
+    *  提供node版本服务（静态分析），允许client自动检测node版本
+    *  统一所有url中的adapter_token参数
+    *  为microbit固件刷入添加ui反馈
+    *  重构settings（基于dynaconf），使其简单、灵活、统一，更好地支持环境变量
+    *  使得python插件可以向scratch传递json（数据结构）
+*  2021.01.23 4.2.1
+    *  修复 BrainCo 在windows下的 bug
+    *  修复 马里奥 在windows10下的发现问题
+    *  支持马里奥掉线通知（UI同步）
+    *  使usb microbit、microbit radio插件支持v1/v2版本的micro:bit
+    *  修复 windows下 dynaconf 引起的路径错误问题(与`python -m`启动方式有关)
+

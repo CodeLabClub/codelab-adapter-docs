@@ -1,12 +1,12 @@
 # Tutorial
 
+<!--
 !!! 提醒
-
     使用micro:bit v2的话，需要手动在 makecode 里刷入[固件](/hex/makecode_radio_adapter.hex), Adapter的下个版本(4.2.1)我们将提供更好的支持。
     micro:bit v1 和 micro:bit v2 的radio可以通信。   
     只能用于 makecode radio， makecode radio 与 micropython radio不兼容。   
     Adapter `3.7.4` 支持切换 radio channel。 
-    
+-->
 
 ## 介绍
 
@@ -55,6 +55,8 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 <!--带版本 https://makecode.microbit.org/_hq7Ciugx396o-->
 
 <!--旧的固件 https://makecode.microbit.org/_EL20Rp98pHAg-->
+
+<!--v0.5 https://makecode.microbit.org/_dHWL0C8dyCJa-->
 
 !!! 提醒
     Windows 7用户注意，无法发现 micro:bit，需要[安装驱动](/img/mbedWinSerial_16466.exe)（和使用 mu-editor 操作相同）  
@@ -114,3 +116,15 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 它们之间基于 radio 通信（[micro:bit radio](/extension_guide/microbit_radio/)）
 
 Scratch 程序参考 [Scratch-翻页笔-demo.sb3](https://scratch-beta.codelab.club/?sb3url=https://adapter.codelab.club/sb3/Scratch-翻页笔-demo.sb3){target=\_blank}
+
+
+# FAQ
+## MacOS 10.15 无法使用
+MacOS 用户 @patch 提到 MacOS 10.15 以后启用了SIP（System Integrity Protection系统完整性保护），程序对系统目录无法直接访问了。所以flashing new firmware 时报operation not permitted的错误就是这个问题导致的。  
+关掉系统的SIP以后再测试，flashing new firmware这一步成功了
+
+## 反复刷入固件
+建议拔掉microbit，再重新插入电脑
+
+## 第一次刷入固件
+目前有个bug，插拔microbit之后，可能会重新刷入固件。原因似乎是复合的，应该与node和固件（可以使用https://python.microbit.org/v/2加载固件）都有关，这两部目前都是开放的，欢迎大家修复
