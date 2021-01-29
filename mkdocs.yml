@@ -1,6 +1,6 @@
 site_name: CodeLab Adapter
 repo_url: https://github.com/CodeLabClub/codelab-adapter-docs
-edit_uri: edit/v2/docs/
+edit_uri: edit/new_v2/docs/
 site_description: the docs
 extra_javascript:
     - 'js/baidu-tongji.js'
