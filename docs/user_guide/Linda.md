@@ -365,8 +365,8 @@ Linda 与 EIM 将长期共存，一个 Adapter Node，即是Linda client，也�
 
 # 参考
 
--   [在 CodeLab Adapter 中实现 Linda 并发模型](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/adapter-linda/)
--   [Linda: 比 Actor 更好的并发模型](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/linda-intro/)
--   [[译]Alan Kay 看待'对象'的几次观点转变](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/alan-key-between-oo-fp/)
--   [建立在异步消息之上的同步指令: 分别在 JavaScript、Python、Squeak 上实现](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/async-msg-sync-cmd/)
--   [[译]Smalltalk 背后的设计原则](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/design-principles-behind-smalltalk/)
+-   [在 CodeLab Adapter 中实现 Linda 并发模型](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/adapter-linda/)
+-   [Linda: 比 Actor 更好的并发模型](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/linda-intro/)
+-   [[译]Alan Kay 看待'对象'的几次观点转变](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/alan-key-between-oo-fp/)
+-   [建立在异步消息之上的同步指令: 分别在 JavaScript、Python、Squeak 上实现](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/async-msg-sync-cmd/)
+-   [[译]Smalltalk 背后的设计原则](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/design-principles-behind-smalltalk/)

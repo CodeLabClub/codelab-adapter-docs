@@ -7,7 +7,7 @@
 {!utils/dependence.md!}
 
 ## 使用
-参考[作为游戏机厅的 CodeLab 可编程空间](https://blog.just4fun.site/post/codelab-gameshell/)
+参考[作为游戏机厅的 CodeLab 可编程空间](https://wwj718.github.io/post/codelab-gameshell/)
 
 # Demo
 将 GameShell 接入 CodeLab Adapter 之后， 我们将其用作 CodeLab 可编程空间的控制手柄:

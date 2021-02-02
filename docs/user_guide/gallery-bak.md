@@ -54,7 +54,7 @@
 ## 在 CodeLab Scratch3 中，使用 micro:bit 开/关灯
 <video src="../../img/microbit_mi.mp4" controls="controls"></video>
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
+参考[积木化编程与智能家居](https://wwj718.github.io/scratch3-smart-home.html)。
 
 ## 在 CodeLab Scratch3 中，利用运动检测开/关灯
 <video src="https://adapter.codelab.club/video/scratch-smart-home.mp4" controls="controls"></video>
@@ -62,7 +62,7 @@
 ### 在 CodeLab Scratch3 中，利用传感器做体感游戏
 <video src="../../img/mc_404game.mp4" controls="controls"></video>
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
+参考[积木化编程与智能家居](https://wwj718.github.io/scratch3-smart-home.html)。
 
 ## 在 CodeLab Scratch3 中，使用本地的机器视觉
 <video src="../../img/dp_vision.mp4" controls="controls"></video>
@@ -73,25 +73,25 @@
 
 我们布置好了一个可编程的空间，使用 Scratch3 中的积木进行空间编程，控制室内的灯光、插座、空调、电视，如果你愿意，也可以去淘宝买一根哈利波特的木制魔杖（估计只要九块九），用我们提供的机器视觉积木训练一下，就可以用你自制的咒语（比如用魔杖划一个o）控制你的房间
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
+参考[积木化编程与智能家居](https://wwj718.github.io/scratch3-smart-home.html)。
 
 ## 门与电视的联动
 <video src="../../img/door_tv.mp4" controls="controls"></video>
 
 我们使用树莓派可将任何屏幕变为变为一个可编程的广告牌（哈哈只要 200 块哦，这块似乎也值得商业化[奸笑]）。加上简单的神经网络你可以做到，当穿着裙子的姑娘走近屏幕，屏幕立马给她安利新款纪梵希，而穿着格子衬衫的大叔靠近时，屏幕则以机械键盘蛊惑他。
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
+参考[积木化编程与智能家居](https://wwj718.github.io/scratch3-smart-home.html)。
 
 ## 纸做的开关
 <video src="../../img/paper_switch_magic.mp4" controls="controls"></video>
 
-参考[积木化编程与智能家居](https://blog.just4fun.site/scratch3-smart-home.html)。
+参考[积木化编程与智能家居](https://wwj718.github.io/scratch3-smart-home.html)。
 
 ## Cozmo 接入在线课程平台 
 <!--https://adapter.codelab.club/video/blockly_cozmo.mp4 http://p6ur0vhyj.bkt.clouddn.com/blockly_cozmo.mp4-->
 <video src="https://adapter.codelab.club/video/blockly_cozmo.mp4" controls="controls"></video>
 
-参考[使用 Codelab_Adapter 连接 blockly 与硬件](https://blog.just4fun.site/scratch3_adapter-blockly.html)。
+参考[使用 Codelab_Adapter 连接 blockly 与硬件](https://wwj718.github.io/scratch3_adapter-blockly.html)。
 
 ## Incendio（火焰咒）
 
@@ -101,7 +101,7 @@
 
 <video width=40% src="https://adapter.codelab.club/video/1537510098140.mp4" controls="controls"></video>
 
-参考[codelab-adapter 接入优必选 Alpha 系列机器人](https://blog.just4fun.site/scratch3-adapter-ubtrobot.html)
+参考[codelab-adapter 接入优必选 Alpha 系列机器人](https://wwj718.github.io/scratch3-adapter-ubtrobot.html)
 
 ## 接入 blender（连接游戏、电影与 VR）
 

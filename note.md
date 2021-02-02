@@ -32,7 +32,7 @@ for url in urls_set:
 ack -ho "http://scratch3-files.just4fun.site.+\.mp4" > mp4_list.txt
 
 ### 下载
-[博客迁移:从Pelican到Hugo](https://blog.just4fun.site/post/%E5%B7%A5%E5%85%B7/from-pelican-to-hugo/)
+[博客迁移:从Pelican到Hugo](https://wwj718.github.io/post/%E5%B7%A5%E5%85%B7/from-pelican-to-hugo/)
 
 ```
 import subprocess

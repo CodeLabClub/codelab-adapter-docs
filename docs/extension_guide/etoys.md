@@ -37,7 +37,7 @@ Etoys与外部通信的方式并不多，在  **百宝箱** 里，仅发现了Sc
 
 于是我们通过将 Adapter 伪装成 Scratch 1.3，来与Etoys通信，消息流向是(`Etoys->Adatper->Scratch3.0`)
 
-由于百宝箱里的 Scratch客户端是socket client，所以更复杂的通信也是可能的，但`Etoys->Adatper->Scratch3.0`是我自己的典型使用场景。 更多细节参考: [Etoys 学习笔记: 与 Scratch 互操作](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/etoys-learning-note/). 
+由于百宝箱里的 Scratch客户端是socket client，所以更复杂的通信也是可能的，但`Etoys->Adatper->Scratch3.0`是我自己的典型使用场景。 更多细节参考: [Etoys 学习笔记: 与 Scratch 互操作](https://wwj718.github.io/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/etoys-learning-note/). 
 
 也欢迎你自己进行hack ：）
 
@@ -86,8 +86,8 @@ Alan Kay 和 Etoys社区围绕Etoys写了许多精彩的文章，推荐阅读。
 
 
 ## 进阶
-你可以参考[Etoys 学习笔记: 与 Scratch 互操作](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/etoys-learning-note/)自行构建功能更丰富的Server，使用 [Adapter Node](/dev_guide/Adapter-Node/) 将其接入Adapter生态。
+你可以参考[Etoys 学习笔记: 与 Scratch 互操作](https://wwj718.github.io/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/etoys-learning-note/)自行构建功能更丰富的Server，使用 [Adapter Node](/dev_guide/Adapter-Node/) 将其接入Adapter生态。
 
 ## 参考
 
--   [Etoys 学习笔记: 与 Scratch 互操作](https://blog.just4fun.site/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/etoys-learning-note/)
+-   [Etoys 学习笔记: 与 Scratch 互操作](https://wwj718.github.io/post/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/etoys-learning-note/)

@@ -41,7 +41,7 @@ Python 社区有海量的第三方库，开发者可以将其引入插件中。
 参考
 
 *  [json message](/dev_guide/json-message/)
-*  [Python 与 Scratch 的双向通信](https://blog.just4fun.site/python-scratch-with-adapter.html)
+*  [Python 与 Scratch 的双向通信](https://wwj718.github.io/python-scratch-with-adapter.html)
 
 
 大多数情况下，你只需要发送和接受字符串就够了，这种风格与 Scratch 内置的广播极为相近。是典型的事件驱动风格。
@@ -51,11 +51,11 @@ Python 社区有海量的第三方库，开发者可以将其引入插件中。
 ## 如何接入 Arduino
 陆续有开发者问到，如何使用 CodeLab Adapter 将 Arduino 接入到 Scratch 3.0 中。
 
-有许多种方法，但我比较偏好在 Arduino 中烧入 Firmata 固件。之后以固件交互，我在[两种硬件编程风格的比较](https://blog.just4fun.site/Hardware-Programming-style.html)论述了这样做的好处。
+有许多种方法，但我比较偏好在 Arduino 中烧入 Firmata 固件。之后以固件交互，我在[两种硬件编程风格的比较](https://wwj718.github.io/Hardware-Programming-style.html)论述了这样做的好处。
 
 之后使用 Firmata python client 与 Arduino 交互。
 
-细节可以参考 [Arduino 与 Scratch 3.0](https://blog.just4fun.site/Scratch3-adapter-Arduino-scratch.html)。
+细节可以参考 [Arduino 与 Scratch 3.0](https://wwj718.github.io/Scratch3-adapter-Arduino-scratch.html)。
 
 ## 支持哪些平台
 首先区分 CodeLab Adapter 和 CodeLab Adapter Node。

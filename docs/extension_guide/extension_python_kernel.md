@@ -103,9 +103,9 @@ eval(code, {"__builtins__": None}, {
 
 # 参考
 
--   [将 codelab-adapter 用作 Python 解释器](https://blog.just4fun.site/scratch3-adapter-as-python-interpreter.html)
+-   [将 codelab-adapter 用作 Python 解释器](https://wwj718.github.io/scratch3-adapter-as-python-interpreter.html)
 
 <!--
--   [使用 Scratch 3.0 制作幻灯片](https://blog.just4fun.site/scratch3-adapter-presentation.html)。
+-   [使用 Scratch 3.0 制作幻灯片](https://wwj718.github.io/scratch3-adapter-presentation.html)。
 
 -->

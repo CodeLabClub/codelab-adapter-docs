@@ -2,7 +2,7 @@
 
 ## 2.0 (end)
 *  移动端支持
-    *  已完成：[codelab-adapter 的移动端解决方案](https://blog.just4fun.site/codelab-adapter-mobile.html)
+    *  已完成：[codelab-adapter 的移动端解决方案](https://wwj718.github.io/codelab-adapter-mobile.html)
 *  允许在 GUI 面板上启停插件
     *  已完成
 *  本地 SSL 安全证书
@@ -10,7 +10,7 @@
 *  引入 json-rpc
     *  已完成
 *  替代 Scratch Link，实现 Scratch Link 的蓝牙代理服务
-    *  [分析 scratch 3.0 与 micro:bit 的通信](https://blog.just4fun.site/scratch3-microbit-analysis.html)
+    *  [分析 scratch 3.0 与 micro:bit 的通信](https://wwj718.github.io/scratch3-microbit-analysis.html)
 *  故事与课程
     *  使用物联网和 AI 增强表现力
 *  重构插件系统，使用协程

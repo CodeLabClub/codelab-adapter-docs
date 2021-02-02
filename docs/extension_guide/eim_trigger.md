@@ -78,4 +78,4 @@ def trigger():
 
 ## 参考
 
-- [使用 Python 拓展 Scratch 的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html)
+- [使用 Python 拓展 Scratch 的能力](https://wwj718.github.io/scratch-adapter-eim-script.html)

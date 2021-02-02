@@ -77,4 +77,4 @@ export = SyncHelloWorldExtension
 
 
 # 参考:
-*  [codelab-adapter 与应答模式](https://blog.just4fun.site/codelab-adapter-req-rep.html)
+*  [codelab-adapter 与应答模式](https://wwj718.github.io/codelab-adapter-req-rep.html)

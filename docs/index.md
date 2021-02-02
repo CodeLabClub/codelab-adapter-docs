@@ -83,7 +83,7 @@ CodeLab Adapter 是一个跨平台跨语言的通用工具，你可以在多个�
 -   [Vector](https://www.anki.com/en-us/vector)
 -   [BB8](https://store.sphero.com/products/bb-8-by-sphero)
 -   [树莓派](https://www.raspberrypi.org/)
--   [智能家居](https://blog.just4fun.site/scratch3-smart-home.html)
+-   [智能家居](https://wwj718.github.io/scratch3-smart-home.html)
 -   [Switch Labo](https://labo.nintendo.com/)
 -   [Switch Joy-Con](https://www.nintendo.com/switch/)
 -   四轴飞行器

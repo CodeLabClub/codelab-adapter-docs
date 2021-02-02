@@ -35,7 +35,7 @@ Raspbian 默认已经预装 gpiozero 。
 
     
 !!! 提醒
-    如果你手头没有LED， 你可以[使用命令行工具 gpio](https://blog.just4fun.site/post/iot/raspberrypi-install-and-config/#%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7) ，观察引脚输出变化。  
+    如果你手头没有LED， 你可以[使用命令行工具 gpio](https://wwj718.github.io/post/iot/raspberrypi-install-and-config/#%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7) ，观察引脚输出变化。  
     gpio用的mode是wPi，而gpiozero用的是BCM，所以pin17对应wpi的pin0  
     ![](/img/fa6b43a839c1e55d8e761529ac996970.png) 
 
@@ -49,5 +49,5 @@ Raspbian 默认已经预装 gpiozero 。
     CodeLab Adapter的目标是**连接**。 
 
 # 参考
-- [gpio 测试工具](https://blog.just4fun.site/post/iot/raspberrypi-install-and-config/#%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7)
+- [gpio 测试工具](https://wwj718.github.io/post/iot/raspberrypi-install-and-config/#%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7)
 - [wiringPi updated to 2.52 for the Raspberry Pi 4B](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)

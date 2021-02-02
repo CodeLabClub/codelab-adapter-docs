@@ -28,7 +28,7 @@ CodeLab Adapter 对平台和操作系统没有这么高的要求，我们支持�
 - 大多数的协议（http/websocket/mqtt/ZeroMQ/socket……）
 - ...
 
-CodeLab Adapter killer 特性之一是允许普通用户（Scratcher）[使用 Python 拓展 Scratch 的能力](https://blog.just4fun.site/scratch-adapter-eim-script.html)。
+CodeLab Adapter killer 特性之一是允许普通用户（Scratcher）[使用 Python 拓展 Scratch 的能力](https://wwj718.github.io/scratch-adapter-eim-script.html)。
 
 CodeLab Adapter killer 特性之二是允许开发者和公司使用 Python 构建自定义的插件，轻松将任何硬件/AI/IOT 设备接入到 Scratch 3.0 中。
 
@@ -62,7 +62,7 @@ CodeLab Adapter 可以支持其他编程平台吗？而不只是在 CodeLab 的�
 
 CodeLab Adapter 几乎支持任何平台，无论是 Scratch 3.0 构建的还是 blockly 构建的（如 Tynker 和 code.org）的，或者你用其他什么黑魔法构建的，都没问题！
 
-这是目前的接入文档：[codelab-adapter 支持第三方平台](https://blog.just4fun.site/post/少儿编程/codelab-adapter-open-plan/)。
+这是目前的接入文档：[codelab-adapter 支持第三方平台](https://wwj718.github.io/post/少儿编程/codelab-adapter-open-plan/)。
 
 相关的合作条款我们正在构建中。
 

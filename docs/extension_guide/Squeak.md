@@ -12,7 +12,7 @@ MIT媒体实验室推动的OLPC计划，采用Squeak作为开发环境。
 
 Etoys、Croquet、第一代的Scratch都是用 Squeak 实现的。
 
-关于 Squeak 入门，可参考[Smalltalk 入门导览](https://blog.just4fun.site/post/%E7%BC%96%E7%A8%8B/smalltalk-guide/)
+关于 Squeak 入门，可参考[Smalltalk 入门导览](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/smalltalk-guide/)
 
 ## 接入 Adapter
 有很多种方式将 Squeak 和 Adapter连在一起，诸如HTTP、Websocket、ZeroMQ，系统调用(Adapter python client提供系统命令)，你也可以自己写一个Adapter插件来连接两者。

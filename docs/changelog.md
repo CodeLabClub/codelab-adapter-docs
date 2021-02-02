@@ -2,7 +2,7 @@
 *  2018.5.26  v0.1.0
 *  2018.5.28  v0.1.1
     *  fix extension_cozmo bug
-*  2018.10.24 v0.2.0，[重构笔记](https://blog.just4fun.site/scratch3-adapter-refactoring-note.html)
+*  2018.10.24 v0.2.0，[重构笔记](https://wwj718.github.io/scratch3-adapter-refactoring-note.html)
 *  2018.11.30 v0.2.3
 *  2018.12.03 0.3.0 支持eim_script
 *  2018.12.14 0.3.1 fix bug：多个 ws 通道重复 pub；直接展示插件
@@ -93,11 +93,13 @@
     *  修复目录字符问题（空格、中文）
     *  WebUI 支持 Linda 可视化
     *  修复4.0.0引起的魔杖问题
-*  2021.01.20 4.2.0
+*  2021.01.20 4.2.0([发布日志](https://www.codelab.club/blog/2021/01/23/4.2-release))
     *  支持新设备
-        *  BrainCo
-        *  LEGO Mario
-        *  Sphero RVR
+        *  [BrainCo](https://adapter.codelab.club/extension_guide/brainCo/)
+        *  [LEGO Mario](https://adapter.codelab.club/extension_guide/legomario/)
+        *  [Sphero RVR](https://adapter.codelab.club/extension_guide/spheroRVR/)
+    *  新插件
+        *  [Sugar](https://adapter.codelab.club/extension_guide/sugar/)
     *  改进Cozmo、Tello、Robomaster插件，使其支持在Scratch中扫描/连接
     *  AdapterThing 目前被视为在Adapter里接入硬件设备的最佳实践
     *  解决webui缩放时，页面失调问题
@@ -113,4 +115,10 @@
     *  支持马里奥掉线通知（UI同步）
     *  使usb microbit、microbit radio插件支持v1/v2版本的micro:bit
     *  修复 windows下 dynaconf 引起的路径错误问题(与`python -m`启动方式有关)
-
+*  2021.04.27 4.2.2
+    *  简化microbit相关插件的源码(Adapter Thing风格)
+    *  更新micro:bit radio固件到v0.5
+    *  为micro:bit radio插件消息添加message_type属性，允许其与避免与控制消息分离
+    *  Adapter Client更新到 4.1.2
+    *  更新扩展里的通知（统一使用中文）
+    *  Client 连接提醒提升到20个

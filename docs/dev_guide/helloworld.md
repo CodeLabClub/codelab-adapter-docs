@@ -9,7 +9,7 @@
 1.  Scratch 3.0 网页中的插件（内应）
 2.  在 CodeLab Adapter 中写一个插件，代理硬件设备、AI 或其他程序
 
-关于第一部分，尽管 Scratch3 官方的 extensions 机制已经可用了，我们也在 Scratch 3.0 中写了很多插件，但社区里文档不多，不大建议大家来踩坑，如果愿意折腾，可以参考[创建你的第一个 Scratch 3.0 Extension](https://blog.just4fun.site/create-first-Scratch3-Extension.html)。
+关于第一部分，尽管 Scratch3 官方的 extensions 机制已经可用了，我们也在 Scratch 3.0 中写了很多插件，但社区里文档不多，不大建议大家来踩坑，如果愿意折腾，可以参考[创建你的第一个 Scratch 3.0 Extension](https://wwj718.github.io/create-first-Scratch3-Extension.html)。
 
 我们在 [CodeLab Scratch3](https://scratch-beta.codelab.club)中构建了一些通用的消息积木（EIM），我们尽量将它做的通用，让开发者只需在 CodeLab Adapter 自定义插件，即可在 Scratch3 中使用。
 
