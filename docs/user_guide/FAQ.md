@@ -212,3 +212,10 @@ CodeLab Adapter 有很好的分布式支持:
 可能的操作方法为: [Win10系统禁止/恢复某个程序连接网络的方法](https://jingyan.baidu.com/article/22a299b5e6fa909e18376a55.html)
 
 允许 adapter 内置的Python连网络（Python路径可在WebUI中看到）
+
+## 如何排查 无法发现设备 的问题？
+
+打开Adapter内置的 jupyterlab 插件，打开 `notebooks目录 > devices-connect-test.ipynb`，测试对应设备的连接，如果此处显示 **发现** 设备，但Adapter插件无法与设备连接，说明是Adapter插件问题，请[给我们反馈bug, 最好配上截图或视频](https://discuss.codelab.club/)； 如果此处显示 **未发现** 设备，则与Adapter无关，请检查你的网络、USB连接、以及设备是否正常。
+
+## 如何获取 PRO_KEY
+欢迎发送邮件咨询/合作/购买: `wuwenjie@codelab.club`

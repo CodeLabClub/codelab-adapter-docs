@@ -82,3 +82,5 @@ Tello 插件的 2.0 版本， 基于[DJITelloPy](https://github.com/damiafuentes
 
 
     
+# FAQ
+[如何排查 无法发现设备 的问题？](https://adapter.codelab.club/user_guide/FAQ/#_9)

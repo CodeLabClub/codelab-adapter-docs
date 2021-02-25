@@ -48,3 +48,30 @@ jupyterlab 默认将打开 [Adapter主目录](/user_guide/FAQ/#adapter)。
 6. Adapter 运行日志，当你需要[调试](/dev_guide/debug/) extension 时，查看日志将很有帮助。
 
 你可以使用 jupyterlab 随意修改它们。别担心改坏了。如果发现修改后 Adapter无法正常运行。则将整个[ Adapter 主目录](/user_guide/FAQ/#adapter)删除即可，重启 Adapter，你将得到一个崭新的 Adapter 主目录。它是为你学习而构建的环境，别担心玩坏它，尽情探索吧。
+
+# FAQ
+
+### 启用 Jupyterlab 插件，没有自动打开 Jupyterlab
+可能是因为你的系统用户名（windows系统）是中文，目前 Jupyterlab 存在这个 bug
+
+### 安装第三方库
+```py
+import pip
+# 举个例子: 安装 furl
+pip.main(["install", "furl"])
+# 你也可以使用国内的源: 
+# pip.main(['install', 'furl', '-i', 'https://mirrors.aliyun.com/pypi/simple'])
+```
+
+安装完之后，需要在 jupyterlab 重启kernel，也可以重启 jupyterlab。
+
+### 列出所有库
+```py
+import pip 
+pip.main(["freeze"])
+```
+
+### 汉化
+`Adapter >= 3.3.1`，jupyterlab 版本升级到 3.0，支持切换语言:
+
+![](/img/11fb41502c94b84002f80a965be907fa.png)

@@ -45,6 +45,9 @@ RoboMaster EP
 *  [RoboMaster-SDK](https://github.com/dji-sdk/RoboMaster-SDK): 官方SDK跨平台性非常差, 似乎是因为比较早期的缘故
 
 ## 有些网络无法连接到robomaster
+[如何排查 无法发现设备 的问题？](https://adapter.codelab.club/user_guide/FAQ/#_9)
+
+<!--
 ```py
 import socket
 
@@ -59,3 +62,4 @@ ip_str = ip_sock.recvfrom(1024)
 # 输出数据
 print(ip_str)
 ```
+-->

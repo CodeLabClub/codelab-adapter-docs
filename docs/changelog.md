@@ -115,10 +115,31 @@
     *  支持马里奥掉线通知（UI同步）
     *  使usb microbit、microbit radio插件支持v1/v2版本的micro:bit
     *  修复 windows下 dynaconf 引起的路径错误问题(与`python -m`启动方式有关)
-*  2021.04.27 4.2.2
+*  2021.01.27 4.2.2
     *  简化microbit相关插件的源码(Adapter Thing风格)
     *  更新micro:bit radio固件到v0.5
     *  为micro:bit radio插件消息添加message_type属性，允许其与避免与控制消息分离
     *  Adapter Client更新到 4.1.2
     *  更新扩展里的通知（统一使用中文）
     *  Client 连接提醒提升到20个
+*  2021.02.03 4.2.3
+    *  升级Cozmo插件到 `2.1.0` : 提升cozmo启停的健壮性; 添加易用的utils; 添加断线提醒
+    *  添加 nodes 进程查看功能(`环境`中提供入口)
+    *  [提供设备连接检测脚本(jupyterlab notebook)](https://adapter.codelab.club/user_guide/FAQ/#_9)
+    *  提供websocket风格的插件版本检测服务
+*  2021.02.06 4.3.0
+    *  支持[在 jupyterlab 中使用 pip 安装第三方库](https://adapter.codelab.club/extension_guide/jupyterlab/#_2)！
+    *  codelab_adapter_client 升级到 4.1.3: 使得send_message、run_monitor更为直观(服务于交互计算课程)
+    *  升级Python kernel插件: 避免传递复杂数据结构，只传递消息(字符串)
+    *  添加 overdrive 插件
+    *  try bleak, 当某些windows导入bleak失败给出提示，而不是安静失败
+    *  升级 RoboMasterEP 到 2.0.1: 添加 已连接提醒、连接失败提醒
+*  2021.02.25 4.4.0([发布日志](https://www.codelab.club/blog/2021/02/25/4.4-release))
+    *  jupyterlab 升级到最新的 3.X 版本
+    *  提供对 PRO_KEY 的支持
+        *  使用 PRO_KEY 可以启用 Adapter 的高级特性: 激光雷达、overdrive
+    *  提供 microbit 固件烧录 ws api
+    *  内置 microbit more 固件
+    *  修复 windows 下无法发现 overdrive 的问题
+    *  支持连接2台 overdrive
+    

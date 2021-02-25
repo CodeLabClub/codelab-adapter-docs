@@ -104,6 +104,9 @@ robot.play_expression(express_name='codemao13') # 疑问
 ## 有些网络无法扫描到悟空
 似乎和局域网内的设备发现机制（mdns？）有关。 通过以下脚本排查问题。如果以下脚本无法扫描到设备，请联系优必选客服人员。
 
+[如何排查 无法发现设备 的问题？](https://adapter.codelab.club/user_guide/FAQ/#_9)
+
+<!--
 注意将 `00447` 替换成你自己的设备号
 
 ```python
@@ -141,3 +144,4 @@ async def main():
 if __name__ == '__main__':
     asyncio.run(main())
 ```
+-->

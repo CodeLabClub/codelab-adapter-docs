@@ -70,7 +70,8 @@
 
     ```python
     # “#”井号后面是注释，不作为代码运行
-    from codelab_adapter_client.utils import run_monitor, send_simple_message
+    from codelab_adapter_client import run_monitor, send_message  # adapter >= 4.3.0 or codelab-adapter-client >= 4.1.3
+    # from codelab_adapter_client.utils import run_monitor, send_simple_message
     import platform
     # 上面两句代码的意思是导入代码运行需要的依赖
 

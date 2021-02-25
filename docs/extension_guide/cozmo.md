@@ -84,3 +84,6 @@ cozmo.run_program(cozmo_program)
 
 !!! 提醒
     如果你希望做一些更复杂的事，建议直接使用社区里的 Python SDK与 设备交互，之后使用 [Adapter Node](/dev_guide/Adapter-Node/) 将其接入Adapter环境中。
+
+# FAQ
+[如何排查 无法发现设备 的问题？](https://adapter.codelab.club/user_guide/FAQ/#_9)

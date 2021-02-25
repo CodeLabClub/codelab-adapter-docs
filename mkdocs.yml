@@ -189,6 +189,8 @@ nav:
       - Sphero RVR: "extension_guide/spheroRVR.md"
       - Adapter Thing: "extension_guide/AdapterThing.md"
       - Pico: "extension_guide/pico.md"
+      - overdrive: "extension_guide/overdrive.md"
+      - microbitMore: "extension_guide/microbitMore.md"
       - OpenCV(正在迁移中): "extension_guide/opencv.md"
       - Tensorflow(正在迁移中): "extension_guide/tensorflow.md"
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"

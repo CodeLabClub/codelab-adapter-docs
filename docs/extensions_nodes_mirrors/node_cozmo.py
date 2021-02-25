@@ -11,8 +11,8 @@ ref:
 get status
     https://github.com/wwj718/calypso/blob/master/server.py#L353
 
-bug:
-    意外断开，拔线 有问题
+调试
+    https://github.com/anki/cozmo-python-sdk/blob/master/examples/apps/cli.py
 '''
 import queue
 import json
@@ -61,6 +61,8 @@ class CozmoProxy(AdapterThing):
     def _connect(self):
         # RuntimeError: This event loop is already running
         cozmo.run_program(self.cozmo_program)
+        # todo 需要在主线程打开
+        # cozmo.run_program(self.cozmo_program, use_3d_viewer=True, use_viewer=True)
         '''
         try:
               # 阻塞

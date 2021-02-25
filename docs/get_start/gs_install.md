@@ -17,14 +17,14 @@
 
 ## Codelab Adapter下载链接 {#download}
 
-最新版本: `4.2.2`
+最新版本: `4.4.0` ([changelog](https://adapter.codelab.club/changelog/))
 
 |     操作系统     |     完整版     |    精简版      |     系统要求   |      安装注意事项      |
 | :--------: | :---------: | :--------: | -------- | ---------- |
-| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_2_2-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
-| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_2_2-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
-| Linux     | 无   | [linux.zip(4.2.0)](https://scratch3-files.just4fun.site/codelab-adapter-4_2_2-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
-| Raspbian（树莓派） | 无   | [rpi.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_2_1-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
+| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_4_0-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
+| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_4_0-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
+| Linux     | 无   | [linux.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_4_0-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
+| Raspbian（树莓派） | 无   | [rpi.zip(4.2.1)](https://scratch3-files.just4fun.site/codelab-adapter-4_2_1-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
 
 附:各个版本的哈希值(Sha256)
 
@@ -42,9 +42,9 @@
 
 |版本|Sha256|
 |--|--|
-|macFull|1108bdb965872cbbe4cabf8896fe634faa4c06ce0835b673396da43a1e74aa69|
-|winFull|7ae35a970ac54da3d12816431df05b98ef13e4c8b4714cf031b68268c2e3a88f|
-|linux|d7170a620d47c9c63889bb29c16e7b4effe729b1dd5f1c61722820e1933090e4|
+|macFull|2f55d3e28de0225fdf63aad77c3d9dc9cafd6858615db3d68c69c6e67a2e4bd9|
+|winFull|e974458503f49680f44466745c86f70cf3c13b6272e1bfda1e1f5e8d4cb06fc0|
+|linux|5c6ad1f2f7cdfeca8214b44550f344151d7e5c2864d5a278ced30636da1d4f6e|
 |rpi|ce186cbdaf8b45d94aaa43131b17b0da7ce20674474b58a982a16b805325f874|
 
 
