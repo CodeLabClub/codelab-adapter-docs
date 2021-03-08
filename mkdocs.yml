@@ -174,7 +174,7 @@ nav:
       - tensorflow-yolov4: "extension_guide/tensorflow-yolov4.md"
       - neverland2.0: "extension_guide/neverland2.md"
       - OSC: "extension_guide/osc.md"
-      - TUIO: "extension_guide/tuio.md"
+      - 激光雷达: "extension_guide/tuio.md"
       - Etoys: "extension_guide/etoys.md"
       - Squeak/Smalltalk: "extension_guide/Squeak.md"
       - Wekinator: "extension_guide/Wekinator.md"
