@@ -38,6 +38,7 @@ Linda 最有趣的一个地方是，所有 Tuple Space 参与者（跨语言、�
 *  dump: 获取元组空间所有元组
 *  status: 获取元组空间状态
 *  reboot: 重置元组空间
+    *  reboot 将重置元组空间，确保执行这个操作时，没有任何其他 linda client ，否则，此前的 linda 操作将一直处于等待中。
 
 
 # Python Client
@@ -52,6 +53,7 @@ Linda 最有趣的一个地方是，所有 Tuple Space 参与者（跨语言、�
 ## AdapterNode
 
 ```python
+import time
 from codelab_adapter_client import AdapterNode
 
 class MyNode(AdapterNode):
@@ -62,7 +64,7 @@ class MyNode(AdapterNode):
 
 node = MyNode()
 node.receive_loop_as_thread()
-time.sleep(0.1)
+time.sleep(0.1) # 等待zmq通信管道建立完成
 ```
 
 创建Adapter Node之后，就可以通过node使用linda了。

@@ -142,4 +142,11 @@
     *  内置 microbit more 固件
     *  修复 windows 下无法发现 overdrive 的问题
     *  支持连接2台 overdrive
-    
+*  2021.03.08 4.4.1
+    *  递归复制notebooks/nodes/extensions 目录（初始化），方便用户再分发 Adapter
+        *  北京王府国际学校在使用的 `codelab-adapter-4_4_1-AI-alpha` 基于这个机制
+    *  codelab_adapter_client 4.1.3 -> 4.1.4: 添加 open_path 函数
+        *  `from codelab_adapter_client.utils import open_path`
+    *  update microbitMore hex(0.2.0)
+    *  overdrive 插件: 添加light2、uTurn、从通知数据中解析更多属性字段(学习CSP项目)、添加电量通知和IntersectionUpdate(十字路口)
+    *  usb_microbit: 为 send command 加上锁,避免并行发送串口消息(merge from 刘老师)
