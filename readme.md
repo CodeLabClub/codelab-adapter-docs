@@ -1,7 +1,7 @@
 # readme.md
 [CodeLab Adapter](https://adapter.codelab.club) 的项目文档，基于 [mkdocs](https://www.mkdocs.org/)。
 
-欢迎大家一起来维护文档。
+欢迎大家一起来维护文档（new_v2分支）
 
 
 # Usage
@@ -39,3 +39,6 @@ make push
 git checkout gh-pages
 ghp-import -r github -p site
 ```
+
+# 提交
+PR 到 new_v2 分支
