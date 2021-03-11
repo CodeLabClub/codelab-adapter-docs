@@ -86,4 +86,33 @@ cozmo.run_program(cozmo_program)
     如果你希望做一些更复杂的事，建议直接使用社区里的 Python SDK与 设备交互，之后使用 [Adapter Node](/dev_guide/Adapter-Node/) 将其接入Adapter环境中。
 
 # FAQ
-[如何排查 无法发现设备 的问题？](https://adapter.codelab.club/user_guide/FAQ/#_9)
+## [如何排查 无法发现设备 的问题？](https://adapter.codelab.club/user_guide/FAQ/#_9)
+
+## 在 notebook 中运行 [cozmo cli](https://github.com/anki/cozmo-python-sdk/blob/master/examples/apps/cli.py)
+
+官方的 [cozmo cli](https://github.com/anki/cozmo-python-sdk/blob/master/examples/apps/cli.py) 需要在独立进程中运行，需要做以下修改才能在 notebook 里运行（ 这是jupyterlab 进程模型导致的 ）
+
+
+```py
+# pip install "cozmo[3dviewer]"
+import multiprocessing
+import time
+from IPython.terminal.embed import InteractiveShellEmbed
+
+import cozmo
+
+# Creating IPython's history database on the main thread
+ipyshell = InteractiveShellEmbed()
+    
+def cozmo_program(robot: cozmo.robot.Robot):
+    ipyshell()  #  注意 tab补全不生效
+
+cozmo.robot.Robot.drive_off_charger_on_connect = False
+
+def main():
+    cozmo.run_program(cozmo_program, use_3d_viewer=True, use_viewer=True)
+
+p = multiprocessing.Process(target=main, args=())
+p.daemon = True
+p.run()
+```
