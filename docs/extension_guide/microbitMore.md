@@ -14,3 +14,7 @@
 
 # 初始化
 刷入固件后，需要初始化。 LED 屏幕上会显示  **TILT to FILL SCREEN** (耐心等待播放完)。之后将 micro:bit 前后左右倾斜，直到所有 LED 都处于亮起状态， 完成之后，开始连接。
+
+# FAQ
+## 两个 microbit 通信
+目前请使用 [micro:bit radio](https://adapter.codelab.club/extension_guide/microbit_radio/)
