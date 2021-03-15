@@ -61,6 +61,7 @@ import pip
 pip.main(["install", "furl"])
 # 你也可以使用国内的源: 
 # pip.main(['install', 'furl', '-i', 'https://mirrors.aliyun.com/pypi/simple'])
+# 针对ssl证书有问题的用户  pip.main(['install', 'furl', '-i', 'http://mirrors.aliyun.com/pypi/simple', "--trusted-host", "mirrors.aliyun.com"])
 ```
 
 安装完之后，需要在 jupyterlab 重启kernel，也可以重启 jupyterlab。

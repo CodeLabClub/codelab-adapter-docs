@@ -90,6 +90,14 @@ cozmo.run_program(cozmo_program)
 
 ## 在 notebook 中运行 [cozmo cli](https://github.com/anki/cozmo-python-sdk/blob/master/examples/apps/cli.py)
 
+如果你在notebook中使用，可直接使用内置的notebook: `notebooks/cozmo_lab.ipynb`
+
+如果你期待在交互性的 IPython 环境中探索 Cozmo，在Adapter 内置的 jupyterlab 中打开 Terminal，然后使用内置Python解释器运行的 cli 脚本:
+
+*  macOS
+    *  `./Support/bin/python3 ~/codelab_adapter/src/cozmo_cli.py`
+
+<!--
 官方的 [cozmo cli](https://github.com/anki/cozmo-python-sdk/blob/master/examples/apps/cli.py) 需要在独立进程中运行，需要做以下修改才能在 notebook 里运行（ 这是jupyterlab 进程模型导致的 ）
 
 
@@ -116,3 +124,4 @@ p = multiprocessing.Process(target=main, args=())
 p.daemon = True
 p.run()
 ```
+-->

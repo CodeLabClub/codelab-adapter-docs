@@ -150,3 +150,13 @@
     *  update microbitMore hex(0.2.0)
     *  overdrive 插件: 添加light2、uTurn、从通知数据中解析更多属性字段(学习CSP项目)、添加电量通知和IntersectionUpdate(十字路口)
     *  usb_microbit: 为 send command 加上锁,避免并行发送串口消息(merge from 刘老师)
+*  2021.03.11 4.5.0
+    *  改进 Nodes 扩展的运行机制
+        *  full version 使用 multiprocessing 代替 subprocess
+        *  提升健壮性(确保node进程在adapter退出后结束)，避免硬件端口被未关闭node占用
+    *  所有的 node 支持多进程启动方式
+    *  cozmo 内置 3dviewer 依赖(OpenGL)
+        *  内置 cozmo cli notebook demo，不支持交互式探索
+        *  内置 cozmo cli.py(src), 支持交互式探索
+    *  添加 正在运行的nodes UI入口
+    *  处理windows以多进程启动node_status_bar_win插件的locale问题

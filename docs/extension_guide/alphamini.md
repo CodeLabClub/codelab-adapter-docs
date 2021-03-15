@@ -1,6 +1,8 @@
 # 悟空机器人(教育版)
 ![](https://assets-new.ubtrobot.com/pc/static/cn/images/alphamini_v2/banner.jpg)
 
+!!! 提醒
+    近期优必选官方开放了[标准版的API](http://docs.ubtrobot.com/alphamini/python-sdk/qa.html)，你可以通过简单修改Adapter插件支持标准版
 
 # 使用说明
 目前该插件并未内置到 Adapter 中。
@@ -105,6 +107,8 @@ robot.play_expression(express_name='codemao13') # 疑问
 似乎和局域网内的设备发现机制（mdns？）有关。 通过以下脚本排查问题。如果以下脚本无法扫描到设备，请联系优必选客服人员。
 
 [如何排查 无法发现设备 的问题？](https://adapter.codelab.club/user_guide/FAQ/#_9)
+
+具体解决方案参考[优必选官方文档](http://docs.ubtrobot.com/alphamini/python-sdk/qa.html#demo)
 
 <!--
 注意将 `00447` 替换成你自己的设备号
