@@ -114,6 +114,8 @@ nav:
       - FAQ: "dev_guide/FAQ.md"
       - 安全性(security): "dev_guide/security.md"
       - dev articles: "dev_guide/dev_articles.md"
+      - 最佳实践: "dev_guide/最佳实践.md"
+      - 最佳实践之tello插件: "dev_guide/最佳实践之tello插件.md"
   - 插件(extensions):
       - 介绍(introduction): "extension_guide/introduction.md"
       - 使用(Usage): "extension_guide/usage.md"
@@ -121,7 +123,7 @@ nav:
       - micro:bit: "extension_guide/microbit.md"
       - micro:bit radio: "extension_guide/microbit_radio.md"
       - arduino UNO: "extension_guide/arduino_UNO.md"
-      # - EIM: "extension_guide/eim.md"
+      - EIM: "extension_guide/eim.md"
       - EIM Monitor: "extension_guide/eim_monitor.md"
       - EIM Trigger: "extension_guide/eim_trigger.md"
       - HCI: "extension_guide/HCI.md"
@@ -192,12 +194,13 @@ nav:
       - Pico: "extension_guide/pico.md"
       - overdrive: "extension_guide/overdrive.md"
       - microbitMore: "extension_guide/microbitMore.md"
+      - 光环板: "extension_guide/halocode.md"
       - OpenCV(正在迁移中): "extension_guide/opencv.md"
       - Tensorflow(正在迁移中): "extension_guide/tensorflow.md"
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"
       - Pando Robot(正在迁移中): "extension_guide/Pando.md"
       - Aelos Robot(正在迁移中): "extension_guide/Aelos.md"
-      - ROS(正在迁移中): "extension_guide/ROS.md"
+      - ROS(离线版可用): "extension_guide/ROS.md"
   - Scratch插件:
       - 介绍(introduction): "scratch_extensions/introduction.md"
   - 社区版Neverland:

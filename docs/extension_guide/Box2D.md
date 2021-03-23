@@ -78,3 +78,7 @@ Box2D 是一个被广泛使用的 2D C++物理引擎，Codelab Scratch 中的 Bo
 # 已知问题
 
 当使角色加入物理世界时模块 Enable for**_mode_**参数为 this polygon 时会出现未知问题
+
+# demo
+*  [box2d 练习](https://create.codelab.club/projects/9961/)
+*  [重量称量(多物体交互demo)](https://create.codelab.club/projects/9968/)

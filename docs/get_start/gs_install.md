@@ -106,6 +106,7 @@
 - 无法运行请赋予可执行权限`chmod u+x Adapter软件名`
 - 在Ubuntu 16.04下可能无法自动打开浏览器。建议在命令行下启动它，你将看到`https://codelab-adapter.codelab.club:12358/`, 这个链接即是 WebUI
 - 当前经测试的发行版有Ubuntu，Kali，ArchLinux
+- Linux下需要自行在本地Python环境(`/usr/bin/python3`, 也可以手动设置`PYTHON3_PATH`参数) 安装 Jupyterlab 和 Adapter Node 相关依赖
 
 ## 在Raspbian中安装Adapter(build中...) {#rpi}
 
