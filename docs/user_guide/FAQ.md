@@ -216,3 +216,18 @@ CodeLab Adapter 有很好的分布式支持:
 ## 如何排查 无法发现设备 的问题？
 
 打开Adapter内置的 jupyterlab 插件，打开 `notebooks目录 > devices-connect-test.ipynb`，测试对应设备的连接，如果此处显示 **发现** 设备，但Adapter插件无法与设备连接，说明是Adapter插件问题，请[给我们反馈bug, 最好配上截图或视频](https://discuss.codelab.club/)； 如果此处显示 **未发现** 设备，则与Adapter无关，请检查你的网络、USB连接、以及设备是否正常。
+
+## MacOS 应用程序没有响应
+如果你遇到以下情况
+
+![](/img/346c5c462dd40a400190776d20f557d2.png)
+
+可以通过以下方式重新打开Adapter: `右键 -> 显示包内容 -> Contents -> MacOS -> CodeLab-Adapter`
+
+![](/img/a6d9b53aeb3130be823d00f3459c1aef.png)
+
+点击运行目录里的 CodeLab-Adapter
+
+![](/img/543790264e75c9e3b679c954fa8fdd39.png)
+
+如果因此导致无法关机， `control + command + 电源键` 或者 `长按电源键`

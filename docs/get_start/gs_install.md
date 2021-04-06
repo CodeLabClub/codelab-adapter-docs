@@ -17,13 +17,13 @@
 
 ## Codelab Adapter下载链接 {#download}
 
-最新版本: `4.5.0` ([changelog](https://adapter.codelab.club/changelog/))
+最新版本: `4.6.0` ([changelog](https://adapter.codelab.club/changelog/))
 
 |     操作系统     |     完整版     |    精简版      |     系统要求   |      安装注意事项      |
 | :--------: | :---------: | :--------: | -------- | ---------- |
-| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_5_0-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
-| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_5_0-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
-| Linux     | 无   | [linux.zip(4.4.0)](https://scratch3-files.just4fun.site/codelab-adapter-4_4_0-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
+| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_6_0-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
+| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_6_0-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
+| Linux     | 无   | [linux.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_6_0-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
 | Raspbian（树莓派） | 无   | [rpi.zip(4.2.1)](https://scratch3-files.just4fun.site/codelab-adapter-4_2_1-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
 
 附:各个版本的哈希值(Sha256)
@@ -42,9 +42,9 @@
 
 |版本|Sha256|
 |--|--|
-|macFull|f3455a33f2a1be50af5d615ec6fa1ccfdf0d02d493185ccf2c52054f80e543cd|
-|winFull|c9036a8302e57dad7174b2d5d32189b712809c5458f542b9d9bb3db3d4ad4ee9|
-|linux|5c6ad1f2f7cdfeca8214b44550f344151d7e5c2864d5a278ced30636da1d4f6e|
+|macFull|7ab36c1a98112f6df5f85dc3b824bff7502c9e8fb0ad19f10fe474b29045b691|
+|winFull|b5a16cb7bd7289de15faa1068d2f4b1cfccfe4e28f4912a682a9be49c2853d45|
+|linux|af17dab50c789ba5b1651b5b7e3ea43090ae9157243f41ddd460a0af8b7838b6|
 |rpi|ce186cbdaf8b45d94aaa43131b17b0da7ce20674474b58a982a16b805325f874|
 
 

@@ -116,6 +116,7 @@ nav:
       - dev articles: "dev_guide/dev_articles.md"
       - 最佳实践: "dev_guide/最佳实践.md"
       - 最佳实践之tello插件: "dev_guide/最佳实践之tello插件.md"
+      - 创建你的第一个Scratch3.0 Extension: "dev_guide/first-Scratch3-Extension.md"
   - 插件(extensions):
       - 介绍(introduction): "extension_guide/introduction.md"
       - 使用(Usage): "extension_guide/usage.md"

@@ -150,7 +150,7 @@
     *  update microbitMore hex(0.2.0)
     *  overdrive 插件: 添加light2、uTurn、从通知数据中解析更多属性字段(学习CSP项目)、添加电量通知和IntersectionUpdate(十字路口)
     *  usb_microbit: 为 send command 加上锁,避免并行发送串口消息(merge from 刘老师)
-*  2021.03.11 4.5.0
+*  2021.03.11 [4.5.0](https://www.codelab.club/blog/2021/03/15/4.5-release)
     *  改进 Nodes 扩展的运行机制
         *  full version 使用 multiprocessing 代替 subprocess
         *  提升健壮性(确保node进程在adapter退出后结束)，避免硬件端口被未关闭node占用
@@ -160,3 +160,23 @@
         *  内置 cozmo cli.py(src), 支持交互式探索
     *  添加 正在运行的nodes UI入口
     *  处理windows以多进程启动node_status_bar_win插件的locale问题
+*  2021.03.29 [4.6.0](https://www.codelab.club/blog/2021/03/29/4.6-release)
+    *  升级软件/重置主目录时，自动迁移用户数据(`~/codelab_adapter/`)
+        *  旧的主目录（`~/codelab_adapter/`）将自动备份，形如: `codelab_adapter_2021-03-29__14-49-04_219298/`, 后缀的数字是时间信息
+        *  notebooks/extensions/nodes 里的自定义子目录和文件将自动迁移
+        *  user_settings.toml里的自定义信息将自动迁移
+    *  尝试提供user_settings web editor接口(alpha)
+    *  更新Adapter ssl证书(2022-03-29)
+    *  添加证书过期时间配置项
+    *  webUI
+        *  更新扩展 重命名为 **重置主目录** ，置于 **环境** 目录下
+        *  添加正在运行的nodes UI， 置于 **环境** 目录下
+    *  codelab_adapter_client -> 4.1.8
+        *  添加 send_message, receive_message api (`from codelab_adapter_client.message import send_message, receive_message`)
+        *  receive_message 采用非阻塞风格
+        *  避免 send_message 过快发送消息
+        *  优化 receive_message 循环烧CPU（初学者友好）
+    *  overdrive、Lego mario 支持 ble实时 扫描，避免用户长时间等待
+    *  修复overdrive连接后的头5s消息阻塞问题
+    *  修复 悟空机器人 插件启动超时的bug
+    *  弃用 app_settings.py
