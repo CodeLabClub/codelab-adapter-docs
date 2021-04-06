@@ -1,6 +1,6 @@
 # 创建你的第一个Scratch3.0 Extension
 
-![](/post/img/scratch-extension_27085782.png)
+![](https://wwj718.github.io/post/img/scratch-extension_27085782.png)
 
 我们近期刚写完[Scratch3.0技术分析](/Scratch3_api_analysis.html)系列文章，接下来准备围绕Scratch3.0编辑器写一系列文章，这一系列的文章关注如何构建自己的Extension，如何接入[codelab-adapter](https://adapter.codelab.club/)。
 
@@ -36,7 +36,7 @@ choco install nodejs
 
 使用[cmder](http://cmder.net/)，而不是cmd。
 
-![](/post/img/sscratch3-windows_521baf16.png)
+![](https://wwj718.github.io/post/img/sscratch3-windows_521baf16.png)
 
 
 ### 开始
@@ -59,7 +59,7 @@ yarn install
 
 运行`webpack-dev-server --https`，打开:`https://127.0.0.1:8601/`
 
-![](/post/img/scratch-extension_57c1dcb7.png)
+![](https://wwj718.github.io/post/img/scratch-extension_57c1dcb7.png)
 
 我们统一采用https来运行scratch-gui，因为以后接入[codelab-adapter](https://adapter.codelab.club/)需要使用https。
 
@@ -236,11 +236,11 @@ export default [
 
 
 ### 完成
-![](/post/img/scratch-extension_27085782.png)
+![](https://wwj718.github.io/post/img/scratch-extension_27085782.png)
 
 使用插件:
 
-![](/post/img/scratch-extension_f1e97885.png)
+![](https://wwj718.github.io/post/img/scratch-extension_f1e97885.png)
 
 # 进阶
 阅读已有的例子: [scratch-vm/src/extensions](https://github.com/LLK/scratch-vm/tree/develop/src/extensions)
