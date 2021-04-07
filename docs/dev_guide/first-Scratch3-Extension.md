@@ -38,12 +38,14 @@ choco install nodejs
 
 ![](https://wwj718.github.io/post/img/sscratch3-windows_521baf16.png)
 
-
+!!! tips
+    建议使用淘宝npm镜像，`npm config set registry https://registry.npm.taobao.org`
+    
+    
 ### 开始
 
 ```bash
 node -v # v10.15.0. v11.7.0也没问题 , 推荐使用n来管理nodejs版本
-npm install -g yarn
 npm install -g webpack
 npm install -g webpack-dev-server
 mkdir Scratch3 # 
@@ -51,7 +53,7 @@ cd Scratch3
 git clone https://github.com/LLK/scratch-gui
 
 cd scratch-gui
-yarn install
+npm install
 ```
 
 现在你就得到了一个可在本地运行Scratch3.0编辑器。
@@ -68,17 +70,15 @@ yarn install
 cd Scratch3
 git clone https://github.com/LLK/scratch-vm
 cd scratch-vm
-yarn install
-yarn link
-yarn add uglifyjs-webpack-plugin
-yarn run watch
+npm install
+npm link
 
 # 新开一个shell
 cd scratch-gui
-yarn link scratch-vm
+npm link scratch-vm
 ```
 
-完成`yarn link scratch-vm`之后，scratch-gui就会采用我们开发环境里的scratch-vm，而不是默认的scratch-vm. 这样一来我们就可以定制scratch-vm了。
+完成`npm link scratch-vm`之后，scratch-gui就会采用我们开发环境里的scratch-vm，而不是默认的scratch-vm. 这样一来我们就可以定制scratch-vm了。
 
 scratch-vm是什么呢?
 
