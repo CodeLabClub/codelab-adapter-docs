@@ -38,6 +38,9 @@ choco install nodejs
 
 ![](https://wwj718.github.io/post/img/sscratch3-windows_521baf16.png)
 
+!!! tips
+    建议使用淘宝npm镜像，`npm config set registry https://registry.npm.taobao.org`
+
 
 ### 开始
 
