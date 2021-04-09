@@ -194,6 +194,7 @@ nav:
       - Adapter Thing: "extension_guide/AdapterThing.md"
       - Pico: "extension_guide/pico.md"
       - overdrive: "extension_guide/overdrive.md"
+      - overdrive2: "extension_guide/overdrive2.md"
       - microbitMore: "extension_guide/microbitMore.md"
       - 光环板: "extension_guide/halocode.md"
       - OpenCV(正在迁移中): "extension_guide/opencv.md"

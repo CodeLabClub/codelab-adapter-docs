@@ -32,7 +32,7 @@ choco install nodejs
 
 -->
 
-安装nodejs（目前测试 `v10.15.0` 和 `v11.7.0` 是正常的）.
+安装nodejs（目前已测试版本 `v10.15.0` 、 `v11.7.0` 、 `v14.16.0`(推荐)）.
 
 使用[cmder](http://cmder.net/)，而不是cmd。
 
@@ -45,7 +45,7 @@ choco install nodejs
 ### 开始
 
 ```bash
-node -v # v10.15.0. v11.7.0也没问题 , 推荐使用n来管理nodejs版本
+node -v # v14.16.0
 npm install -g webpack
 npm install -g webpack-dev-server
 mkdir Scratch3 # 

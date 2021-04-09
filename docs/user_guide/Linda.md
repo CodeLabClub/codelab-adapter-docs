@@ -105,6 +105,7 @@ class MyNode(AdapterNodeAio):
         super().__init__()
 
 # 以下代码在 jupyter 中运行，如果你想在python脚本中使用，请考虑异步代码的生命周期，参考:  https://github.com/CodeLabClub/codelab_adapter_client_python/blob/master/tests/test_linda_client.py#L26
+node = MyNode()
 task = asyncio.create_task(node.receive_loop())
 await asyncio.sleep(0.1) # !! 等待zmq通信管道建立完成
 
