@@ -1,6 +1,8 @@
-# [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/)
+# JupyterLab
+![](https://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png)
 
-JupyterLab 是 jupyter notebook 的下一代产品。  
+## 介绍
+[JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) 是 jupyter notebook 的下一代产品。  
 
 Jupyter Notebook（前身是IPython Notebook）是一个基于Web的交互式计算环境。
 
@@ -16,24 +18,13 @@ CodeLab Adapter 将其集成到插件，如果想编辑代码，诸如
 
 或者任何时候你想学习 Python ，JupyterLab 都是你理想的伙伴。
 
-# Tutorial
-## 依赖
+## hello world
+在 webUI 里运行 **extention_jupyterlab** 插件。
 
-{!utils/dependence.md!}
+![](/img/1e0f0b09f47ceddcb57ae90141db2b66.png)
 
-## 步骤 1：打开 Codelab Adapter
+---
 
-{!utils/open_adapter.md!}
-
-运行 **extention_jupyterlab** 插件。
-
-!!! 提醒
-    完整版已经内置了一切依赖。  
-    如果你是有精简版，确保你已经[安装了 Python3](/Python_Projects/install_python/)。  
-    你不必手动安装 **jupyterlab** ，运行插件，CodeLab Adapter 会为你其余的一切。  
-    当然你也可以在命令行里手动安装它。
-
-## 步骤 2：使用 jupyterlab
 jupyterlab 默认将打开 [Adapter主目录](/user_guide/FAQ/#adapter)。
 
 ![](/img/ef69bd04ec22e90d3cf449e24c5e83e8.png)
@@ -49,10 +40,16 @@ jupyterlab 默认将打开 [Adapter主目录](/user_guide/FAQ/#adapter)。
 
 你可以使用 jupyterlab 随意修改它们。别担心改坏了。如果发现修改后 Adapter无法正常运行。则将整个[ Adapter 主目录](/user_guide/FAQ/#adapter)删除即可，重启 Adapter，你将得到一个崭新的 Adapter 主目录。它是为你学习而构建的环境，别担心玩坏它，尽情探索吧。
 
-# FAQ
+## 积木说明
+暂无
+
+## 项目链接
+暂无
+
+## FAQ
 
 ### 启用 Jupyterlab 插件，没有自动打开 Jupyterlab
-可能是因为你的系统用户名（windows系统）是中文，目前 Jupyterlab 存在这个 bug
+可能是因为你的系统用户名（windows系统）是中文，目前 Jupyterlab 存在这个 bug, 官方正在修复中。
 
 ### 安装第三方库
 ```py
@@ -76,3 +73,13 @@ pip.main(["freeze"])
 `Adapter >= 3.3.1`，jupyterlab 版本升级到 3.0，支持切换语言:
 
 ![](/img/11fb41502c94b84002f80a965be907fa.png)
+
+
+###  精简版(linux/RPI)如何安装 jupyterlab
+完整版已经内置了一切依赖。
+
+如果你是有精简版，确保你已经[安装了 Python3](/Python_Projects/install_python/)。  
+
+你不必手动安装 **jupyterlab** ，运行插件，CodeLab Adapter 会为你其余的一切。  
+
+当然你也可以在命令行里手动安装它。

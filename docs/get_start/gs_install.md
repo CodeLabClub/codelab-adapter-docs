@@ -17,14 +17,14 @@
 
 ## Codelab Adapter下载链接 {#download}
 
-最新版本: `4.6.0` ([changelog](https://adapter.codelab.club/changelog/))
+最新版本: `4.7.2` ([changelog](https://adapter.codelab.club/changelog/))
 
 |     操作系统     |     完整版     |    精简版      |     系统要求   |      安装注意事项      |
 | :--------: | :---------: | :--------: | -------- | ---------- |
-| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_6_0-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
-| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_6_0-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
-| Linux     | 无   | [linux.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_6_0-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
-| Raspbian（树莓派） | 无   | [rpi.zip(4.2.1)](https://scratch3-files.just4fun.site/codelab-adapter-4_2_1-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
+| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_7_2-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
+| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_7_2-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
+| Linux     | 无   | [linux(4.7.1).zip](https://scratch3-files.just4fun.site/codelab-adapter-4_7_1-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
+| Raspbian（树莓派） | 无   | [rpi(4.7.1).zip](https://scratch3-files.just4fun.site/codelab-adapter-4_7_1-rpi.zip	)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
 
 附:各个版本的哈希值(Sha256)
 
@@ -42,10 +42,10 @@
 
 |版本|Sha256|
 |--|--|
-|macFull|7ab36c1a98112f6df5f85dc3b824bff7502c9e8fb0ad19f10fe474b29045b691|
-|winFull|b5a16cb7bd7289de15faa1068d2f4b1cfccfe4e28f4912a682a9be49c2853d45|
-|linux|af17dab50c789ba5b1651b5b7e3ea43090ae9157243f41ddd460a0af8b7838b6|
-|rpi|ce186cbdaf8b45d94aaa43131b17b0da7ce20674474b58a982a16b805325f874|
+|macFull|910b81600287d4825308588c1ae0eccea7403da66997fb48228c5d56b34b9946|
+|winFull|17dcd4a900ff01aa9fd3aa83183fc4a5cbfbbe4a4ea9be8f3995511f7b90db3b|
+|linux|b9c6d797cb66349d2cfb350fe907812e7a024300afa8fd08fb7ac9a68250432b|
+|rpi|5842db6ccc1b0871cb14659c07893f5d1060e30f090a5b6681236c56290a8149|
 
 
 ---

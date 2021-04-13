@@ -7,11 +7,9 @@
 {!utils/dependence.md!}
 
 
-## 步骤 1：打开 Codelab Adapter
+## hello world
 
-{!utils/open_adapter.md!}
-
-## 步骤 2：打开 Teachable Machine
+### 打开 Teachable Machine
 
 Longan团队已经将Teachable Machine部署到国内: [Longan Teachable Machine](https://train.longan.link/), 并且内置支持CodeLab Adapter， 开箱可用！
 
@@ -26,7 +24,7 @@ Longan团队已经将Teachable Machine部署到国内: [Longan Teachable Machine
 
 ![](/img/tm_demo.png)
 
-## 步骤 3：打开 [Codelab Scratch3](https://scratch-beta.codelab.club/)
+### 打开 [Codelab Scratch3](https://scratch-beta.codelab.club/)
 
 {!utils/open_scratch.md!}
 
@@ -42,8 +40,14 @@ Longan团队已经将Teachable Machine部署到国内: [Longan Teachable Machine
 !!! 提醒
     Teachable Machine 的网页不能在后台运行，需要和 Scratch 一起并列在桌面上，否则程序不会运行。
 
+## 积木说明
+暂无
 
-# 海外用户
+## 项目链接
+暂无
+
+## FAQ
+### 海外用户如何使用
 
 如果你是海外用户，建议使用 [Google 官方的 teachablemachine](https://teachablemachine.withgoogle.com/)， 你需要搭配以下插件。  
 

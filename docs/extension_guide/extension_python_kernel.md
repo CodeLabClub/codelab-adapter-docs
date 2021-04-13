@@ -1,20 +1,13 @@
-# Python eval kernel
+# Python
 
-## 依赖
+## 介绍
+![](https://create.codelab.club/static/assets/1179a47022f9371566a78bd7868b68c8.jpg)
 
-{!utils/dependence.md!}
+此扩展可以将 Python 代码交给 Adapter 执行（eval），并获取结果。
 
-## 步骤 1：打开 Codelab Adapter
+## hello world
 
-{!utils/open_adapter.md!}
-
-## 步骤 2：打开 Codelab Scratch3
-
-{!utils/open_scratch.md!}
-
-## 步骤 3：hello world
-
-选择对应的 Scratch3 插件：Python 插件
+打开 Scratch Python 插件
 
 ![](/img/1cd2e68f21c8a9d46f3a77f246b2cb41.png)
 
@@ -26,7 +19,12 @@
 
 ![](/img/be7dd34fa27a46d1d1a4bd0dd2d6f71e.png)
 
-Python 插件将以 [eval](https://docs.python.org/zh-cn/3.7/library/functions.html#eval) 执行 Python 代码(只能执行表达式)，如果你想使用 exec ，文末有指导。
+## 积木说明
+暂无
+
+## 项目链接
+
+### 自定义积木
 
 你可以在插件中添加新的类，来自定义新功能, 我们做了一个范例: [PyHelper 源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_python.py#L18)。你可以使用 `PyHelper.open_url("https://www.codelab.club")`来为 Scratch 引入打开网页的功能。
 
@@ -48,7 +46,7 @@ Python 插件将以 [eval](https://docs.python.org/zh-cn/3.7/library/functions.h
 
 你可以在插件里添加更多的类似`PyHelper`的自定义类，来为 Scratch 引入更多新的能力，使用 Python 就行！
 
-## 延伸
+### 文件储存案例
 
 再来做一个例子，[@HansonXie](http://www.concentric-circle.com/author/admin/) 给我写了封邮件，说想写一个extension或者node来进行文件存储，希望用Python来做，而不是Javascript。在此我写个简单例子
 
@@ -86,9 +84,11 @@ eval(code, {"__builtins__": None}, {
 
 ![](/img/0a58a769497bdd4cacb5e93acca88014.png)
 
-# 最后
+## FAQ
+### 如何工作
+
 !!! 提醒
-    exec 可能带来各种安全风险，暂时将其从插件市场移走了。eval也更符合我们采用的`对象/消息`隐喻。  
+    exec 可能带来各种安全风险，此外，eval也更符合我们采用的`对象/消息`隐喻。  
     如果你确实需要exec，可以自行构建插件， 参考[python_exec.py](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/python_exec.py)
 
 内置在 Adapter 里的 Python 插件以 [eval](https://docs.python.org/zh-cn/3.7/library/functions.html#eval) 执行 Python 代码(只能执行表达式)，如果你希望以功能更轻大的 [exec](https://docs.python.org/zh-cn/3.7/library/functions.html#exec) (可执行任何 Python 语句)执行 Python 代码，可以在[插件市场](/extension_guide/extension_market/)里下载 [extension_python_exec 插件](/extension_guide/python_exec/)。
@@ -101,7 +101,7 @@ eval(code, {"__builtins__": None}, {
 我们之没有将 extension_python_exec 内置在 Adapter 中，而是希望用户在需要时自行下载，因为它的功能过于强大，可能会带来一下风险，所以选择权交由使用者。强大的能力通常会伴随风险，当然我们不会做太多限制，由你决定：）
 
 
-# 参考
+## 参考
 
 -   [将 codelab-adapter 用作 Python 解释器](https://wwj718.github.io/scratch3-adapter-as-python-interpreter.html)
 

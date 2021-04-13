@@ -180,3 +180,20 @@
     *  修复overdrive连接后的头5s消息阻塞问题
     *  修复 悟空机器人 插件启动超时的bug
     *  弃用 app_settings.py
+*  2021.04.09 [4.7](https://www.codelab.club/blog/2021/04/09/4.7-release)
+    *  支持增量更新(数据也放在codelab-adpater-client package中), package 地址可配置
+        *  webUI 提供更新按钮(`环境 > 增量更新软件包`)
+    *  codelab_adapter_client 升级到 4.2.3
+        *  递归包含数据(nodes/extensions/notebooks/src), 为日后增量更新准备
+        *  message node 不响应 no wait eim积木(服务 交互计算 课程)
+    *  修复 Linda bug
+        *  修复 linda rd 无法同时读取的 bug
+        *  修复Python 中 linda取消后，后台依然挂载的问题(临时方案)
+    *  减小软件包的大小，减少下载和解压缩时间
+        *  移除所有pyc缓存目录（减小30%-50%的文件量）
+        *  windows不内置OpenGL(3000+文件，影响解压时间)
+    *  修复蓝牙更新机制（每次扫描5秒）
+*  2021.04.09 4.7.1
+    *  使用 [CodeLab 社区创作平台](https://create.codelab.club/projects/editor/) 替代 [scratch beta](https://scratch-beta.codelab.club/)
+*  2021.04.13 4.7.2
+    *  提升二次分发的稳定性，避免一些意外情况

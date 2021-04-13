@@ -13,7 +13,8 @@ Hack [Kano Code](https://kano.me/us/landing/app)，使其与 CodeLab Adapter 兼
 目前我对 Mac 和 Windows 的[Kano Code](https://kano.me/us/landing/app)做了简单 hack，使其能够接入 Adapter，由于是hack过的软件，不便于在互联网分发，如果你需要，请联系我们。
 
 !!! tips
-    mac系统新版本（13.14之后）安全性提高，如果无法运行hack后的软件(Mac应用已损坏，打不开)，如果可能需要先运行: `sudo spctl --master-disable` 或者  `sudo xattr -rd com.apple.quarantine 空格 软件的路径`
+    mac系统新版本（13.14之后）安全性提高，如果无法运行hack后的软件(Mac应用已损坏，打不开)，如果可能需要先运行: `sudo spctl --master-disable` 或者  `sudo xattr -rd com.apple.quarantine 空格 软件的路径`。  
+    Kano Wand App 发布了新版本，修复了 Mac 下闪退的问题，目前我们也做了兼容。
     
 ## 步骤 2：打开 与 Adapter 兼容的 Kano Code
 !!! tips

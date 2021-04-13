@@ -56,16 +56,17 @@ CodeLab Adapter 的典型用途包括:
 -   [构建可编程空间](https://codelab.club/blog/2020/04/29/%E5%8F%AF%E7%BC%96%E7%A8%8B%E7%A9%BA%E9%97%B4/)
 -   [构建 Dynamic Table](https://codelab.club/blog/2020/05/31/DynamicTable/)
 -   扩展在线编程平台(Blockly 等)的能力
+-   使用 Linda 在多个对象(可能跨多个系统)之间进行协调
 
 ## 特性有哪些？
 
--   开放
 -   高度可扩展
     -   [插件(Extension)](/dev_guide/helloworld/) 和 [节点(Node)](/dev_guide/Adapter-Node/)
 -   万物皆消息(EIM, Everything Is a Message)
 -   RESTful API
 -   支持多门编程语言(34+)
 -   将 Scratch 和 Python 视为一等公民
+-   内置 [Linda](https://adapter.codelab.club/user_guide/Linda/)
 
 <!--看两个视频-->
 

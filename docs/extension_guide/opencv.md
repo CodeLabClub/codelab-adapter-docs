@@ -1,2 +1,4 @@
 # OpenCV
-参考：[运行在树莓派中的 codelab-adapter opencv 插件](https://wwj718.github.io/adapter-opencv.html)。
+参考 [DynamicTable](https://adapter.codelab.club/DynamicTable/)
+
+DynamicTable 基于 OpenCV，完整版的Adapter内置 OpenCV
