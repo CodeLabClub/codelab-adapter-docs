@@ -4,6 +4,10 @@
 
 开发者和教师可以利用 CodeLab Scratch，将 sb3 项目嵌入到自己的网站和课程中。
 
+!!! 建议
+  CodeLab社区已经内置支持这项功能:  
+  ![](/img/2e1299dd7a7b42ad011e9a18d8f0a422.png)
+
 ## 一些例子
 
 ### Pong Starter

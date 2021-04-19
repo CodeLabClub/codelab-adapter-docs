@@ -31,7 +31,7 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 -->
 
 1. 当`功能板`收到来自 CodeLab Scratch 的消息时, 将在矩阵屏上显示出消息。
-2. 当`功能板`的`A 按钮`被按下时，发送字符`a`, `B 按钮`被按下时，发送字符`b`（`microbit -> scratch`）， 当用力摇晃时，发送字符`shake`
+2. 当`功能板`的`A 按钮`被按下时，将发送字符`a`, `B 按钮`被按下时，发送字符`b`（`microbit -> scratch`）， 当用力摇晃时，发送字符`shake`
 
 这样便完成了`Scratch--无线microbot`的双向通信:
 
@@ -124,3 +124,6 @@ MacOS 用户 @patch 提到 MacOS 10.15 以后启用了SIP（System Integrity Pro
 
 ### 第一次刷入固件
 目前有个bug，插拔microbit之后，可能会重新刷入固件。原因似乎是复合的，应该与node和固件（可以使用https://python.microbit.org/v/2加载固件）都有关，这两部目前都是开放的，欢迎大家修复
+
+
+大家好，明天下午3:00，英荔 & CodeLab联合小组成员，将在 1417 发起一次讨论，关于创作平台(Scratch/Python)的改进方向，我们尤其关注编程环境的形态和社区功能

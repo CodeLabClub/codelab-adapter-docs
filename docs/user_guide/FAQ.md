@@ -231,3 +231,13 @@ CodeLab Adapter 有很好的分布式支持:
 ![](/img/543790264e75c9e3b679c954fa8fdd39.png)
 
 如果因此导致无法关机， `control + command + 电源键` 或者 `长按电源键`
+
+## webUI 无法退出Adapter （token错误）
+### MacOS
+![](/img/e6eb3d2326b6a661f39ff99a44bb9298.png)
+
+### Windows 
+图标在页面右下角, 右键退出。
+
+### Linux & RPI
+`pkill -f codelab-adapter`

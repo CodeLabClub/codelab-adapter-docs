@@ -19,7 +19,6 @@
 ### 连接
 详尽的文档参考 [人工智能机器人Cozmo的连接说明（by 英荔）](https://adapter.codelab.club/src/8.%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%20Cozmo.pdf)
 
-<!--
 以下是简略说明。
 
 #### 运行 SDK 模式
@@ -33,10 +32,9 @@
 
 |        | Windows      |  MacOS   | Linux  |
 |  ----  | ----         |  ----  | ----  |
-| iOS    | [需要安装iTunes](http://cozmosdk.anki.com/docs/install-windows.html#mobile-device-setup)| 开箱可用  | [手动安装](http://cozmosdk.anki.com/docs/install-linux.html) |
+| iOS    | [需要安装iTunes, 比较麻烦，不推荐使用](http://cozmosdk.anki.com/docs/install-windows.html#mobile-device-setup)| 开箱可用  | [手动安装](http://cozmosdk.anki.com/docs/install-linux.html) |
 | Android| 开箱可用      | 开箱可用  | [手动安装](http://cozmosdk.anki.com/docs/install-linux.html) |
 
--->
 
 <!--
 ### find your local python3 path(Windows users can skip this step)

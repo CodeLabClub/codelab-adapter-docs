@@ -22,9 +22,11 @@
 ## 积木说明
 暂无
 
-## 项目链接
+## 进阶
 
-### 自定义积木
+### 使用技巧
+
+#### 自定义积木
 
 你可以在插件中添加新的类，来自定义新功能, 我们做了一个范例: [PyHelper 源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/extensions_v3/extension_python.py#L18)。你可以使用 `PyHelper.open_url("https://www.codelab.club")`来为 Scratch 引入打开网页的功能。
 
@@ -46,7 +48,43 @@
 
 你可以在插件里添加更多的类似`PyHelper`的自定义类，来为 Scratch 引入更多新的能力，使用 Python 就行！
 
-### 文件储存案例
+#### 与网络交互（requests）
+
+考虑到网络极为强大，Python 插件允许用户在 Scratch 中直接与 requests 交互（只支持表达式，形如`requests.get(...), requests.post(...)`）。
+
+由于 requests 的 API 极为漂亮(支持链式风格)，你几乎可以单个表达式中干绝大多数的事情！
+
+[requests 文档](https://docs.python-requests.org/zh_CN/latest/)。
+
+一些典型的用例包括:
+
+*  两个 Adapter 直接的消息通信
+*  触发 webhook
+*  请求[公开的网络 API](https://github.com/public-apis/public-apis)
+*  与自己搭建的 web server 交互
+
+##### demo
+```py
+requests.get("http://httpbin.org/get")
+# 链式写法
+requests.get("http://httpbin.org/get").text
+requests.get("http://httpbin.org/get").json()
+
+# 携带参数
+requests.get("http://httpbin.org/get", params={"name": "codelab"})
+
+# post
+requests.post('http://httpbin.org/post', data = {'key':'value'})
+```
+
+##### 一些奇怪的想法
+*  通过与带有存储能力的 API 结合，可以构建出类似云变量这种东西
+    *  或者使用 [json-server](https://github.com/typicode/json-server) 临时搭建一个
+
+### 项目链接
+
+
+#### 文件储存案例
 
 再来做一个例子，[@HansonXie](http://www.concentric-circle.com/author/admin/) 给我写了封邮件，说想写一个extension或者node来进行文件存储，希望用Python来做，而不是Javascript。在此我写个简单例子
 
