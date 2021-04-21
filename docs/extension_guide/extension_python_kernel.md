@@ -58,7 +58,7 @@
 
 一些典型的用例包括:
 
-*  两个 Adapter 直接的消息通信
+*  [两个 Adapter 之间的消息通信](https://adapter.codelab.club/user_guide/%E4%B8%8E%E5%A4%96%E9%83%A8%E7%B3%BB%E7%BB%9F%E9%80%9A%E4%BF%A1/#requests)
 *  触发 webhook
 *  请求[公开的网络 API](https://github.com/public-apis/public-apis)
 *  与自己搭建的 web server 交互
