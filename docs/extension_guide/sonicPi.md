@@ -3,7 +3,6 @@
 ![](/img/44fe13429c50c93fcef527360c1ae6ac.png)
 
 ## 介绍
-![](https://upload.wikimedia.org/wikipedia/en/a/aa/Sonic-pi-v3.2.0-gui-screenshot.png)
 
 Sonic Pi 是一个基于代码的音乐创作和表演工具。
 

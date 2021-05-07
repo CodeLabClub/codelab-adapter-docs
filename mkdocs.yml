@@ -185,7 +185,7 @@ nav:
       - digimon: "extension_guide/digimon.md"
       - yeelight: "extension_guide/yeelight.md"
       - 创意编程: "extension_guide/creating-coding.md"
-      - 交互激光雷达: "extension_guide/lidar.md"
+      # - 交互激光雷达: "extension_guide/lidar.md"
       - Switch: "extension_guide/switch.md"
       - sugar: "extension_guide/sugar.md"
       - Lego Mario: "extension_guide/legomario.md"

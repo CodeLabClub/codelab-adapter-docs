@@ -1,5 +1,11 @@
 # Tutorial
 
+## 介绍
+该插件使用 [ItChat](https://github.com/littlecodersh/ItChat) 接入微信， ItChat 基于网页微信接口。
+
+!!! 提醒
+    大量用户无法使用网页微信。可以通过扫码:[网页微信](https://wx.qq.com/) 看看自己能否登陆腾讯官方的网页微信，如果你无法登陆网页微信（腾讯对你的账号权限做了限制），则无法使用该插件。
+
 ## 依赖
 
 {!utils/dependence.md!}

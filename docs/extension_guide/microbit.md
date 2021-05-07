@@ -7,6 +7,9 @@
 !!! 提醒
     [microbit radio插件](/extension_guide/microbit_radio/)与 [usb microbit插件](/extension_guide/microbit/)最好不要同时使用.  
 
+!!! 规划
+    我们计划迁移到[bitio](https://github.com/whaleygeek/bitio)上，这个项目将方便用户在 Python 中与 microbit 交互。欢迎社区用户参与开发版本插件。
+
 ## 依赖
 
 {!utils/dependence.md!}

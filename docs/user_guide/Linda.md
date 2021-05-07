@@ -42,7 +42,10 @@ Linda 最有趣的一个地方是，所有 Tuple Space 参与者（跨语言、�
 
 
 # Python Client
-安装依赖: `pip install https://github.com/CodeLabClub/codelab_adapter_client_python/archive/master.zip`
+!!!提醒
+    已经内置在完整版(Windows/macOS)里, 打开 Jupyterlab 即可使用。
+
+安装依赖: `pip install codelab_adapter_client`
 
 
 提供同步和异步两种基类:

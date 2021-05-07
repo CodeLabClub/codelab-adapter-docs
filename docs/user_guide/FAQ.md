@@ -90,7 +90,10 @@ CodeLab Adapter 几乎支持任何平台，无论是 Scratch 3.0 构建的还是
 ## 如何找到 Adapter 主目录
 Adapter 主目录，也是 Adapter 的日志目录，这儿存放了 Adapter 运行时使用的数据。
 
-Mac/Linux 用户的 Adapter 主目录在：`~/codelab_adapter`，如果找不到插件目录（如 Windows 用户），可以通过 CodeLab Adapter Web UI 工具栏里的`插件->打开插件目录`打开它。
+*  Windows: `C:\Users\<CurrentUserName>\codelab_adapter`
+*  Mac/Linux: `~/codelab_adapter`
+
+如果找不到插件目录（如 Windows 用户），可以通过 CodeLab Adapter Web UI 工具栏里的`插件->打开插件目录`打开它。
 
 ## 如何找到插件目录
 
@@ -241,3 +244,9 @@ CodeLab Adapter 有很好的分布式支持:
 
 ### Linux & RPI
 `pkill -f codelab-adapter`
+
+## 之前安装过旧版本的Adapter，使用新的版本出现问题
+手动删除 [Adapter 主目录](#adapter)， 位置在:
+
+*  Windows: `C:\Users\<CurrentUserName>\codelab_adapter`
+*  Mac/Linux: `~/codelab_adapter`

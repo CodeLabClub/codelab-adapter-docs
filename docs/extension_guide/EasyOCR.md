@@ -11,7 +11,8 @@
 
 ![](/img/ddd063082e3ef5ebb89d868217e327a8.png)
 
-使用 pip 安装 easyocr: `python -m pip install easyocr codelab_adapter_client>=1.9.2`
+在 Adapter [Jupyterlab 安装第三方库](https://adapter.codelab.club/extension_guide/jupyterlab/#_4) easyocr: `import pip; pip.main(['install', 'easyocr'])`
+
 
 运行以下程序:
 
