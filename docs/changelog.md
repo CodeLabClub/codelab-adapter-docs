@@ -197,3 +197,13 @@
     *  使用 [CodeLab 社区创作平台](https://create.codelab.club/projects/editor/) 替代 [scratch beta](https://scratch-beta.codelab.club/)
 *  2021.04.13 4.7.2
     *  提升二次分发的稳定性，避免一些意外情况
+*  2021.04.13 4.7.3
+    *  为 microbit radio 插件加上锁
+    *  为 Python 插件引入requests
+    *  添加可扩展的 webUI ext
+*  2021.05.07 4.8.0
+    *  webUI 添加打开host目录功能
+    *  加速osc send的速度(从scratch出发的消息，延迟在2-3毫秒)
+    *  使软件更新源(`LATEST_VERSION`)可配置
+    *  添加Toio和microbit Python驱动; 添加 hello_Toio.ipynb hello_microbit.ipynb
+    *  添加打开主目录菜单按钮
