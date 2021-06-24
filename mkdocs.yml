@@ -123,6 +123,7 @@ nav:
       - extension market: "extension_guide/extension_market.md"
       - micro:bit: "extension_guide/microbit.md"
       - micro:bit radio: "extension_guide/microbit_radio.md"
+      - Physics Engine: "extension_guide/Box2D.md"
       - arduino UNO: "extension_guide/arduino_UNO.md"
       - EIM: "extension_guide/eim.md"
       - EIM Monitor: "extension_guide/eim_monitor.md"
@@ -148,7 +149,6 @@ nav:
       - MQTT Adapter: 'extension_guide/MQTT_adapter.md'
       - MQTT Broker : "extension_guide/MQTT_Broker.md"
       - Calypso: "extension_guide/Calypso.md"
-      - Box2D: "extension_guide/Box2D.md"
       - physical blocks 1.0: "extension_guide/physical_blocks.md"
       - physical blocks 2.0: "extension_guide/physical_blocks2.md"
       - Yanshee: "extension_guide/yanshee.md"
