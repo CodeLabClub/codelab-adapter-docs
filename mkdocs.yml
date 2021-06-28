@@ -199,12 +199,17 @@ nav:
       - 光环板: "extension_guide/halocode.md"
       - OpenCV: "extension_guide/opencv.md"
       - Tensorflow: "extension_guide/tensorflow.md"
+      - 机械臂: "extension_guide/robotic-arm.md"
+      - pi-top: "extension_guide/pi-top.md"
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"
       - Pando Robot(正在迁移中): "extension_guide/Pando.md"
       - Aelos Robot(正在迁移中): "extension_guide/Aelos.md"
       - ROS(离线版可用): "extension_guide/ROS.md"
   - Scratch插件:
       - 介绍(introduction): "scratch_extensions/introduction.md"
+  - 玩给你看:
+      - 介绍(introduction): "codelab_projects/introduction.md"
+      - 物理引擎2.0-台球: "codelab_projects/physics-engine-billiards.md"
   - 社区版Neverland:
       - 介绍(introduction): "Neverland/index.md"
       - 收工吃饭: "Neverland/finger-snapping.md"

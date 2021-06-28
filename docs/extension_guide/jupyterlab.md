@@ -51,6 +51,20 @@ jupyterlab 默认将打开 [Adapter主目录](/user_guide/FAQ/#adapter)。
 ### 启用 Jupyterlab 插件，没有自动打开 Jupyterlab
 可能是因为你的系统用户名（windows系统）是中文，目前 Jupyterlab 存在这个 bug, 官方正在修复中。
 
+我们目前给出了一个手动打开方案（`Adapter<=4.9.0`）:
+
+1. 更新 Jupyterlab 插件(在[插件市场](https://adapter.codelab.club/extension_guide/extension_market/)里更新)
+
+![](/img/6b7804a6739c7d8d3973fcddfb2f5f1d.png)
+
+2. 重新启动 Jupyterlab 插件
+3. 在浏览器里打开`localhost:8888` (如果打不开，则试试`localhost:8889`)
+4. 复制 `Adapter token` 到 Jupyterlab 登陆框里
+
+![](/img/0dfae2da010f3a18f600fb490a95583b.png)
+
+
+
 ### 安装第三方库
 ```py
 import pip

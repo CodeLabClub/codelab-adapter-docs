@@ -41,13 +41,13 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 !!!注意
     功能板收到的所有消息都是 **字符串**
 
-###  中转站部分
+###  中转站(天线)部分
 
 <!--新版本 0.4 允许设置 channel https://makecode.microbit.org/_P2297z3f0Pkz-->
 
 使用数据线将`中转站` micro:bit 接入电脑。
 
-在 Scratch 里打开 micro:bit redio插件, 连接micro:bit(第一次连接将自动刷入固件，你也可以手动刷入[固件](https://makecode.microbit.org/_P2297z3f0Pkz))
+在 Scratch 里打开 micro:bit redio插件, 连接micro:bit(第一次连接将自动刷入固件，你也可以手动刷入[固件](https://makecode.microbit.org/_CAKCzbM3T8Pt))
 
 
 <!--带版本 https://makecode.microbit.org/_hq7Ciugx396o-->

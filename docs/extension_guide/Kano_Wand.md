@@ -55,3 +55,11 @@ Hack [Kano Code](https://kano.me/us/landing/app)，使其与 CodeLab Adapter 兼
 ## Demo
 
 https://adapter.codelab.club/user_guide/gallery/#kano-wand
+
+
+<!--
+mac(1.3)
+    https://scratch3-files.just4fun.site/Kano-Wand-CodeLab-1.3.zip
+win
+	https://scratch3-files.just4fun.site/KanoComputing.KanoCode_1.3.6.0_x64__8bypc573fhhxp.zip
+-->

@@ -207,3 +207,10 @@
     *  使软件更新源(`LATEST_VERSION`)可配置
     *  添加Toio和microbit Python驱动; 添加 hello_Toio.ipynb hello_microbit.ipynb
     *  添加打开主目录菜单按钮
+*  2021.05.19 4.8.1
+    *  修复motion senser bug
+    *  内置python-aiml（交互计算课程）
+*  2021.05.25 4.8.2
+    *  添加可编程舞台驱动
+    *  内置 programmable_stage.ipynb
+    *  修复全局配置文件潜在的预加载bug

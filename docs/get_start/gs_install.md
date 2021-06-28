@@ -17,12 +17,12 @@
 
 ## Codelab Adapter下载链接 {#download}
 
-最新版本: `4.8.0` ([changelog](https://adapter.codelab.club/changelog/))
+最新版本: `4.8.2` ([changelog](https://adapter.codelab.club/changelog/))
 
 |     操作系统     |     完整版     |    精简版      |     系统要求   |      安装注意事项      |
 | :--------: | :---------: | :--------: | -------- | ---------- |
-| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_8_0-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
-| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_8_0-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
+| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_8_2-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
+| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_8_2-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
 | Linux     | 无   | [linux(4.7.1).zip](https://scratch3-files.just4fun.site/codelab-adapter-4_7_1-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
 | Raspbian（树莓派） | 无   | [rpi(4.7.1).zip](https://scratch3-files.just4fun.site/codelab-adapter-4_7_1-rpi.zip	)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
 
@@ -42,8 +42,8 @@
 
 |版本|Sha256|
 |--|--|
-|macFull|7a9897eb9d0857308c3ae4db00f7d43fd245a8973cd4dcfdbb2f1891d9d32f10|
-|winFull|1367bdf2c5c4c9e2ae14b4e65722844ff310fc44f51700c885676c885d862838|
+|macFull|846f19a0486ec9ec00199caf0b8bbc56bc72c2b76ef2bdb3cabe9a460943bdc3|
+|winFull|b034d062b04d0581a905a9522f27cf0376dbceb98f9b7d1009a712b7e22c76b6|
 |linux|b9c6d797cb66349d2cfb350fe907812e7a024300afa8fd08fb7ac9a68250432b|
 |rpi|5842db6ccc1b0871cb14659c07893f5d1060e30f090a5b6681236c56290a8149|
 
@@ -69,7 +69,7 @@
 
 1. [下载](#download)
     ![win1](/img/install_win_1.png)
-2. 右键解压,然后进入解压后的文件夹, 双击 CodeLab-Adapter 文件。（提醒: 最好不要重命名文件夹，如果要重命名，确保名字中没有中文和空格）
+2. 右键解压,然后进入解压后的文件夹, 双击 CodeLab-Adapter 文件。<!--（提醒: 最好不要重命名文件夹，如果要重命名，确保名字中没有中文和空格）-->
     ![win2](/img/6f482f9d136a541b4df590c9aebade6f.png)
 
 <!--2. 双击安装软件(如果之前安装过，请先卸载旧软件), 安装完成后，可以从 **开始** 菜单栏里启动

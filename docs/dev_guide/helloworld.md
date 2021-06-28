@@ -104,8 +104,8 @@ from codelab_adapter.core_extension import Extension
 class HelloWorldExtension(Extension):
     NODE_ID = "eim"
     
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         
 
     def send_message_to_scratch(self, content):

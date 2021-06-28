@@ -246,7 +246,24 @@ CodeLab Adapter 有很好的分布式支持:
 `pkill -f codelab-adapter`
 
 ## 之前安装过旧版本的Adapter，使用新的版本出现问题
+退出Adapter。
+
 手动删除 [Adapter 主目录](#adapter)， 位置在:
 
-*  Windows: `C:\Users\<CurrentUserName>\codelab_adapter`
+*  Windows: `C:\Users\<当前用户名>\codelab_adapter`
 *  Mac/Linux: `~/codelab_adapter`
+
+## MacOS 11 无法扫描蓝牙设备
+现象: 使用蓝牙设备(诸如overdrive) ，系统会提示蓝牙未开启。
+
+原因: MacOs 权限管理更为严格，需要授权。
+
+解决方案: 从软件包里打开 Adapter，然后授权。
+
+可以通过以下方式重新打开Adapter: `右键 -> 显示包内容 -> Contents -> MacOS -> CodeLab-Adapter`
+
+![](/img/a6d9b53aeb3130be823d00f3459c1aef.png)
+
+点击运行目录里的 CodeLab-Adapter
+
+![](/img/543790264e75c9e3b679c954fa8fdd39.png)
