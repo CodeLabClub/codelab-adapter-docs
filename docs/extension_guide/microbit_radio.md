@@ -47,7 +47,7 @@ ps：在这个教程中，需要准备 2 块 micro:bit。其中一块用作消�
 
 使用数据线将`中转站` micro:bit 接入电脑。
 
-在 Scratch 里打开 micro:bit redio插件, 连接micro:bit(第一次连接将自动刷入固件，你也可以手动刷入[固件](https://makecode.microbit.org/_CAKCzbM3T8Pt))
+在 Scratch 里打开 micro:bit redio插件, 连接micro:bit(第一次连接将自动刷入固件，你也可以[使用makecode刷入固件](https://makecode.microbit.org/_CAKCzbM3T8Pt)， 或者直接拖入[固件文件](/hex/microbit-radio_microbit_adapter.hex))
 
 
 <!--带版本 https://makecode.microbit.org/_hq7Ciugx396o-->

@@ -51,15 +51,11 @@ jupyterlab 默认将打开 [Adapter主目录](/user_guide/FAQ/#adapter)。
 ### 启用 Jupyterlab 插件，没有自动打开 Jupyterlab
 可能是因为你的系统用户名（windows系统）是中文，目前 Jupyterlab 存在这个 bug, 官方正在修复中。
 
-我们目前给出了一个手动打开方案（`Adapter<=4.9.0`）:
+我们目前给出了一个手动打开方案:
 
-1. 更新 Jupyterlab 插件(在[插件市场](https://adapter.codelab.club/extension_guide/extension_market/)里更新)
-
-![](/img/6b7804a6739c7d8d3973fcddfb2f5f1d.png)
-
-2. 重新启动 Jupyterlab 插件
-3. 在浏览器里打开`localhost:8888` (如果打不开，则试试`localhost:8889`)
-4. 复制 `Adapter token` 到 Jupyterlab 登陆框里
+1. 启动 Jupyterlab 插件
+2. 稍等 3-5秒， 之后在浏览器里打开`localhost:8888` (如果打不开，则试试`localhost:8889`)
+3. 复制 `Adapter token` 到 Jupyterlab 登陆框里
 
 ![](/img/0dfae2da010f3a18f600fb490a95583b.png)
 
@@ -97,3 +93,38 @@ pip.main(["freeze"])
 你不必手动安装 **jupyterlab** ，运行插件，CodeLab Adapter 会为你其余的一切。  
 
 当然你也可以在命令行里手动安装它。
+
+### 如何启动实时协作模式
+[实时协作模式](https://jupyterlab.readthedocs.io/en/stable/user/rtc.html)对于结对编程、远程教学以及课堂教学可能都有帮助。
+
+启动实施模式的方法是，使用 jupyterlab 打开 extensions 目录里的 `extension_jupyterlab.py` 插件，将 `self.allow_collaborative`改为True。 之后重启 Jupyterlab 插件。
+
+此时，同一个局域网里的任何电脑都可以进入同一个 Jupyterlab 里，进行实时协作。 
+
+具体方法是:
+
+1. 在其他电脑上的浏览器里(可以是移动设备！)，打开启用实时协作的Jupyterlab的地址入口(形如`192.168.31.100:8888`)， 之后输入token，token与Adapter token一样。
+2. 结对编程者打开同一个notebook文件（或者 `.py` 文件）。
+
+### 运行 Python 脚本
+
+在 Jupyterlab 中打开 **终端**.
+
+MacOS:
+
+`./Support/bin/python3 ./adapter_home/notebooks/hello.py`
+
+Windows:
+
+`.\src\python\python .\src\adapter_home\notebooks\hello.py`
+
+### 为何 MacOS 下无法在jupyterlab使用摄像头(如在opencv中)
+
+最近几个版本的 MacOS 对权限管理非常严格，需要从命令行启动 Adapter（允许访问摄像头）
+
+
+### 更新Adapter后，Jupyterlab页面显示白色
+
+是因为jupyterlab版本升级造成的。
+
+删除 `C:\Users\<CurrentUserName>\.jupyter` 目录，重启 Adapter

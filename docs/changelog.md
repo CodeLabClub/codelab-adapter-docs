@@ -214,3 +214,70 @@
     *  添加可编程舞台驱动
     *  内置 programmable_stage.ipynb
     *  修复全局配置文件潜在的预加载bug
+*  2021.05.31 4.9.0
+    *  使悟空支持 IP 连接
+    *  内置 CodeLab 交互计算课程
+*  2021.06.18 4.9.1
+    *  移除未使用的扩展
+    *  使用 adapter token 打开 jupyterlab，允许用户手动打开jupyterlab（可用于应对中文用户名bug）
+    *  添加基于ip的悟空机器人连接检测（notebook）
+    *  内置 pycozmo
+    *  可编程舞台：连接成功后返回ok而不是None
+*  2021.08.09 4.9.2
+    *  修复 adapter 在windows下升级bug（无法清理干净旧的用户数据）， 同时提供手动清理脚本: `remove-adapter-config-data.bat`
+    *  支持家庭版悟空机器人(MINI)
+    *  jupyterlab 支持[实时协作](https://adapter.codelab.club/extension_guide/jupyterlab/#_7)和[断点调试](https://jupyterlab.readthedocs.io/en/stable/user/debugger.html)
+    *  升级microbit more固件，更加稳定，支持指南针
+*  2021.08.17 4.9.21
+    *  修复 minecraft 插件的bug
+    *  添加 minecraft 相关 notebook: 在 minecraft 控制 turtle
+    *  添加 tools notebook: 安装第三方库的脚本
+*  2021.09.01 4.9.3
+    *  添加 「Python入门基础」 课程（使用git动态更新）
+    *  添加 jupyterlab-git支持，需要[本地装有 Git](https://www.codelab.club/blog/2020/08/20/tools/#git)
+    *  修复 jupyterlab 多次启动的 bug
+*  2021.09.13 4.9.4
+    *  发布 windows10 64bit
+    *  可以安装tensorflow、mediapipe等大型库
+        *  如果一次装不上，则: `import pip;pip.main(['install', 'tensorflow', '--user'])`， 之后 `import pip;pip.main(['install', 'tensorflow'])`
+    *  支持 LedBag（参考内置的 notebook）
+    *  内置课堂小工具 notebook，诸如计时器和joy-con翻页笔
+    *  内置 Snake(类似turtle) notebook
+*  2021.09.13 4.9.41
+    *  改进可编程书包驱动
+        *  支持emoji、中文字体
+        *  增加 get_pixel 、save 等功能
+        *  支持函数风格(避免引入太多新概念)
+        *  支持在 jupyterlab 中动态模拟
+        *  引入更多颜色(与imagiCharm保持一致)
+        *  添加教学相关例子
+        *  等待蓝牙回复确认
+    *  更新window microbit hex文件
+*  2021.09.22 4.9.5
+    *  简化adapter_home迁移机制， 将 adapter_home 内置在软件包里(与全局无关)，避免升级相关问题（windows）
+    *  移除jupyterlab-git, 移除 Python入门基础课程(避免.git引起的windows更新问题)
+    *  移除增量更新机制
+    *  升级codelab_adapter_client -> 4.4.2
+    *  改进可编程书包驱动
+        *  改进模拟器, 支持交互式查看pixel
+        *  入门模式支持 `display_emoji`
+        *  使 api 精简清晰(`from codelab_adapter.led_bag import *`); 
+        *  修复 clear bug
+*  2021.09.29 4.9.51
+    *  改进可编程书包驱动
+        *  添加动画支持: Animation
+            *  添加 Animation 用例(`hello_LedBag.ipynb`)
+            *  支持创建、加载、保存动图(gif)
+            *  支持把动图同步到可编程led设备(书包、相框等)
+    *  添加可编程小火车驱动和notebook(`train_lab.ipynb`)
+    *  升级ble驱动(0.12.1)
+    *  升级sphero驱动(0.10.1)
+*  2021.10.29 4.9.6
+    *  支持turtle！
+        *  添加 notebook(`hello_turtle.ipynb`)
+    *  改进可编程书包驱动
+        *  添加函数注释文档
+    *  改进 yeelight 支持 
+*  2022.03.14 4.9.7
+    *  更新 https 证书
+    *  移除 JupyterLab 中文包(出于稳定性考虑)

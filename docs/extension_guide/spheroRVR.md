@@ -16,14 +16,18 @@ RVR 是 Sphero 出品的一款教育机器人，内置多种传感器并支持�
 使用 **广播** 积木调用 Python API: [Sphero Edu API](https://spherov2.readthedocs.io/en/latest/sphero_edu.html)
 
 ## bug 记录
+只要 `import bleak` 就会出现这个问题.(lego mario也是)
 
-windows10 的某些版本认为该插件存在安全问题，导致adapter退出，参考
+windows10 的某些版本（[32bit 19041-SP0](https://item.m.jd.com/product/10026933866200.html?wxa_abtest=o&utm_source=iosapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends&ad_od=share&utm_user=plusmember&gx=RnFlx2ALOzTdndRJ-tE-G6S52g)）认为该插件存在安全问题，导致adapter退出，参考
 
 *  [How do I setup configuration when I use command line to build C#/.NET?
 ](https://stackoverflow.com/questions/6469513/how-do-i-setup-configuration-when-i-use-command-line-to-build-c-net)
 *  [loadFromRemoteSources](https://stackoverflow.com/questions/17615769/running-an-ironpython-script-from-python-sandbox-loadfromremotesources)
 
 造成bug的原因可能是依赖库造成的（因为调用系统蓝牙？）
+
+ps: 4.9.0 或许可用。
+
 
 <!--
 ## test block

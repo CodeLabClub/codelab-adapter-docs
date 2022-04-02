@@ -61,6 +61,9 @@
 
 ### 第一步：编写 Python 代码
 
+!!!提醒
+    我们更推荐使用[创意编程](https://www.codelab.club/blog/2021/01/19/creativecodingcourse/)里的编程风格。
+
 *Jupyterlab* 是一个写 *Python* 代码的环境，我们在上面修改和运行代码。
 
 1. 打开 *Codelab Adapter* （不记得如何打开的同学请回看[安装Adapter](../get_start/gs_install.md)）。

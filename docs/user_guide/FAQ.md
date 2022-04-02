@@ -70,7 +70,7 @@ CodeLab Adapter 几乎支持任何平台，无论是 Scratch 3.0 构建的还是
 
 来信请注明公司/组织的一些基本信息，以及你们正在做的事情 ：）
 
-## Python 版本(CodeLab Adapter 4.5)
+## Python 版本(CodeLab Adapter 4.9.5)
 
 我们在不同操作系统打包时，使用的 Python 版本不同。
 
@@ -87,11 +87,14 @@ CodeLab Adapter 几乎支持任何平台，无论是 Scratch 3.0 构建的还是
 -   [hello world(Adapter Extension)](/dev_guide/helloworld/)
 -   [Adapter Node](/dev_guide/Adapter-Node/)
 
-## 如何找到 Adapter 主目录
+## 如何找到 Adapter 主目录(以Adapter 4.9.5为例)
 Adapter 主目录，也是 Adapter 的日志目录，这儿存放了 Adapter 运行时使用的数据。
 
-*  Windows: `C:\Users\<CurrentUserName>\codelab_adapter`
-*  Mac/Linux: `~/codelab_adapter`
+Windows 和 Mac，数据都在软件内部。
+
+*  Windows: `codelab-adapter-4_9_5-win64/src/adapter_home`
+*  Mac: `codelab-adapter-4_9_5-mac.app/Contents/Resources/adapter_home`
+*  Linux: `~/codelab_adapter`
 
 如果找不到插件目录（如 Windows 用户），可以通过 CodeLab Adapter Web UI 工具栏里的`插件->打开插件目录`打开它。
 
@@ -246,12 +249,12 @@ CodeLab Adapter 有很好的分布式支持:
 `pkill -f codelab-adapter`
 
 ## 之前安装过旧版本的Adapter，使用新的版本出现问题
-退出Adapter。
 
-手动删除 [Adapter 主目录](#adapter)， 位置在:
+下载最新的 Adapter
 
-*  Windows: `C:\Users\<当前用户名>\codelab_adapter`
-*  Mac/Linux: `~/codelab_adapter`
+
+
+![](/img/ac1db609-a83b-44a7-8daa-dbd4191b3984.png)
 
 ## MacOS 11 无法扫描蓝牙设备
 现象: 使用蓝牙设备(诸如overdrive) ，系统会提示蓝牙未开启。
@@ -267,3 +270,6 @@ CodeLab Adapter 有很好的分布式支持:
 点击运行目录里的 CodeLab-Adapter
 
 ![](/img/543790264e75c9e3b679c954fa8fdd39.png)
+
+## windows 32bit 版本
+[winFull.zip(4_9_3)](https://scratch3-files.just4fun.site/codelab-adapter-4_9_3-win-fix.zip)

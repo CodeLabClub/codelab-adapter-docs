@@ -71,6 +71,7 @@ nav:
       - 与外部系统通信: "user_guide/与外部系统通信.md"
       - PRO_KEY: "user_guide/PRO_KEY.md"
       - 历史(changelog): "changelog.md"
+      - programmable_stage: 'user_guide/programmable_stage.md'
   - Scratch Projects:
       - 介绍(introduction): "Scratch_Projects/introduction.md"
       - 音乐主题活动: "Scratch_Projects/音乐主题活动.md"
@@ -201,6 +202,8 @@ nav:
       - Tensorflow: "extension_guide/tensorflow.md"
       - 机械臂: "extension_guide/robotic-arm.md"
       - pi-top: "extension_guide/pi-top.md"
+      - LedBag: 'extension_guide/ledbag.md'
+      - intelino: 'extension_guide/intelino.md'
       - mpfshell(正在迁移中): "extension_guide/mpfshell.md"
       - Pando Robot(正在迁移中): "extension_guide/Pando.md"
       - Aelos Robot(正在迁移中): "extension_guide/Aelos.md"

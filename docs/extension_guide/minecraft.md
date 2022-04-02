@@ -9,7 +9,7 @@
 ## hello world
 ### 运行 minecraft
 
-需要配合 [minecraft Pi edition](https://www.minecraft.net/en-us/edition/pi/) 或者 [raspberryjuice](https://dev.bukkit.org/projects/raspberryjuice) 使用。
+需要配合 [minecraft Pi edition](https://www.minecraft.net/en-us/edition/pi/) 或者 [raspberryjuice](https://dev.bukkit.org/projects/raspberryjuice) 、[raspberryjammod](https://github.com/arpruss/raspberryjammod) 使用。
 
 
 运行 minecraft，使得 [mcpi](https://github.com/martinohanlon/mcpi) 能够接入minecraft，如果你不是使用树莓派，可能需要调整[插件源码](https://github.com/CodeLabClub/codelab_adapter_extensions/blob/master/nodes_v3/node_minecraft.py#L30)， 细节参考[mcpi](https://github.com/martinohanlon/mcpi)文档。

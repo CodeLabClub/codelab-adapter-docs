@@ -80,7 +80,7 @@ restart Codelab Adapter.
 
 ### 在 notebook 中运行 [cozmo cli](https://github.com/anki/cozmo-python-sdk/blob/master/examples/apps/cli.py)
 
-如果你在notebook中使用，可直接使用内置的notebook: `notebooks/cozmo_lab.ipynb`
+如果你在notebook中使用，可直接使用内置的notebook: `notebooks/cozmo_lab.ipynb`（最后一个例子）
 
 如果你期待在交互性的 IPython 环境中探索 Cozmo，在Adapter 内置的 jupyterlab 中打开 Terminal，然后使用内置Python解释器运行的 cli 脚本:
 
@@ -121,6 +121,7 @@ def cozmo_program(robot: cozmo.robot.Robot):
 
 cozmo.run_program(cozmo_program)
 ```
+
 <!--
 ### 亚马逊 fire 平板上无法安装 Cozmo APP
 可以先下载安装第三方应用市场APKpure，在上面可以安装 Cozmo APP

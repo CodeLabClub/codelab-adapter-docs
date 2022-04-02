@@ -47,6 +47,12 @@ RoboMaster EP
 ## 有些网络无法连接到robomaster
 [如何排查 无法发现设备 的问题？](https://adapter.codelab.club/user_guide/FAQ/#_9)
 
+## 控制 led 
+- [led_control](https://robomasterpy.nanmu.me/en/latest/api.html#robomasterpy.Commander.led_control)
+    - [comp](https://github.com/nanmu42/robomasterpy/blob/e38103621cdee9503226178cdd5e65a461607198/robomasterpy/client.py#L47)
+    - [effect](https://github.com/nanmu42/robomasterpy/blob/e38103621cdee9503226178cdd5e65a461607198/robomasterpy/client.py#L61)
+    
+
 <!--
 ```py
 import socket

@@ -17,14 +17,24 @@
 
 ## Codelab Adapter下载链接 {#download}
 
-最新版本: `4.8.2` ([changelog](https://adapter.codelab.club/changelog/))
+最新版本: `4.9.7` ([changelog](https://adapter.codelab.club/changelog/))
 
 |     操作系统     |     完整版     |    精简版      |     系统要求   |      安装注意事项      |
 | :--------: | :---------: | :--------: | -------- | ---------- |
-| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_8_2-mac.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
-| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_8_2-win.zip)   | 无  | Win 7 /8 /10  （32位/64位）| [win安装步骤](#win)      |
-| Linux     | 无   | [linux(4.7.1).zip](https://scratch3-files.just4fun.site/codelab-adapter-4_7_1-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
-| Raspbian（树莓派） | 无   | [rpi(4.7.1).zip](https://scratch3-files.just4fun.site/codelab-adapter-4_7_1-rpi.zip	)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
+| macOS  | [macFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_9_7-mac-fix.zip) | 无 | macOS 10.13.5（64位）+    | [mac安装步骤](#mac)   |
+| Windows  | [winFull.zip](https://scratch3-files.just4fun.site/codelab-adapter-4_9_7-win64-fix.zip)   | 无  | Win 7 /8 /10  （64位）| [win安装步骤](#win)      |
+| Linux     | 无   | [linux.zip(4.9.0)](https://scratch3-files.just4fun.site/codelab-adapter-4_9_0-hotfix-linux.zip)   | 经测试发行版Ubuntu、Kail、ArchLinux | [linux安装步骤](#linux) |
+| Raspbian（树莓派） | 无   | [rpi.zip(4.9.0)](https://scratch3-files.just4fun.site/codelab-adapter-4_9_0-hotfix-rpi.zip)   | 低于buster的版本可能无法运行  | [树莓派安装步骤](#rpi) |
+
+
+<!--
+!!! 提醒
+    如果你想使用 jupyterlab 的 Git 功能（诸如分发和更新 notebook），请确保本地[安装了Git](https://www.codelab.club/blog/2020/08/20/tools#git)
+-->
+
+!!! 提醒
+    32位 windows 上可用的最后一个版本是 [4.9.3](https://scratch3-files.just4fun.site/codelab-adapter-4_9_3-win.zip)
+
 
 附:各个版本的哈希值(Sha256)
 
@@ -42,10 +52,10 @@
 
 |版本|Sha256|
 |--|--|
-|macFull|846f19a0486ec9ec00199caf0b8bbc56bc72c2b76ef2bdb3cabe9a460943bdc3|
-|winFull|b034d062b04d0581a905a9522f27cf0376dbceb98f9b7d1009a712b7e22c76b6|
-|linux|b9c6d797cb66349d2cfb350fe907812e7a024300afa8fd08fb7ac9a68250432b|
-|rpi|5842db6ccc1b0871cb14659c07893f5d1060e30f090a5b6681236c56290a8149|
+|macFull|89c651788dc2df9ab84e50cd62bfb5fb2da34060b4243689d9af8105f277c6df|
+|winFull|5826953af9b1a8f8860f672c0482f056bbcd2eed530e3ad5bd60a30f71d1b698|
+|linux|60905bc8e4ef021e878448a24f93651e4a271463592662ff797f4af0afa58829|
+|rpi|38da774717619d27e1b6ceefcd6362fff27068d6600df19b1e62f09cf0d613ae|
 
 
 ---
@@ -63,7 +73,7 @@
 
 到此在Mac中安装Adapter完成。
 
-温馨提示：在 macOS 10.15 打开软件可能会比较慢(有时需要3-5秒)，问题目前在定位中，但在打开后不影响使用。
+温馨提示：在 macOS 中可能需要使用可执行文件启动(MacOS/CodeLab-Adapter)
 
 ## 在Windows中安装Adapter {#win}
 
@@ -131,6 +141,10 @@
 在安装中如果遇到问题，欢迎[在Codelab社区](https://discuss.codelab.club/)中提出。
 
 # FAQ
+
+## 其他定制版
+[customized version](/get_start/customized_version/)
+
 
 <!--
 ### macOS 安全性

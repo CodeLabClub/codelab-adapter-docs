@@ -50,7 +50,7 @@ CodeLab Adapter 的一个典型用例，是将任何有趣的东西接入 Scratc
 CodeLab Adapter 的典型用途包括:
 
 -   扩展 Scratch 的能力（[比 Scratch Link 更强大](/user_guide/FAQ/#scratch-link)）  
-    为它接入 AI、IoT、开源硬件、始就玩起来实物、虚拟角色...使Scratch成为酷上加酷的[创作平台](https://create.codelab.club/projects/editor)
+    为 Scratch 接入 AI、IoT、开源硬件、物理实物、虚拟角色...使Scratch成为更酷的[创作平台](https://create.codelab.club/projects/editor)
 -   Python 入门  
     Adapter 由 Python 构建，对 Scratch 的增强也是通过使用 Python 写的插件实现。因此，Python 入门者通过简单修改现成插件代码为己所用、或编写新的插件代码，即可快速上手玩起来
 -   [构建可编程空间](https://codelab.club/blog/2020/04/29/%E5%8F%AF%E7%BC%96%E7%A8%8B%E7%A9%BA%E9%97%B4/)
